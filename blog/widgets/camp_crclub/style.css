@@ -1,0 +1,84 @@
+.camp_crclub-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_crclub-content .banner_small{
+	height: 30px;
+}
+.camp_crclub-content .profile{
+	padding: 0 0 5px;
+}
+.camp_crclub-content .ico{
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	padding: 2px;
+	float: left;
+	margin-right: 5px;
+}
+.camp_crclub-content .ico img{
+	width: 50px;
+	height: 50px;
+}
+.camp_crclub-content .uname{
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.camp_crclub-content .desc{
+	padding: 5px 0;
+	word-break: break-all;
+}
+.camp_crclub-content .nav{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+}
+.camp_crclub-content .recpost{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_crclub-content .recpost h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_crclub-content .recpost ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: square inside;
+}
+.camp_crclub-content .recpost ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+}
+
+.camp_crclub-content .fav{
+	padding: 5px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.camp_crclub-content .fav h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_crclub-content .fav ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: none;
+}
+.camp_crclub-content .fav ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+}

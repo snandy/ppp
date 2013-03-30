@@ -1,0 +1,498 @@
+﻿/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+body{
+		background:url(images/mainwrapper.jpg) repeat-y center 31px;
+}
+div,table,ul,p{color:#82786F;}
+a{
+    color: #82786F;
+	text-decoration: underline;	
+}
+a:hover{
+   color: #f30;
+	text-decoration: underline;
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background:url(images/top.jpg) no-repeat center top;
+}
+#innerWrapper{
+	width:100%;
+	margin:0 auto;
+	background:url(images/foot.jpg) no-repeat center bottom;
+	padding:0;
+}
+#header{
+	height:417px;
+	width:960px;
+	margin:0px auto;
+	padding:0px;
+	background:none;
+}
+#innerHeader{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:4px;
+	padding-left:65px;
+	padding-bottom: 0px;
+	display:block;
+	clear:both;
+}
+#blogTitle a, #blogTitle input{
+	color: #9B4B02;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-decoration: none;
+	padding-top:38px;
+	font-family: "ã"Arial, Verdana;
+}
+#blogTitle a:hover, #blogTitle input a:hover{
+   color: #000;	
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-decoration: none;
+	padding-top:38px;
+	font-family: "ã"Arial, Verdana;
+}
+#blogUrl {
+	padding-top:10px;
+	display:block;
+	float:none;
+	margin-left:42px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+	
+}
+#blogUrl a{
+	padding-top:10px;
+	margin-left: 6px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #6B6556;
+}
+#blogUrl a:hover{
+   color: #333;
+}
+#blogDesc{
+	color:#A1917A;
+	font-size: 14px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 64px;
+}
+/****** playerBox ******/
+#playerBox{
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
+#innerPlayerBox{
+	position: absolute;
+	left:450px;
+	top: 220px;
+	width: 200px;
+	height: 160px!important;
+	z-index:1;
+}
+/****** NavBar Elements Styles ******/
+#navBar{
+	border:none;
+	background:none;
+	margin: 0px auto;
+	padding-left:0px;
+	padding-right: 15px;
+	height: 30px;
+	width:850px;
+}
+.navSysOpt:visited{color: #000;}
+#navBar a{
+	color: #C8C6BB;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar a:hover{
+   color: #f30;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#innerNavBar{
+	border:none;
+	margin-left:0px;
+	padding-left:0px;
+	padding-top: 0px;
+}
+#innerNavBar #optionNav{ margin-right:0px; padding-right:0px;}
+#optionNav li{
+	white-space:nowrap;
+	margin: 10px 7px 0px 7px;
+	padding: 0px;
+}
+#optionNav li a{
+	color:#000;
+}
+/**޸mainNav*/
+#mainNav li{
+	margin: 5px 1px 5px;
+	padding: 1px 6px; 
+	cursor: auto;
+	background:url(images/navbar_pp.jpg) repeat-x left top;
+	border:1px solid #6F6944;
+	border-bottom:none;
+}
+#mainNav li.active{
+	background:url(images/navbar_p.jpg) repeat-x left top;
+	margin: 1px 1px 5px;
+	padding: 4px 5px 4px;
+	cursor: auto;
+	border:1px solid #6F6944;
+	border-bottom:none;
+}
+#mainNav li.private{
+	background:#FFF6CC;
+}
+
+#mainNav li.hover{
+	border-color:#f30;
+}
+#mainNav li.active span{
+ color:#fff;
+}
+
+#mainNav li .pageTitle{
+	color:#C8C6BB;
+}
+#mainNav li .pageTitleHover{
+	background:none;
+}
+#mainNav #newPageBtn{
+	background: url(images/navbar_qq.gif) no-repeat center;
+	float: left;
+	margin: 8px 0px 0px 4px;
+	padding: 0px 8px;
+}
+#modContainerInfo {
+	margin: -8px 19px 5px;
+	position:relative;
+}
+#mainNav .private .pageTitle{
+	color:#000
+}
+/** **/
+
+
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	padding:0px;
+	width:916px;
+	margin:0px auto;
+	background:none;
+}
+#innerMainWrapper{
+	border:none;
+	padding:0px;
+	margin:5px 0px 0px;
+	
+}
+#modContainer {padding-top:0px;margin-top:0px;	border:none;
+	padding:0px;
+	margin:0px;}
+/****** Mod Elements Styles ******/
+.mod{
+	background:none;
+	border:2px solid #8B8873;
+}
+.mod .modFrame{
+	border:none;
+	background:url(images/left.jpg) no-repeat left top;
+}
+.mod .modTable{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background:none;
+}
+
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	width: 0px;
+	height:26px;
+	border: none;
+	background:none;
+}
+.mod .t{
+	border: none;
+	background:none;
+	padding: 0px 0px 0px 0px;
+}
+.mod .modHeader{
+	padding-top: 5px;
+	margin-bottom: 10px;
+	padding-left: 2px;
+}
+.mod .rt{
+	width: 0px;
+	background:none;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background:none!important;
+	margin: 0px;
+	padding: 0px;
+}
+.mod .modEditCon{
+	background: none;border: none;
+
+	}
+
+.mod .mbody{
+	background: none;
+	border:none;
+	
+}
+
+.mod .l{
+	background:none;
+}
+.mod .c{
+	padding: 4px;
+	background:none!important;
+}
+.mod .modCon{
+overflow:hidden;
+	border:none;
+}
+.mod .r{
+	background:none;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{height:0px;	background:none;
+}
+.mod .b{
+	height:0px;
+   background:none;
+}
+.mod .rb{
+	height:20px;
+  background:none;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #000;
+	padding-left: 3px;
+}
+.mod .modEdit a{
+	color: #222;
+	text-decoration: underline;
+}
+.mod .modTitle a:hover{
+   color: #f30;
+}
+
+.mod .modEdit a:hover{
+   color: #f30;
+}
+.modCtnInfo-noMod{color:#f00}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+#modContainerTable{
+	width: 98%;
+	margin-left: 9px;
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom: 1px dashed #ccc;
+}
+.item-title h3{
+	color: #007C8D;
+}
+.item-title h3, .item-title h3 a{color: #464020;}
+.item-title h3 a:hover{color: #f30;
+}
+.item-label{}
+.item-label a{
+	color: #000;
+}
+.item-label a:hover{color: #f30;}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.item-content a:hover{
+   color: #f30;
+}
+.item-content {
+	color:#82786F;
+	border-bottom: 1px dashed #ccc;
+}
+.item-content a{
+	color:#5F5953;
+}
+.item-content a:hover{
+   color: #f30;
+}
+.item-info, .item-info a{
+	color:#B50000;
+}
+.item-info a:hover{
+     color:#f30
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #ccc; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #000;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #000;
+}
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #B50000;
+}
+#footer{
+	clear: both;
+	height: 260px;
+	background:none;
+	width:960px;
+	margin:0px auto;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding: 175px 15px 0px 22px;
+}
+#contact{
+	color: #fff;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #000;
+}
+#contact a:hover{
+   color: #fff;
+}
+#powered {
+	padding-top: 0px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #fff;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+.texta:link {color:#82786F;}
+.texta:hover{color:#f30}
+.referItem a{color:#82786F}
+.referItem a:hover{color:#f30}
+.referItem span{}
+.modCtnInfo-private{ color:#000; margin:-5px 0px 0px 0px;}

@@ -1,0 +1,200 @@
+@charset "gbk";
+/* Sohu Blog PPP StyleSheet
+ * Style Name: Media Style
+ * Style Type£ºDefault
+ * Author: Matt Wang (www.uiland.com)
+ * Copyright: Sohu.com (www.sohu.com)
+ * Version: 1.1
+ * Created: 2008-04-13
+ * Update: 2008-04-13
+ */
+
+/*** Structure ***/
+/* Main */
+#topPadding{display:none;}
+#mainWrapper{border:0 none;}
+.modCtnInfo-private{overflow:hidden;height:30px;padding:2px 35px 0;border-style:solid;border-width:0 1px 1px;line-height:30px;}
+.modCtnInfo-noMod{padding:15px 0;}
+#modContainer{padding:15px 5px 0;}
+.clear{border:0 none;}
+
+/* Header */
+#header{overflow:hidden;height:100px;border:0 none;}
+#innerHeader{padding:20px 15px 5px;}
+
+#blogTitle{/*padding:10px 0 0 12px;*/}
+#blogUrl{padding:2px 0 0;}
+#blogDesc {padding:5px 0 0;/*padding:15px 0 0 12px;*/}
+
+/* NavBar */
+#navBar{overflow:hidden;height:31px;border:0 none;}
+#innerNavBar{padding:0 15px;}
+#mainNav li{overflow:hidden;height:20px;margin:3px 3px 0 0;padding:2px 8px 3px 8px !important;padding:3px 8px 2px 8px;border:0 none;line-height:20px;}
+#mainNav li.active{margin:0 3px 0 0;padding:4px 8px 7px 8px !important;padding:4px 8px 6px 8px;}
+*+html #mainNav li a span{padding-top:2px !important;}
+#optionNav li{margin-left:15px;}
+
+/* Footer */
+#innerFooter{padding:10px 20px;text-align:center;}
+#powered{margin:15px 0;}
+#contact,
+#copyright{margin:0;}
+
+/* Mod */
+.mod{margin:0px 5px 10px;border:0 none;}
+.mod .modFrame{border:0 none;}
+.mod .mheader{border-style:solid;border-width:0 0 1px;}
+.mod .modEditCon{margin:0px 1px 1px 1px;padding:10px 0 10px 10px;border-style:solid;border-width:0 0 1px;}
+.mod .lt,
+.mod .rt{overflow:hidden;width:0;}
+.mod .t{height:27px;padding:0 5px;border-style:solid;border-width:0 0 1px;}
+.mod .c{padding:10px;}
+.mod hr{height:1px;border-style:solid;border-width:1px 0 0;}
+	
+.msg,
+.profileMng,
+.musicMng,
+.mngBtn,
+.linksAdd{margin-bottom:5px !important;padding-bottom:5px !important;}
+#innerContentLabelBox{padding:15px 0 0;}
+.item-content{padding:5px 0;border:0 none;}
+
+.categories-content li,
+.latest_comments-content li{height:22px;}
+.categories-content a,
+.latest_comments-content a{height:22px;}
+.links-content .editFrame,
+.Custom_Links-content .editFrame{border:0 none;}
+
+
+/*** Background, Color & Font ***/
+/* Background */
+body{background:#fff;}
+#header{background:url(images/head_bg.gif) right 25px no-repeat;}
+
+#navBar{background:url(images/navbar_bg.jpg) 0 28px repeat-x;}
+#mainNav li{background:#c40e00 url(images/tab_bg_normal.jpg) 0 0 repeat-x;}
+#mainNav li.active{background:#000 url(images/tab_bg_active.jpg) 0 0 repeat-x;}
+#mainNav li.private{background:#FFD682 url(images/tab_bg_private.jpg) 0 0 repeat-x;}
+.modCtnInfo-private{background:#FFD682 url(images/ico_light.gif) 15px 50% no-repeat;}
+
+#mainWrapper{background:none;}
+
+.mod,
+.mod .t{background:transparent;}
+.mod .modEditCon{background:transparent;}
+
+/* Link Color */
+a,
+.item-label a,
+.item-info a{color:#c90e00;}
+
+a:hover,
+.item-label a:hover,
+.item-info a:hover{color:#f60;}
+
+/* Font Color */
+body,
+table{color:#000;}
+
+#blogTitle,
+#blogTitle a,
+#blogTitle input,
+#blogDesc{color:#000;}
+#blogUrl a{color:#000;}
+	
+#mainNav li *{color:#fff;}
+#mainNav li.active *{color:#fff;}
+#mainNav li.private *,
+.modCtnInfo-private{color:red;}
+	
+.mod .modTitle{color:#000;}
+.modCon li a,
+.panel-content a{color:#000;}
+.modCon li a:hover,
+.panel-content a:hover{color:#f60;text-decoration:underline;}
+
+	/* entry */
+.modCon .entriesAdd a{color:red;}	/* write */
+#innerContentLabelBox{}	/* crumbs */
+.item-title h3{color:#000;}	/* = .mod .modTitle */
+.item-title h3 a{color:#000;}
+.item-title h3 a:hover{color:#f60;text-decoration:underline;}
+.item-info{}	/* bottom info */
+
+#footer,
+#footer a{color:#666;}
+
+/* Font Style */
+#blogTitle,
+#blogTitle a,
+#blogTitle input{font:bold 20px/1.2em "Microsoft YaHei","Î¢ÈíÑÅºÚ",Verdana, Arial,sans-serif,"ËÎÌå";}
+#blogDesc{line-height:20px;}
+	
+.mod .modTitle,
+.entries-content .entriesAdd a{font-weight:bold;}
+.item-title h3,
+.item-title h3 a{font:20px/1.2em "Microsoft YaHei","Î¢ÈíÑÅºÚ",Verdana, Arial,sans-serif,"ËÎÌå";}
+.categories-content li,
+.latest_comments-content li{line-height:22px;}
+.categories-content a,
+.latest_comments-content a{line-height:22px;}
+.refer-content a{line-height:18px;}
+input.text{font-size:12px;}
+
+#contact,
+#copyright{line-height:20px;}
+
+/* Border Color */
+.mod hr,
+.mod li,
+.mod .mneck,
+.mod .mbody,
+.mod .modEditCon,
+
+.modCon hr,
+.modCon .act,
+.modCon .action,
+.modCon .collect .collectIco,
+.modCon .messagesMng,
+.modCon .miniblog-content h1,
+.modCon .miniblog-content .content li,
+.modCon .mngBtn,
+.modCon .msg,
+.modCon .musicMng,
+.modCon .nav,
+.modCon .newsong_list td,
+.modCon .link,
+.modCon .linksAdd,
+.modCon .ppMng,
+.modCon .ppsetText h5,
+.modCon .profile,
+.modCon .profileMng,
+.modCon .recpost,
+.modCon .referIco,
+.modCon .reply,
+.modCon .rplFormBox,
+.modCon .unread,
+
+.item hr,
+.item .info-content blockquote,
+
+.panel .panel-title,
+.modCtnInfo-private,
+#articleInnerContent,
+#footer{border-color:#ccc !important;}
+
+.mod .mheader,
+.mod .lt,
+.mod .rt,
+.item .item-title{border-color:#000 !important;}
+
+#mainNav li{border-color:#262626;}
+
+/* Form Color */
+#wrapper input{color:#333;}
+#wrapper input.text,
+#wrapper textarea.text{border-color:#343434;}
+#wrapper textarea{color:#333;}
+#wrapper input.button,
+#wrapper input.button-submit{border-color:#555;color:#fff;background:#000 url(images/tab_bg_active.jpg) 0 0 repeat-x;}

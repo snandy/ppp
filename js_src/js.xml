@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<orgjs out="web/ppp/js/common/common.js">
+		<item>web/ppp/js_src/common/common/prototype.js</item>
+		<item>web/ppp/js_src/common/common/string.js</item>
+		<item>web/ppp/js_src/common/common/cookie.js</item>
+		<item>web/ppp/js_src/common/common/base64.js</item>
+		<item>web/ppp/js_src/common/common/jquery.js</item>
+		<item>web/ppp/js_src/common/common/time.js</item>
+		<item>web/ppp/js_src/common/common/groj.js</item>
+		<item>web/ppp/js_src/common/common/pager.js</item>
+		<item>web/ppp/js_src/common/common/sohuim.js</item>
+		<item>web/ppp/js_src/common/common/dom.js</item>
+		<item>web/ppp/js_src/common/common/dialog.js</item>
+		<item>web/ppp/js_src/common/common/cover.js</item>
+		<item>web/ppp/js_src/common/common/json.js</item>
+		<item>web/ppp/js_src/common/common/other.js</item>
+		<item>web/ppp/js_src/common/common/imgupload.js</item>
+		<item>web/ppp/js_src/common/common/select.js</item>
+		<item>web/ppp/js_src/common/common/require.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/module/areadate.js">
+		<item>web/ppp/js_src/module/areadate/area.js</item>
+		<item>web/ppp/js_src/module/areadate/datesel.js</item>
+		<item>web/ppp/js_src/module/job/job.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/module/emote.js">
+		<item>web/ppp/js_src/module/emote/emote.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/module/school.js">
+		<item>web/ppp/js_src/module/school/schoolsel.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/module/rss.js">
+		<item>web/ppp/js_src/module/rss/rss.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/module/feed.js">
+		<item>web/ppp/js_src/module/feed/feed.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/tool/drag.js">
+		<item>web/ppp/js_src/tool/drag/drag.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/tool/effect.js">
+		<item>web/ppp/js_src/tool/effect/effect.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/tool/tween.js">
+		<item>web/ppp/js_src/tool/tween/tween.js</item>
+	</orgjs>
+	<orgjs out="web/ppp/js/tool/validator.js">
+		<item>web/ppp/js_src/tool/validator/validator.js</item>
+	</orgjs>
+	
+	
+	<orgjs out="web/ppp/blog/widgets/uwa_widget/uwa.js">
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_src.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_base.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_config.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_data.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_element.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_preference.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widget.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetlib.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetwrapper.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_controls.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_pager.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_tab.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_permit.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_module.js</item>
+	</orgjs>
+	<!--orgjs out="web/ppp/blog/widgets/uwa_widget/uwa_view.js">
+		<item>web/ppp/blog/widgets/uwa_widget/app_sow.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_src.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_base.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_config.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_config_view.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_data.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_element.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_preference.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widget.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetlib.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetwrapper.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_controls.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_pager.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_tab.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_permit.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_module.js</item>
+	</orgjs-->
+	<!--orgjs out="web/ppp/blog/widgets/uwa_widget/uwa_out.js">
+		<item>web/ppp/blog/widgets/uwa_widget/app_sow.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_src.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_base.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_config.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_config_out.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_data.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_element.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_preference.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widget.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetlib.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetwrapper.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_widgetlib_out.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_controls.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_pager.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_tab.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_permit.js</item>
+		<item>web/ppp/blog/widgets/uwa_widget/uwa_module.js</item>
+	</orgjs-->
+</root>

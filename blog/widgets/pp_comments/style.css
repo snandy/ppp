@@ -1,0 +1,12 @@
+.pp_comments-content ul {
+	padding: 0px;
+	padding-left: 20px;
+	margin: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.pp_comments-content li {
+}
+.pp_comments-content li a{
+	/*text-decoration: none;*/
+}

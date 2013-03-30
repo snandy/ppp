@@ -1,0 +1,416 @@
+@charset "gbk";
+/*
+=== Sohu Blog Home StyleSheet File ===========================
+	Style Name: Base
+	Version: 1.16
+	Author: Leeking001 (www.leeking001.com)
+			Matt Wang (www.uiland.com)
+	First Created: 2008-02-25
+	Last Update: 2009-04-01
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/*** General HTML ***/
+body{margin:0;padding:0;background:#fff;color:#666;font:normal 12px/1.6em Verdana,Arial,sans-serif,"宋体";}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+dl,
+dt,
+dd{margin:0;padding:0;}
+ol{padding:0 0 0 1.6em;padding:0 0 0 2em\9;}
+h1,
+h2{font-size:14px;font-weight:bold;}
+h3,
+h4{font-size:12px;font-weight:bold;}
+h5,
+h6{font-size:12px;font-weight:bold;}
+img{border:0 none;}
+em{font-style:normal;color:#f06;}
+small{color:#999;font:11px/1.6em Tahoma,Verdana,Arial,PMingLiU,MingLiU !important;font-family:'宋体'\9 !important;font:12px/1.4em Tahoma,Verdana,Arial,'宋体';}
+hr{clear:both;height:1px;margin:7px 0;margin:0\9;padding:0;border:0 none;border-top:1px solid #ccc;line-height:1px;}
+
+/* Link */
+a{color:#104d6c;text-decoration:underline;}
+em a{color:#f06;}
+a:hover,
+em a:hover{color:#f63;text-decoration:underline;}
+a:focus{-moz-outline-style:none;}
+
+/* Form */
+form{margin:0;padding:0;border:0 none;}
+input,
+textarea,
+select,
+fieldset,
+legend{color:#666;font:normal 12px/1.6em Verdana,Arial,sans-serif,"宋体";}
+fieldset{padding:10px;}
+input.submit,
+input.button,
+input.text,
+textarea.text,
+select.select{border:1px solid #ccc;outline:0 none;color:#333;}
+input.text{height:16px;padding:2px;line-height:14px;}
+input.popup{width:124px;height:18px;padding:2px 0 2px 5px;border:0;background:#eee url(images/home/input_popup_bg.gif) no-repeat;cursor:pointer;}
+input.file{height:22px;}
+textarea.text{padding:2px;line-height:14px;}
+select.select{height:20px;}
+input.submit,
+input.button,
+input.disabled{cursor:pointer;height:22px;padding:0 12px;padding:0 4px\9;color:#666;}
+input.submit{background:url(images/home/btn_submit_bg.jpg) center repeat-x;}
+input.button{background:url(images/home/btn_normal_bg.jpg) center repeat-x;}
+input.disabled{cursor:default;border:1px solid #ddd;background:#f0f0f0;color:#ccc;}
+
+
+/*** Class ***/
+.current,
+.current a,
+a.current{cursor:default !important;}
+.hot,
+.hot a,
+a.hot{color:#f06 !important;}
+.hot a:hover,
+a:hover.hot{color:#f63 !important;}
+.green,
+.green a,
+a.green,
+.correct,
+.correct a,
+a.correct{color:#008000 !important;}
+.red,
+.red a,
+a.red,
+.error,
+.error a,
+a.error{color:#f00 !important;}
+a.close{display:block;overflow:hidden;width:16px;height:16px;background:url(images/ico_cls.gif) center no-repeat;text-indent:-9999px;}
+span.space{font-weight:normal !important;}
+
+/* userIcon */
+img.userIcon48,
+img.userIcon32,
+img.userIcon16{padding:1px;border:1px solid #ccc;background:#fff;}
+a:hover img.userIcon48,
+a:hover img.userIcon32,
+a:hover img.userIcon16{border:1px solid #f63;}
+img.userIcon178{width:178px;height:140px;}
+img.userIcon48{width:48px;height:48px;}
+img.userIcon32{width:32px;height:32px;}
+img.userIcon16{width:16px;height:16px;}
+
+.userItem{padding:5px;}
+	.userItem .userIcon{float:left;margin:0 5px 0 0;}
+	.userItem .userInfo{}
+.userList .userItem{display:inline;float:left;width:52px;}
+	.userList .userItem .userIcon{overflow:hidden;float:none;width:100%;height:52px;margin:0;}
+	.userList .userItem .userInfo{width:100%;padding:3px 0;font-weight:normal;text-align:center;}
+	.userList .userItem .userInfo h5{font-weight:normal !important;text-align:center;}
+
+/* Group */
+img.groupIcon64,
+img.groupIcon48,
+img.groupIcon20{border:1px solid #ccc;background:#fff;}
+a:hover img.groupIcon64,
+a:hover img.groupIcon48,
+a:hover img.groupIcon20{border:1px solid #f63;}
+img.groupIcon64{width:64px;height:48px;padding:3px;}
+img.groupIcon48{width:48px;height:36px;padding:2px;}
+img.groupIcon20{width:20px;height:15px;padding:1px;}
+
+/* Photo */
+.photoItem{padding:5px;}
+	img.photoCoverImg{padding:1px;border:1px solid #ccc;background:#fff;}
+	a:hover img.photoCoverImg{border:1px solid #f63;}
+.albumItem{padding:5px;}
+	.albumCover{display:block;overflow:hidden;width:85px;height:85px;background:url(images/home/album_bg.gif) 0 0 no-repeat;}
+	.albumCover img{width:75px;height:75px;padding:2px;border:1px solid #ccc;background:#fff;}
+	.albumCover a:hover img,
+	a.albumCover:hover img{border:1px solid #f63;}
+.slideItem{padding:5px;}
+	.slideCover{display:block;overflow:hidden;width:75px;height:75px;padding:12px 7px 7px 3px;;background:url(images/home/slide_bg.gif) 0 0 no-repeat;}
+	.slideCover img{width:75px;height:75px;margin:0 auto;padding:0;}
+
+/* Video */
+.videoItem{padding:5px;}
+	.videoCover{position:relative;overflow:hidden;width:126px;height:96px;}
+		img.videoCoverImg{width:120px;height:90px;padding:1px;border:1px solid #ccc;background:#fff;}
+		a:hover img.videoCoverImg{border:1px solid #f63}
+		.videoPlay{position:absolute;top:72px;left:101px;width:16px;height:15px;background:url(images/v_play.gif) no-repeat;filter:alpha(opacity=60);opacity:0.6;cursor:pointer;}
+.plistItem{padding:5px;}
+	.plistCover{position:relative;overflow:hidden;width:130px;height:100px;background:url(images/home/plist_bg.gif) no-repeat;}
+		img.plistCoverImg{width:120px;height:90px;padding:2px;border:1px solid #ccc;background:#fff;}
+		a:hover img.plistCoverImg{border:1px solid #f63;}
+
+/* pageNav */
+.pageNav{padding:0 0 5px;line-height:20px;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;text-align:right;}
+	.pageNav span,
+	.pageNav a{padding:0 4px 0 3px;}
+	.pageNav span{font-weight:bold;}
+	.pageNav a{text-decoration:underline;}
+	.pageNav a.prev{float:left;}
+	.pageNav a.next{float:right;}
+
+/* floatMsg */
+.popMsg{position:absolute;width:240px;border:1px solid #ccc;background:#fff;z-index:100;}
+	.popMsg .head{height:20px;padding:3px 7px;padding:4px 7px 2px\9;border-bottom:1px solid #ccc;background:#FCFCFC url(images/home/mod_head_bg.gif) top repeat-x;}
+		.popMsg .head h3,
+		.popMsg .head h4{float:left;margin:0;font:bold 12px/1.6em Verdana,Arial,Helvetica,sans-serif;}
+		.popMsg .head .option{float:right;width:14px;}
+		.popMsg .head .option a.close{float:right;}
+	.popMsg .body{padding:10px 15px;}
+		.popMsg .body h3,
+		.popMsg .body h4{margin:5px 0 10px;}
+	.popMsg .foot{padding:10px 10px 15px;;text-align:center;}
+	.popMsg input.submit,
+	.popMsg input.button{margin:0 5px;}
+
+table.popLayer{table-layout:fixed;}
+	table.popLayer td{overflow:hidden;padding:0 !important;}
+	table.popLayer .lt,
+	table.popLayer .lm,
+	table.popLayer .lb,
+	table.popLayer .rt,
+	table.popLayer .rm,
+	table.popLayer .rb{width:4px !important;font-size:0;line-height:0;}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .rt,
+	table.popLayer .lb,
+	table.popLayer .mb,
+	table.popLayer .rb{height:4px !important;font-size:0;line-height:0;}
+	table.popLayer .rm,
+	table.popLayer .mb,
+	table.popLayer .rb{background:#333 !important;filter:alpha(opacity=50);opacity:0.5;}
+	table.popLayer .rt,
+	table.popLayer .lb{border:2px solid #333 !important;filter:alpha(opacity=50);opacity:0.5;}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .lm,
+	table.popLayer .mm{border:2px solid #ccc !important;background:#fff !important;}
+	table.popLayer .lt{border-width:2px 0 0 2px !important;}
+	table.popLayer .rt{border-width:0 !important;*border-width:0 0 2px 0 !important;}
+	table.popLayer .mt{border-width:2px 2px 0 0 !important;}
+	table.popLayer .lm{border-width:0 0 2px 2px !important;}
+	table.popLayer .mm{border-width:0 2px 2px 0 !important;padding:0 3px 3px 0 !important;}
+	table.popLayer .lb{border-width:0 2px 0 0 !important;border-width:/*\**/0\9 !important;}
+
+/* clear & clearfix */
+.clear{clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+/* End hide from IE-mac */
+*+html .clearfix{min-height:1%;}/* IE7 */
+
+/* word break */
+.wordBreak{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+
+
+
+/*** Layout ***/
+#wrapper{width:980px;margin:0 auto;text-align:left;}
+	#innerWrapper{padding:2px 10px 10px 10px;}
+
+#content{margin:0 0 10px;}
+	#innerContent{}
+
+#sideBar{overflow:hidden;float:left;width:145px;}
+#appList{border:1px solid #cbdce3;border-width:1px 0 1px 1px;background:#e5eff4;}
+	#innerAppList{padding:10px 10px 20px;border:1px solid #fff;}
+		#appList ul{list-style:none;}
+		#appList li{display:block;overflow:hidden;position:relative;width:102px;height:18px;padding:7px 10px 3px !important;padding:9px 10px 1px;white-space:nowrap;border-bottom:1px solid #c1d1d6;color:#666;font:12px/18px "宋体";vertical-align:middle;}
+		#appList li.current{font-weight:bold;}
+			#appList li .appName{}
+				#appList li .appName img{width:16px;height:16px;margin:-4px 0 0;*margin:-2px 0 0;padding:0 10px 0 0;vertical-align:middle;}
+				#appList li a.appName{color:#666;text-decoration:none;}
+				#appList li a.appName:hover{color:#f63;text-decoration:none;}
+				#appList li.current a.appName{color:#666 !important;}
+			#appList li .appTool{position:absolute;top:6px;right:10px;float:right;height:20px;font:12px/20px "宋体";}
+				#appList li a.appTool{color:#999;text-decoration:none;}
+				#appList li a.appTool:hover{color:#f63;text-decoration:underline;}
+				#appList li.current a.appTool{cursor:pointer !important;}
+	
+#appPage{float:right;width:813px;border:1px solid #cbdce3;background:url(images/home/appPage_bg.jpg) top repeat-x;}
+	#innerAppPage{float:right;min-height:360px;background:url(images/home/appSidebar_bg.gif) right repeat-y;}
+
+#footer{clear:both;}
+	#innerFooter{text-align:center;}
+		#powered{padding:15px 0 10px;}
+
+
+
+/*** appPage ***/
+/* appPage HTML reset */
+#appPage p{margin:5px 0;}
+#appPage h1,
+#appPage h2{margin:5px 0;font-size:14px;font-weight:bold;}
+#appPage h3,
+#appPage h4{margin:2px 0;font-size:12px;font-weight:bold;}
+#appPage h5,
+#appPage h6{margin:0;font-size:12px;font-weight:bold;}
+#appPage ul,
+#appPage ol{margin:0.5em 0;padding:0 0 0 1.6em;padding:0 0 0 2em\9;}
+#appPage dl,
+#appPage dt,
+#appPage dd{}
+#appPage blockquote{margin:5px 10px 10px;padding:0 10px 0;border:1px dashed #ccc;border-width:1px;background:#fff;color:#666;}
+#appPage hr{clear:both;height:1px;margin:7px 0;margin:0\9;padding:0;border:0 none;border-top:1px dashed #ccc;line-height:1px;}
+
+/* appPage Class */
+#appPage .line_none{border:0 none;}
+#appPage .line_solid{border-bottom:1px solid #ccc;}
+#appPage .line_dashed{border-bottom:1px dashed #ccc;}
+#appPage .line_dotted{border:0 none;background:url(images/home/line_dotted_ccc.gif) bottom repeat-x;}
+#appPage hr.line_none{display:none;}
+#appPage hr.line_solid{border:0 none;border-top:1px solid #ccc;}
+#appPage hr.line_dashed{border:0 none;border-top:1px dashed #ccc;}
+#appPage hr.line_dotted{border:0 none;background:url(images/home/line_dotted_ccc.gif) bottom repeat-x;}
+
+#appPage a.btn_pageOption{display:block;overflow:hidden;float:right;height:22px;padding:2px 9px 0 11px;border:1px solid #cfdea7;background:#eafea5 url(images/home/btn_pageOption_bg.jpg) 0 0 repeat-x;color:#fff;font:12px/23px Verdana,Arial,Helvetica,sans-serif;text-decoration:none;}
+	#appPage a.btn_pageOption:hover{background-position:0 -32px;text-decoration:none;}
+	#appPage a.btn_pageOption span{display:block;position:relative;top:-24px;left:-1px;color:#4b731b;}
+
+#appPage .tabs{overflow:hidden;height:28px;margin:0 0 10px;background:url(images/home/line_solid_ccc.gif) bottom repeat-x;}
+	#appPage .tabs ul{list-style:none;margin:0;padding:0 10px 0 20px;}
+	#appPage .tabs li{display:inline;float:left;margin:0 2px;}
+		#appPage .tabs li a,
+		#appPage .tabs li span{display:block;float:left;height:20px;margin:2px 0 0;padding:3px 12px 1px;*padding:2px 12px;border:1px solid #ddd;border-width:1px 1px 0;background:#f0f0f0;color:#666;text-decoration:none;line-height:20px;}
+		#appPage .tabs li a:hover{background:#f6f6f6;color:#666;text-decoration:none;}
+	#appPage .tabs li.current{}
+		#appPage .tabs li.current a,
+		#appPage .tabs li.current span{height:23px;margin:0;border-color:#ccc;background:#fff;line-height:23px;}
+		#appPage .tabs li.current a:hover{background:#fff;}
+
+#appPage .mod{margin:0 0 10px;}
+	#appPage .mod .head{height:20px;padding:3px 7px;*padding:4px 7px 2px;border-bottom:1px solid #ccc;}
+		#appPage .mod .addBgColor{background:#F3F8FA;border:1px solid #CBDCE3;}
+		#appPage .mod .addBgColor2{background:#B9D1DD;border:0;}
+		#appPage .mod .head h3,
+		#appPage .mod .head h4{float:left;margin:0;font:bold 12px/20px Verdana,Arial,Helvetica,sans-serif;}
+		#appPage .mod .head select{height:18px;}
+		*+html #appPage .mod .head select{height:20px;}
+		#appPage .mod .head .option{float:right;}
+	#appPage .mod .body{padding:10px 10px 0;}
+		#appPage .mod .body .noItem{margin:0 -10px;padding:15px 25px 25px 80px;border-bottom:1px solid #ccc;}
+	#appPage .mod .foot{}
+
+#appPage .tip{margin:0 0 10px;padding:5px 10px 10px;border:1px solid #ccc;background:#ffc;}
+	#appPage .tip .head{padding:3px;*padding:4px 3px 2px;border-bottom:1px dashed #ccc;}
+		#appPage .tip .head h3,
+		#appPage .tip .head h4{float:left;margin:0;font:bold 12px/1.6em Verdana,Arial,Helvetica,sans-serif;}
+		#appPage .tip .head .option{float:right;width:14px;}
+		#appPage .tip .head .option a.close{float:right;background-image:url(images/ico_pageCls.gif);}
+	#appPage .tip .body{padding:5px;}
+
+#appPage .msg_succeed,
+#appPage .msg_failed{margin:0 0 10px;padding:7px 10px 7px 32px;border:1px solid #ccc;background-color:#ffc;background-position:10px 8px;background-repeat:no-repeat;}
+#appPage .msg_succeed{background-image:url(images/ico_succeed.gif);}
+#appPage .msg_failed{background-image:url(images/ico_error.gif)}
+	#appPage .msg_succeed h3,
+	#appPage .msg_succeed h4,
+	#appPage .msg_failed h3,
+	#appPage .msg_failed h4{margin:0;}
+
+#appPage .crumbs{float:left;font:12px/1.6em Verdana,Arial,Helvetica,sans-serif;height:20px;overflow:hidden;}
+	#appPage .crumbs a{font-weight:normal !important;}
+	#appPage .crumbs .current{font-weight:bold !important;}
+
+#appPage table.tableForm{}
+	table.tableForm th,
+	table.tableForm td{padding:2px 0;}
+	table.tableForm td.formLable,
+	table.tableForm td.formLabel{text-align:right;vertical-align:top;}
+	table.tableForm td.formEle{text-align:left;vertical-align:top;}
+	table.tableForm .formTip{display:block;height:14px;padding:4px 0 0;color:#999;line-height:14px;}
+
+#appPage table.tableList{}
+	table.tableList tr{background:url(images/home/line_dashed_ccc.gif) bottom repeat-x;}
+	table.tableList th,
+	table.tableList td{padding:3px 2px;}
+	table.tableList thead tr,
+	table.tableList tbody tr.end,
+	table.tableList tfoot tr{background:none;}
+	table.tableList thead th,
+	table.tableList tbody tr.end td,
+	table.tableList thead td{border-bottom:1px solid #ccc;}
+	table.tableList tfoot td{text-align:right;}
+
+#appPage #friendSelector{}
+	#friendSelector .finder{padding:7px;border:1px solid #ccc;background:#f6f6f6;}
+		#friendSelector .finderWrap{overflow:hidden;height:20px;padding:4px 5px 4px 18px;border:1px solid #ccc;background:#fff;background:#fff url(images/home/friendSelector.gif) no-repeat 5px -236px;}
+			#friendSelector .input{overflow:hidden;float:left;width:380px;}
+				#friendSelector .input input{height:16px;width:100%;padding:2px;border:0 none;background:none;line-height:16px;}
+			#friendSelector .toggle{float:right;width:100px;text-align:right;line-height:20px;}
+				#friendSelector .toggle .all{display:block;overflow:hidden;float:right;width:16px;height:16px;margin:2px 6px 2px 0;padding:0 2px 0 0;border-right:1px solid #ccc;background:url(images/home/friendSelector.gif) no-repeat 0 -210px;text-indent:9999px;}
+				#friendSelector .toggle .show{float:right;padding:0 0 0 15px;background:url(images/home/friendSelector.gif) no-repeat 0 -180px;text-decoration:none;}
+				#friendSelector .toggle .hide{float:right;padding:0 0 0 15px;background:url(images/home/friendSelector.gif) no-repeat 0 -150px;text-decoration:none;}
+	#friendSelector .selector{padding:6px;border:1px solid #ccc;border-top:0;}
+		#friendSelector .options{padding:0 0 5px;}
+			#friendSelector .options a.current{color:#666 !important;font-weight:700;text-decoration:none !important;}
+			#friendSelector .options .method{float:left;width:250px;padding:0 0 0 10px;}
+			#friendSelector .options .filter{float:right;width:200px;padding:0 10px 0 0;text-align:right;}
+		#friendSelector .friends{overflow-x:hidden;overflow-y:scroll;clear:both;position:relative;height:340px;padding:7px;border:1px solid #ccc;}
+			#friendSelector .friends .selectTip{display:none;height:20px;margin:-5px -10px 10px;padding:5px 10px;background:#fffdd0;}
+			#friendSelector .friends ul{width:492px;margin:0 !important;padding:0 !important;}
+				#friendSelector .friends li{display:inline;list-style:none;position:relative;z-index:1;float:left;margin:3px;}
+					#friendSelector .friends li a{display:block;float:left;width:52px;height:97px;padding:11px 12px 0;background:url(images/home/friendSelector.gif) no-repeat 0 0;color:#104d6c;text-decoration:none;cursor:pointer;}
+					#friendSelector .friends li a:hover{background-position:-100px 0;color:#104d6c;text-decoration:none;}
+						#friendSelector .friends li a strong,
+						#friendSelector .friends li a:hover strong{padding:0 1px;background:#fff77c;color:#000;font-weight:400;}
+					#friendSelector .friends li .icon{overflow:hidden;float:none;width:52px;height:52px;}
+						#friendSelector .friends li .icon img{width:48px;height:48px;padding:2px;}
+					#friendSelector .friends li .info{overflow:hidden;width:100%;height:32px;padding:5px 0 0;line-height:16px;}
+					#friendSelector .friends li .friend{overflow:hidden;position:absolute;top:0;left:0;z-index:2;width:76px;height:108px;background:url(images/home/friendSelector.gif) no-repeat -400px 0;text-indent:-9999px;}
+					#friendSelector .friends li em{display:none;overflow:hidden;position:absolute;top:0;left:0;z-index:3;width:76px;height:108px;background:url(images/home/friendSelector.gif) no-repeat -300px 0;text-indent:-9999px;}
+				#friendSelector .friends li.selected{}
+					#friendSelector .friends li.selected a,
+					#friendSelector .friends li.selected a:hover{background-position:-200px 0;color:#fff;}
+					#friendSelector .friends li.selected em{display:block;}
+		#friendSelector .couplesOnly{}
+			#friendSelector .couplesOnly .selectTip{display:block;}
+				#friendSelector .couplesOnly li.single{/*display:none;*/filter:alpha(opacity=40);opacity:0.4;}
+					#friendSelector .couplesOnly li.single a,
+					#friendSelector .couplesOnly li.single a:hover{background-position:0 0;color:#aaa;cursor:default;}
+					#friendSelector .couplesOnly li.single em{display:block;background-position:-500px 0;}
+		#friendSelector .footTip{float:right;overflow:hidden;height:16px;margin:5px 3px 0 0;padding:0 0 0 17px;background:url(images/home/friendSelector.gif) no-repeat 0 -280px;color:#888;line-height:16px;line-height:20px\9;}
+
+#appPage table.popLayer #friendSelector{width:283px;margin:2px 0 0;margin:0\9;}
+	#appPage table.popLayer #friendSelector .finder{padding:2px;border:0 none;}
+		#appPage table.popLayer #friendSelector .input{width:100%;}
+		#appPage table.popLayer #friendSelector .toggle{display:none;}
+	#appPage table.popLayer #friendSelector .selector{padding:2px;border:0 none;}
+		#appPage table.popLayer #friendSelector .options{display:none;}
+		#appPage table.popLayer #friendSelector .friends ul{width:246px;}
+		#appPage table.popLayer #friendSelector .selectTip{display:none;}
+		#appPage table.popLayer #friendSelector .couplesOnly li.single{display:none;}
+
+/* appPage Layout */
+#appPage .appHead{float:left;width:573px;padding:15px 20px;}
+	#appPage .appTitle{width:60%;float:left;}
+		#appPage .appTitle h2{font:bold 14px/20px Verdana,Arial,Helvetica,sans-serif;}
+		#appPage .appTitle h2 img{width:16px;height:16px;margin:-3px 0 0;padding:1px 10px 0 0;vertical-align:middle;}
+		*+html #appPage .appTitle h2 img{margin:0;}
+		#appPage .appTitle h2 .appBornUrl{font-size:12px;font-weight:normal;margin-left:5px;}
+		#appPage .appTitle h2 .appBornUrl a{text-decoration:none;}
+	#appPage .appOption{overflow:hidden;float:right;width:40%;height:26px;}
+#appPage .appBody{float:left;width:600px;}
+	#appPage .appNav{}
+	#appPage .appContent{padding:2px 20px 10px;}
+		#appPage .appConLeft{}
+		#appPage .appConRight{display:none;}
+#appPage .appFoot{float:left;width:600px;}
+#appPage .appSidebar{float:right;width:180px;background:#f3f8fa;padding:61px 10px 0;}
+* html #appPage .appSidebar{padding-top:58px;}
+
+#appPage #soMail .appBody{width:800px !important;overflow-x:auto;overflow-y:hidden;}

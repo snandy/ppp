@@ -1,0 +1,51 @@
+.v_favoplist-content {
+}
+.v_favoplist-content .video_cover {
+	float:left;
+	width:130px;
+	height:100px;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/pl_bg.gif) no-repeat top left;
+	position:relative;
+}
+.v_favoplist-content .video_cover a img {
+	width:120px;
+	height:90px;
+	border:1px solid #ccc;
+	padding:2px;
+}
+.v_favoplist-content .video_cover a:hover img {
+	border:1px solid red;
+}
+.v_favoplist-content .video_cover .v_play {
+	position:absolute;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll;
+	width:16px;
+	height:15px;
+	left:101px;
+	top:72px;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	cursor:pointer;
+}
+.v_favoplist-content dl,dt,dd {
+	margin:0;
+}
+.v_favoplist-content dt {
+	margin-bottom:3px;
+	word-break:break-all;
+}
+.v_favoplist-content dt a {
+	font-weight:bold;
+}
+.v_favoplist-content dl {
+	float:left;
+	margin:3px 0 0 5px;
+}
+.v_favoplist-content ul {
+	margin:0 0 5px 15px;
+	padding:0;
+}
+.v_favoplist-content .more {
+	clear:both;
+	text-align:right;
+}

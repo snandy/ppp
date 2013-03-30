@@ -1,0 +1,69 @@
+/*
+=== Sohu Blog StyleSheet File ================================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-10-31
+==============================================================
+*/
+body {
+	background-color: #DFE4C6;
+	background-image: url(images/index_18.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+#navBar {
+	height: 41px;
+	background-image: url(images/index_16.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+#mainWrapper {
+	background-image: url(images/index_17.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#footer {
+	clear: both;
+	height: 175px;
+	background-image: url(images/index_19.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.item-title {
+	height: 37px;
+	padding-top: 8px;
+	padding-right: 15px;
+	padding-left: 20px;
+
+}
+/****** article content ******/
+.item-content{
+	margin: 0px;
+	overflow: hidden;
+	color:#000;
+	font-size:14px;	/*border-bottom: 1px solid #cecece;
+	border-top: 1px solid #cecece;*/
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.item-title {
+	height: 37px;
+	padding-top: 8px;
+	padding-right: 15px;
+	padding-left: 10px;
+	background-image: url(images/index_15.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+#articleContent{
+	width: 735px;
+	margin-left: 140px;
+	padding-top: 30px;
+}
+#blogTitle {
+	float: left;
+	padding-top: 8px;
+}

@@ -1,0 +1,60 @@
+.wondPhoto-content {
+	width:202px;
+	margin:0 auto;
+	color:#fff;
+}
+	.wondPhoto-content span, .wondPhoto-content div, .wondPhoto-content ul, .wondPhoto-content p, .wondPhoto-content table {
+		color:#fff;
+	}
+	.wondPhoto-content a {
+		color:#fff;
+	}
+	.wondPhoto-content a:hover {
+		color:#f63;
+	}
+	.wondPhoto-content .adBanner {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_olc2008_banner.gif) no-repeat;
+		width:202px;
+		height:42px;
+		text-indent:-9999px;
+	}
+	.wondPhoto-content .wondPhoto_bm_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_bg2.gif) no-repeat;
+		width:202px;
+		height:28px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.wondPhoto-content .wondPhoto_bm_s_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_s_bg2.gif) no-repeat;
+		width:202px;
+		height:4px;
+		margin:0 auto;
+	}
+		.wondPhoto-content .wondPhoto_bm_bg a {
+			background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/btn_addmyblog_bg2.gif) no-repeat;
+			display:block;
+			width:123px;
+			height:28px;
+			margin:0 auto;
+			text-indent:-9999px;
+		}
+	.wondPhoto-content h3 {
+		font-size:12px;
+		padding:0 0 5px;
+		margin:0;
+		text-align:center;
+	}
+	.wondPhoto-content span.red {
+		color:red;
+	}
+	.wondPhoto-content .selectPic {
+		text-align:center;
+		padding:3px 0;
+	}
+	.wondPhoto-content .rank {
+		background:#333;		
+		padding:5px 0 0;
+		width:202px;
+		margin:0 auto;
+	}

@@ -1,0 +1,95 @@
+.olympic_bless-content .clockFlash, .olympic_bless-content .bless{
+	margin: 0 auto;
+	width: 180px;
+}
+.olympic_bless-content .bless{
+	background: #8f0306;
+}
+.olympic_bless-content .bless, .olympic_bless-content .bless *{
+	color: white;
+}
+.olympic_bless-content .bless_m{
+	background:url(images/modbg.jpg) no-repeat;
+	height: 149px;
+	width: 180px;
+	overflow: hidden;
+	clear: both;
+}
+.olympic_bless-content .bless_m h4{
+	padding: 8px 0 4px 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.olympic_bless-content .bless_m div{
+	padding: 10px;
+}
+.olympic_bless-content .bless_m ul{
+	padding: 0;
+	margin: 0;
+	list-style: inside;
+}
+.olympic_bless-content .bless_m li{
+	margin: 3px 0;
+	width: 140px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	clear: both;
+	display: block;
+}
+.olympic_bless-content .bless_m .act{
+}
+.olympic_bless-content .bless_m .act li{
+	list-style: none outside;
+	border-bottom: 1px dashed #d77f3f;
+	margin: 3px 0;
+	width: 160px;
+}
+.olympic_bless-content .bless_m .act li span{
+	display: block;
+	float: left;
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.olympic_bless-content .bless_m .act li .ticket{
+	float: right;
+}
+.olympic_bless-content .bless_m .more{
+	float: right;
+	margin-top: 5px;
+}
+.olympic_bless-content .bless_m table{
+	width: 100%;
+}
+.olympic_bless-content .bless_m table td{
+	padding: 3px 5px;
+	border-bottom: 1px dashed #d77f3f;
+}
+.olympic_bless-content .bless_m table td .medal{
+	width: 16px;
+	height: 16px;
+}
+.olympic_bless-content .bless_m table td .cntIco{
+	height: 12px;
+}
+.olympic_bless-content .score{
+	background: url(images/btn_score.jpg) no-repeat center center;
+	display: block;
+	width: 76px;
+	height: 27px;
+	float: left;
+	padding: 5px 2px 5px 12px;
+	text-decoration: none;
+}
+.olympic_bless-content .join{
+	background: url(images/btn_join.jpg) no-repeat center center;
+	display: block;
+	width: 76px;
+	height: 27px;
+	float: right;
+	padding: 5px 12px 5px 2px;
+	text-decoration: none;
+}
+

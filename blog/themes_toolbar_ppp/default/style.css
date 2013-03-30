@@ -1,0 +1,502 @@
+/*
+=== Sohu Blog Tool Bar StyleSheet File =======================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-12-02
+==============================================================
+*/
+/***** common style *****/
+#tool-bar, #tool-bar *, #tool-bar a, #tool-bar input, #tool-bar select, .menu-div input, .menu-div select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #493a01;
+	line-height: 120%;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+#tool-bar input, #tool-bar select {
+	background: white;
+	line-height: 16px;
+	height: 16px;
+}
+#tool-bar input .text, #tool-bar select {
+	border: 1px solid #cecece;
+}
+#tool-bar .text {
+	padding: 0 2px;
+}
+#tool-bar .select {
+	font-size: 9px;
+}
+#tool-bar .button {
+	height: 18px;
+	background: #ddd url(images/button_bg.gif) top repeat-x;
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+#tool-bar #user-tools a, #tool-bar #sys-tools a/*, #tool-bar .menu-div a*/ {
+	line-height: 20px;
+	padding: 3px 3px 2px !important;
+	padding: 3px 3px 1px;
+	text-decoration: underline;
+}
+#tool-bar #user-tools a:hover, #tool-bar #sys-tools a:hover/*, #tool-bar .menu-div a:hover*/ {
+	padding: 2px 2px 1px !important;
+	padding: 2px 2px 0px;
+	color: #493a01;
+	background: white url(images/link_over.png) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+}
+#tool-bar #user-tools a.disable, #tool-bar #user-tools a.disable:hover {
+	color: #ccc;
+}
+#tool-bar .link {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px !important;
+	padding: 2px 3px 1px;
+	text-decoration: underline;
+}
+#tool-bar .link-over {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px !important;
+	padding: 1px 2px 0px;
+	color: #493a01;
+	background: white url(images/link_over.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#tool-bar .link-down {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px !important;
+	padding: 1px 2px 0px;
+	color: #493a01;
+	background: white url(images/link_down.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#tool-bar .link-disable {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px !important;
+	padding: 2px 3px 1px;
+	text-decoration: underline;
+	color: #ccc;
+	cursor: default;
+}
+#tool-bar .link-arrow {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px 2px !important;
+	padding: 3px 3px 1px 2px;
+	text-decoration: underline;
+}
+#tool-bar .link-arrow-over {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px 2px !important;
+	padding: 2px 2px 0px 2px;
+	color: #493a01;
+	background: white url(images/link_over.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+}
+#tool-bar .link-arrow-down {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 2px 0px 2px !important;
+	padding: 3px 2px 0px 2px;
+	color: #493a01;
+	background: white url(images/link_down.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+}
+#tool-bar .link-arrow-disable {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px 2px !important;
+	padding: 3px 3px 1px 2px;
+	text-decoration: underline;
+	cursor: default;
+}
+#tool-bar form {
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+#tool-bar img {
+	border: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: text-bottom;
+}
+#tool-bar .clear{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+/***** tool bar style *****/
+#tool-bar {
+	height: 26px;
+	width: auto;
+	background: white url(images/bg.png) top repeat-x;
+	padding: 4px 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+/***** logo style *****/
+#tool-bar #sohu-blog-logo {
+	float: left;
+	margin-right: 6px;
+}
+#tool-bar #sohu-blog-logo img {
+}
+/***** user tools style *****/
+#tool-bar #user-tools {
+	float: left;
+	margin-top: 2px;
+}
+#tool-bar #user-tools div, #tool-bar #user-tools div div, #tool-bar #sys-tools div, #tool-bar #sys-tools div div {
+	float: left;
+}
+#tool-bar #user-tools a, #tool-bar #user-tools span, #tool-bar #user-tools .linkbox {
+	margin: 0 5px;
+}
+#tool-bar #user-tools .psptMail {
+	margin: 1px 5px 1px 1px;
+	padding: 2px 2px 1px !important;
+	padding: 0px 2px 2px;
+	cursor: pointer;
+}
+#tool-bar #user-tools .psptMail-over{
+	margin: 0px 4px 0px 0px;
+	background: white url(images/psptMailActive.gif) top repeat-x;
+	border: 1px solid #abbdca;
+}
+#tool-bar #user-tools .psptMail span {
+	background:url(images/arrow.gif) center no-repeat;
+	padding: 0px 5px;
+	margin: 0;
+}
+#tool-bar #user-tools .sohuMsg {
+	padding: 2px 7px;
+	cursor: pointer;
+	background: url(images/ico_messenger.gif) no-repeat center;
+}
+#tool-bar #user-tools .sohuMsg-over {
+	padding: 1px 6px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: url(images/ico_messenger.gif) no-repeat center;
+}
+#tool-bar #user-tools .sohuMsgFlash{
+	padding:0 35px 0 0;
+}
+#tool-bar #user-tools .sohuMsgFlash embed{
+	width:170px;
+	height:120px;
+	position:absolute;
+	margin:-4px 0 0 -2px;
+}
+#tool-bar #user-tools #tool-bar-mng{
+	margin-right: 0px;
+}
+#tool-bar #user-tools .navSysArrow {
+	margin: 1px 5px 1px 0px;
+	padding: 2px 0px 1px !important;
+	padding: 0px 0px 2px;
+	cursor: pointer;
+	border-left: 1px solid #ccc;
+}
+#tool-bar #user-tools .navSysArrow-over{
+	margin: 0px 4px 0px 0px;
+	background: white url(images/link_over.gif) top repeat-x;
+	border: 1px solid #ccc;
+}
+#tool-bar #user-tools .navSysArrow span {
+	background:url(images/arrow.gif) center no-repeat;
+	padding: 0px 5px;
+	margin: 0;
+}
+#tool-bar #user-tools .linkspace {
+	padding-top: 3px !important;
+	padding-top: 1px;
+}
+#tool-bar #user-tools .more {
+	width: 7px;
+	height: 9px !important;
+	height: 10px;
+	background: url(images/arrow.gif) left center no-repeat;
+	margin: 3px 0 2px!important;
+	margin: 2px 0 2px;
+}
+#tool-bar #user-tools .link-arrow-disable .more {
+	width: 7px;
+	height: 9px !important;
+	height: 10px;
+	background: url(images/arrow_disable.gif) left center no-repeat;
+	margin: 3px 0 2px!important;
+	margin: 2px 0 2px;
+}
+/***** system tools style *****/
+#tool-bar #sys-tools {
+	float: right;
+	margin-top: 2px;
+}
+/***** search tools style *****/
+#tool-bar #search-tools {
+	float: right;
+	margin-right: 12px;
+	margin-top: 2px;
+}
+#tool-bar #search-tools input, #tool-bar #sys-tools select {
+	border: none;
+}
+#tool-bar #search-tools .text {
+	width: 95px;
+	background: #d4d4d4;
+}
+#tool-bar #search-tools .button {
+	height: 16px;
+}
+/***** menu div style *****/
+#tool-bar .menu-iframe, #tool-bar .menu-div {
+	position: absolute;
+	visibility: hidden;
+}
+.menu-div {
+	z-index: 100;
+	width: 350px;
+	border: 2px solid #ccc;
+	padding: 2px;
+	background-color: white;
+}
+.menu-div, .menu-div a, .menu-div td {
+	color: #7e7e7e;
+}
+.menu-div a {
+	text-decoration: underline;
+}
+.menu-div a:hover {
+	color: #CD5F60;
+	text-decoration: underline;
+}
+.menu-div input, .menu-div select, .menu-div textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #7e7e7e;
+	line-height: 130%;
+	margin: 0px;
+}
+.menu-div textarea {
+	padding: 2px;
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div select {
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div input.text {
+	height: 18px;
+	width: 180px;
+	line-height: 16px;
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div input.text-error {
+	height: 18px;
+	line-height: 16px;
+	padding: 0px 2px 0px;
+	background-color: white;
+	border: 1px solid red;
+}
+.menu-div input.button {
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #cecece;
+	cursor: pointer;
+}
+.menu-div input.button-submit {
+	color: white;
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: #F03309;
+	border: 1px solid #cecece;
+	cursor: pointer;
+}
+.menu-div .redfont {
+	color: #F03309;
+}
+.menu-div .notice {
+	background-color: #ffffe1;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.menu-div div {
+	/*width: 92%;*/
+}
+
+.psptCardMenu-div {
+	z-index: 100;
+	width: 280px;
+	border: none;
+	padding: 5px;
+	background-color: white;
+}
+.psptCardMenu-div .login_ico {
+	border: 1px solid #ccc;
+	width:32px;
+	height:32px;
+	padding: 1px;
+	overflow: hidden;
+	float: left;
+	margin: 5px;
+}
+.psptCardMenu-div .login_ico img {
+	width: 32px;
+	height: 32px;
+}
+.psptCardMenu-div .statusCount{
+	float: left;
+	width: 200px;
+	margin-top: 5px;
+	padding-bottom: 2px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	
+}
+.psptCardMenu-div .tips{
+	float: left;
+	width: 180px;
+	padding: 5px 0 0 20px;
+	background: url(images/ico_tips.gif) no-repeat left;
+}
+.psptCardMenu-div .tips a{
+	text-decoration: underline;
+}
+
+/****** passport card style ******/
+/* 全局CSS定义 */
+.passport, .passport * {font-size:12px; color:#000; font-family:"宋体", Verdana, Arial, Helvetica, sans-serif; line-height:normal;}
+.passport > div {margin-right:auto; margin-left:auto;} 
+.passport div,.passport form,.passport ul,.passport ol,.passport li,.passport span,.passport p {margin: 0; padding: 0; border: 0;}
+.passport img,.passport a img{border:0; margin:0; padding:0;}
+.passport h1,.passport h2,.passport h3,.passport h4,.passport h5,.passport h6 { margin:0; padding:0;font-size:12px;font-weight:normal;}
+.passport ul,.passport ol,.passport li {list-style:none; background:none;}
+.passport table,.passport td,.passport input {font-size:12px; border:none;}
+
+/* 链接颜色 */
+.passport a {color: #333;text-decoration:none;}
+.passport a:hover {text-decoration:underline; color:#fc7821;}
+
+
+
+.ppselecter, .ppselecter * {font-size:12px; font-family:"宋体", Verdana, Arial, Helvetica, sans-serif; line-height:normal;}
+.ppselecter {border: 1px solid #c3cecd; width: 166px;margin-left:1px;}
+.ppselecter .ppseltit {background-color: #c3cecd;height:15px;padding-top:4px;text-indent:6px; color:#333;}
+.ppselecter table td table td {padding: 3px;}
+.ppselecter .active {background:#fc7821; color:white; font-weight: normal;}
+
+.passport {border:1px #c3cecd solid;width:278px;height:114px;background:#fff;}
+.passport .pptitle {height:18px;margin:0 auto;}
+.passport .pptitle .pptLeft {width:150px;float:left;color:#000;text-align:left;text-indent:10px;font-weight: bold;padding-top:4px;}
+.passport .pptitle .pptLeft .color01 {color:#EB281C;font-weight: bold;}
+.passport .pptitle .pptRight {color:#333;float:right;padding-right:5px;text-align:right;}
+.passport .pptitle .pptRight td {vertical-align:top;}
+.passport .pptitle .pptRight label {color:#999; padding-top:4px; display:block;}
+.passport .pptitle .pptRight input {height: 10px; width:10px; font-size:1px; line-height:10px; margin-right:3px; margin-top:4px;}
+.passport .pptitle .pptRight a {color:#333;}
+.passport .pptitle .pptRight img {margin-left:6px; background:url(images/ico_cls.gif); width:16px; height:16px; border: none; cursor:pointer;}
+
+.passport .ppContA {background:url(images/pic001.gif) no-repeat center;width:268px;height:93px;margin:0 auto;}
+.passport .ppContA h3 {width:268px;color:#333;text-align:left;height:14px;padding-top:5px!important;padding-top:4px;text-indent:70px;}
+
+.passport .ppContA .user {width:212px;margin:0 auto;}
+.passport .ppContA .user .userL {width:42px;float:left;color:#333;text-align:left;padding-top:5px!important;padding-top:6px;}
+.passport .ppContA .user .userR {width:170px;float:left;text-align:left;}
+
+.passport .ppContA .validate {width:212px;margin:0 auto;}
+.passport .ppContA .validate .valL {width:42px;float:left;color:#333;text-align:left;padding-top:5px!important;padding-top:6px;}
+.passport .ppContA .validate .valC {width:98px;float:left;text-align:left;color:#333;}
+.passport .ppContA .validate .valC img { vertical-align: middle;margin-left:2px;margin-top:1px!important;margin-top:-6px;}
+.passport .ppContA .validate .valR {width:72px;float:left;text-align:left;padding-top:0px!important;padding-top:1px;}
+.passport .ppContA .validate .valR input {background:url(images/pic004.gif); width:63px; height:19px; border:none; color:#333; padding:1px 0 0 1px!important; padding:3px 0 0 1px;}
+
+.passport .ppContA .txtList {width:212px;margin:0 auto;color:#333;padding-top:3px;}
+.passport .ppContA .txtList a {color:#333}
+.passport .ppContA .txtList .txtL {width:83px;float:left;text-align:left;}
+.passport .ppContA .txtList .txtL a {color:#fc7821;}
+.passport .ppContA .txtList .txtC {width:78px;float:left;text-align:left;}
+.passport .ppContA .txtList .txtR {width:51px;float:left;text-align:left;}
+
+.passport .ppContA .txt {background:url(images/load.gif) no-repeat center;color:#333;padding-top:55px;}
+.passport .ppContA .txt a {color:#333;text-decoration:underline;}
+
+.passport .ppContA .listContA {width:258px;height:48px;border:1px #c3cecd solid;border-bottom:0;background:#fff;margin:0 auto;} 
+.passport .ppContA .listContA .ppDefWel h3 {width:258px;height:17px;padding-top:7px!important;padding-top:7px;color:#333;text-align:left;text-indent:7px;}
+.passport .ppContA .listContA .ppDefWel p {width:258px;line-height:22px;color:#333;text-align:left;text-indent:7px;}
+.passport .ppContA .listContA .ppDefWel p a {color:#333;}
+.passport .ppContA .listContA .ppDefWel p span {width:258px;line-height:22px;color:#333;text-align:left;text-indent:7px;}
+
+.passport .ppContA .list {width:260px;float:left;background:url(images/pic006.gif) repeat-x top;margin-left:4px;display:inline;}
+.passport .ppContA .list a {color:#666;}
+.passport .ppContA .list a:hover {color:#fc7821;}
+.passport .ppContA .list .listL {float:left;color:#333;border:1px #c3cecd solid;border-top:0;background:#fff;height:13px;padding:5px 7px 0;}
+.passport .ppContA .list .listR {float:left;}
+.passport .ppContA .list .listR li {float:left;height:15px;color:#666;padding-left:6px;padding-top:5px;}
+.passport .ppContA .list .listR img {margin-top:-1px; background:url(images/pic005.gif); width:34px; height:13px; border: none;}
+
+.passport .ppContA .listA {width:258px;margin:0 auto;padding-left:2px;clear:left}
+.passport .ppContA .listA .listAL li {float:left;padding-top:4px;color:#666;padding-left:6px;}
+.passport .ppContA .listA .listAL li a {color:#666;}
+.passport .ppContA .listA .listAL li a:hover {color:#fc7821;}
+.passport .ppContA .listA .listAR {float:right;}
+.passport .ppContA .listA .listAR img {background:url(images/pic007.gif); width:54px; height:20px; border: none;}
+
+.passport .ppinput01 {border:1px #ccc solid;height:17px;width:166px!important;width:164px;background:#fff;}
+.passport .ppinput02 {border:1px #ccc solid;height:17px;width:40px!important;width:38px;background:#fff;}
+.passport .ppblank3_5 {margin:0 auto; width:100%; height:5px!important;height:3px; font-size:1px;clear:both}
+.passport .ppblank6_8 {margin:0 auto; width:100%; height:8px!important;height:6px; font-size:1px;clear:both}
+.passport .ppblank8 {margin:0 auto; width:100%; height:8px; font-size:1px;clear:both}
+.passport .ppblank4 {margin:0 auto; width:100%; height:4px; font-size:1px;}
+.passport .ppmargr {margin-left:0px!important;margin-left:-4px;}
+
+
+/****** login form style ******/
+.menu-div .passport {border:1px solid white; height:1%; width:auto;}
+.ppselecter, .ppselecter * {font-size:12px; font-family:"宋体", Verdana, Arial, Helvetica, sans-serif; line-height:normal;}
+.ppselecter {border: 1px solid #cecece; width:180px; margin-left:1px; margin:0;}
+.ppselecter .ppseltit {background-color: #eee;height:15px;padding-top:4px;text-indent:6px;}
+.ppselecter table td table td {padding: 3px;}
+.ppselecter .active {background:#F03309; color:white; font-weight: normal;}
+.passport .errorBox{
+	background-color:#ffffe1;
+	border:2px solid #ccc;
+	color:red;
+	padding:5px;
+	margin:0 0px 10px;
+}
+.passport .errorBox ul{
+	margin: 0 10px 0 20px;
+	padding: 5px 0;
+}
+.passport .errorBox ul li{
+	list-style:disc;
+}

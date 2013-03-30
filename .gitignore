@@ -1,0 +1,10 @@
+node_modules
+*.svn
+images
+uglifyJS
+poke
+*.jpg
+*.gif
+*.png
+*.jpeg
+*.swf

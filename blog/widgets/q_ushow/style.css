@@ -1,0 +1,40 @@
+.q_ushow-content {
+}
+.q_ushow-content .q_profile {
+	margin:0;
+	padding:0;
+}
+.q_ushow-content .blogIco {
+	border:1px solid #ccc;
+	padding:1px;
+}
+.q_ushow-content .blogCard {
+	float:left;
+}
+.q_ushow-content .blogCard a:hover .blogIco {
+	border:1px solid red;
+}
+.q_ushow-content .blogStatus {
+	float:left;
+	margin:0 0 0 10px;
+	padding:0;
+}
+.q_ushow-content .blogStatus li {
+	list-style:none;
+}
+.q_ushow-content .blogStatus .point {
+	background:url(http://js2.pp.sohu.com.cn/ppp/group/styles/images/ico_point.gif) no-repeat;
+	padding:2px 0 2px 20px;
+}
+.q_ushow-content .blogStatus .life {
+	background:url(http://js2.pp.sohu.com.cn/ppp/group/styles/images/ico_life.gif) no-repeat;
+	padding:2px 0 2px 20px;
+}
+.q_ushow-content .blogStatus .title {
+	background:url(http://js2.pp.sohu.com.cn/ppp/group/styles/images/ico_title.gif) no-repeat;
+	padding:2px 0 2px 20px;
+}
+.q_ushow-content .more,.q_ushow-content .manage {
+	clear:both;
+	text-align:right;
+}

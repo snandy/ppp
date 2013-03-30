@@ -1,0 +1,366 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: 21
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-07-08
+	Last Update: 2006-07-08
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/****** General Styles ******/
+body{
+	background-position: center 0px;
+	background-color: #FFFFFF;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+}
+div,table,ul,span,p{color: #003366;}
+a{
+	color: #AE0405;
+}
+a:hover{
+	color: red;
+}
+textarea{
+	border: 1px solid #EEFAFF;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+select{
+	border: 1px solid #77969E;
+	background-color: #fff7f9;
+	color: #333333;
+}
+input.text{
+	border: 1px solid #D3E8FE;
+	background-color: #EFF8FE;
+	color: #000000;
+}
+input.button{
+	border: 1px solid #D3E8FE;
+	height: 18px;
+	line-height: 16px;
+	color: #990000;
+}
+input.button-submit{
+		border: 1px solid #D3E8FE;
+	height: 18px;
+	line-height: 16px;
+	color: #000000;
+}
+/****** Main Layout Styles ******/
+#wrapper{
+	background:none;
+}
+#innerWrapper{
+	background:none;
+}
+#topPadding{
+	height: 14px;
+}
+#header{
+	background: none;
+	height: 195px;
+}
+#innerHeader{
+	padding: 20px 0px 0px;
+	margin-left: 50px;
+}
+#navBar{
+	background: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#innerNavBar{
+	background: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+/**ÐÞ¸ÄmainNav*/
+#mainNav li{
+	background: #D2E5EB;
+	border:1px solid #7EADB7;
+
+	cursor: pointer;
+	margin: 4px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background: #fff;
+	border-top:2px solid #173841;
+		border-bottom:none;
+	margin: 2px 2px 0px 0px;
+	padding: 4px 8px 5px;
+	cursor: auto;
+}
+#mainNav li.private{
+	background: #FCF6E3;
+}
+#mainNav li.hover{
+	border-color: red;
+}
+#optionNav li{
+	white-space:nowrap;
+}
+#mainNav li .pageTitle{
+	white-space: nowrap;
+	font-weight: bold;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+.modCtnInfo-private {
+	margin: auto 19px;
+	background: #FCF6E3;
+}
+#modContainer{
+	margin-top:0px;
+	padding-top:0px;
+}
+.mod .modCon{
+overflow:hidden;
+}
+/** ***/
+#indiBar{
+	height: 30px;
+	background: none !important;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#innerIndiBar{
+	height: 30px;
+	padding-top: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #5F7F88;
+}
+#neckWrapper{
+	background-image: url(images/title_03.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	display:block;
+	height:34px;
+}
+#innerNeckWrapper{
+	height:34px;
+	display:block;
+	background-image: url(images/title_04.gif);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+#articleContent{
+
+	padding-top: 20px;
+}
+#articleInnerContent{
+
+}
+#mainWrapper{
+	background: none;
+	border: none;
+	background-image: url(images/content_15.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+#innerMainWrapper{
+	background-image: url(images/content_16.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #AE0405;
+	padding-left: 120px;
+}
+#blogUrl a{
+	color: #006699;
+}
+#blogDesc{
+	color: #333333;
+	padding-top: 10px;
+	padding-left: 246px;
+}
+
+/****** NavBar Elements Styles ******/
+#navBar a{
+	color: #333333;
+}
+#navBar li.indiOptActive{
+	background:none;
+	border: none;
+	margin-top: 4px;
+	padding: 5px 8px 7px;
+}
+#navBar li.indiOptActive a{
+	color: #004464;
+	border: none;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border: none;
+}
+.mod .modFrame{
+	background-color: #F1F5F8!important;
+	border: 1px solid #78969E;
+}
+/***********/
+.mod .t{
+	height: 25px;
+	padding: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #78969E;
+	background: none;
+}
+.mod .modHeader{
+	margin-left: 0px;
+	height: 21px;
+	padding-top: 4px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.mod .modEditCon{
+	border-top: none;
+	border-bottom: 1px solid #77969E;
+	background-color: #F0FBFF;
+}
+/***********/
+.mod .modTitle, .mod .modTitle a{
+	color: #000000;
+	overflow: hidden;
+}
+.mod .modTitle a:hover{
+	color: #003399;
+}
+
+/****** item box ******/
+.item-title{
+	padding: 10px 5px 8px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #78969E;
+	border-bottom-color: #78969E;
+}
+.item-title h3, .item-title h3 a{
+	color: #000033;
+}
+.item-body{
+	padding-bottom: 20px;
+}
+.item-content{
+	border-bottom: none;
+}
+
+
+/****** entries widget ******/
+.entries-content .entriesAdd{
+	margin-bottom: 10px;
+}
+.entries-content .entriesAdd a{
+	color: #73c513;
+}
+/****** categories widget ******/
+.categories-content li {
+	line-height: 180%;
+}
+/****** latest_comments widget ******/
+.latest_comments-content li {
+	line-height: 180%;
+}
+/****** fresh_blogs widget ******/
+.fresh_blogs-content .collect .collectIco {
+	border: 1px solid #77969E;
+}
+/****** links widget and custom links ******/
+.links-content .link, .Custom_Links-content .link{
+	border-bottom: 1px solid #77969E;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #77969E;
+}
+/****** pp widget ******/
+.pp-content .ppMng{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #77969E;
+}
+/****** profile widget ******/
+.profile-content hr{
+	border-top: 1px solid #77969E;
+}
+.profile-content .profileMng{
+	margin-bottom: 5px;
+}
+/****** stats widget ******/
+.stats-content li {
+	line-height: 180%;
+}
+.stats-content li span {
+	color: #7e4f59;
+}
+/************** add new***************/
+
+#footer{
+	background-image: url(images/content_08.jpg);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+}
+#innerFooter{
+	background-image: url(images/content_09.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+}
+
+.mod .lt{
+	width:16px;
+	height:19px;
+		background-image: url(images/conner_03.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mod .rt{
+	width: 16px;
+	height:19px;
+		background-image: url(images/conner_05.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .lb{
+	width:16px;
+	height:22px;
+	background-image: url(images/conner_15.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.mod .rb{
+	width:16px;
+	height:22px;
+	background-image: url(images/conner_17.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.mod .c{
+	padding: 0px;
+}
+#powered{	padding-top: 16px;}
+/****** NavBar Elements Styles ******/

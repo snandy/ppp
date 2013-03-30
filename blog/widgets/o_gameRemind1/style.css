@@ -1,0 +1,32 @@
+.gameRemind-content {
+	width:100%;
+	color:#666;
+}
+	.gameRemind-content a {
+		color:#666;
+	}
+	.gameRemind-content a:hover {
+		color:#f63;
+	}
+	.gameRemind-content .game_f a {
+		display:block;
+		border:1px solid #d1d1d1;
+		background:#f1f1f1 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/olc_sch_game_f_bg.gif) repeat-x;
+		text-decoration:none;
+		padding:5px;
+		margin:0 0 5px;
+	}
+		.gameRemind-content .game_f a:hover {
+			border:1px solid #f63;
+		}
+		.gameRemind-content .game_n {
+			color:#f63;
+			padding:5px;
+			margin:0 0 5px;
+			border:1px solid #f63;
+			background:#fefece url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/olc_sch_game_n_bg.gif) repeat-x;
+		}
+	.o_gameRemind1-content .manage,
+	.o_gameRemind1-content .more {
+		text-align:right;padding:3px 0;
+	}

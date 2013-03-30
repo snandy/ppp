@@ -1,0 +1,199 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: 21
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-07-08
+	Last Update: 2006-07-08
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/****** General Styles ******/
+body{
+	background: #cfd7db url(images/bg.jpg) repeat-x;
+	background-position: 0 30px;
+}
+div,table,ul,span,p{color: #4f6f7e;}
+a{
+	color: #4f6f7e;
+}
+a:hover{
+	color: red;
+}
+textarea{
+	background-color: #fafafa;
+}
+select{
+	background-color: #fafafa;
+}
+input.text{
+	background-color: #fafafa;
+}
+input.button{
+	height: 18px;
+	line-height: 16px;
+}
+input.button-submit{
+	height: 18px;
+	line-height: 16px;
+	color: #e30000;
+}
+/****** Main Layout Styles ******/
+#wrapper{
+	width: 950px;
+}
+#topPadding{
+	height: 0px;
+}
+#header{
+	background: none;
+	background: url(images/headerBg.jpg) no-repeat top left;
+	height: 100px;
+}
+#innerHeader{
+	background: url(images/headerBg.jpg) no-repeat top right;
+	padding: 20px 0px 0px;
+	margin-left: 50px;
+}
+#navBar{
+	background: #f6f6f6 url(images/navBarBg.jpg) repeat-x top;
+	border: none;
+	border-top: 1px solid #d8eff7;
+	border-bottom: 1px solid #d8eff7;
+}
+#indiBar{
+	background: white url(images/indiBarBg.jpg) repeat-x top;
+	height: 37px;
+	border: none;
+	border-bottom: 1px solid #f5faf4;
+}
+#mainWrapper{
+	border: none;
+	background: #eef1f3;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #dbe3e6;
+}
+#blogUrl a{
+	color: #dbe3e6;
+}
+#blogDesc{
+	color: #0e4156;
+	padding-top: 10px;
+}
+/****** NavBar Elements Styles ******/
+#navBar li.indiOptActive{
+	background: url(images/navBarIndiActiveBg.jpg) repeat-x left bottom;
+	border: 1px solid #d8eff7;
+	border-bottom: none;
+}
+#navBar li.indiOptActive a{
+	color: #560e18;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border: 1px solid #f6f6f6;
+}
+.mod .modFrame{
+	border: 1px solid #d8e7ee;
+}
+/***********/
+.mod .t{
+	background: #bccdd5 url(images/modHeaderBg.jpg) no-repeat left top;
+	border-bottom: 1px solid #d8e7ee;
+	height: 25px;
+	padding: 0;
+}
+.mod .modHeader{
+	background: #bccdd5 url(images/modHeaderBg.jpg) no-repeat right top;
+	padding: 4px 10px 0 0;
+	margin-left: 10px;
+	height: 21px;
+}
+.mod .modEditCon{
+	background: #f6f6f6;
+	border-top: none;
+	border-bottom: 1px solid #ccc;
+}
+/***********/
+.mod .modTitle, .mod .modTitle a{
+	color: #132d39;
+}
+.mod .modTitle a:hover{
+	color: red;
+}
+
+/****** item box ******/
+.item-title{
+	padding: 10px 5px 5px !important;
+	padding: 10px 5px 8px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.item-title h3, .item-title h3 a{
+	color: #132d39;
+}
+.item-body{
+	padding-bottom: 20px;
+}
+.item-content{
+	border-bottom: none;
+}
+
+
+/****** entries widget ******/
+.entries-content .entriesAdd{
+	margin-bottom: 10px;
+}
+.entries-content .entriesAdd a{
+	color: #e30000;
+}
+/****** categories widget ******/
+.categories-content li {
+	line-height: 180%;
+}
+.categories-content li a{
+	color: #7e7e7e;
+	/*text-decoration: none;*/
+}
+.categories-content li a:hover{
+	color: red;
+}
+/****** latest_comments widget ******/
+.latest_comments-content li {
+	line-height: 180%;
+}
+.latest_comments-content li a{
+	color: #7e7e7e;
+	/*text-decoration: none;*/
+}
+.latest_comments-content li a:hover{
+	color: red;
+}
+/****** links widget and custom links ******/
+.links-content .tit a, .Custom_Links-content .tit a{
+	color: #7e7e7e;
+}
+.links-content .tit a:hover, .Custom_Links-content .tit a:hover{
+	color: red;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	margin-bottom: 5px;
+}
+/****** pp widget ******/
+.pp-content .ppMng{
+	margin-bottom: 5px;
+}
+/****** profile widget ******/
+.profile-content .profileMng{
+	margin-bottom: 5px;
+}
+/****** stats widget ******/
+.stats-content li {
+	line-height: 180%;
+}
+.stats-content li span {
+	color: #9f6074;
+}

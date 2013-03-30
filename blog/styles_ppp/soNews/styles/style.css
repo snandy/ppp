@@ -1,0 +1,137 @@
+@charset "gbk";
+/*
+=== Sohu Blog Home StyleSheet File ===========================
+	Style Name: style
+	Version: 1.0
+	Author: Leeking001 (www.leeking001.com)
+	First Created: 2008-03-26
+	Last Update: 2008-03-26
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/* NewsFeed */
+#soNews .newsFeed {word-break:break-all;}
+#soNews .newsFeed .power, .newsfeed a.power {font-weight:bold;}
+#soNews .newsFeed h2 {font-size:12px;margin:5px 0pt;padding:0pt;}
+#soNews .newsFeed .v32img {height:16px;width:16px;}
+#soNews .newsFeed .item {border-bottom:1px dashed #CCCCCC;height:100%;margin-bottom:8px;padding-top:2px;}
+#soNews .newsFeed .notice {padding:5px 0pt 0pt;}
+#soNews .newsFeed .blogIco {height:20px;margin:0pt;width:20px;overflow:hidden}
+#soNews .newsFeed .blogIco a img {border:1px solid #CCCCCC;padding:1px;}
+#soNews .newsFeed .blogIco a:hover img {border:1px solid red;padding:1px;}
+#soNews .newsFeed .content {margin:-20px 0pt 0pt 25px;}
+#soNews .newsFeed .content dl {margin:0pt;padding:0pt;}
+#soNews .newsFeed .content dt, .newsFeed .content dt a {margin:0pt 0pt 5px;}
+#soNews .newsFeed .content dd {margin:5px 0pt;}
+
+/***** New Feed Style *****/
+/*大引号*/
+#soNews .quote{overflow:hidden;width:100%;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_start.gif) no-repeat;>text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+	#soNews .quote .innerQuote:before,.quote .innerQuote:after{content:'';}
+	#soNews .quote .innerQuote{display:inline;zoom:1;padding:0 18px;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_end.gif) no-repeat right bottom;}
+
+/*时间*/
+#soNews small {color:#999999;margin:0 0 0 5px;font-size:11px;}
+
+/*消息体共用*/
+#soNews ul.newsfeedList{padding:0;margin:0;}
+#soNews ul.newsfeedList a {text-decoration:none;}
+	#soNews ul.newsfeedList li {list-style:none;border-bottom:1px dashed #ccc;margin-bottom:8px;padding-top:2px;}
+	#soNews ul.newsfeedList .icon {float:left;margin:0 5px 0 0;position:relative;z-index:1;}
+	#soNews ul.newsfeedList .icon a{display:block;border:1px solid #ccc;padding:1px;width:16px;height:16px;}
+	#soNews ul.newsfeedList .icon a:hover{border:1px solid #f63;}
+	#soNews ul.newsfeedList .icon img {width:16px;height:16px;}
+	#soNews ul.newsfeedList .option{float:right;position:relative;z-index:1;}
+	#soNews ul.newsfeedList .content{float:left;width:100%;margin:0 -22px 0 -22px;}
+	#soNews ul.newsfeedList .innerContent{margin:0 22px 0 22px;}
+	#soNews ul.newsfeedList dt, #soNews ul.newsfeedList dd {padding:2px 0 !important;margin:0 !important;}
+	#soNews ul.newsfeedList dd .image {float:left;margin:0 5px 0 0;}
+	#soNews ul.newsfeedList dd .image img {padding:1px;border:1px solid #ccc;}
+	#soNews ul.newsfeedList dd .image a:hover img {border:1px solid #f63;}
+	#soNews ul.newsfeedList dd dt a {font-weight:bold;}
+	/* clear & clearfix */
+	#soNews ul.newsfeedList li:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	#soNews ul.newsfeedList li{display:inline-table;}
+	/* Hides from IE-mac \*/
+	* html #soNews ul.newsfeedList li{height:1%;}
+	#soNews ul.newsfeedList li{display:block;}
+	/* End hide from IE-mac */
+	*+html #soNews ul.newsfeedList li{min-height:1%;}/* IE7 */
+
+
+/*动感相册*/
+#soNews .shareSlide	.image img,
+#soNews .creatSlide	.image img{max-width:200px;max-height:200px;margin:0 auto;padding:0;border:0 !important;}
+#soNews .shareSlide	.image i,
+#soNews .creatSlide	.image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/slideCover_bg.gif) no-repeat 0 0;}
+#soNews .shareSlide	.image i i,
+#soNews .creatSlide	.image i i{background-position:right 0;}
+#soNews .shareSlide	.image i i i,
+#soNews .creatSlide	.image i i i{background-position:0 bottom;}
+#soNews .shareSlide	.image i i i i,
+#soNews .creatSlide	.image i i i i{padding:16px 6px 6px 2px;background-position:right bottom;}
+
+/*相册专辑*/
+#soNews .shareAlbum .image img{max-width:200px;max-height:200px;margin:0 auto;padding:2px !important;}
+#soNews .shareAlbum .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0;}
+#soNews .shareAlbum .image i i{background-position:right 0;}
+#soNews .shareAlbum .image i i i{background-position:0 bottom;}
+#soNews .shareAlbum .image i i i i{padding:0 4px 4px 0;background-position:right bottom;}
+
+/*视频*/
+#soNews .shareVideo .image,
+#soNews .addVideo .image{overflow:hidden;position:relative;}
+#soNews .shareVideo .image img,
+#soNews .addVideo .image img{width:120px;height:90px;}
+#soNews .shareVideo .image .v_play,
+#soNews .addVideo .image .v_play{background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px;}
+
+/*节目单*/
+#soNews .sharePlaylist .image,
+#soNews .addPlaylist .image{overflow:hidden;position:relative;}
+#soNews .sharePlaylist .image img,
+#soNews .addPlaylist .image img{width:120px;height:90px;margin:0 auto;padding:2px !important;}
+#soNews .sharePlaylist .image i,
+#soNews .addPlaylist .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0;}
+#soNews .sharePlaylist .image i i,
+#soNews .addPlaylist .image i i{background-position:right 0;}
+#soNews .sharePlaylist .image i i i,
+#soNews .addPlaylist .image i i i{background-position:0 bottom;}
+#soNews .sharePlaylist .image i i i i,
+#soNews .addPlaylist .image i i i i{padding:0 4px 4px 0;background-position:right bottom;}
+#soNews .sharePlaylist	.image .v_play,
+#soNews .addPlaylist .image .v_play{background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px;}
+
+/*圈子*/
+#soNews .shareGroup .image img,
+#soNews .joinGroup .image img,
+#soNews .creatGroup .image img{width:64px;height:48px;padding:3px !important;background:#eee;}
+#soNews .shareGroup .image a:hover img,
+#soNews .joinGroup .image a:hover img,
+#soNews .creatGroup .image a:hover img{background:#fff;}
+
+/*上传照片*/
+#soNews .addPhoto dd ul{margin:0;padding:0;}
+#soNews .addPhoto dd li{border:0;float:left;}
+#soNews .addPhoto dd li .image{float:none;}
+
+/*添加好友*/
+#soNews .addFriend dd ul{margin:0;padding:0;}
+#soNews .addFriend dd li{border:0;float:left;margin-right:8px;}
+#soNews .addFriend dd li .image{float:none;}
+#soNews .addFriend dd li .image img{width:48px;height:48px;}
+#soNews .addFriend dd li dt a{display:block;font-weight:normal;width:52px;height:18px;overflow:hidden;word-break:break-all;}
+
+/*添加模块*/
+#soNews .addWidget dd ul{margin:0;padding:0;}
+#soNews .addWidget dd li{border:0;float:left;margin-right:8px;}
+#soNews .addWidget dd li .image{float:none;}
+#soNews .addWidget dd li .image img{width:130px;height:98px;}
+#soNews .addWidget dd li dt a{display:block;width:134px;height:18px;overflow:hidden;word-break:break-all;text-align:center;padding-top:5px;}
+
+/*CoolPoke*/
+#soNews .coolPoke{overflow:hidden;clear:both;position:relative;top:5px;height:64px;padding:0 0 10px;font-family:'宋体';}
+#soNews .coolPoke *{position:absolute;top:0;left:0;z-index:1;height:64px;width:64px;}
+#soNews .coolPoke a{overflow:hidden;z-index:2;text-indent:-9999px;background:url(http://js4.pp.sohu.com.cn/ppp/poke/styles/images/ico_play.gif) no-repeat 50% 50%;filter:alpha(opacity=80);opacity:0.8;}
+#soNews .coolPoke a:hover{filter:alpha(opacity=100);opacity:1;}

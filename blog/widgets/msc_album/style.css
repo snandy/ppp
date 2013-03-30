@@ -1,0 +1,61 @@
+.msc_album-content{
+	overflow:hidden;
+}
+.msc_album-content .alumbi_title_css {
+	height:15px;
+	overflow-y:hidden;
+	padding:0 0 0 5px;
+}
+.msc_album-content .alumbi_title_css a{
+	text-decoration: underline;
+}
+.msc_album-content .imgbox100index img {
+	width:100px;
+}
+.msc_album-content .alumbi_intro_css {
+	padding:0 0 0 5px;
+}
+.msc_album-content .imgbox100index {
+	 border: #ccc 1px solid; 
+	 width: 100px; 
+	 height: 100px; 
+	 padding: 2px;
+	 text-align: center;
+	 overflow:hidden;
+}
+.msc_album-content .imgbox100index_td {
+	 width: 100px; 
+}
+.msc_album-content .sp_block_style {
+	margin:3px 0 5px 0;
+}
+.msc_album-content .sp_zhuanji_info {
+	padding:0 0 0 5px;
+	height:64px;
+	overflow-y:hidden;
+}
+.msc_album-content .newsong_list {
+	text-align:center;
+}
+.msc_album-content .newsong_list  td {
+	border-bottom:1px dashed #ccc;
+	height:22px;
+}
+.msc_album-content .newsong_list .title_css {
+	text-align:left;
+	height:15px;
+	overflow-y:hidden;
+}
+.msc_album-content .newsong_list .singer_css {
+	text-align:left;
+	height:15px;
+	overflow-y:hidden;
+}
+.msc_album-content hr {
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #cecece;
+	clear:both;
+}

@@ -1,0 +1,11 @@
+.club_favboard-content ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.club_favboard-content li {
+	width: 90px;
+	display: block;
+	float: left;
+	margin: 3px 2px;
+}

@@ -1,0 +1,1 @@
+function m_sb(){var n=new Date().getTime();var c=escape(n*1000+Math.round(Math.random()*1000));document.write('<img src="http://stat.pic.sohu.com/pv.gif?a=1&u='+_blog_domain+'&t='+c+'" style="display:none;" />');}var sbpv;if(!sbpv)m_sb();sbpv=1;

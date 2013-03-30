@@ -1,0 +1,11 @@
+@charset "gbk";
+
+/* tableList */
+#soMessage table.tableList {}
+	#soMessage table.tableList th,
+	#soMessage table.tableList td {padding:5px 2px;}
+		#soMessage table.tableList th.edit,
+		#soMessage table.tableList td.edit {width:10%;text-align:center;}
+		#soMessage .messageList table.tableList td.formEle {width:6%;padding-top:8px;}
+		#soMessage .messageList table.tableList td.edit {padding-top:8px;vertical-align:top;}
+		#soMessage .setting table.tableForm td.formLable {padding:5px 0 0;}

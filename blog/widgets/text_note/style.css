@@ -1,0 +1,38 @@
+.Text_Note-content .noteContainer, .Text_Note-content .noteContainer div, .Text_Note-content p{
+	line-height: 20px;
+}
+.Text_Note-content p{
+	padding: 0;
+	margin: 0;
+}
+.Text_Note-content a{
+	color: black;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.Text_Note-content a:visited{
+	color: #777;
+}
+.Text_Note-content a:hover{
+	color: red;
+}
+.Text_Note-content .noteContainer{
+	overflow: hidden;
+}
+.Text_Note-content .noteContainer div{
+	width: 100%;
+}
+.Text_Note-content textarea{
+	line-height: 20px;
+	padding: 0;
+	background: #f6f6f6;
+	background: transparent;
+}
+.Text_Note-edit .colorSelection div{
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	border: 1px solid #444;
+	cursor: pointer;
+	float: left;
+}

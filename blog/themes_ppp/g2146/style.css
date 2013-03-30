@@ -1,0 +1,278 @@
+
+body{padding:0;margin:0;}
+#topPadding{display:none;}
+
+.clear{border-width:0px;}
+body,table,a,input,textarea,select{color:#29577B;font:12px Verdana, Arial, Helvetica, "ËÎÌå", sans-serif;}
+input,textarea {font-size:12px;}
+
+
+#header{height:211px;border-width:0;padding:0; background-repeat:no-repeat;overflow:hidden;margin:30px 0 0 0;}
+#innerHeader {margin:0;padding:0 400px 0 50px;}
+#blogTitle a {font-size:20px;font-family:"ºÚÌå","ËÎÌå",Geneva,Arial,sans-serif;font-weight:normal;}
+#blogDesc {line-height:20px;}
+#blogTitle {padding:0;}
+#blogUrl {padding:0; margin:1px 0 17px 10px;}
+#blogDesc {line-height:20px;padding:80px 200px 0 0;float:none;}
+
+
+#navBar {border-width:0px;height: 33px;overflow:hidden;}
+
+#mainNav li{border-style:solid;border-width:1px 1px 0 1px;margin:6px 3px 0px 0px;padding:2px 8px 3px 8px;}
+#mainNav li .pageTitle {font-weight:normal;}
+#mainNav a span{font-weight:normal;padding-top: 0px !important;padding-top: 2px;}
+
+#mainNav li.active{border-width:1px 1px 0 1px;margin:2px 3px 0px 0px;padding:5px 8px 5px 8px;}
+#mainNav li .pageTitle,
+#mainNav a span {font-weight:normal;}
+
+.modCtnInfo-private {height:30px;line-height:32px;border-style:solid;border-width:0 1px 1px 1px;padding:0 35px;overflow:hidden;background-repeat:no-repeat;background-position:15px 50%;}
+.modCtnInfo-noMod {padding:15px 0;}
+#innerNavBar {padding:0 12px 0 17px;}
+#optionNav li {margin-left:15px;}
+
+
+.mod,.modFrame,.mod .mheader,.mheader,.mbody,.mneck {border-style:solid;}
+.mod {border-width:1px;margin:0px 5px 11px 5px;}
+.mod .modFrame {border-width:0px;}
+.mod .mheader {height:27px;padding:0px;border-width:0;}
+.mod .ec {border-width:0;}
+.mod .c {border-width:0;}
+.mod .lt,
+.mod .rt {height:27px;width:1px;font-size:1px;}
+
+.item-title h3,
+.item-title h3 a {font-size:13px;}
+.item-content {padding:5px 0 5px 0;}
+.modCon .profileMng {padding-bottom:5px;}
+.mod .modEditCon{margin:0px 1px 1px 1px;padding: 10px 0 10px 10px;border-width:0 0 1px 0;}
+.modCon .editFrame,
+.modCon .linkEdit {border-width:0px;}
+
+.categories-content li,
+.latest_comments-content li {height:22px;line-height:22px;}
+.categories-content a,
+.latest_comments-content a {text-decoration:none;height:22px;line-height:22px;}
+.latest_comments-content li a {display:block;width:97%;overflow:hidden;}
+
+.refer-content a {text-decoration:none;line-height:18px;}
+
+.item-content {padding:5px 0 5px 0;}
+.Feeds-content ul {margin:0;padding:0;}
+.Feeds-content li {line-height:22px;padding:0 14px;background-position:2px 9px;background-repeat:no-repeat;}
+
+#wrapper {width:100%;background-position:100% 100%;background-repeat:no-repeat;}
+#modContainer{padding:15px 6px 5px 6px;}
+#mainWrapper {border-width:0;}
+
+
+#footer {border-top:1px solid;}
+#innerFooter{text-align:center;padding:0 40px 13px 40px;}
+#powered {margin:13px 0;}
+#contact, #copyright{margin:0;line-height:20px;}
+
+
+#innerContentLabelBox {padding:15px 0 0 0;}
+#articleContent {margin-top:15px;}
+
+
+
+body {background:#FBFBFB url(images/body_bg.jpg) repeat-x 50% 30px;}
+body,div,table,ul,span,p,
+.latest_comments-content a,
+.latest_comments-content a:visisted,
+.refer-content a,
+.refer-content a:visited,
+.Feeds-content li a,
+.Feeds-content li a:visited {color:#29577B;}
+
+a,
+a:visited,
+.entries-content .entriesAdd a,
+.entries-content .entriesAdd a:visited,
+.msc_albums-content a,
+.msc_albums-content a:visited,
+.modEdit a,
+.modEdit a:visited,
+.musicMng a,
+.musicMng a:visited,
+.profileMng a,
+.profileMng a:visited,
+.linksAdd a,
+.linksAdd a:visited,
+.refer-content a span,
+.refer-content a:visited span {color:#1FC3C5;}
+
+.modEdit a:hover,
+.linksAdd a:hover,
+.latest_comments-content a:hover,
+.Feeds-content a:hover,
+a:hover {color:#ff0000;}
+
+#wrapper {background-image:url(images/fei2net.jpg);}
+#mainWrapper {background:none;}
+
+
+#header {background:none;}
+#blogTitle a,
+#blogTitle a:visited {color:#A2132E;}
+
+#blogUrl a,
+#blogUrl a:visited {color:#D7110E;}
+#blogDesc {color:#F4607F;}
+
+#blogTitle a:hover,
+#blogUrl a:hover {color:#ff0000;}
+
+
+#navBar{background:none;}
+#mainNav li {
+	background:#FD8344 url(images/tab_bg_normal.jpg) repeat-x 0px 0px;
+	border-color:#fe8443;
+}
+#mainNav li * {
+	color:#A33900;
+}
+#mainNav li.active{
+	background:#c1c1c1 url(images/tab_bg_active.jpg) repeat-x 0px 0px;
+	border-color:#F5E6DF;
+	border-top-color:#F5E6DF;
+}
+#mainNav li.active * {
+	color:#233937;
+}
+#mainNav li.private {
+	background:#FFC874 url(images/tab_bg_private.jpg) repeat-x 0 0;
+	border-color:#E3AA72;
+}
+#mainNav li.private * {
+	color:#f00;
+}
+#mainNav li.hover{
+	border-color:#f00;
+	color:#fff;
+}
+#mainNav li .pageCls{
+	background: url(images/ico_pagecls.gif) no-repeat 50% 50%;
+}
+#mainNav li .pageOpt{
+	background: url(images/ico_pageopt.gif) no-repeat 50% 50%;
+}
+#optionNav a,
+#optionNav a:visited {
+color:#000;
+}
+#optionNav a:hover {color:#ff0000;}
+
+.modCtnInfo-private {
+	background-image:url(images/ico_light.gif);
+	border-color:#E3AA72;
+	background-color:#FFC874;
+	color:#f00;
+}
+
+
+.mod,
+.mod .mheader,
+.mod .lt,
+.mod .rt,
+.mod .modFrame,
+.mod .mneck,
+.mod .mbody,
+.mod .modEditCon,
+
+#mainWrapper,
+#footer,
+
+.item hr,
+.item-title,
+.item-content,
+.info-content blockquote,
+
+.modCon hr,
+.modCon .collect .collectIco,
+.modCon .link,
+.modCon .linksAdd,
+.modCon .profileMng,
+.modCon .referIco,
+.modCon .ppMng,
+.modCon .musicMng,
+.modCon .messagesMng,
+.modCon .msg,
+.modCon .reply,
+.modCon .rplFormBox,
+
+input.button,
+input.button-submit,
+#wrapper input.text,
+#wrapper textarea.text {
+	border-color:#EBEBEB;
+}
+
+
+.modFrame,
+.mody,
+.mod .modEditCon{background:none;}
+.mod {
+	background:#DDDDDD url(images/mod_b_bg.jpg) repeat-x 0px 27px;
+}
+.mod .mheader {
+	background:#B1B1B1 url(images/mod_t_bg.jpg) repeat-x 0px 0px;
+}
+.mod .modTitle,
+.mod .modTitle a,
+.mod .modTitle a:visited {
+	color:#DC5D88;
+}
+.mod .modTitle a:hover {
+	color:#ff0000;
+}
+
+.item-title h3,
+.item-title h3 a,
+.item-title h3 a:visited {
+color:#7F7053;
+}
+.item-info,
+.item-info a,
+.item-info a:visited {color:#;}
+.item-title h3 a:hover,
+.item-info a:hover {
+color:#ff0000;
+}
+.Feeds-content li {color:#999;background-image:url(images/ico_arrow_1.gif);}
+
+
+input.button,
+input.button-submit {
+	background:#fff;
+}
+input.button {
+	color:#484848;
+}
+input.button-submit {
+	color:#f00;
+}
+#wrapper input.text,
+#wrapper textarea.text {
+	background:#fff;
+	color:#333;
+}
+
+
+
+#footer {
+	background:none;
+}
+#footer * {color:#28557A;}
+#footer a:hover {
+	color:#f00;
+}
+
+
+#innerContentLabelBox {
+color:#3a3a3a;
+}
+#articleContent {background:#DDDDDD url(images/mod_b_bg.jpg) repeat-x 0px 28px;background-position:0 0;border:1px solid #EBEBEB;}
+
+/*Last Update at 2007-4-23 21:49:24*/

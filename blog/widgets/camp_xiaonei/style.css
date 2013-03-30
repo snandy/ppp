@@ -1,0 +1,106 @@
+.camp_xiaonei-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_xiaonei-content .banner_small{
+	height: 30px;
+}
+.camp_xiaonei-content .profile{
+	padding: 0 0 5px;
+}
+.camp_xiaonei-content .ico{
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	padding: 2px;
+	float: left;
+	margin-right: 5px;
+}
+.camp_xiaonei-content .ico img{
+	width: 50px;
+	height: 50px;
+}
+.camp_xiaonei-content .uname{
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.camp_xiaonei-content .desc{
+	padding: 5px 0;
+	word-break: break-all;
+}
+.camp_xiaonei-content .nav{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+}
+.camp_xiaonei-content .action{
+	padding: 5px;
+}
+.camp_xiaonei-content .message{
+	padding: 5px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.camp_xiaonei-content .message h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_xiaonei-content .message ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: none;
+}
+.camp_xiaonei-content .message ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+}
+.camp_xiaonei-content .message .name{
+	float: left;
+	display: block;
+	width: 50px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.camp_xiaonei-content .visitor{
+	padding: 5px;
+	clear: both;
+}
+.camp_xiaonei-content .visitor h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_xiaonei-content .visitor .v{
+	float: left;
+	margin: 5px;
+}
+.camp_xiaonei-content .visitor .vico{
+	width: 32px;
+	height: 32px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	margin: 0;
+}
+.camp_xiaonei-content .visitor .vico img{
+	width: 32px;
+	height: 32px;
+}
+.camp_xiaonei-content .visitor .v .name{
+	display: block;
+	text-align: center;
+	width: 40px;
+	overflow: hidden;
+	margin-top: 5px;
+	white-space:nowrap;
+}

@@ -1,0 +1,26 @@
+.tag_favtag-content ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.tag_favtag-content li {
+	display: inline;
+	padding: 3px 5px;
+}
+.tag_favtag-content li a{text-decoration: none;	line-height: 150%;	white-space:nowrap;}
+.tag_favtag-content li.tag_popularity_1 a {
+	font-size: 12px;
+	font-weight: normal;
+}
+.tag_favtag-content li.tag_popularity_2 a {
+	font-size: 14px;
+	font-weight: normal;
+}
+.tag_favtag-content li.tag_popularity_3 a {
+	font-size: 16px;
+	font-weight: normal;
+}
+.tag_favtag-content li.tag_popularity_4 a {
+	font-size: 16px;
+	font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.Demo_Todd_Blog-content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Demo_Todd_Blog-content a{
+	color: blue;
+}
+.Demo_Todd_Blog-content a:visited{
+	color: #336699;
+}
+.Demo_Todd_Blog-content a:hover{
+	color: red;
+}
+.Demo_Todd_Blog-content .itemsContainer{
+	/*overflow: auto;*/
+	width: 100%;
+}
+.Demo_Todd_Blog-content h3{
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.Demo_Todd_Blog-content .itemInfo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: gray;
+	float: right;
+	margin-top: 5px !important;
+	margin-top: 10px;
+}
+.Demo_Todd_Blog-content .itemDesc{
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #f6f6f6;
+	clear: both;
+}
+.Demo_Todd_Blog-content .itemDesc img{
+	border: none;
+}
+.Demo_Todd_Blog-content .itemsContainer hr{
+}
+.Demo_Todd_Blog-content .rssTitle{
+	font-size: 10px;
+	background-color: #eee;
+	padding: 5px;
+	border: 1px solid #ccc;
+}

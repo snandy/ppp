@@ -1,0 +1,62 @@
+.v_plist-content {
+}
+.v_plist-content ul {
+	margin:0;
+	padding:0;
+}
+.v_plist-content li {
+	list-style:none;
+	float:left;
+	width:130px;
+	margin:0 5px 10px 0;
+}
+.v_plist-content .video_cover {
+	width:130px;
+	height:100px;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/pl_bg.gif) no-repeat top left;
+	position:relative;
+}
+.v_plist-content .video_cover a img {
+	width:120px;
+	height:90px;
+	border:1px solid #ccc;
+	padding:2px;
+}
+.v_plist-content .video_cover a:hover img {
+	border:1px solid red;
+}
+.v_plist-content .video_cover .v_play {
+	position:absolute;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll;
+	width:16px;
+	height:15px;
+	left:101px;
+	top:72px;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	cursor:pointer;
+}
+.v_plist-content dl,dt,dd {
+	margin:0;
+}
+.v_plist-content dt {
+	height:18px;
+	overflow:hidden;
+	word-break:break-all;
+	margin-bottom:5px;
+}
+.v_plist-content dt a {
+	font-weight:bold;
+	line-height:20px;
+}
+.v_plist-content dl {
+	margin-top:3px;
+	width:122px;
+}
+.v_plist-content .more {
+	clear:both;
+}
+.v_plist-content .more_more {
+	clear:both;
+	text-align:right;
+}

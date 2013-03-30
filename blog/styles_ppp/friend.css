@@ -1,0 +1,89 @@
+#mainContent {
+	float:right;
+	padding: 10px 0;
+	margin-left:-220px !important;
+}
+
+#mainInnerContent {
+	margin-left:220px !important;
+}
+
+#sidebar {
+	float:left;
+	width:200px;
+	padding: 10px 10px 10px 0;
+	position:relative;
+	z-index:1;
+}
+
+.panel-title h3 img {
+	display: inline;
+}
+
+.profile_content {
+	padding: 0 0 10px 10px;
+	line-height: 26px
+}
+
+.profile_content ul {
+	margin: 0;
+	padding: 0
+}
+
+.profile_content li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 26px;
+	list-style: outside
+}
+
+.notice {
+	background: #FFFBE2;
+	color:#666;
+	border: 1px solid #FFE222;
+	padding: 20px;
+	width: 200px;
+	margin: 100px auto 0;
+	text-align: center;
+}
+
+.friends_list .userItem {
+	float:left;
+	padding:15px 0;
+	width:33%;
+	border-bottom:1px dotted #ccc;
+}
+.friends_list .innerUserItem {
+	height:36px;
+	overflow:hidden;
+	word-break:break-all;
+}
+.friends_list .userIcon {
+	float:left;
+	margin:0 5px 0 0;
+}
+.friends_list img.userIcon32 {
+	height:32px;
+	width:32px;
+	border:1px solid #ccc;
+	padding:1px;
+}
+.friends_list .userIcon a:hover img.userIcon32 {
+	border:1px solid #f63;
+}
+.friends_list h5 {
+	font-size:12px;
+	margin:0 0 5px 0;
+}
+.friends_list h5 a {
+	font-weight:bold;
+}
+	
+#pageText {
+	text-align:right;
+	padding:10px 0 0;
+}
+#pageText span, #pageText a {
+	margin:0 3px;
+}

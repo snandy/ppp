@@ -1,0 +1,163 @@
+.pp_set-content .mngBtn {
+	margin: 7px 7px 0px;
+}
+.pp_set-content .ppIcoBg {
+}
+.pp_set-content .ppIcoCover{
+	width: 227px !important;
+	width: 229px;
+	float: left;
+	height: auto !important;
+	margin: 0 10px 8px 0;
+}
+.pp_set-content .ppIcoCover td{
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+}
+.pp_set-content .ppIcoCover img{
+	width: 200px;
+	border: 1px solid #ccc;
+}
+.pp_set-content .ppIco {
+	margin: 2px;
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+}
+.pp_set-content .ppIco img {
+	max-height: 75px;
+	max-width: 75px;
+}
+
+
+.pp_set-content .ppSlideBg{
+	background-color: #333;
+	margin: 0;
+}
+
+
+.pp_set-content .ppBigPicBg{
+	background-color: #333;
+	margin: 0;
+	padding: 20px 10px;
+}
+.pp_set-content .ppBigPic {
+	margin: 20px auto;
+	border: 1px solid #222;
+	/*border: 1px solid #111;*/
+	width: 200px;
+	text-align: center;
+	background-color: white;
+	/*background-color: none;*/
+}
+.pp_set-content .ppBigPicBox {
+	border: 1px solid #ccc;
+	/*border: 1px solid #333;*/
+	padding: 10px;
+	text-align: center;
+}
+.pp_set-content .ppBigPicBox img{
+	border: 1px solid #ccc;
+	/*border: 1px solid #333;*/
+}
+.pp_set-content .ppBigPicDesc {
+	padding: 10px 10px 0;
+	text-align: center;
+	color: #333;
+}
+
+
+
+.pp_set-content .ppThumbBg{
+	background-color: #edf1f2;
+	background-color: #333;
+	margin: 0;
+	padding: 20px 10px;
+}
+.pp_set-content .ppThumbCover{
+	width: 300px;
+	float: left;
+	height: auto !important;
+	height: 380px;
+	min-height: 380px;
+	margin: 0 10px 8px 0 !important;
+	margin: 0 10px 8px 0;
+}
+.pp_set-content .ppThumbCover td{
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #eee;
+}
+.pp_set-content .ppThumbCover img{
+	width: 250px;
+	border: 1px solid #ccc;
+}
+.pp_set-content  .ppThumbCoverTitle{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 10px;
+}
+.pp_set-content  .ppThumbCoverDesc{
+	color: #333;
+	text-align: left;
+	padding-top: 10px;
+}
+.pp_set-content  .ppThumbCoverCount{
+	color: #333;
+	text-align: right;
+	padding-top: 10px;
+}
+.pp_set-content .ppThumbPics{
+	float: right;
+	width: 100%;
+	margin-left: -310px;
+}
+.pp_set-content .ppThumbPicsInner{
+	margin-left: 310px;
+}
+.pp_set-content .ppThumb {
+	margin: 0 5px 5px 0;
+	width: 150px;
+	height: 190px;
+	text-align: center;
+	float: left;
+}
+.pp_set-content .ppThumb table {
+	border: 1px solid #222;
+	/*border: 1px solid #111;*/
+	width: 98px;
+	background-color: white;
+	margin: 0 auto;
+	/*background-color: none;*/
+}
+.pp_set-content .ppThumbBox {
+	border: 1px solid #ccc;
+	/*border: 1px solid #333;*/
+	padding: 7px;
+	text-align: center;
+}
+.pp_set-content .ppThumbBox img{
+	border: 1px solid #ccc;
+	/*border: 1px solid #333;*/
+}
+.pp_set-content .ppThumbDesc {
+	padding: 7px 0 0;
+	text-align: left;
+	color: #333;
+	height: 32px;
+	overflow: hidden;
+}
+
+
+.pp_set-content .more{
+	text-align: right;
+	clear:both;
+	padding: 10px;
+}

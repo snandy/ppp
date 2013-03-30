@@ -1,0 +1,283 @@
+/* a style which makes div touch the bottom of content */
+.clear{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html>body .clearfix {
+	display: inline-block;
+	width: 100%;
+}
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+}
+/* ie7 hack*/
+*+html .clearfix {
+	min-height: 1%;
+}
+/****** menu ******/
+.menuSub-div {
+	border: 2px solid #ccc;
+	background: white;
+}
+.menuSub-div *{color:#333;font:12px Verdana, Arial, Helvetica, "ËÎÌו", sans-serif;}
+.menuSub-div a{
+	text-decoration: underline;
+}
+.menuSub-div a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.menuSub-div input.text{
+	height: 18px;
+	line-height: 16px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+.menuSub-div input.button{
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.menuSub-div input.button-submit{
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	color: red;
+}
+
+.subMenu-maintitle {
+	margin: 0px 2px 5px;
+	padding: 2px 2px 2px 5px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+.subMenu-maintitle .cls {
+	float: right;
+	padding: 0 2px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	background: url(images/ico_cls.gif) center no-repeat;
+}
+.subMenu-title {
+	margin: 5px 4px;
+	padding: 4px 5px 0px;
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.subMenu-title-out {
+	padding: 4px 5px 0px 12px;
+	background-image: url(images/ico_submenuhide.gif);
+}
+.subMenu-title-active {
+	padding: 4px 5px 0px 12px;
+	background-image: url(images/ico_submenushow.gif);
+}
+.subMenu-title-over {
+	background-color: #f6f6f6;
+	cursor: pointer;
+}
+.menuInnerSub-div {
+}
+.menuInnerSub-div ul {
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+}
+.menuInnerSub-div ul label {
+	cursor: pointer;
+}
+.menuSub-out {
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	padding: 2px;
+	margin: 1px 2px;
+	cursor: pointer;
+	/*position: relative;*/
+}
+.menuSub-out img {
+	vertical-align: middle;
+}
+.menuSub-over {
+	background-color: white;
+	border-color: red;
+}
+.menuSub-down {
+	background-color: #ddd;
+}
+.menuSub-disabled {
+	color: #999;
+	background-color: #eee;
+	cursor: default;
+}
+.menuSub-active {
+	border-color: #3499cc;
+}
+.menuSub-div-conEntry {
+	width: 264px !important;
+	width: 260px;
+	padding: 3px 0;
+}
+.menuInnerSub-div-ico img {
+	width: 16px;
+	height: 16px;
+}
+
+.ptags{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.ptags li{
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+.ptags a{
+	text-decoration: none;
+	line-height: 180%;
+	white-space: nowrap;
+}
+.ptag_1, .ptag_1 a{
+	font-size: 12px;
+	font-weight: normal;
+}
+.ptag_2, .ptag_2 a{
+	font-size: 12px;
+	font-weight: bold;
+}
+.ptag_3, .ptag_3 a{
+	font-size: 14px;
+	font-weight: bold;
+}
+.ptag_4, .ptag_4 a{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* comment emotion */
+#emotionBox .emotionBox {
+	float:left;
+	width:626px;
+}
+#emotionBox .emotionBox .emotionBody {
+}
+#emotionBox .emotionBox .emotionBody a {
+	float:left;
+	padding:4px;
+}
+#emotionBox .emotionBox .emotionBody a:hover {
+	padding:3px;
+	border:1px solid #f63;
+}
+#emotionBox .emotionBox .basicEm {
+	border-top:1px solid #ccc;
+	padding:5px;
+}
+#emotionBox .emotionBox .emotionBar {
+}
+#emotionBox .emotionBox .emotionBar span {
+	float:left;
+	margin:0 3px 0 0;
+	padding:3px 5px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	border-top:1px solid #eee;
+	border-left:1px solid #eee;
+	border-right:1px solid #ccc;
+	cursor:pointer;
+	color:#666;
+	background:#fff;
+}
+#emotionBox .emotionBox .emotionBar span.active {
+	font-weight:bold;
+	background:#FFD682 url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/emotion_tab_bg.gif) repeat-x scroll 0;
+	cursor:auto;
+}
+#emotionBox .emotionBox .emotionNav {
+	text-align:right;
+	padding:5px 5px 0 0;
+}
+
+/* prev & next for entry */
+
+.pn_na{
+height:15px;
+padding:4px;
+margin-bottom:15px;
+}
+
+.previous{
+float:left;
+height:15px;
+padding:4px;
+text-align:left;
+}
+
+.previous_l{
+float:left;
+width:15px;
+height:15px;
+padding:4px 0 4px 4px;
+margin-top:5px;
+text-align:center;
+background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/ico_prev.gif) 0 0 no-repeat;
+}
+
+.previous_txt{
+float:left;
+height:15px;
+text-align:center;
+color:#333333;
+font-size:12px;
+line-height:24px;
+}
+
+.next{
+float:right;
+height:15px;
+padding:4px;
+text-align:left;
+}
+
+.next_txt{
+float:left;
+height:15px;
+text-align:center;
+color:#333333;
+font-size:12px;
+line-height:24px;
+}
+
+.next_r{
+float:left;
+width:15px;
+height:15px;
+margin:5px 0 0 4px;
+text-align:center;
+background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/ico_next.gif) 0 0 no-repeat;
+}
+ #main-content p{margin:10px 0;}

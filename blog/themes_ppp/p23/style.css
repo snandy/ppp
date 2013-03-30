@@ -1,0 +1,302 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+*{
+	/*
+	color: #333;
+	*/
+}
+body{
+	/*
+	background-color: #eee;
+	background-image: url(images/xxx.jpg);
+	*/
+}
+a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#header{
+	background-image: url(images/headerBg.png);
+	background-position: top right;
+}
+#innerHeader{
+	padding: 17px 15px 5px 20px;
+}
+#navBar{
+	background-image: url(images/navBarBg.png);
+	/*border: 1px solid #ccc;*/
+	border-top: 1px solid #dae8e8;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	/*height: 30px;*/
+}
+#mainWrapper{
+	background-color: #e5e7df;
+	/*background-image: url(images/conBg.jpg);*/
+	background-position: top center;
+	background-repeat: no-repeat;
+	/*
+	border: 1px solid #ccc;
+	border-top: none;
+	*/
+	border: 1px solid #fff;
+	border-top: none;
+	background: url(images/con_footer.gif) no-repeat bottom #e5e7df;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	/*
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	text-decoration: none;
+	*/
+   color: #2c6c71;
+}
+#blogUrl a{
+	color: #2c6c71;
+}
+#blogUrl a:link{
+	/*color: #333;*/
+}
+#blogDesc{
+	padding-top: 5px;
+	color: #2c6c71;
+	/*color: #333;*/
+}
+/****** NavBar Elements Styles ******/
+#navBar a:link{
+	/*color: #333;*/
+}
+#mainNav li{
+	background: #afc9c6;
+	border: 1px solid #8baeab;
+	border-bottom: none;
+	cursor: pointer;
+	margin: 4px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+#mainNav li.active{
+	background: #e5e7df;
+	border-top-width: 2px;
+	border-top-color: #48631b;
+	margin: 2px 2px 0px 0px;
+	padding: 4px 8px 5px;
+	cursor: auto;
+}
+#mainNav li.private{
+	background: #fff6cc;
+}
+#mainNav li.hover{
+	border-color: red;
+}
+
+/*
+#navBar a.navHome{ background-image: url(images/ico_home.gif);}
+#navBar a.navBlog{ background-image: url(images/ico_entry.gif);}
+#navBar a.navImg{ background-image: url(images/ico_picture.gif);}
+#navBar a.navSound{ background-image: url(images/ico_music.gif);}
+#navBar a.navVideo{ background-image: url(images/ico_video.gif);}
+#navBar a.navProfile{ background-image: url(images/ico_profile.gif);}
+#navBar a.navIndiOpt{ background-image: url(images/ico_indi.gif);}
+#navBar a.navSysOpt{ background-image: url(images/ico_sys.gif);}
+*/
+/****** Mod Elements Styles ******/
+.mod{
+	/*
+	background: white;
+	*/
+	border: 2px solid #eee;
+}
+.mod .modFrame{
+	border: 1px solid #628687;
+}
+/***********/
+.mod .mheader{}
+.mod .lt{
+	width: auto;
+}
+.mod .t{
+	background-image: url(images/modHeaderBg.png);
+	/*
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 22px;
+	width: 100%;
+	*/
+}
+.mod .modHeader{}
+.mod .rt{
+	width: auto;
+}
+
+.mod .mneck{}
+.mod .ec{}
+.mod .modEditCon{
+	background: #fff;
+}
+
+.mod .mbody{}
+.mod .l{
+	/*width: 0px;*/
+}
+.mod .c{}
+.mod .modCon{
+}
+.mod .r{
+	/*width: 0px;*/
+}
+
+.mod .mfooter{}
+.mod .lb{}
+.mod .b{
+	/*height: 0px;*/
+}
+.mod .rb{}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	/*color: #333;*/
+}
+.mod .modEdit a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-title h3{}
+.item-title h3, .item-title h3 a{}
+.item-label{}
+.item-label a{
+	/*color: #006699;*/
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content, .item-content *{}
+.item-info, .item-info a{
+	color: #aaa128;
+}
+
+/* Add style */
+
+.item-info, .item-info a{
+	color: #175259;
+}
+
+.item-title{
+	border-bottom: 1px solid #175259;
+}
+.item-title h3{
+   color: #175259;
+}
+.item-title h3, .item-title h3 a{
+   color: #175259;
+}
+
+.item-content{
+	border-bottom: 1px solid #175259;
+}
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #6d0d0d;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #6d0d0d;
+}
+
+#contact {
+	color: #123a32;
+}
+
+#contact a{
+	color: #123a32;
+}
+
+#copyright {
+	color: #123a32;
+}

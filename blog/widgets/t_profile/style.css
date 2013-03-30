@@ -1,0 +1,11 @@
+.t_profile-content .miniUserInfo{font-size:12px; padding:10px 0;}
+.t_profile-content .miniUserInfo #userLogo{margin-left:55px;}
+.t_profile-content .miniUserInfo #userLogo .userImg{float:left; margin-left:-52px; _display:inline;}
+.t_profile-content .miniUserInfo #userLogo .userImg a img{background:#fff; padding:1px; border:1px solid #cecece;}
+.t_profile-content .miniUserInfo #userLogo .userImg a:hover img{border-color:#f00;} 
+.t_profile-content .miniUserInfo #userLogo .miniName{float:left; padding:5px 0 5px 5px; line-height:20px;}
+.t_profile-content .miniUserInfo #userLogo .miniName img{vertical-align:middle; margin-top:5px; border:none;}
+.t_profile-content .miniUserInfo .countArea{clear:both; border-bottom:1px solid #e1eaf0; padding:10px 3px 3px 3px; font-size:12px;height:15px; }
+.t_profile-content .miniUserInfo .countArea strong{padding:0 2px;}
+.t_profile-content .miniUserInfo .noborder{border-bottom:0px;}
+.t_profile-content .bandingMobile{background:#f7f7f7; border:1px solid #ccc; margin:10px 0; padding:5px; line-height:20px;}

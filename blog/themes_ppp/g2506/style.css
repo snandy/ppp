@@ -1,0 +1,276 @@
+/*============	Sohu Blog PPP StyleSheet File ======================
+	Title		:	F2模板视觉之－搜狐博客主题
+	Type		:	F2收费系列
+	ThemeNo		:	g2506
+	Author		:	Fei2Team (www.fei2.net)
+	Created		:	2006年12月
+	Update		:	2007-1-4 8:57:01
+	CopyRt		:	Sohu.com (www.sohu.com)
+===================================================================*/
+
+body{padding:0;margin:0;}
+#topPadding{display:none;}
+
+.clear{border-width:0px;}
+input,textarea {font-size:12px;}
+
+
+.mod{border-width:0;margin:0px 5px 11px 5px;}
+.mod .modFrame{border-width:1px;}
+.mod .mheader {border-bottom:1px solid;}
+.mod .lt,
+.mod .rt {width:1px;font-size:1px;}
+.mod .t{height:27px;padding:0 2px;border-width:0 0 1px 0;border-style:solid;}
+.item-title h3,
+.item-title h3 a {font-size:13px;}
+.item-content {padding:5px 0 5px 0;}
+.modCon .profileMng {padding-bottom:5px;}
+.mod .modEditCon{margin:0px 1px 1px 1px;padding: 10px 0 10px 10px;border-width:0 0 1px 0;}
+.modCon .editFrame,
+.modCon .linkEdit {border-width:0px;}
+.mod .lt,
+.mod .rt {width:0;}
+
+.categories-content li,
+.latest_comments-content li {height:22px;line-height:22px;}
+.categories-content a,
+.latest_comments-content a {text-decoration:none;height:22px;line-height:22px;}
+
+.refer-content a {text-decoration:none;line-height:18px;}
+
+.item-content {padding:5px 0 5px 0;}
+#wrapper {width:100%;background-position:100% 100%;background-repeat:no-repeat;}
+#modContainer{padding:15px 6px 5px 6px;}
+#mainWrapper {border-width:0 0 1px 0;}
+
+
+#header{border-width:0;padding:0;margin:0;background-repeat:no-repeat;overflow:hidden;}
+#blogTitle a {font-size:20px;}
+
+
+#navBar {border-width:0px;height: 33px;overflow:hidden;}
+
+#mainNav li{border-style:solid;border-width:1px 1px 0 1px;margin:6px 3px 0px 0px;padding:2px 8px 3px 8px;}
+#mainNav li .pageTitle {font-weight:normal;}
+#mainNav a span{font-weight:normal;padding-top: 0px !important;padding-top: 2px;}
+
+#mainNav li.active{border-width:1px 1px 0 1px;margin:2px 3px 0px 0px;padding:5px 8px 5px 8px;}
+#mainNav li .pageTitle,
+#mainNav a span {font-weight:normal;}
+
+.modCtnInfo-private {height:30px;line-height:32px;border-style:solid;border-width:0 1px 1px 1px;padding:0 35px;overflow:hidden;background-repeat:no-repeat;background-position:15px 50%;}
+.modCtnInfo-noMod {padding:15px 0;}
+#innerNavBar {padding:0 12px 0 17px;}
+#optionNav li {margin-left:15px;}
+
+
+#innerFooter{text-align:center;padding:0 40px 13px 40px;}
+#powered {margin:13px 0;}
+#contact, #copyright{margin:0;line-height:20px;}
+
+
+#innerContentLabelBox {padding:15px 0 0 0;}
+#articleContent {margin-top:15px;}
+
+
+div.subMenu-title,
+div.subMenu-maintitle {color:#333;}
+
+div,table,ul,span,p{color:#825EEB;}
+a,a:visited {color:#88799E;}
+a:hover {color:#f00;}
+body {
+background:#191133 url(images/body_bg.jpg) repeat-x 50% 30px;
+}
+#wrapper {
+	background-image:url(images/fei2net.jpg);
+}
+
+#mainWrapper{
+	background:none;
+	border-color:#3A3546;
+}
+
+#header {
+	height:122px;
+	background:none;
+}
+#blogTitle {
+padding:12px 0 0 12px;
+}
+#blogUrl {
+padding:12px 0 0 0;
+}
+#blogTitle a,
+#blogTitle a:visited {
+	color:#621EF6;
+}
+#blogUrl a,
+#blogUrl a:visited {
+	color:#621EF6;
+}
+#blogTitle a:hover,
+#blogUrl a:hover {
+	color:#f00;
+}
+#blogDesc {
+	color:#621EF6;
+	line-height:20px;
+	padding:15px 0 0 12px;
+}
+
+
+#footer {
+	background:none;
+}
+#contact,
+#contact a,
+#contact a:visited{
+	color:#825EEB;
+}
+#contact a:hover {
+	color:#f00;
+}
+#copyright {
+	color:#88799E;
+}
+
+
+.mod {
+	background:none;
+}
+.mod .t {
+	background:#47308A url(images/mod_t_bg.jpg) repeat-x 0 0;
+}
+
+.mod .modTitle {
+color:#B79EFF;
+}
+.mod .modEditCon{
+	background:none;
+}
+.modCon .entriesAdd a,
+.modCon .entriesAdd a:visited {
+	color:#D4C064;
+}
+
+.item-title h3,
+.item-title h3 a,
+.item-title h3 a:visited {
+	color:#B79EFF;
+}
+.item-info,
+.item-info a,
+.item-info a:visited {
+	color:#88799E;
+}
+.modCon .entriesAdd a:hover,
+.item-title h3 a:hover,
+.item-info a:hover {
+	color:#f00;
+}
+
+
+#wrapper input.text,
+#wrapper textarea.text {
+	border-color:#3A3546;
+	background:none;
+	color:#D4C064;
+}
+input.button,
+input.button-submit {
+	border-color:#3A3546;
+	background:#1F1E26;
+}
+input.button {
+	color:#91A4A9;
+}
+input.button-submit {
+	color:#D4C064;
+}
+.mod .mheader,
+.mod .modFrame,
+.mod .modEditCon {
+	border-color:#3A3546;
+}
+.item hr,
+.item-title,
+.item-content {
+	border-color:#3A3546;
+}
+.info-content blockquote {
+	border-color:#3A3546;
+}
+
+.modCon hr,
+.modCon .collect .collectIco,
+.modCon .link,
+.modCon .linksAdd,
+.modCon .profileMng,
+.modCon .referIco,
+.modCon .ppMng,
+.modCon .musicMng,
+.modCon .messagesMng,
+.modCon .msg,
+.modCon .reply,
+.modCon .rplFormBox{
+	border-color:#3A3546;
+}
+
+
+#navBar{
+	background:none;
+}
+
+#mainNav li{
+	background:#433C54 url(images/tab_bg_normal.jpg) repeat-x 0 0;
+	border-color:#302B3C;
+}
+#mainNav li * {
+	color:#BFD5D5;
+}
+#mainNav li.active{
+	background:#382A56 url(images/tab_bg_active.jpg) repeat-x 0 0;
+	border-color:#4D3C76;
+	border-top-color:#4D3C76;
+}
+#mainNav li.active * {
+	color:#FFFFFF;
+}
+#mainNav li.private {
+	background:#FFC874 url(images/tab_bg_private.jpg) repeat-x 0 0;
+	border-color:#E3AA72;
+}
+#mainNav li.private * {
+	color:#f00;
+}
+#mainNav li.hover{
+	border-color:#f00;
+	color:#Fff;
+}
+#mainNav li .pageCls{
+	background: url(images/ico_pagecls.gif) no-repeat 50% 50%;
+}
+#mainNav li .pageOpt{
+	background: url(images/ico_pageopt.gif) no-repeat 50% 50%;
+}
+#optionNav a,
+#optionNav a:visited {
+color:#7FA5A5;
+}
+#optionNav a:hover {color:#f00;}
+
+.modCtnInfo-private {
+background-image:url(images/ico_light.gif);
+	border-color:#E5EEEA;
+	background-color:#FFC874;
+	color:#f00;
+}
+
+
+#innerContentLabelBox {
+color:#B99984;
+}
+
+
+/* by cnlei@fei2.net at 2007-1-4 8:57:01 */

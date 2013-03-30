@@ -1,0 +1,368 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+*{
+	/*
+	color: #333;
+	*/
+}
+body{
+	background-color: #B8B07A;
+	background-image: url(images/bg_03.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+div,table,ul,span,p{color: #000000;}
+a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background-image: url(images/banner_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width:100%;
+}
+#innerWrapper{
+	background:none;
+}
+#header{
+background:none;
+height:290px;
+padding-top: 60px;
+}
+#innerHeader{
+	background:none;
+	margin-left: 200px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #000000;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	
+}
+#blogUrl a:link{
+	color: #333;
+}
+#blogDesc{
+	margin:0px;
+	color: #333;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/****** NavBar Elements Styles ******/
+#navBar a:link{
+	/*color: #333;*/
+}
+#navBar{
+	background:none;
+	border:none;
+	padding-left: 49px;
+}
+#innerNavBar{
+
+}
+/**ÐÞ¸ÄmainNav*/
+#mainNav li{
+	border:1px solid #ccc;
+	cursor: pointer;
+	margin: 4px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background: #FFFDF4;
+	border-top:2px solid #4A8200;
+		border-bottom:none;
+	margin: 2px 2px 0px 0px;
+	padding: 3px 8px 6px;
+	cursor: auto;
+}
+
+#mainNav li.hover{
+	border-color: red;
+}
+
+
+#mainNav li .pageTitle{
+	white-space: nowrap;
+	font-weight: bold;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#modContainerInfo {
+	margin: -11px 19px 0 44px;
+}
+#mainNav li.private{
+	background: #FFF6CC;
+}
+
+#mainWrapper{
+	background:none;
+	background:none;
+	border:none;
+	padding-top:10px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border: none;
+	background-image: url(images/mod_09.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+
+	
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .modFrame{
+	background: none;
+	border: none;
+	background-image: url(images/mod_10.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+/***********/
+.mod .mheader{
+	background: none;
+	border: none;
+
+	}
+.mod .lt{
+	width: 20px;
+	background-image: url(images/mod_04.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mod .t{
+		background-image: url(images/mod_06.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.mod .modHeader{
+	padding-top: 12px;
+}
+.mod .rt{
+width: 22px;
+	background-image: url(images/mod_07.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .mneck{}
+.mod .ec{}
+.mod .modEditCon{
+	border:1px solid #DCCFA5;
+	background-color: #FFFFEC;
+}
+
+.mod .mbody{}
+.mod .l{
+	width: 4px;
+}
+.mod .c{
+     padding: 0px;
+	 }
+.mod .modCon{
+}
+.mod .r{
+	width: 4px;
+}
+
+.mod .mfooter{}
+.mod .lb{
+height:20px;
+width:20px;
+	background-image: url(images/mod_12.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.mod .b{
+		background-image: url(images/mod_13.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	/*height: 0px;*/
+}
+.mod .rb{
+height:20px;
+width: 22px;
+	background-image: url(images/mod_15.jpg);
+	background-repeat: no-repeat;
+	background-position: right;}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	/*color: #333;*/
+}
+.mod .modEdit a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-title h3{}
+.item-title h3, .item-title h3 a{}
+.item-label{}
+.item-label a{
+	/*color: #006699;*/
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content, .item-content *{}
+.item-info, .item-info a{
+	color: #aaa128;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+.item-info, .item-info a{
+	color: #175259;
+}
+
+.item-title{
+	border-bottom: 1px solid #175259;
+}
+.item-title h3{
+   color: #175259;
+}
+.item-title h3, .item-title h3 a{
+   color: #175259;
+}
+
+.item-content{
+	border-bottom: 1px solid #175259;
+}
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #6d0d0d;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #6d0d0d;
+}
+#footer{
+	clear: both;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+#innerFooter{
+	text-align: center;
+	padding: 20px 40px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #333333;
+	background-image: url(images/banner_02.jpg);
+	background-repeat: no-repeat;
+	background-position: right 2px;
+}
+#contact {
+	color: #123a32;
+}
+
+#contact a{
+	color: #123a32;
+}
+
+#copyright {
+	color: #123a32;
+}

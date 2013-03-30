@@ -1,0 +1,184 @@
+@charset "gbk";
+/* Sohu Blog PPP StyleSheet
+ * Style Name: Olympic 7
+ * Version: 1.1
+ * Author: Matt Wang (www.uiland.com)
+ * Created: 2008-07-23
+ * Update: 2008-07-23
+ * Copyright: Sohu.com (www.sohu.com)
+ */
+
+
+/*** Structure ***/
+/* Main */
+#topPadding{display:none;visibility:hidden;}
+#mainWrapper{border:0 none;}
+.modCtnInfo-private{overflow:hidden;height:28px;margin:0 5px -5px;padding:0 20px;border-style:solid;border-width:0 1px 1px;line-height:28px;}
+.modCtnInfo-noMod{padding:30px 0;}
+#modContainer{padding-top:15px;}
+#articleContent{padding:35px 15px 10px;}
+#articleInnerContent{width:auto;padding:15px;border:0 none;}
+#mainInnerContent{margin-left:230px !important;margin-left:260px;}
+#footer{}
+#contact{margin:10px 0 0;}
+#copyright{margin:0;}
+
+/* Header */
+#header{height:385px;border:0 none;}
+#innerHeader{padding:160px 0 0 650px;}
+#blogTitle{float:none;padding:0 0 0 5px;}
+#blogUrl{float:none;margin:0;padding:8px 0 0;}
+#blogDesc{float:none;padding:15px 0 0 5px;}
+
+/* NavBar */
+#navBar{overflow:hidden;height:32px;border:0 none;}
+#innerNavBar{padding:0 25px;}
+#mainNav li{height:20px;margin:2px 3px 0 0;padding:4px 8px;border-style:solid;border-width:1px !important;line-height:20px;}
+#mainNav li.active{margin:0 3px 0 0;padding:5px 8px;}
+#mainNav li.private{height:21px !important;border-bottom:0 !important;}
+#mainNav li a span{padding:0;}
+#mainNav #newPageBtn{margin:10px 0 0 10px;}
+
+/* Mod */
+.mod{margin:0 5px 10px;border:0 none;}
+.mod hr{height:1px;border-style:solid;border-width:1px 0 0;}
+.mod .modFrame{border:0 none;}
+.mod .t{height:28px;border-style:solid;border-width:0 0 1px;}
+.mod .modHeader{padding:0 5px;}
+.mod .modCon{overflow:hidden;}
+
+.msg,
+.profileMng,
+.musicMng,
+.mngBtn,
+.linksAdd{margin-bottom:6px !important;padding-bottom:6px !important;}
+.item-content{overflow:auto;padding:5px 0;}
+
+/*** Background, Color & Font ***/
+/* Background */
+body{background:#202E33 url(images/body_bg.jpg) 0 30px repeat-x;}
+#wrapper{background:transparent url(images/page_bg.jpg) 50% 0 no-repeat;}
+#header{background:none;}
+#mainWrapper{background:none;}
+#articleInnerContent{background:none;}
+
+#navBar{background:transparent;}
+#mainNav li{background:#40C8E9 url(images/tabNormal_bg.gif) 0 100% repeat-x;}
+#mainNav li.active{background:#96FFED url(images/tabActive_bg.gif) 0 100% repeat-x;}
+#mainNav li.private{background:#ffc874 url(images/tabPrivate_bg.jpg) 0 0 repeat-x;}
+.modCtnInfo-private{background:#ffc874;}
+#mainNav #newPageBtn{background:url(images/ico_addPage.gif) no-repeat 0 50%;}
+
+.mod{background:none;}
+.mod .modFrame{background:none;}
+.mod .t{background:none;}
+#popWin{background:none;}
+#popWin .t{background:#96FFED url(images/tabActive_bg.gif) 0 100% repeat-x;}
+#popWin .c{background:#202E33;}
+
+/* Link Color */
+a,
+.item-title h3 a,
+.item-label a,
+.entries-content .entriesAdd a{color:#64C9E2;}
+
+a:hover,
+.item-title h3 a:hover,
+.item-label a:hover,
+.entries-content .entriesAdd a:hover{color:#AEF000;}
+
+/* Font Color */
+body,
+table{color:#8ED2E8;}
+
+#blogTitle,
+#blogTitle a,
+#blogTitle input{color:#00489F;}
+#blogUrl a{color:#00489F;}
+#blogDesc{color:#567;}
+
+#navBar a{color:#03586D;}
+#mainNav li *{color:#fff;}
+#mainNav li.active *{color:#0C6F88;}
+#mainNav li.private *,
+.modCtnInfo-private{color:#ff2602;}
+
+#popWin .modTitle{color:#0C6F88;}
+
+.mod .modTitle,
+.mod .modTitle a{color:#91E7FD;}
+.item-title h3{color:#80E3FB;}
+.item-label{color:#73A1AC;}
+#footer,#footer a{color:#ccc;}
+
+/* Font Style */
+#blogTitle,
+#blogTitle a,
+#blogTitle input{font:bold 20px/1.2em "Microsoft YaHei","Î¢ÈíÑÅºÚ",Verdana, Arial,sans-serif,"ËÎÌå";}
+
+#mainNav li *{font-weight:normal !important;}
+#mainNav li.active *{font-weight:bold !important;}
+
+.mod .modTitle,
+.entries-content .entriesAdd a{font-weight:bold;}
+.item-title h3{font-size:14px;}
+
+/* Border Color */
+.mod,
+.mod hr,
+.mod li,
+.mod .mheader,
+.mod .lt,
+.mod .rt,
+.mod .modFrame,
+.mod .mneck,
+.mod .mbody,
+.mod .modEditCon,
+
+.modCon hr,
+.modCon .act,
+.modCon .action,
+.modCon .collect .collectIco,
+.modCon .messagesMng,
+.modCon .miniblog-content h1,
+.modCon .miniblog-content .content li,
+.modCon .mngBtn,
+.modCon .msg,
+.modCon .musicMng,
+.modCon .nav,
+.modCon .newsong_list td,
+.modCon .link,
+.modCon .linksAdd,
+.modCon .ppMng,
+.modCon .ppsetText h5,
+.modCon .profile,
+.modCon .profileMng,
+.modCon .recpost,
+.modCon .referIco,
+.modCon .reply,
+.modCon .rplFormBox,
+.modCon .unread,
+
+.item hr,
+.item .item-title,
+.item .item-content,
+.item .info-content blockquote,
+
+.panel .panel-title,
+
+#mainWrapper,
+.modCtnInfo-private,
+#articleInnerContent,
+#footer{border-color:#397684 !important;}
+
+.mod .t{border-color:#129dc2 !important;}
+#mainNav li{border-color:#35A8AA !important;}
+#mainNav li.active{border-color:#0EB1D8 !important;}
+
+
+/* Form Color */
+#wrapper input{color:#333;}
+#wrapper input.text,
+#wrapper textarea.text{border-color:#14AED3;color:#666;}
+#wrapper input.button,
+#wrapper input.button-submit{border-color:#14AED3;background:#96FFED url(images/tabActive_bg.gif) 0 100% repeat-x;color:#0C6F88;}

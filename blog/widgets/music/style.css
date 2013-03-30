@@ -1,0 +1,28 @@
+.music-content {
+}
+
+.music-content .albumname {
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 2px;
+	font-weight: bold;
+}
+
+.music-content .image65 {
+	height: 65px;
+	width: 65px;
+	overflow: hidden;
+	margin:2px; 
+	border:1px solid Gray;
+	float: left;
+}
+
+.music-content .albums {
+	height: 69px;
+	overflow: hidden;
+}
+
+.music-content .more {
+	float: right;
+	margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+.soshow-content .soshowMng{
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 3px;
+}
+.soshow-content .soshowFlash{
+	text-align: center;
+}
+.soshow-content .more {
+	float: right;
+	margin-top: 10px;
+}

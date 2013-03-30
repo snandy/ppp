@@ -1,0 +1,48 @@
+.Demo_RSSReader-content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Demo_RSSReader-content a{
+	color: black;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.Demo_RSSReader-content a:visited{
+	color: #777;
+}
+.Demo_RSSReader-content a:hover{
+	color: red;
+}
+.Demo_RSSReader-content .itemsContainer{
+	overflow: hidden;
+	width: 100%;
+}
+.Demo_RSSReader-content ul{
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+.Demo_RSSReader-content li{
+	white-space: nowrap;
+	font-size: 10px;
+	color: #999;
+	padding: 0;
+	margin: 0;
+}
+.Demo_RSSReader-edit .input-text{
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	width: 100px;
+}
+.Demo_RSSReader-edit select{
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+}
+.Demo_RSSReader-edit .input-button{
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+}

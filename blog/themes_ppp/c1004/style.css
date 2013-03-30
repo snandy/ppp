@@ -1,0 +1,441 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+
+body{
+background:#D0FFF5 url(images/top.jpg) no-repeat center 30px;
+}
+div,table,ul,p{color:#006E64;}
+a{color: #000;text-decoration: none;}
+a:hover{color: red;text-decoration: underline;}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+background: url(images/foot.jpg) no-repeat center bottom;
+}
+#innerWrapper{
+	background: none;
+	width: 950px;
+}
+#header{
+	height:275px;
+	margin:0px;
+	padding:0px;
+	background: none;
+}
+#innerHeader{
+	margin:0px;
+	padding:0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:70px;
+	padding-left:90px;
+}
+#blogTitle a, #blogTitle input{
+	color: #000;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:80px;
+}
+#blogTitle a:hover { color:red;}
+#blogUrl {
+	padding-left:86px;
+	clear: both;
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #000;
+}
+#blogUrl a:hover{
+	color: #FF0000;
+}
+#blogDesc{
+	color: #000;
+	font-size: 14px;
+	padding: 0px;
+	margin-top:2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 90px;
+	padding-top:8px;
+}
+/****** NavBar Elements Styles ******/
+#optionNav li{
+	white-space:nowrap;
+	padding-top:4px;
+}
+#optionNav li a{
+	color:#000;
+}
+#optionNav li a:hover{
+	color:red;
+}
+#navBar a{
+	color: #28ADA5;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#navBar a:hover{
+	color:red;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar{
+	border:none;
+	margin:0px 8px;
+	padding:0px;
+	background:none
+}
+#innerNavBar{
+	border:none;
+	background:none;
+	padding:0px 25px;
+	margin:0px;
+}
+/**ÐÞ¸ÄmainNav*/
+#mainNav li{
+	background: url(images/ico_01.jpg) repeat-x left center;
+	border: 1px solid #e9e7da;
+	cursor: pointer;
+	margin: 8px 2px 0px 0px;
+	padding: 0px 8px 0px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background: url(images/ico_02.jpg) repeat-x left top;
+	border-bottom: none;
+	margin: 6px 2px 0px 0px;
+	padding: 0px 8px 3px;
+	cursor: auto;
+	border-top-width: 1px;
+	border-top-color: #e9e7da;
+}
+#mainNav li.private{
+	background: #FFF6CD;
+}
+
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav li.active span{
+ color:#fff;
+}
+
+#mainNav li .pageTitle{
+	color:#28ADA5;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#modContainerInfo {
+	margin: 0px 19px 5px;
+	position:relative;
+}
+#mainNav .private .pageTitle{
+	color:#000;
+}
+.modCtnInfo-private{
+	margin:-9px 14px 0px 14px;
+	color:#000;
+}
+/** **/
+
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	padding:6px 0px 0px!important;
+	margin:0px;
+	background: url(images/mainWrapper.jpg) repeat-y center top;
+}
+#innerMainWrapper{
+	border:none;
+	padding: 0px;
+	margin:0px;
+
+	}
+#modContainer {padding-top:0px;margin-top:0px;}
+#mainNav #newPageBtn{
+	margin: 15px 0px 0px 4px;
+}
+
+/****** Mod Elements Styles ******/
+.mod{
+	background: none;
+	border-right: 1px solid #ADE0DD;
+	border-bottom: 1px solid #ADE0DD;
+	border-left: 1px solid #ADE0DD;
+	border-top-style: none;
+}
+.mod .modFrame{
+	border: none;
+	
+}
+.mod .modTable{
+	margin:0px;
+	padding:0px;
+	
+}
+.mod tbody{
+
+}
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	height:34px;
+	background: url(images/mod_lt.jpg) no-repeat left top;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+}
+.mod .t{
+	background: url(images/mod_t.jpg) no-repeat left top;
+	padding: 0px 6px 0px 5px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+}
+.mod .modHeader{
+	padding-top: 2px;
+}
+.mod .rt{
+	background: url(images/mod_rt.jpg) no-repeat right top;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background: none;
+	margin: 0px;
+	padding: 0px;}
+.mod .modEditCon{
+	background: none;
+	border: none;
+}
+
+.mod .mbody{
+	background: none;
+	border: none;
+	
+}
+.mod .l{
+	
+	background: none;
+}
+.mod .c{
+	background: none;
+	padding: 4px;
+	
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .r{
+	
+	background: none;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width:2px;
+	height: 3px;
+	background: none;
+}
+.mod .b{
+	background: none;
+}
+.mod .rb{
+	
+	background: none;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #000;
+}
+.mod .modTitle a:hover{ color:red;}
+.mod .modEdit a{color: #000;}
+.mod .modEdit a:hover{ color:red;}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CACBCC;
+}
+.item-title h3{
+	color: #000;
+}
+.item-title h3, .item-title h3 a{color: #000;}
+.item-label{}
+.item-title h3 a:hover{color: red;}
+.item-label a{
+	color: #333;
+}
+.item-label a:hover { color:red}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CACBCC;
+		color:#EC4E00;
+}
+.item-content a{
+	color:#EC4E00;
+}
+.item-content a:hover { color:red;}
+.item-info, .item-info a{
+	color: #EC4E00;
+}
+.item-info a:hover { color:red;}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #ccc; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.entries-content .entriesAdd a:hover{
+	font-weight: bold;
+	color: #F60;
+}
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #006E64;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #006E64;
+}
+.item-more a:hover { color:red}
+#footer{
+	clear: both;
+	height: 192px;
+	
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding: 75px 15px 20px 22px;
+}
+#contact {
+	color: #666664;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #666664;
+}
+#contact a:hover { color:red}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #666664;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+.Feeds-content li a {color:#006E64;}
+.Feeds-content li a:hover {color:red;}

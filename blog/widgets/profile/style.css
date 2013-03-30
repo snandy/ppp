@@ -1,0 +1,76 @@
+.profile-content .focus_01 {
+	position:relative;
+	width:93%;
+	margin-top:10px;
+	padding:5px;
+	top:0px;
+	border:1px solid #CCCCCC;
+	text-align:left;
+}
+
+.profile-content .focus_l {
+	margin:0px;
+	padding-top:0px;
+	width:60px;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+}
+
+.profile-content .focus_r {
+	margin:0px;
+	padding-bottom:5px;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+}
+
+.profile-content .focus_02 {
+	position:relative;
+	width:98%;
+	margin:0 auto 0 5px;
+	padding:0;
+	top:0px;
+	text-align:left;
+}
+
+.profile-content .focus_03 {
+	position:relative;
+	width:98%;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	text-align:left;
+}
+
+.profile-content .focus_02 a{font-size:12px; line-height:18px;}
+.profile-content .focus_02 img{border:0; margin-right:2px;}
+
+.profile-content .focus_title {border-bottom:1px solid #CCCCCC; margin-bottom:10px; font-size:12px; line-height:24px; font-weight:bold;}
+
+.profile-content .focus_more {text-align:right;  margin-right:5px; font-size:12px; line-height:24px; text-decoration:underline;}
+
+.profile-content .focus_pic{padding-left:0; margin-left:0px;}
+.profile-content ul.focus_pic li{display:inline; overflow:hidden; float:left; width:75px; height:75px; padding:5px 5px; }
+	.profile-content ul.focus_pic img{width:65px;height:65px;padding:1px;border:1px solid #ccc;visibility:visible}
+	.profile-content ul.focus_pic a:hover{text-decoration:underline;}
+	.profile-content ul.focus_pic a:hover img{border:1px solid #f63;}
+	
+	/* clear & fix */
+.profile-content .clear{clear:both;}
+.profile-content .clearer{clear:both;display:block;overflow:hidden;margin:0;padding:0;height:0;line-height:1px;font-size:1px;}
+	/* clearfix */
+.profile-content .fix{zoom:1;}
+.profile-content .fix:after{content:'\0020';display:block;clear:both;height:0;}
+	/* clearfix for: .fixLi li, .mBody, .Area, .row */
+.profile-content .fixLi li:after,
+.profile-content .mBody:after,
+.profile-content .Area:after,
+.profile-content .row:after{content:'\0020';display:block;clear:both;height:0;}
+.profile-content .fixLi li,
+.profile-content .mBody,
+.profile-content .Area,
+.profile-content .row{zoom:1;}
+	
+/* --commend--end */
+.profile_list{line-height: 22px;padding: 8px 5px;}

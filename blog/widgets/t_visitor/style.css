@@ -1,0 +1,10 @@
+.t_visitor-content{font-size:12px;}
+.t_visitor-content .miniUserList{padding:5px;}
+	.t_visitor-content .miniUserList ul.friends{padding:0; margin:0;}
+	.t_visitor-content .miniUserList ul.friends li{list-style-type:none;float:left;width:63px; height:100px; text-align:center; overflow:hidden;}
+	.t_visitor-content .miniUserList ul.friends li a img{background:#fff; padding:1px; border:1px solid #cecece; width:48px; height:48px;}
+	.t_visitor-content .miniUserList ul.friends li a:hover img{border-color:#f00;}
+	.t_visitor-content .miniUserList ul.friends li p{margin:0}
+	.t_visitor-content .miniUserList ul.friends li p a{width:60px;height:22px;overflow:hidden; display:block; line-height:22px;}
+	.t_visitor-content .minimoreFir{text-align:right; width:100%; clear:both;}
+	.t_visitor-content .minimoreFir a{padding-right:10px;}

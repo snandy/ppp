@@ -1,0 +1,12 @@
+.cr_group-content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.cr_group-content li{
+	margin:0pt 15px 5px 0pt; 
+	display:inline;
+}
+.cr_group-content li a{
+	line-height:160%;
+}

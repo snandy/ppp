@@ -1,0 +1,469 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+html{ border-right:1px solid #ccc;}
+body{
+	background: url(images/body.jpg);
+}
+div,table,ul,p{color:#640903;}
+a{color: #000;text-decoration: underline;}
+a:hover{
+	color: #DE0C0C;
+	text-decoration: underline;
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #640903;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #640903;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #640903;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #640903;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+background: url(images/top.jpg) no-repeat center top;
+height:310px;
+}
+#innerWrapper{
+    background: none;
+	width:996px;	
+}
+#header{
+background: none;
+	height:230px;
+	margin:0px;
+	padding:0px;
+	
+}
+#innerHeader{
+	margin:0px;
+	padding:0px 0px 0px 30px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:80px;
+	padding-left:30px;
+	display:block;
+	clear:both;
+	float:none;
+}
+#blogTitle a, #blogTitle input{
+	color: #000;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:80px;
+}
+#blogTitle a:hover, #blogTitle input{
+	color: #DE0C0C;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:80px;
+}
+#blogUrl {padding-left:25px;}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #000;
+}
+#blogUrl a:hover {
+	color: #DE0C0C !important;
+}
+#blogDesc{
+	color: #000;
+	font-size: 14px;
+	padding: 0px;
+	padding-top:6px;
+	margin-top:5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+/****** NavBar Elements Styles ******/
+
+#navBar{
+	border:none;
+	padding:0px 0px 0px 38px;
+	background:none;
+}
+#navBar a{
+	color: #BCA37F;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#navBar a:hover { color:#DE0C0C;}
+#innerNavBar{
+	border:none;
+	margin:0px;
+	padding: 0px 28px 0px 70px;
+}
+#optionNav li a{
+    color: #FFF;
+	white-space:nowrap;
+}
+/**修改mainNav*/
+#mainNav li{
+	background:url(images/ico_02.jpg) repeat-x left top;
+	border: 1px solid #6F6F6F;
+	cursor: pointer;
+	margin: 5px 2px 0px 0px;
+	padding: 3px 8px 1px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background:url(images/ico_01.jpg) repeat-x left top;
+	border-bottom: none;
+	margin: 4px 2px 0px 0px;
+	padding: 4px 8px 2px;
+	cursor: auto;
+	border-top: 1px solid #E3660A;
+	border-right: 1px solid #E3660A;
+	border-left: 1px solid #E3660A;
+}
+#mainNav li.private{
+	background:#FFF6CC;
+}
+
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav li.active span{
+ color:#000;
+}
+
+#mainNav li .pageTitle{
+	color:#F1AA1A;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#modContainerInfo {
+	margin: 0px 19px 5px;
+	position:relative;
+}
+.modCtnInfo-private{
+	margin:-10px 14px 0px 14px;
+	color:#000;
+	border-bottom: 1px solid #640903;	
+}
+/** **/
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	padding:0px 14px 0px 20px;
+	margin:8px 0px 0px;
+	background: url(images/mainWrapper.jpg) repeat-y center top;
+}
+#innerMainWrapper{
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+#modContainer {padding-top:0px;margin-top:0px;}
+/****** Mod Elements Styles ******/
+.mod{
+	 background: url(images/mod_c1.jpg) repeat-y 4px top;
+	border-style: none;
+	
+}
+.mod .modFrame{
+	background: url(images/modFrame.jpg) no-repeat left bottom;
+	border-style: none;
+}
+.mod .modTable{
+background: url(images/mod.jpg) no-repeat left top;
+	margin:0px;
+	padding:0px;
+	
+}
+.mod tbody{
+   
+}
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+width:4px;
+	height:30px;
+	background:none;
+}
+.mod .t{
+	background:url(images/mod_t.jpg) no-repeat right top;
+	padding: 0px 4px;
+}
+.mod .modHeader{
+	padding-top: 2px;
+}
+.mod .rt{
+	background:url(images/mod_rt.jpg) no-repeat right top;
+	width:4px;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background:  url(images/mod_c2.jpg) repeat-y right top;
+	margin: 0px;
+	padding: 0px;
+}
+.mod .modEditCon{
+	background: none;
+	border: none;
+}
+
+.mod .mbody{
+	background: none;
+	border: none;
+	
+}
+.mod .l{
+width:4px;
+	background: url(images/mod_l.jpg) repeat-y left top;
+}
+.mod .c{
+	background: url(images/mod_c2.jpg) repeat-y right top;
+	padding:4px 4px 2px;
+}
+.mod .modCon{
+	overflow:hidden;
+}
+.mod .r{
+width:4px;
+	background: url(images/mod_r.jpg) repeat-y right top;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	background: none;
+}
+.mod .b{
+	background: url(images/mod_b.jpg) no-repeat right bottom;
+	height:15px;
+}
+.mod .rb{
+	width:4px;
+	background: url(images/mod_rb.jpg) no-repeat right bottom;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #000;
+}
+.mod .modTitle a:hover{
+    color: #DE0C0C;
+}
+.mod .modEdit a{
+	color: #000;
+	text-decoration: underline;
+}
+.mod .modEdit a:hover{
+    color: #DE0C0C;
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	border-top: 1px solid #640903;
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #640903;
+}
+
+.item-title h3, .item-title h3 a{color: #000;}
+.item-title h3 a:hover{color: #DE0C0C;}
+.item-label{}
+.item-label a{color: #000;}
+.item-label a:hover{color: #DE0C0C;}
+
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	border-bottom: 1px solid #640903;
+	color:#333
+}
+
+.item-content a{
+	color: #FF0000;
+}
+.item-content a:hover{
+    color: #333;
+}
+.item-info, .item-info a{
+	color: #FF0000;
+}
+.item-info a:hover{
+	color: #333;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #640903; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #640903;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #640903;
+}
+.item-more a:hover{ color: #DE0C0C}
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #F00;
+}
+.entries-content .entriesAdd a:hover{
+    color: #DE0C0C;}
+#footer{
+	clear: both;
+	height: 122px;
+	width:996px;
+	background: url(images/foot.jpg) no-repeat center bottom;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding: 34px 15px 0px 22px;
+}
+#contact {
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #fff;
+}
+#contact a:hover{
+   color: #DE0C0C;
+}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+.modCtnInfo-noMod {color: #640903;}
+.Feeds-content li a {color:#640903;}
+.Feeds-content li a:hover {color:#DE0C0C;}
+.texta:link {text-decoration: none;}
+.texta:hover{text-decoration: none;}
+.referItem a{text-decoration: none;}
+.referItem a:hover{text-decoration: none;}
+/*下划线*/
+.profile-content hr{
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #640903;
+	clear:both;
+}
+.profile-content .profileMng{
+	text-align: right;
+	border-bottom: 1px solid #640903;
+	margin-bottom: 3px;
+}
+.messages-content .msg{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #640903;
+	clear: both;
+}
+.links-content .link, .Custom_Links-content .link{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #640903;
+	clear: both;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	text-align: right;
+	border-bottom: 1px solid #640903;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+#articleContent{ padding:8px 20px;}
+#articleInnerContent { background:url(images/Content.jpg); width:880px; padding:15px;}

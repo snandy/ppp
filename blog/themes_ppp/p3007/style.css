@@ -1,0 +1,537 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: default
+	Version: 2.0
+	Author: blogworld (www.blogworld.com.cn)
+	Copyright: www.blogworld.com.cn
+==============================================================
+*/
+
+/****** General Styles ******/
+html{	border-right:1px solid #ccc;}
+body{
+	background: #C49969 url(images/bj.jpg) repeat-x left top;
+}
+div,table,ul,p{ color:#636363;}
+a{
+	color: #333333;
+	text-decoration: underline;
+}
+a:hover{
+	color: #F60;
+	text-decoration: underline;
+
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background: url(images/top.jpg) no-repeat center top;
+}
+#innerWrapper{
+ background: none;
+ width:960px;	
+}
+#header{
+background: none;
+	margin:0px;
+	padding:0px;
+	height: 237px;
+}
+#innerHeader{
+	margin:0px;
+	padding:0px 0px 0px 80px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:50px;
+	padding-left:35px;
+	display:block;
+	clear:both;
+	float:none;
+}
+#blogTitle a, #blogTitle input{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-decoration: none;
+	padding-top:38px;
+}
+#blogTitle a:hover, #blogTitle input a:hover{
+	color: #f60;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-decoration: none;
+}
+#blogUrl {
+	display:block;
+	float:none;
+	margin-left:15px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+	padding-bottom: 8px;	
+}
+#blogUrl a{
+	padding-top:5px;
+	margin-left: 22px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #fff;
+}
+#blogUrl a:hover {
+	color: #f60;
+}
+#blogDesc{
+	color:#fff;
+	font-size: 14px;
+	padding: 0px;
+	padding-top:1px;
+	margin-top:0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 36px;
+}
+/****** NavBar Elements Styles ******/
+#optionNav li a{
+color: #000;
+	white-space:nowrap;
+}
+#navBar a{
+	color:#FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar a:hover{
+	color: #F60;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background:none;
+}
+#innerNavBar{
+	border:none;
+	background:none;
+	padding:0px 28px 0px 55px;
+	margin:0px;
+}
+#mainNav .private .pageTitle{
+	color:#000
+}
+/**修改mainNav*/
+#mainNav li{
+	background: #AB7D50;
+	cursor: pointer;
+	margin: 5px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+	border-top: 1px solid #977245;
+	border-right: 1px solid #977245;
+	border-left: 1px solid #977245;
+}
+
+#mainNav li.active{
+	background: #FFF;
+	border-top-width: 1px;
+	border-top-color: #977245;
+	border-bottom: none;
+	margin: 2px 2px 0px 0px;
+	padding: 4px 8px 6px;
+	cursor: auto;
+}
+#mainNav li.private{
+	background: #EBD189;
+}
+
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav li.active span{
+ color:#000;
+}
+
+#mainNav li .pageTitle{
+	color:#FFF;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#modContainerInfo {
+	margin: -8px 19px 5px;
+	position:relative;
+}
+.modCtnInfo-private {
+	margin:-10px 12px 0;
+	background: #EBD189;
+}	
+/** **/
+
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	padding:0px;
+	margin:10px 0px 0px;
+	background: url(images/mainWrapper.jpg) repeat-y center top;
+}
+
+#innerMainWrapper{
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+#modContainer {padding-top:0px;margin-top:0px;}
+#mainNav #newPageBtn{
+	background: url(images/ico_addPage.gif) no-repeat center;
+	float: left;
+	margin: 11px 0px 0px 4px;
+	padding: 0px 8px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border:none;
+		background: url(images/mod_c1.jpg) repeat-y 4px top;
+
+
+}
+.mod .modFrame{
+border:none;
+	background-image: url(images/modFrame.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.mod .modTable{
+	margin:0px;
+	padding:0px;
+	background-image: url(images/mod.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mod tbody{
+margin:0px;
+	padding:0px;
+	background:none;
+}
+/***********/
+.mod .mheader{
+	border: none;
+	background: none;
+
+	}
+.mod .lt{
+	width: 4px;
+	background: none;
+
+}
+.mod .t{
+	border: none;
+	height:45px;
+	background: url(images/mod_t.jpg) no-repeat right top;
+	padding: 0px 6px 0px 5px;
+}
+.mod .modHeader{
+	padding-top: 0px;
+	padding-bottom: 11px;
+}
+.mod .rt{
+	width: 4px;
+	background-image: url(images/mod_rt.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background: url(images/mod_c2.jpg) repeat-y right top;
+	margin: 0px;
+	padding: 0px;
+}
+.mod .modEditCon{
+	background: none;
+	border: none;
+}
+
+.mod .mbody{
+	background: none;
+	border: none;
+	
+}
+.mod .l{
+	width: 4px;
+	background: url(images/mod_l.jpg) repeat-y left top;
+}
+.mod .c{
+	overflow:hidden;
+	padding: 0px 2px 8px 4px;
+	background: url(images/mod_c2.jpg) repeat-y right top;
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .r{
+	background-image: url(images/mod_r.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;	
+	width: 4px;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width: 4px;
+}
+.mod .b{
+	height:15px;
+	background: url(images/mod_b.jpg) no-repeat right bottom;
+}
+.mod .rb{
+    width: 4px;
+	background-image: url(images/mod_rb.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #A66600;
+}
+.mod .modEdit a{
+	
+	color: #A66600;
+	text-decoration: underline;
+	
+}
+.mod .modTitle a:hover{
+    color: #F60;
+}
+
+.mod .modEdit a:hover{
+    color: #F60;
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom: 1px solid #F1E6D2;
+}
+.item-title h3{
+	color: #000;
+}
+.item-title h3, .item-title h3 a{color: #000;}
+.item-title h3 a:hover{
+    color: #F60;
+}
+.item-label{}
+.item-label a{
+color: #B05C00;
+}
+.item-label a:hover{
+    color: #F60;
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	color:#333;
+	border-bottom: 1px solid #F1E6D2;
+}
+.item-content a{
+	color:#B05C00;
+}
+.item-info, .item-info a{
+	color:#B05C00;
+}
+.item-info a:hover{
+    color: #F60;
+}
+.item-content a:hover{
+    color: #F60;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #ccc; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #FF0000;
+}
+.entries-content .entriesAdd a:hover{
+    color: #F60;
+	font-weight: bold;
+}
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #B05C00;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #B05C00;
+}
+.item-more a:hover{
+    color: #F60;
+	font-weight: bold;
+}
+#footer{
+	clear: both;
+	background:url(images/foot.jpg) no-repeat center bottom;
+	height: 216px;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding-top: 65px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 22px;
+}
+
+#contact {
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #fff;
+}
+#contact a:hover{
+	color: #F60;
+}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+.modCtnInfo-noMod {color: #F0F0F0;}
+.Feeds-content li a{
+	color: #AEAEAE;
+}
+
+.texta:link {text-decoration: none;}
+.texta:hover{text-decoration: none;}
+.referItem a{text-decoration: none;}
+.referItem a:hover{text-decoration: none;}
+
+/*下划线*/
+.profile-content hr{
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #F1E6D2;
+	clear:both;
+}
+.profile-content .profileMng{
+	text-align: right;
+	border-bottom: 1px solid #F1E6D2;
+	margin-bottom: 3px;
+}
+.messages-content .msg{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #F1E6D2;
+	clear: both;
+}
+.links-content .link, .Custom_Links-content .link{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #F1E6D2;
+	clear: both;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	text-align: right;
+	border-bottom: 1px solid #F1E6D2;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+#commentlist hr {
+	padding: 10px;
+	border-bottom: 1px solid #F1E6D2;
+}

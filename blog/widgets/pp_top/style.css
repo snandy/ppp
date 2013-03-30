@@ -1,0 +1,36 @@
+.pp_top-content .collect {
+	margin: 5px;
+	float: left;
+	overflow: hidden;
+	width: 56px;
+	text-align: center;
+}
+.pp_top-content .collect .collectIco {
+	width: 52px;
+	height: 52px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px;
+	display: block;
+}
+.pp_top-content .collect img {
+	height: 50px;
+	max-height: 50px;
+	max-width: 50px;
+}
+.pp_top-content .collect span {
+	margin-top: 2px;
+	width: 52px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.pp_top-content .more{
+	text-align: right;
+	clear:both;
+}

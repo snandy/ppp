@@ -1,0 +1,343 @@
+/*
+=== Sohu Blog Tool Bar StyleSheet File =======================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-12-02
+==============================================================
+*/
+/***** common style *****/
+#tool-bar, #tool-bar a, #tool-bar input, #tool-bar select, .menu-div input, .menu-div select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #493a01;
+	line-height: 120%;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+#tool-bar input, #tool-bar select {
+	background: white;
+	line-height: 16px;
+	height: 16px;
+}
+#tool-bar input .text, #tool-bar select {
+	border: 1px solid #cecece;
+}
+#tool-bar .text {
+	padding: 0 2px;
+}
+#tool-bar .select {
+	font-size: 9px;
+}
+#tool-bar .button {
+	height: 18px;
+	background: #ddd url(images/button_bg.gif) top repeat-x;
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+#tool-bar #user-tools a, #tool-bar #sys-tools a, #tool-bar #sys-nav a/*, #tool-bar .menu-div a*/ {
+	line-height: 20px;
+	padding: 3px 3px 2px !important;
+	padding: 3px 3px 1px;
+	text-decoration: underline;
+}
+#tool-bar #user-tools a:hover, #tool-bar #sys-tools a:hover/*, #tool-bar .menu-div a:hover*/ {
+	padding: 2px 2px 1px !important;
+	padding: 2px 2px 0px;
+	color: #493a01;
+	background: #ddd url(images/link_over.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+}
+#tool-bar .link {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px !important;
+	padding: 2px 3px 1px;
+	text-decoration: underline;
+}
+#tool-bar .link-over {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px !important;
+	padding: 1px 2px 0px;
+	color: #493a01;
+	background: white url(images/link_over.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#tool-bar .link-down {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px !important;
+	padding: 1px 2px 0px;
+	color: #493a01;
+	background: white url(images/link_down.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#tool-bar .link-disable {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px !important;
+	padding: 2px 3px 1px;
+	text-decoration: underline;
+	color: #ccc;
+	cursor: default;
+}
+#tool-bar .link-arrow {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px 2px !important;
+	padding: 3px 3px 1px 2px;
+	text-decoration: underline;
+}
+#tool-bar .link-arrow-over {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 2px 2px 1px 2px !important;
+	padding: 2px 2px 0px 2px;
+	color: #493a01;
+	background: white url(images/link_over.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+}
+#tool-bar .link-arrow-down {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 2px 0px 2px !important;
+	padding: 3px 2px 0px 2px;
+	color: #493a01;
+	background: white url(images/link_down.gif) top repeat-x;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+}
+#tool-bar .link-arrow-disable {
+	margin-top: 0px !important;
+	margin-top: 1px;
+	padding: 3px 3px 2px 2px !important;
+	padding: 3px 3px 1px 2px;
+	text-decoration: underline;
+	cursor: default;
+}
+#tool-bar form {
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+#tool-bar img {
+	border: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: text-bottom;
+}
+#tool-bar .clear{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+/***** tool bar style *****/
+#tool-bar {
+	height: 25px;
+	width: auto;
+	background: white url(images/bg.gif) top repeat-x;
+	padding: 5px 10px 0;
+	border-bottom: 1px solid #666;
+}
+/***** logo style *****/
+#tool-bar #sohu-blog-logo {
+	float: left;
+	margin-right: 10px;
+}
+#tool-bar #sohu-blog-logo img {
+}
+/***** user tools style *****/
+#tool-bar #user-tools {
+	float: left;
+}
+#tool-bar #user-tools div, #tool-bar #user-tools div div, #tool-bar #sys-tools div, #tool-bar #sys-tools div div {
+	float: left;
+}
+#tool-bar #user-tools a, #tool-bar #user-tools span, #tool-bar #user-tools .linkbox {
+	margin: 0 3px;
+}
+#tool-bar #user-tools .linkspace {
+	padding-top: 3px !important;
+	padding-top: 1px;
+}
+#tool-bar #user-tools .more {
+	width: 7px;
+	height: 9px !important;
+	height: 10px;
+	background: url(images/arrow.gif) left center no-repeat;
+	margin: 3px 0 2px!important;
+	margin: 2px 0 2px;
+}
+#tool-bar #user-tools .link-arrow-disable .more {
+	width: 7px;
+	height: 9px !important;
+	height: 10px;
+	background: url(images/arrow_disable.gif) left center no-repeat;
+	margin: 3px 0 2px!important;
+	margin: 2px 0 2px;
+}
+#tool-bar #user-tools .sohuMsg {
+	padding: 2px 7px;
+	cursor: pointer;
+	background: url(images/ico_messenger.gif) no-repeat center;
+}
+#tool-bar #user-tools .sohuMsg-over {
+	padding: 1px 6px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: url(images/ico_messenger.gif) no-repeat center;
+}
+#tool-bar #user-tools .sohuMsgFlash{
+	padding:0 35px 0 0;
+}
+#tool-bar #user-tools .sohuMsgFlash embed{
+	width:170px;
+	height:120px;
+	position:absolute;
+	margin:-4px 0 0 -2px;
+}
+/***** system tools style *****/
+#tool-bar #sys-tools {
+	float: right;
+}
+/***** search tools style *****/
+#tool-bar #search-tools {
+	float: right;
+	margin-right: 12px;
+	margin-top: 1px;
+}
+#tool-bar #search-tools input, #tool-bar #sys-tools select {
+	border: none;
+}
+#tool-bar #search-tools .text {
+	width: 95px;
+	background: #d4d4d4;
+}
+#tool-bar #search-tools .button {
+	height: 16px;
+}
+/***** system nav style *****/
+#tool-bar #sys-nav {
+	float: right;
+	background-color: #f6f6f6;
+}
+#tool-bar #sys-nav, #tool-bar #sys-nav a {
+	color: #666;
+}
+#tool-bar #sys-nav a:hover {
+	color: red;
+}
+/***** menu div style *****/
+#tool-bar .menu-iframe, #tool-bar .menu-div {
+	position: absolute;
+	visibility: hidden;
+}
+.menu-div {
+	z-index: 100;
+	width: 80px;
+	border: 2px solid #ccc;
+	padding: 2px;
+	background-color: white;
+}
+.menu-div, .menu-div a, .menu-div td {
+	color: #7e7e7e;
+}
+.menu-div a {
+	text-decoration: underline;
+}
+.menu-div a:hover {
+	color: #CD5F60;
+	text-decoration: underline;
+}
+.menu-div input, .menu-div select, .menu-div textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #7e7e7e;
+	line-height: 130%;
+	margin: 0px;
+}
+.menu-div textarea {
+	padding: 2px;
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div select {
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div input.text {
+	height: 18px;
+	width: 180px;
+	line-height: 16px;
+	background-color: white;
+	border: 1px solid #cecece;
+}
+.menu-div input.text-error {
+	height: 18px;
+	line-height: 16px;
+	padding: 0px 2px 0px;
+	background-color: white;
+	border: 1px solid red;
+}
+.menu-div input.button {
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #cecece;
+	cursor: pointer;
+}
+.menu-div input.button-submit {
+	color: white;
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: #F03309;
+	border: 1px solid #cecece;
+	cursor: pointer;
+}
+.menu-div .redfont {
+	color: #F03309;
+}
+.menu-div .notice {
+	background-color: #ffffe1;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.menu-div div {
+	/*width: 92%;*/
+}
+
+/****** login form style ******/
+.passport {border:1px solid white; height:1%;}
+.ppselecter, .ppselecter * {font-size:12px; font-family:"ËÎÌו", Verdana, Arial, Helvetica, sans-serif; line-height:normal;}
+.ppselecter {border: 1px solid #cecece; width:180px; margin-left:1px; margin:0;}
+.ppselecter .ppseltit {background-color: #eee;height:15px;padding-top:4px;text-indent:6px;}
+.ppselecter table td table td {padding: 3px;}
+.ppselecter .active {background:#F03309; color:white; font-weight: normal;}
+.errorBox{
+	background-color:#ffffe1;
+	border:2px solid #ccc;
+	color:red;
+	padding:5px;
+	margin:0 0px 10px;
+}
+.errorBox ul{
+	margin: 0 10px 0 20px;
+	padding: 5px 0;
+}

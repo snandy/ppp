@@ -1,0 +1,385 @@
+/*
+=== Sohu Blog StyleSheet File ================================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-10-15
+==============================================================
+*/
+
+/****** General Styles ******/
+body, table {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #7784AF;
+	line-height: 130%;
+}
+body {
+	background-color: #ffffff;
+}
+a {
+	color: #7784AF;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+.arrow-up {
+	height: 9px;
+	width: 9px;
+	background: url(images/arrow_up.gif) no-repeat center;
+	cursor: pointer;
+}
+.arrow-down {
+	height: 9px;
+	width: 9px;
+	background: url(images/arrow_down.gif) no-repeat center;
+	cursor: pointer;
+}
+.redfont, .redfont a {
+	color:#F03309;
+}
+
+
+/****** Form Controls Styles ******/
+form {
+	margin: 0px;
+	padding: 0px;
+}
+input, select, textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8B8B8B;
+	line-height: 130%;
+}
+textarea {
+	padding: 2px;
+	border: 1px solid #DFE1E5;
+}
+select {
+	border: 1px solid #DFE1E5;
+}
+input.text {
+	height: 18px;
+	line-height: 16px;
+	padding: 0px 2px 0px;
+	border: 1px solid #DFE1E5;
+}
+input.button {
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	border: 1px solid #DFE1E5;
+}
+
+/* a style which makes div touch the bottom of content */
+.clear{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+/****** Main Layout Styles ******/
+#wrapper {
+	margin: 0px auto;
+	width: 778px;
+	background-color: #ffffff;
+}
+#innerWrapper {}
+#topPadding {
+	display: none;
+}
+#header {
+	background-color: #F8F8F8;
+}
+#innerHeader {
+	height: 98px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#navBar {
+	height: 47px;
+	background-color: #7784AF;
+}
+#innerNavBar {
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+#mainWrapper {
+}
+#footer {
+	clear: both;
+}
+#innerFooter{
+	color: #97A2C2;
+	padding:20px 30px;
+}
+#innerFooter a{
+	color: #97A2C2;
+	text-decoration:none;
+}
+#innerFooter a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+#innerCopy{
+	float:right;
+	margin-top:-20px !important;
+	margin-right:30px;
+}
+#bottompadding {}
+
+/****** Header Elements Styles ******/
+#blogHeader {
+	float: left;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+#blogLogo {
+	float: left;
+	margin-right: 40px;
+}
+#logo {}
+#blogTitle {
+	color: #596586;
+	font-size: 16px;
+	margin-bottom: 5px;
+	line-height: 16px;
+}
+#blogUrl, #blogUrl a {
+	color: #596586;
+	margin-bottom: 14px;
+}
+#blogUrl a:hover {
+	color: #000000;
+}
+#blogDesc {
+	color: #596586;
+}
+#miscHeader {
+	float: right;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+#sohuNav, #searchBar {
+	margin-bottom: 5px;
+}
+#sohuNav a, #miscLink a {
+	color: #75A859;
+	text-decoration: none;
+}
+#sohuNav a:hover, #miscLink a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+/****** NavBar Elements Styles ******/
+#mainNav {
+	float: left;
+}
+#optionNav {
+	float: right;
+}
+
+/****** Content Layout ******/
+/* content */
+#content {
+	float: right;
+	width: 518px;
+	padding-right: 30px;
+	padding-top: 5px;
+}
+#innerContent {
+	overflow: hidden;
+}
+#contentLabelBox {
+	padding-left: 5px;
+}
+.contentLabel {
+	color: #7784AF;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration: none;
+	line-height: 24px;
+	height: 22px;
+	border: 1px solid #DFE1E5;
+	border-bottom: none;
+	padding: 3px 8px 4px !important;
+	padding: 5px 8px 3px;
+	margin: 0px 1px;
+}
+.contentLabel:hover {
+	border: 1px solid #DFE1E5;
+	border-bottom: none;
+	text-decoration: none;
+	color: #7784AF;
+	background-color: #DFE1E5;
+}
+.contentLabelActive {
+	color: #7784AF;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 24px;
+	height: 22px;
+	border: 1px solid #DFE1E5;
+	border-bottom: none;
+	padding: 3px 8px 4px !important;
+	padding: 5px 8px 3px;
+	margin: 0px 1px;
+	background-color: #DFE1E5;
+}
+/* item box */
+.item{
+	margin-bottom: 5px;
+}
+.item-top {
+	height: 4px;
+	border-top: 1px solid #DFE1E5;
+	border-left: 1px solid #DFE1E5;
+	border-right: 1px solid #DFE1E5;
+	font-size: 0px;
+	line-height: 1px;
+}
+.item-bottom {
+	height: 4px;
+	border-bottom: 1px solid #DFE1E5;
+	border-left: 1px solid #DFE1E5;
+	border-right: 1px solid #DFE1E5;
+	font-size: 0px;
+	line-height: 1px;
+}
+.item-title{
+	margin: 0px 5px;
+	padding: 10px 0px;
+}
+.item hr{
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #DFE1E5;
+}
+.item-titleReview{
+	color:#596586;
+}
+.item-title h3 {
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	color: #596586;
+}
+.item-title a{
+	text-decoration:none;
+}
+.item-title h3 a {
+	font-size: 13px;
+	color: #596586;
+}
+.item-title .item-label {
+	float: right;
+}
+.item-title .item-label a {
+	color: #596586;
+	margin-left: 8px;
+}
+.item-label a:hover {
+	color: #000000;
+}
+.item-body {}
+.item-body-hidden {
+	display: none;
+}
+.item-content{
+	margin: 0px 5px;
+	padding: 15px 0px;
+	border-bottom: 1px solid #DFE1E5;
+	border-top: 1px solid #DFE1E5;
+}
+.item-content, .item-content table {
+	font-size: 13px;
+	line-height: 180%;
+}
+.item-info {
+	margin: 0px 5px;
+	padding: 10px 0px;
+	color: #75A859;
+}
+.item-plus{
+	color:#75A859;
+	font-weight:bold;
+}
+.item-tit{
+	color:#75A859;
+}
+.item-info a {
+	color: #75A859;
+}
+.item-table {
+	margin: 0px 2px;
+	width: 100%;
+}
+.item-table td{
+	border-bottom:#DFE1E5 solid 1px;
+	padding: 0px 5px;
+}
+.item-table thead td{
+	font-weight: bold;
+}
+.item-table tbody td {
+}
+.item-page {
+	color:#75A859;
+	font-weight:bold;
+}
+.item-infoBox {
+	margin: 10px 20px 5px;
+	line-height:20px;
+}
+.item-infoBoxTit, .item-infoBoxTit a{
+	color:#FF6C13;
+}
+.item-infoBoxTit a{
+	text-decoration:underline;
+}
+.item-infoBoxTit a:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+
+/****** article content ******/
+#articleContent{
+}
+#articleInnerContent {
+}
+.artItem-label{
+	color: #F03309;
+	border: #FF61A4 solid 1px;
+	padding: 1px 5px;
+}
+#articleItem-info a {
+	color: #F03309;
+	font-weight:bold;
+	text-decoration:none;
+}
+#artItem-infoBox {
+	margin: 0px 20px 0px;
+	line-height:20px;
+}
+#artItem-button {
+	margin: 10px 20px;
+	line-height:20px;
+}

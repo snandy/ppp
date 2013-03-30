@@ -1,0 +1,38 @@
+.q_utopics-content {
+}
+.q_utopics-content .q_mytopics {
+	margin:0;
+	padding:0;
+}
+.q_utopics-content ul {
+	margin:0;
+	padding:0;
+}
+.q_utopics-content li {
+	list-style:none;
+	padding:5px 0;
+	border-bottom:1px solid #edecec;
+}
+.q_utopics-content li a {
+	text-decoration:none;
+}
+.q_utopics-content li a:hover {
+	text-decoration:underline;
+}
+.q_utopics-content li img {
+	margin-right:5px;
+}
+.q_utopics-content .reply,.q_utopics-content .reply a {
+	color:#aaa;
+	font-size:11px;
+}
+.q_utopics-content .reply a {
+	text-decoration:underline;
+}
+.q_utopics-content .reply a:hover {
+	color:red;
+}
+.q_utopics-content .more {
+	clear:both;
+	text-align:right;
+}

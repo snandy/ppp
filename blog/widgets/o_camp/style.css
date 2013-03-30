@@ -1,0 +1,25 @@
+.o_camp-content .block .myArticleBox ul, .friendArticleBox ul{
+	margin:0 0 0 20px;
+	padding:0;
+}
+.o_camp-content .block .myArticleBox li, .friendArticleBox li{
+	line-height: 180%;
+}
+.o_camp-content .block .myArticleTitle, .friendArticleTitle{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 15px 0 5px 0;
+	padding: 5px 0 0 0;
+	border-top: 1px solid #ccc;
+}
+.o_camp-content .block .more{
+	text-align:right;
+}
+.o_camp-content .block .btnB{
+	margin-top:10px;
+	text-align:center;
+}
+.o_camp-content .block .bot{
+	margin-top:5px;
+	text-align:center;
+}

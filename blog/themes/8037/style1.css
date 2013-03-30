@@ -1,0 +1,158 @@
+/*
+=== Sohu Blog StyleSheet File ================================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-10-31
+==============================================================
+*/
+
+
+/****** Main Layout Styles ******/
+#navBar {
+	height: 67px;
+	background-image: url(images/index_02.jpg);
+	background-repeat: no-repeat;
+	
+}
+#mainWrapper {
+	width: 996px;
+	background-image: url(images/index_13.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 218px;	
+}
+#wrapper {
+	margin: 0px auto;
+	width: 996px;
+	color: #FFF;
+	background-color: #91CAD0;background-image: url(images/index_15.jpg);
+	background-repeat: repeat-y;
+}
+#footer {
+	clear: both;
+	height: 210px;
+	background-image: url(images/index_17.jpg);
+	background-repeat: no-repeat;
+}
+#navBar {
+	height: 77px;
+	background-image: url(images/index_12.jpg);
+	background-repeat: no-repeat;
+}
+#innerNavBar {
+	width: 657px;
+	padding-top: 8px;
+	display: inline;
+	
+}
+#mainNav {
+	float: left;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 172px;
+	margin: 0px;
+}
+#mainNav li {
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 6px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#mainNav li a {
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#optionNav {
+	float: right;
+	padding-right: 104px;
+	margin: 0px;
+}
+#optionNav li {
+	float: left;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+#optionNav li a {
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	padding-top: 13px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 36px;
+}
+#optionNav li a {
+	color: #FFFFFF;
+}
+#articleContent{
+	width: 720px;
+	margin-left: 135px;
+	padding-top: 20px;
+}
+.item-title {
+	height: 23px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-left: 8px;
+    background-image: url(images/index_08.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.item-title h3 {
+	font-size: 14px;
+	float: left;
+	margin: 0px;
+	color: #FFFFFF;
+	padding-top: 2px;
+	padding-left: 30px;
+}
+.item-label {
+	float: right;
+	padding-top: 2px;
+	padding-right: 8px;
+}
+.item-content{
+	margin: 0px;
+	padding: 10px 5px;
+	overflow: hidden;
+	color:#02315B;
+	font-size:14px;	/*border-bottom: 1px solid #cecece;
+	border-top: 1px solid #cecece;*/
+}
+.item-info {
+	color: #000;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.item-info a {
+	color: #000;
+}
+.item-title h3 {
+	font-size: 14px;
+	float: left;
+	margin: 0px;
+	color: #FFFFFF;
+	padding-top: 4px;
+	padding-left: 30px;
+}

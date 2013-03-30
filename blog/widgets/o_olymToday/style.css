@@ -1,0 +1,18 @@
+.o_olymToday-content {
+}
+
+	.o_olymToday-content #focusNews{
+		padding:0 8px 15px;
+	}
+			.o_olymToday-content #focusNews h2{
+				margin:18px 0 7px;
+				color:#d60000;
+			}
+				.o_olymToday-content #focusNews h2 a{
+					color:#d60000;
+					font:bold 18px/24px Microsoft JhengHei,"Î¢Ü›ÕıºÚów",Microsoft YaHei,"Î¢ÈíÑÅºÚ",SimSun,sans-serif,'ËÎÌå';
+				}
+			.o_olymToday-content #focusNews p{
+				margin:1px 0;
+				font:12px/20px 'ËÎÌå';
+			}

@@ -1,0 +1,51 @@
+.ow_book-content .b_top {width:98%; margin:0 0 5px 2px; border:1px solid #ccc;}
+
+.ow_book-content .b_name {
+	clear:both;
+  width: 98%; 
+	padding:4px 0px 4px 4px;
+	font-size: 12px;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	background:#FFFEEF;
+	}
+	
+.ow_book-content .b_name a{
+	font-weight:bold !important;
+}
+
+.ow_book-content img.cover{
+float:left;
+width:98px; 
+height:128px; 
+margin:0 10px 5px 0;
+padding:1px;
+border:1px solid #ccc;
+}
+
+.ow_book-content a:hover img.cover{
+border:1px solid #f60;
+}
+
+.ow_book-content .b_brief {
+  clear:both;
+  padding: 4px 0 4px 4px;
+  width:98%;
+	font-size: 12px;
+	line-height: 15px;
+	
+}
+.ow_book-content .b_brief p{
+	margin:0;
+}
+.ow_book-content .b_brief_p{
+	padding:0 0 10px 0;
+}
+
+.ow_book-content .count_red { color: #FF0000;
+}
+
+.ow_book-content .b_list_p {margin:0;
+	padding:5px 0 3px 8px;
+	font-weight:bold;
+}

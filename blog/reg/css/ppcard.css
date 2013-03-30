@@ -1,0 +1,113 @@
+
+/*** SOHU card_10.css ***/
+/* 全局CSS定义 */
+.passportc ul,.passportc ol,.passportc li,.passportc span,.passportc p,.passportc form{margin: 0; padding: 0; border: 0;}
+.passportc img,.passportc a img{border:0; margin:0; padding:0;}
+.passportc ul,.passportc ol,.passportc li{list-style:none}
+
+/* 链接颜色 */
+.passportc a{color: #313031;text-decoration:none}
+.passportc a:link,.passportc a:visited{color:#FF6000;}
+.passportc a:hover{text-decoration:underline;}
+
+/* 登录前 */
+.passportc{border:1px #FFA200 solid;height:158px;width:278px;_height /**/:160px;_width /**/:280px;font-size:12px;background:#fff;text-align:left;}
+.passportc b{color:#FF0000;}
+.pptitle,.pptitle2{margin:0px 10px -3px 10px!important;margin:0px 10px;line-height:25px;}/*标题*/
+.pptitle{background:url(http://www.sohu.com/passport/images/pic002.gif) no-repeat right 7px;font-weight: bold;}
+.pptitle2 span{font-weight: bold;}
+.pptitle2{position:relative;margin-right:0;}
+.pptitle2 .exit{position:absolute;right:10px;top:1px;*top:-3px;}/*退出*/
+.ppthree{
+	display:inline;
+	color:#999;
+	margin:auto 39px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.ppcontent{height:126px;_height /**/:133px;padding:7px 0px 0px 10px;background:url(http://www.sohu.com/passport/images/pic001.gif) no-repeat center;position:relative;}
+
+.passportc .error{color:#FF6000;height:15px;}
+.passportc .card{font-weight: normal;padding:0px 0px 0px 25px;color:#313031;}
+.passportc .card li{margin:2px 0px 7px 0px!important;margin:2px 0px 5px 0px;}
+.passportc .card li a:link,.passportc .card li a:visited{margin-right:27px;}
+
+.card dt{margin-top:7px;}
+.passportc .card dl{padding-top:10px}
+
+.passportc .card .sign{background:url(http://www.sohu.com/passport/images/pic004.gif) no-repeat; width:70px; height:21px;border:0;font-size:12px;padding-top:1px;_padding-top /**/:4px;color:#333;}
+.passportc .card .ppinput{border:1px #FFA200 solid;background:#fff;font-size:12px;height: 17px;width: 164px;
+	_height /**/: 19px;_width /**/: 166px;margin:0;padding:0;}
+
+.card dl a:link,.card dl a:visited{margin-right:27px;}
+.card dt span{margin:5px 30px 0px 38px;color: #313031;}
+
+/* select下拉 */
+.ppselecter, .ppselecter *{font-size:12px; font-family:"宋体", Verdana, Arial, Helvetica, sans-serif; line-height:normal;}
+.ppselecter{border: 1px solid #FFA700; width: 166px;margin-left:1px;overflow:hidden}
+.ppselecter .ppseltit{background-color: #FFF6DF;height:15px;padding-top:4px;text-indent:6px; color:#FF6000;}
+.ppselecter table td table td{padding: 3px;}
+.ppselecter .active{background:#FDD463; color:#333; font-weight: normal;}
+
+/* 登录中 */
+.ppWaitMsg{background:url(http://images.sohu.com/passport/v3/cardstyle/images/load.gif) no-repeat center 30px;color:#FF6000;padding-top:90px;padding-left:50px;font-size:12px;width:250px;font-weight: normal;}
+
+/* 登录后 */
+.passportc .listContA{width:258px;height:71px;_width /**/:260px;_height /**/:73px ;border:1px #FFD391 solid;background:#fff;margin:0px 3px 0px -1px;color:#FF6000;}
+.passportc .listContA ul{margin-top:7px!important;margin-top:9px;margin-left:8px;}
+.passportc .listContA li{margin-bottom:7px;}
+.passportc .listContA li p{color:#313031;}
+
+.passportc .middle{color:#FF6000;margin-left:-1px;}
+.passportc .middle li{float:left;margin-top:6px;margin-left:5px;}
+.passportc .middle li img{background:url(http://www.sohu.com/passport/images/pic005.gif) no-repeat;width:34px;height:13px;}
+.passportc .middle .current{padding:6px 7px 2px 7px;margin:-1px 0px 0px 0px;background:#fff;border:1px #FFD391 solid;border-top:0px;color:#000;}
+
+.passportc .bottom{color:#FF6000;width:258px;clear: both;}
+.passportc .bottom ul{margin-left:0px!important;margin-left:-10px;}
+.passportc .bottom li{float:left;margin-top:6px;margin-left:5px;}
+.passportc .bottom .dabenying{float:right;margin-top:1px;}
+.passportc .bottom .dabenying img{width:54px;height:21px;bordr:0;}
+
+.passportc .candle{position:absolute;left:220px;top:12px;}
+
+/*** blog.sohu.com redefine ***/
+	/* a */
+.passportc a{color:#333;}
+.passportc a:link,.passportc a:visited{color:#333;}
+.passportc a:hover{color:#fc7821;}
+.passportc .middle a:link,
+.passportc .middle a:visited,
+.passportc .bottom a:link,
+.passportc .bottom a:visited{color:#666;}
+
+	/* border-color */
+.passportc{border-color:#c3cecd;}
+.passportc .card .ppinput{border-color:#ccc;}
+.ppselecter{border-color:#C3CECD;}
+.passportc .listContA{border-color:#C3CECD;}
+.passportc .middle .current{border-color:#c3cecd;}
+
+	/* background & color */
+.pptitle{background-image:url(images/pic002.gif);}
+.ppcontent{background-image:url(images/pic001.gif);}
+.passportc .card .sign{background-image:url(images/pic004.gif);}
+.passportc .middle li img{background-image:url(images/pic005.gif);}
+.ppselecter .ppseltit{background:#C3CECD;color:#333;}
+.ppselecter .active{background:#FC7821;color:#fff;}
+.ppWaitMsg{background-image:url(images/load.gif);color:#666;}
+.passportc .listContA{color:#333;}
+.passportc .middle,
+.passportc .bottom{color:#666;}
+.passportc .middle .current{color:#333;}
+
+	/* position */
+.pptitle,
+.pptitle2{margin:0 10px -3px 10px;}
+.ppcontent{width:268px;height:128px;padding:7px 0px 0px 8px;}
+.ppWaitMsg{width:auto;margin:0 8px 0 0;padding:90px 0 0 0;text-align:center;}
+.passportc .listContA{width:260px;height:71px;margin:0 3px 0px -1px;}
+.passportc .middle{float:none !important;width:auto !important;height:auto !important;margin:0 0 0 -1px;padding:0 !important;}
+.passportc .bottom li{margin-top:3px;margin-left:4px;}
+.passportc .bottom .dabenying{margin:1px 2px 0 0;}
+

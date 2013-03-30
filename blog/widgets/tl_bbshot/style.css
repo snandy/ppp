@@ -1,0 +1,27 @@
+.tl_notice-content{
+}
+.tl_bbshot-content .itemsContainer{
+	overflow: hidden;
+	width: 100%;
+}
+.tl_bbshot-content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tl_bbshot-content li{
+	white-space: nowrap;
+	padding: 0 0 0 15px;
+	margin: 0 0 5px 0;
+	background: url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/arrowList.gif) no-repeat 0 0;
+}
+.tl_bbshot-content .info{
+	background-color: #FFFFCC;
+	padding: 2px 0 0 5px;
+	margin-bottom: 5px;
+}
+.tl_bbshot-content .error{
+	background-color: #FFFF00;
+	padding: 2px 0 0 5px;
+	margin-bottom: 5px;
+}

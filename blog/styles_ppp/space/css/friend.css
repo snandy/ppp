@@ -1,0 +1,208 @@
+.f0{padding:0 10px;zoom:1}
+.f0:after{content:'\0020';display:block;clear:both;height:0}
+.fritip1{background:url(../i/tipBg.png) no-repeat 0 0;width:167px;height:83px;position:absolute; z-index:100}
+.fritip1 .fclose{display:block;width:12px;height:12px;background:url(../i/icon.gif) no-repeat -166px -51px;position:relative;margin-left:-12px;margin-top:-12px;left:160px;top:23px; z-index:1050}
+.fritip1 a.fclose:hover{background:url(../i/icon.gif) no-repeat -177px -51px; z-index:1501}
+.fritip1 .i{margin-left:-16px;margin-top:-16px;position:relative;left:20px;top:40px;}
+.fritip1 p{color:#666; line-height:20px; margin:0 10px 0 30px; margin-top:20px; _margin-top:10px;}
+.friPass{width:200px;background:#fffeda;border:1px  solid #aeae00;position:absolute}
+.friPass p{border:1px solid #fff;margin:10px 20px 10px 50px;color:#666}
+.friPass .i-fpass{width:24px;height:24px;background:url(../i/icon.gif) no-repeat -171px -80px;margin-left:-24px;margin-top:-24px;position:relative;left:44px;top:44px}
+
+/* S friend nav*/
+.f0 .f1{padding-top:7px;background:url(../i/greyLine.gif) repeat-x bottom center;height:37px;overflow:hidden}
+.f0 .f1 ul li{display:inline-block;*display:inline;*zoom:1;margin-left:20px;border:1px solid #e4e4e4;overflow:hidden}
+.f0 .f1 ul li a{display:block;_display:inline;padding:6px 15px;color:#474745; *zoom:1; _zoom:1}
+.f0 .f1 ul li a:hover{text-decoration:none;background:#f1f5f8; zoom:1}
+.f0 .f1 ul li.act{padding:4px 1px 0 1px;border-bottom:1px solid #fff;background:#fff url(../i/fribg_01.gif) repeat-x left top;border-top:0}
+.f0 .f1 ul li.act a{background:url(../i/fribg_04.gif) repeat-x 0 0;font-weight:bold}
+
+/* E friend nav*/
+/* S titleBar */
+.f0 .f2{background:#ececec;height:33px;margin:10px 0; overflow:hidden}
+.f0 .f2 h4{padding:0 15px;color:#666;font-weight:bold;line-height:33px}
+.f0 .f2 .txt{margin:0;background:none;margin-bottom:4px;float:left;_float:none}
+.f0 .f2 .txt .blur{height:23px;border:none;line-height:23px;padding:0 5px;width:136px;background:none;color:#333; font-size:12px}
+.f0 .f2 .f2Sch{width:150px;height:23px;background:url(../i/f2SchBg.gif) no-repeat 0 0;margin-left:-160px;margin-top:-23px;left:100%;top:20px;position:relative;top:-5px}
+.f0 .f2 .f2Sch .ipt{border:none;width:21px;height:23px;cursor: pointer;background:none}
+/* E titleBar */
+.f0 .f3{width:570px;float:left;padding-bottom:20px}
+.f0 .f4{width:210px;float:right}
+
+/* S friend css*/
+	.fri{padding:15px 10px;position:relative;border-bottom:1px dashed #d8d8d8;*zoom:1;}
+	.fri .fra{width:54px;height:54px;margin-left:-54px;margin-top:-54px;position:relative;left:54px;top:54px;*zoom:1}
+		.fri .fra a img{padding:1px;border:1px solid #e4e4e4; display:block; width:48px; height:48px}
+		.fri .fra a:hover img{padding:1px;border:1px solid #f00}
+	.fri .fgp{position:absolute;top:8px;right:10px;border:1px solid #dbdee3;display:inline-block;*display:inline;*zoom:1;height:20px;line-height:20px;color:#979797;padding:1px}
+		.fri .fgp b{display:inline-block;*display:inline;*zoom:1;padding:0 20px 0 5px;background:url(../i/fr01.gif) no-repeat right 1px;cursor:pointer;height:20px;line-height:20px;padding-top:0;height:18px\9;padding-top:2px\9;_height:20px;_padding-top:0;overflow:hidden;color:#979797}
+	.fri .fedit,.fri .fdel{display:none;height:20px;}
+	.fri .fedit{position:absolute;top:36px;right:10px}
+	.fri .fdel{position:absolute;top:55px;right:10px}
+		.fri .fedit a,.fri .fdel a{display:block;color:#979797}
+		.fri .fedit a:hover,.fri .fdel a:hover{text-decoration:none}
+		.fri .fedit a i,.fri .fdel a i{margin-bottom:0}
+	.fri .fr0{padding:0 60px 0 65px;}
+		.fri .fr0 p{overflow:hidden;height:25px}
+		.fri .fr0 .fin{height:25px;padding-right:60px;overflow:hidden}
+		.fri .fr0 .fin .fnm{float:left;height:24px;line-height:24px}
+		.fri .fr0 .fin .fnm a{color:#017ad7;font-weight:bold}
+		.fri .fr0 .fin .fnk{margin-left:15px;display:inline-block;*display:inline;*zoom:1;color:#979797;overflow:hidden}
+		.fri .fr0 .fin .fnk b{display:inline-block;*display:inline;*zoom:1;height:20px;height:18px\9;padding-top:2px\9;_height:20px;_padding-top:0;color:#979797;padding:1}
+		.fri .fr0 .fin .fnk b input.detxt{border:none;background:#fff;height:20px;line-height:20px}
+		
+		.fri .fr0 .fin .fnkact{border:1px solid #979797;padding:1px;background:#fff}
+		.fri .fr0 .fin .fnkact b{color:#979797;padding:0;background:url(../i/fribg_02.gif) repeat-x left bottom}
+	.fri .fr0 .fde{height:25px;line-height:25px;overflow:hidden;color:#474745}
+	.fri .fr0 .ffd{height:25px;line-height:25px;overflow:hidden;color:#979797}
+	.fri .fr0 .ffd a{color:#979797}
+	.friact{background:#f6f7f9}
+	.friact .fedit,.friact .fdel{display:block}
+	i.i-fedit{background-position:-101px -173px}
+	i.i-fdel{background-position:-77px -176px}
+	
+	.fask .fris{overflow:hidden}
+	.fask .fris .fri{clear:both}
+
+.know .frik{margin-right:-16px;*zoom:1}
+.fri1{border:1px solid #e6e6e6;width:86px;height:57px;padding:10px 10px 10px 80px;overflow:hidden;background:#f6f7f9;float:left;margin:0 16px 16px 0;display:inline-block;*display:inline!important;_display:inline}
+.fri1 .fra{width:54px;height:54px;margin-left:-54px;margin-top:-54px;position:relative;left:-11px;top:57px}
+.fri1 .fra a img{display:block;width:48px;height:48px}
+.fri1 .nm{width:86px;height:20px;overflow:hidden;padding-left:1px}
+.fri1 .ty{color:#979797;padding-left:1px}
+.fri1 .opad{padding-top:2px}
+.fri1 .opad a{display:block;width:54px;height:18px;background:url(../i/friaddbtn.gif) no-repeat 0 0;text-indent:-99em}
+.fri1 .opad a:hover{background:url(../i/friaddbtn.gif) no-repeat 0 -20px}
+.fri1 .opad .added{background:url(../i/friaddbtn.gif) no-repeat -1px -40px;width:54px;height:18px;display:block;text-indent:-99em}
+.fri1act{background:url(../i/friaddbg.gif) no-repeat 0 0}
+.fask .f3{width:auto;float:none}
+.f3 .fritip{border:1px solid #ddc769;color:#666;padding:10px 10px 10px 30px;margin-bottom:10px;background:#fffbd2 url(../i/f301.gif) no-repeat 10px center}
+.f3 .fris{min-height:220px}
+.fask .fris .fri .fdate{position:absolute;right:10px;color:#979797}
+
+.fbtns{padding-top:5px}
+.fbtns .btn{margin-right:10px}
+.fbtns .btn b{font-size:12px}
+.fbtns a:hover{text-decoration:none}
+.fbtns .btn,.fbtns .btn b{background-image:url(../i/btn2.png);height:24px;line-height:24px}
+.fricls{background:#e8ffc1}
+.fbcancle{width:68px;height:16px;line-height:12px;display:inline-block;*display:inline;*zoom:1;background:url(../i/icon.gif) no-repeat -174px -152px;text-indent:-99em}
+.fbadded{width:68px;height:16px;line-height:12px;display:inline-block;*display:inline;*zoom:1;background:url(../i/icon.gif) no-repeat -174px -171px;text-indent:-99em}
+
+.know .f4 ul li{text-align:left}
+.know .f4 ul li a{color:#474745;line-height:30px}
+.know .f4 ul li a span{color:#474745}
+
+/* E friend css*/
+.f4 ul li{height:30px;border-bottom:1px solid #eaeaea;text-align:right;padding:0 5px 0 15px;position:relative;*vertical-align:bottom}
+.f4 ul li:after{overflow:hidden;clear:both;display:block;height:0;content:"\20"}
+.f4 ul li.current{background:#018beb!important;color:#fff;line-height:30px;text-align:left}
+.f4 ul li.current h4 *{color:#fff}
+.f4 ul li.current .fedit,.f4 ul li.current .fdel{visibility:visible}
+.f4 ul li.fgpact{background:#f6f7f9}
+.f4 ul li h4{height:30px;text-align:left;line-height:30px;color:#474745}
+.f4 ul li h4 a{display:block; width:190px; height:30px; text-decoration:none; cursor:pointer; color:#;}
+.f4 ul li h4 a:hover{text-decoration:none}
+.f4 ul li h4 .fgptxt{width:80px;margin-right:5px;height:14px;line-height:14px;_margin-top:3px}
+.f4 ul li h4 span{line-height:30px}
+.f4 ul li .fedit,.f4 ul li .fdel{display:inline-block;*display:inline;*zoom:1;visibility:hidden;cursor:pointer}
+.f4 ul li .fedit{position:absolute;right:16px;top:9px}
+.f4 ul li .fdel{position:absolute;right:2px;top:9px}
+.f4 ul li .fedit .i-fedit{height:12px;width:13px;background-position:-165px -6px;margin-bottom:0}
+.f4 ul li a.fedit:hover .i-fedit{background-position:-165px -22px}
+.f4 ul li .fdel .i-fdel{height:12px;width:13px;background-position:-181px -6px;margin-bottom:0}
+.f4 ul li a.fdel:hover .i-fdel{background-position:-181px -22px}
+
+.f4 ul li.fgmod{height:60px; background:#f6f7f9}
+.f4 ul li.fgmod h4 p{height:24px; padding-top:6px;}
+.f4 ul li.fgmod h4 p .fgptxt{width:120px; margin-top:6px}
+.f4 ul li.fgmod h4 p input{width:120px; margin-top:4px; height:17px; line-height:17px; border:1px solid #999}
+.f4 ul li.fgmod .fgyes{display:block; width:35px; height:16px; float:left; overflow:hidden}
+.f4 ul li.fgmod .fgyes b{ padding:0 5px; color:#979797; height:15px; line-height:15px}
+.f4 ul li.fgmod .fgno{background:#f6f7f9;display:block; width:35px; height:16px; float:left; overflow:hidden}
+.f4 ul li.fgmod .fgno b{ padding:0 5px; color:#979797; height:15px; line-height:15px}
+
+.addfg{height:30px;line-height:24px;padding-top:6px;padding-left:15px}
+.addfg a{display:inline-block;*display:inline;*zoom:1;width:80px;height:20px;color:#017ad7}
+.addfg a:hover{text-decoration:none}
+.addfg a .i-addfg{width:16px;height:16px;background:url(../i/icon.gif) no-repeat -164px -35px}
+
+.fgyes{border:1px solid #c6c7cc;padding:1px;background:#fff; cursor:pointer}
+.fgyes:hover{text-decoration:none}
+.fgyes b{background:url(../i/fribg_03.gif) repeat-x left bottom}
+.fgno{margin-left:10px;border:1px solid #fff;padding:1px;background:#fff; cursor:pointer}
+.fgno:hover{border:1px solid #c6c7cc;text-indent:0; text-decoration:none}
+.fgno:hover b{background:url(../i/fribg_03.gif) repeat-x left bottom; text-decoration:none}
+
+.pop1{position:relative;width:125px;margin-left:20px}
+.pop1 .content{padding:10px 10px 8px 10px}
+.pop1 .fgtxt{height:20px;line-height:20px;border:1px solid #c6c7cc;width:100px}
+.pop1 p{text-align:center; height:22px; width:83px; padding:5px 10px 0 10px}
+.pop1 p a:hover{text-decoration:none}
+.pop1 p a{display:block; width:35px; height:16px; overflow:hidden}
+.pop1 p a b{ padding:0 5px; color:#979797; height:15px; line-height:15px}
+.pop1 p a.fgyes{ float:left}
+.pop1 p a.fgno{ float:right; margin-left:0}
+
+
+.pop2{width:125px}
+.pop2 .content{padding:3px 10px; _width:103px;}
+.pop2 .content ul li{color:#666;border-bottom:1px solid #eaeaea; height:22px;height:20px\9; _height:22px; padding-top:3px; padding-top:5px\9; _padding-top:3px;overflow:hidden;clear:both}
+.pop2 p{padding:6px 0; height:20px;}
+.pop2 p:after{content:'\20'; display:block; clear:both; overflow:hidden; height:0px; line-height:0}
+.pop2 .fgtxt{width:50px;border:1px solid #c6c7cc;color:#979797;font-size:12px;height:18px;line-height:18px; float:left;}
+
+.pop2 p a.fgyes{border:1px solid #c6c7cc;padding:1px;background:#fff;margin-left:10px; width:34px; height:15px; line-height:15px; overflow:hidden; float:left; _display:inline}
+.pop2 p a.fgyes b{background:url(../i/fribg_03.gif) repeat-x left bottom;padding:0 5px;color:#979797; float:left; line-height:15px;}
+
+/* page */
+.i,.ii,.pg a,.pg_on{display:inline-block;*display:inline;*zoom:1}
+.pg a:hover,.pg .pg_on{background-position:0 -100px;text-decoration:none}
+.pg i{line-height:21px!important}
+.pg a:hover i,.pg .pg_on i{background-position:right -150px;text-decoration:none}
+a.pg_dis{color:#999!important;background-position:0 -300px!important;cursor:default}
+a.pg_dis i{padding:0 15px 0 13p;color:#999!important;background-position:right -350px!important}
+.pg .pg_pr .ii,.pg .pg_nx .ii{position:relative;height:150px;*margin-top:0!important;margin:0;padding:0;vertical-align:top;background-image:url(http://s1.cr.itc.cn/img/t/ibtn_i5.png)}
+.pg{clear:both;height:25px;margin:10px 12px;text-align:right;white-space:nowrap}
+.pg,.pg i{color:#333;font-size:14px;font-family:"\5b8b\4f53"}
+.pg strong{margin:0 5px 0 0;font-size:12px;padding:0 9px 0 0;font-weight:normal;color:#666;background:url(http://s1.cr.itc.cn/img/s/lin/vr_sd_999.gif) no-repeat right 0}
+.pg a,.pg_on{margin:0 5px 2px 2px;line-height:21px;text-decoration:none;vertical-align:middle}
+.pg a,.pg_on,.pg a i,.pg_on i{overflow:hidden;display:inline-block;height:20px;border:0;padding:0 0 0 3px;background:url(http://s3.cr.itc.cn/img/t/btn_pg.png) no-repeat}
+.pg a i,.pg_on i{position:relative;padding:0 7px 0 4px;background-position:right -50px;vertical-align:top}
+.pg a:hover,.pg a:hover i,.pg_on,.pg_on i{text-decoration:none;color:#fff}
+.pg .pg_fr i,.pg .pg_pr i,.pg .pg_nx i,.pg .pg_ed i{color:#6198dc;font-size:12px}
+.pg_eli{margin:0 2px 0 0;font-size:12px}
+.pg_eli,.pg_eli i{font-family:Tahoma}
+.pg_on{font-weight:bold}
+.pg_min a{margin:0 3px 0 4px;padding:0;background:none}
+.pg_min a i{padding:0;background:none}
+.pg .pg_hm{padding:0 8px 0 0;background-position:right}
+.pg .pg_hm a{background:none;color:#3271C0!important}
+.pg .pg_hm a:hover{text-decoration:underline}
+.pg_hm a{margin-right:0;border:0}
+
+.pg .ii{width:6px;background-position:-81px 0}
+.pg .pg_pr i{padding-right:8px}
+.pg .pg_nx .ii{width:44px;background-position:-87px 0}
+.pg a:hover .ii{top:-50px}
+.pg_dis .ii{top:-100px!important}
+.pg .pg_dis,.pg .pg_dis a,.pg .pg_dis i{color:#999!important;background-color:transparent!important;cursor:default;border-color:#999;text-decoration:none!important}
+.pg_eli i{background:none}
+
+/* sharetoBox */
+.popLayer{position:absolute;z-index:200;_height:0;_width:75px}
+.popLayer .decor{position:absolute;right:-2px;bottom:-2px;z-index:-1;width:100%;height:100%;background:#000;-moz-opacity:0.1;opacity:.10;filter:alpha(opacity=10)}
+.popLayer .content{position:relative;z-index:0;border:1px solid #999;background:#fff}
+.popLayer .content .shareLi{border-bottom:1px solid #ccc}
+.shareBox{padding:1px}
+.shareLi{border-bottom:1px solid #ccc}
+.shareLi .i{width:14px;height:14px;margin:0;padding-right:2px;background-color:#fff;background-image:url(../i/feedicon.gif)}
+.shareLi a{padding:1px 3px 2px 3px;display:block;color:#1A689D;text-decoration:none;height:20px;line-height:20px;_padding-top:8px;_padding-right:3px;_padding-left:3px;_height:15px;_line-height:15px}
+.shareLi a:hover{text-decoration:underline}
+.shareLi.noborder{border-bottom:1px solid #fff}
+/* “˛ÀΩ…Ë÷√ */
+.privacyInt{padding:10px 0 0 20px}
+.privacyInt .fbtns{padding-left:78px; padding-top:15px}
+.f0 .f1 ul li a.privacyA{padding:6px 25px}
+
+.fritip1{_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://10.1.97.206:8080/uedhtml/space/i/tipBg.png',sizingMethod='scale')}

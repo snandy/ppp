@@ -1,0 +1,16 @@
+.v-content hr{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	height: 1px;
+}
+.v-content .vCon{
+	width: 195px !important;
+	width: 200px;
+	float: left;
+	margin: 5px 10px 5px 0;
+}
+.v-content .vCon img{
+	width: 90px;
+	float: left;
+	margin-right: 5px;
+}

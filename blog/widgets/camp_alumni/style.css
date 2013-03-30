@@ -1,0 +1,63 @@
+.camp_alumni-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_alumni-content .banner_small{
+	height: 30px;
+}
+.camp_alumni-content .profile{
+	padding: 0 0 5px;
+}
+.camp_alumni-content .ico{
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	padding: 2px;
+	float: left;
+	margin-right: 5px;
+}
+.camp_alumni-content .ico img{
+	width: 50px;
+	height: 50px;
+}
+.camp_alumni-content .uname{
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.camp_alumni-content .desc{
+	padding: 5px 0;
+	word-break: break-all;
+}
+.camp_alumni-content .nav{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+}
+.camp_alumni-content .action{
+	padding: 5px;
+}
+.camp_alumni-content .action h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_alumni-content .action ul{
+	margin: 0 0 10px;
+	padding: 0 0 0 5px;
+	list-style: none;
+	/*list-style-position: inside;
+	border-bottom: 1px solid #ccc;*/
+}
+.camp_alumni-content .action ul li{
+	margin: 5px 0;
+	padding: 0;
+}

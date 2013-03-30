@@ -1,0 +1,11 @@
+.o_tomoFocus-content{}
+	.o_tomoFocus-content .angle{}
+		.o_tomoFocus-content .aHead{display:none;overflow:hidden;height:20px;padding:2px 10px 1px;background:#f0f0f0;}
+			.o_tomoFocus-content .aHead a{color:#000;}
+			.o_tomoFocus-content .aHead h3{float:left;*padding-top:1px;color:#d60000;font:bold 14px/20px Verdana,Arial,Helvetica,sans-serif;}
+			.o_tomoFocus-content .aHead .option{float:right;}
+		.o_tomoFocus-content .aBody{}
+			.o_tomoFocus-content .aBody ul.square {margin:0;padding:0;}
+			.o_tomoFocus-content .aBody ul.square li{margin:4px 0 4px 30px;padding:0;}
+			.o_tomoFocus-content .aBody ul.square li a{font-size:14px;}
+	.o_tomoFocus-content ul.square li.hot a{color:red;}

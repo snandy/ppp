@@ -1,0 +1,53 @@
+.v_favovideo-content {
+}
+.v_favovideo-content .first_fav {
+	width:126px;
+	float:left;
+}
+.v_favovideo-content .first_fav .video_cover {
+	display:block;
+	padding:2px;
+	border:1px solid #ccc;
+	position:relative;
+}
+.v_favovideo-content .video_cover:hover {
+	border:1px solid red;
+}
+.v_favovideo-content .video_cover .v_play {
+	position:absolute;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll;
+	width:16px;
+	height:15px;
+	left:101px;
+	top:72px;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	cursor:pointer;
+}
+.v_favovideo-content .first_fav img {
+	width:120px;
+	height:90px;
+	border:0;
+}
+.v_favovideo-content dl,dt,dd {
+	margin:0;
+}
+.v_favovideo-content dt {
+	margin-bottom:3px;
+	word-break:break-all;
+}
+.v_favovideo-content dt a {
+	font-weight:bold;
+}
+.v_favovideo-content dl {
+	float:left;
+	margin:3px 0 0 5px;
+}
+.v_favovideo-content ul {
+	margin:0 0 5px 15px;
+	padding:0;
+}
+.v_favovideo-content .more {
+	clear:both;
+	text-align:right;
+}

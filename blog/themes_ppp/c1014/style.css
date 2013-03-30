@@ -1,0 +1,382 @@
+/*
+=== Xiaonei Space StyleSheet File ================================
+	Style Name: xn02
+	Version: 1.0
+	Author: weicui@sohu-inc.com
+	First Created: 2006-10-13
+	Last Update: 2006-10-13
+	Copyright: Alumni & Xiaonei
+==============================================================
+*/
+
+body{
+	background:#fff url(images/banner_02.jpg) no-repeat center 30px;
+}
+div,table,ul,span,p{color: #B06B00;}
+
+a{
+	color: #B06B00;
+	/*font-size: 12px;*/
+	text-decoration: underline;
+}
+a:hover{
+	color: #B06B00;
+	/*font-size: 12px;*/
+	text-decoration: underline;
+}
+textarea{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #000;
+}
+input.select{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #333;
+}
+input.text{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #333;
+}
+input.button{
+	border:1px solid #ccc;
+	background:#fff8ed repeat-x 0 0;
+	color:#333;
+	height:18px;
+	line-height:16px;
+}
+input.button-submit{
+	border:1px solid #ccc;
+	background:#fff8ed repeat-x 0 0;
+	color:#333;
+	height:18px;
+	line-height:16px;
+}
+/****** Main Layout Styles ******/
+
+#wrapper{
+	background:none;
+	border:none;
+}
+#innerWrapper{
+	background:none;
+}
+#topPadding{
+	height: 1px;
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+#header{
+	height: 60px;
+	background: none;
+	padding: 0px;
+	border:none;
+}
+#innerHeader{
+	padding: 8px 0px 0px;
+	margin-left:0px;
+	border:none;
+}
+#navBar{
+	background: none;
+	border: none;
+}
+#innerNavBar{
+	background: none;
+}
+#mainNav{
+	background: none;
+}
+#mainNav li{
+	background: #fff8ed;
+	border: 1px solid #db7900;
+	border-bottom: none;
+	cursor: pointer;
+	margin: 4px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#indiBar{
+	margin-left:6px;
+	background-image: url(images/nav_03.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: none;
+}
+
+#innerIndiBar{
+	height: 32px;
+	padding-top: 0px;
+	background-image: url(images/nav_04.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	border: none;
+}
+
+#neckWrapper{
+}
+#innerNeckWrapper{
+}
+#mainWrapper{
+	background-image:  url(images/bg_07.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	border:none;
+	padding-top: 0px;
+	margin-top:0px;
+
+}
+#innerMainWrapper{
+	background-image:  url(images/bg_10.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+	border:none;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#modContainer{
+	padding-top: 0px;
+	bodrer:none;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #000000;
+	padding-left: 10px;
+}
+#blogUrl a{
+	color: #333333;
+}
+#blogDesc{
+	color: #990000;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+/****** NavBar Elements Styles ******/
+#navBar a{
+	color: #333333;
+}
+#navBar li.indiOptActive{
+	background:none;
+	border: none;
+	margin-top: 4px;
+	padding: 5px 8px 7px;
+}
+#navBar li.indiOptActive a{
+	color: #004464;
+	border: none;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border: none;
+	background-image:  url(images/bg_29.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	overflow: hidden;
+	margin-top:2px;
+	padding-top:0px;
+
+}
+.mod .modFrame{
+	border: none;
+	background-image:  url(images/bg_26.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+	margin-top:0px;
+	padding-top:0px;
+}
+/***********/
+.mod .t{
+	height: 46px;
+	padding: 0;
+	border: none;
+	background: none;
+	
+}
+.mod .modHeader{
+	margin-left: 0px;
+	height: 21px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.mod .modEditCon{
+	border:none;
+	background:none;
+}
+/***********/
+.mod .modTitle, .mod .modTitle a{
+	color: #519700;
+	overflow: hidden;
+}
+.mod .modTitle a:hover{
+	color: #519700;
+}
+
+/****** item box ******/
+.item-title{
+	padding: 10px 5px 8px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #333333;
+	border-bottom-color: #333333;
+}
+.item-title h3, .item-title h3 a{
+	color: #000033;
+}
+.item-body{
+	padding-bottom: 20px;
+}
+.item-content{
+	font-size: 13px;
+	word-break : break-all;
+	border-bottom: 1px solid #ccc;
+}
+.item-content, .item-content *{
+	line-height: 180%;
+}
+.clear{
+	border-top:1px solid transparent !important;
+	margin-top:-1px !important;
+	border-top:0;
+	margin-top:0;
+	clear:both;
+	visibility:hidden;
+}
+
+/****** entries widget ******/
+.entries-content .entriesAdd{
+	margin-bottom: 10px;
+}
+.entries-content .entriesAdd a{
+	color: #73c513;
+}
+/****** categories widget ******/
+.categories-content li {
+	line-height: 180%;
+}
+/****** latest_comments widget ******/
+.latest_comments-content li {
+	line-height: 180%;
+}
+/****** fresh_blogs widget ******/
+.fresh_blogs-content .collect .collectIco {
+	border: 1px solid #666666;
+}
+/****** links widget and custom links ******/
+.links-content .link, .Custom_Links-content .link{
+	border-bottom: 1px solid #333333;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #333333;
+}
+/****** pp widget ******/
+.pp-content .ppMng{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #333333;
+}
+/****** profile widget ******/
+.profile-content hr{
+	border-top: 1px solid #333333;
+}
+.profile-content .profileMng{
+	margin-bottom: 5px;
+}
+/****** stats widget ******/
+.stats-content li {
+	line-height: 180%;
+}
+.stats-content li span {
+	color: #7e4f59;
+}
+/************** add new***************/
+#footer{
+	background-image:  url(images/bottom_35.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height:165px;
+}
+#innerFooter{
+	background-image:  url(images/bottom_36.jpg);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+		height:165px;
+}
+
+.mod .lt{
+	width:5px;
+	height:35px;
+	background-image:  url(images/modtop_15.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+.mod .rt{
+	width:5px;
+	height:35px;
+	background-image:  url(images/modtop_19.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .lb{
+	width:151px;
+	height:16px;
+	background-image:  url(images/mod_34.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.mod .rb{
+	width:39px;
+	height:16px;
+	background-image:  url(images/mod_33.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.mod .modHeader{
+	padding-top: 0px;
+	overflow: hidden;
+	border:none;
+}
+.mod .mneck{
+	overflow: hidden;
+	border:none;
+}
+
+.mod .mbody{
+	overflow: hidden;
+	border:none;
+}
+.mod .b{
+	background-image:  url(images/mod_31.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.mod .c{
+	padding: 0px;
+}
+.mod .t{
+	height:35px;
+	background-image:  url(images/modtop_16.jpg);
+	background-repeat: repeat-x;
+	background-position: left;
+}
+.mod .modTable{
+	overflow: hidden;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#powered{padding-top:8px;}

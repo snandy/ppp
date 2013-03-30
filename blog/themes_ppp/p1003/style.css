@@ -1,0 +1,363 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: 21
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-07-08
+	Last Update: 2006-07-08
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/****** General Styles ******/
+body{
+	background: none;
+	background-color: #FFFFFF;
+}
+div,table,ul,span,p{color: #666666;}
+a{
+	color: #AE0405;
+}
+a:hover{
+	color: red;
+}
+textarea{
+	border: 1px solid #EEFAFF;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+select{
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	color: #333333;
+}
+input.text{
+	border: 1px solid #ffffff;
+	background-color: #F0FDF7;
+	color: #000000;
+}
+input.button{
+	border: 1px solid #ffffff;
+	height: 18px;
+	line-height: 16px;
+	color: #990000;
+}
+input.button-submit{
+		border: 1px solid #ffffff;
+	height: 18px;
+	line-height: 16px;
+	color: #000000;
+}
+/****** Main Layout Styles ******/
+#wrapper{
+	background:none;
+	border:none;
+}
+#innerWrapper{
+	background:none;
+	border: 1px solid #999999;
+}
+#topPadding{
+	border:none;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+	background-color: #AFAFAF;
+}
+#header{
+	height: 200px;
+	background-image: url(images/header_02.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	border:none;
+	background-color: #AFAFAF;
+}
+#innerHeader{
+	padding: 46px 0px 0px;
+	margin-left:0px;
+}
+#navBar{
+	background: #E8F29C;
+	background-image: url(images/nav_05.jpg);
+	background-repeat: repeat-x;
+	height:30px!important;
+	height:26px;
+}
+#innerNavBar{
+	border:none;
+}
+#mainNav{
+	border:none;
+}
+/**ÐÞ¸ÄmainNav*/
+#mainNav li{
+	background: #E8F29C;
+	border:1px solid #729C30;
+	cursor: pointer;
+	margin: 3px 2px 0px 0px;
+	padding: 3px 8px 3px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background:#AEC559;
+	border-top: 2px solid #000;
+		border-bottom: none;
+	margin: 1px 2px 0px 0px;
+	padding: 3px 8px 5px;
+	cursor: auto;
+}
+#mainNav li.private{
+	background: #FFF6CC;
+}
+.modCtnInfo-private {
+	margin: 0px;
+	background: #FFF6CC;
+}
+#mainNav li .pageOptHover{
+	background-color: #ddd;
+}
+
+#mainNav a{
+	text-decoration: none;
+}
+#optionNav li{
+	white-space:nowrap;
+}
+.mod .modCon{
+overflow:hidden;
+}
+#mainNav a span{
+	white-space: nowrap;
+	font-weight: bold;
+	display: block;
+	margin-top: 4px;
+	padding-top: 0px !important;
+	padding-top: 3px;
+	cursor: pointer;
+}
+#mainWrapper{
+	background: none;	
+	background-image: url(images/mainBottom_15.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+			background-color: #AEC559;
+	
+}
+#innerMainWrapper{	
+	
+	background-image: url(images/rightConner_13.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 90px;
+
+}
+#articleContent{
+	background-color:#CADA94;
+}
+#modContainer{
+padding-top: 10px;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #000000;
+	padding-left: 80px;
+}
+#blogUrl a{
+	color: #333333;
+}
+#blogDesc{
+	color: #616E2F;
+	padding-top: 10px;
+	padding-left: 162px;
+}
+
+/****** NavBar Elements Styles ******/
+#navBar a{
+	color: #333333;
+}
+
+/****** Mod Elements Styles ******/
+.mod{
+	border: none;
+	background-image: url(images/mod_21.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	overflow: hidden;
+}
+.mod .modFrame{
+	border: none;
+	background-image: url(images/mod_21.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+/***********/
+.mod .t{
+	height: 25px;
+	padding: 0;
+	border: none;
+	background: none;
+	
+}
+.mod .modHeader{
+	margin-left: 0px;
+	height: 21px;
+	padding-top: 4px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.mod .modEditCon{
+	background-color: #EAFBEC;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+/***********/
+.mod .modTitle, .mod .modTitle a{
+	color: #000000;
+	overflow: hidden;
+}
+.mod .modTitle a:hover{
+	color: #003399;
+}
+
+/****** item box ******/
+.item-title{
+	padding: 10px 5px 8px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #78969E;
+	border-bottom-color: #78969E;
+}
+.item-title h3, .item-title h3 a{
+	color: #000033;
+}
+.item-body{
+	padding-bottom: 20px;
+}
+.item-content{
+	border-bottom: none;
+}
+
+
+/****** entries widget ******/
+.entries-content .entriesAdd{
+	margin-bottom: 10px;
+}
+.entries-content .entriesAdd a{
+	color: #73c513;
+}
+/****** categories widget ******/
+.categories-content li {
+	line-height: 180%;
+}
+/****** latest_comments widget ******/
+.latest_comments-content li {
+	line-height: 180%;
+}
+/****** fresh_blogs widget ******/
+.fresh_blogs-content .collect .collectIco {
+	border: 1px solid #77969E;
+}
+/****** links widget and custom links ******/
+.links-content .link, .Custom_Links-content .link{
+	border-bottom: 1px solid #77969E;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #77969E;
+}
+/****** pp widget ******/
+.pp-content .ppMng{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #77969E;
+}
+/****** profile widget ******/
+.profile-content hr{
+	border-top: 1px solid #77969E;
+}
+.profile-content .profileMng{
+	margin-bottom: 5px;
+}
+/****** stats widget ******/
+.stats-content li {
+	line-height: 180%;
+}
+.stats-content li span {
+	color: #7e4f59;
+}
+/************** add new***************/
+#footer{
+	background-image: url(images/bottom_45.jpg);
+	background-repeat: repeat-x;
+}
+#innerFooter{
+	background-image: url(images/bottom_16.jpg);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+}
+
+.mod .lt{
+	width:16px;
+	height:34px;
+		background-image: url(images/mod_11.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mod .rt{
+	width: 15px;
+	height:34px;
+	background-image: url(images/mod_14.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .lb{
+	width:16px;
+	height:20px;
+	background-image: url(images/mod_30.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.mod .rb{
+	background-image: url(images/mod_34.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.mod .modHeader{
+	background-image: url(images/mod_12.gif);
+	background-repeat: no-repeat;
+	background-position: left -4px;
+	overflow: hidden;
+	border:none;
+}
+.mod .b{
+	background-image: url(images/mod_31.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.mod .c{
+	padding: 0px;
+}
+.mod .t{
+	
+	background-image: url(images/mod_13.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.mod .modTable{
+	background-image: url(images/mod_25.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	overflow: hidden;
+}
+#powered{	padding-top: 0px;}

@@ -1,0 +1,475 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+
+body{
+background:#FFF url(images/top.jpg) no-repeat center 30px;
+}
+div,table,ul,p{color:#027DC0;}
+a{color: #FFF;text-decoration: none;}
+a:hover{color: red;text-decoration: underline;}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+background: none;
+}
+#innerWrapper{
+	background: none;
+	width: 950px;
+}
+#header{
+	height:139px;
+	margin:0px;
+	padding:0px;
+	background: none;
+}
+#innerHeader{
+	margin:0px;
+	padding:0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:25px;
+	padding-left:100px;
+}
+#blogTitle a, #blogTitle input{
+	color: #FFF;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:100px;
+}
+#blogTitle a:hover { color:red;}
+#blogUrl {
+	padding-top:28px;
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #FFF;
+}
+#blogUrl a:hover{
+	color: #FF0000;
+}
+#blogDesc{
+	color: #FFF;
+	font-size: 14px;
+	padding: 0px;
+	margin-top:2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	padding-top:4px;
+}
+/****** NavBar Elements Styles ******/
+#optionNav li{
+	white-space:nowrap;
+	padding-top:4px;
+}
+#optionNav li a{
+	color:#067BC1;
+}
+#optionNav li a:hover{
+	color:red;
+}
+#navBar a{
+	color: #0C96F1;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#navBar a:hover{
+	color:red;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar{
+	border:none;
+	margin:0px 12px;
+	padding:0px;
+	background:none;
+}
+#innerNavBar{
+	border:none;
+	background:none;
+	padding:0px 10px 0px 10px;
+	margin:0px;
+}
+/**修改mainNav*/
+#mainNav li{
+	background: #FFF;
+	cursor: pointer;
+	margin: 9px 2px 0px 0px;
+	padding: 3px 8px 2px;
+	display: block;
+	left: 0px;
+	top: 0px;
+	border-top: 1px solid #0C98F0;
+	border-right: 1px solid #0C98F0;
+	border-bottom: none;
+	border-left: 1px solid #0C98F0;
+}
+
+#mainNav li.active{
+	background: #0C98F0;
+	margin: 7px 2px 0px 0px;
+	padding: 4px 8px 5px;
+	cursor: auto;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+	border-bottom: none;
+}
+#mainNav li.private{
+	background: #FEF6E1;
+}
+
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav li.active span{
+ color:#FFF;
+}
+
+#mainNav li .pageTitle{
+	color:#0C96F1;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#modContainerInfo {
+	margin: 0px 19px 5px;
+	position:relative;
+}
+#mainNav .private .pageTitle{
+	color:#0C96F1;
+}
+.modCtnInfo-private{
+    background:#FEF6E1;
+    margin:-24px 14px 0px 16px!important;
+	margin:-27px 14px 0px 16px;
+	color:#0C96F1;
+	border-bottom: 1px solid #0D97F0;
+}
+/** **/
+
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	padding:0px;
+	margin:27px 0px 0px;
+	background: url(images/mainWrapper.jpg) repeat-y left top;
+}
+#innerMainWrapper{
+	border:none;
+	padding: 0px;
+	margin:0px;
+
+	}
+#modContainer {padding-top:0px;margin-top:0px;}
+#mainNav #newPageBtn{
+	margin: 11px 0px 0px 4px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	background: none;
+	border: 1px solid #FFFFFF;
+}
+.mod .modFrame{
+	border: none;
+}
+.mod .modTable{
+	margin:0px;
+	padding:0px;
+}
+.mod tbody{
+
+}
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	height:21px;
+	background: none;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+}
+.mod .t{
+	background: url(images/mod_t.jpg) repeat-x left top;
+	padding: 0px 6px 0px 5px;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+	height:30px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.mod .modHeader{
+	padding-top: 2px;
+}
+.mod .rt{
+	background: none;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	opacity:0.7;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background: none;
+	margin: 0px;
+	padding: 0px;}
+.mod .modEditCon{
+	background: none;
+	border: none;
+}
+
+.mod .mbody{
+	background: none;
+	border: none;
+	
+}
+.mod .l{
+	
+	background: none;
+}
+.mod .c{
+	background: none;
+	padding: 4px;
+	
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .r{
+	
+	background: none;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width:2px;
+	height: 3px;
+	background: none;
+}
+.mod .b{
+	background: none;
+}
+.mod .rb{
+	
+	background: none;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #0B1302;
+}
+.mod .modTitle a:hover{ color:red;}
+.mod .modEdit a{color: #0B1302;}
+.mod .modEdit a:hover{ color:red;}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+.item-title h3{
+	color: #067BC1;
+}
+.item-title h3, .item-title h3 a{color: #067BC1;}
+.item-label{}
+.item-title h3 a:hover{color: red;}
+.item-label a{
+	color: #333;
+}
+.item-label a:hover { color:red}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+		color:#333;
+}
+.item-content a{
+	color:#FFF;
+}
+.item-content a:hover { color:red;}
+.item-info, .item-info a{
+	color: #FFF;
+}
+.item-info a:hover { color:red;}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #ccc; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.entries-content .entriesAdd a:hover{
+	font-weight: bold;
+	color: #F60;
+}
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #027DC0;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #027DC0;
+}
+.item-more a:hover { color:red}
+#footer{
+	clear: both;
+	height: 99px;
+	background: url(images/foot.jpg) no-repeat center bottom;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding: 0px 15px 0px 22px;
+}
+#contact {
+	color: #FFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #FFF;
+}
+#contact a:hover { color:red}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #FFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+/*下划线*/
+.profile-content hr{
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #FFF;
+	clear:both;
+}
+.profile-content .profileMng{
+	text-align: right;
+	border-bottom: 1px solid #FFF;
+	margin-bottom: 3px;
+}
+.messages-content .msg{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #FFF;
+	clear: both;
+}
+.links-content .link, .Custom_Links-content .link{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #FFF;
+	clear: both;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	text-align: right;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+.Feeds-content li a {color:#027DC0;}
+.Feeds-content li a:hover {color:red;}

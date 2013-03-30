@@ -1,0 +1,82 @@
+.camp_mail-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_mail-content .banner_small{
+	height: 30px;
+}
+.camp_mail-content .profile{
+	padding: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_mail-content .welcome{
+}
+.camp_mail-content .uname{
+	font-size: 14px;
+	font-weight: bold;
+}
+.camp_mail-content .desc{
+	padding: 5px 0;
+	word-break: break-all;
+	line-height: 200%;
+}
+.camp_mail-content .nav{
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	clear: both;
+}
+
+.camp_mail-content .unread{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_mail-content .unread h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_mail-content .unread table{
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+.camp_mail-content .unread td{
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 14px;
+}
+.camp_mail-content .unread .ico{
+	width: 16px;
+}
+.camp_mail-content .unread .auth div{
+	width: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 16px;
+}
+
+.camp_mail-content .act{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_mail-content .act h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_mail-content .act ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: square inside;
+}
+.camp_mail-content .act ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+}

@@ -1,0 +1,28 @@
+/*.Friend_Rss-content a{
+	color: #333;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.Friend_Rss-content a:visited{
+	color: #999;
+}
+.Friend_Rss-content a:hover{
+	color: red;
+}*/
+.Friend_Rss-content .itemsContainer{
+	overflow: hidden;
+	width: 100%;
+}
+.Friend_Rss-content ul{
+	margin: 0;
+	padding: 0;
+	list-style-position: outside;
+	padding-left: 15px;
+}
+.Friend_Rss-content li{
+	white-space: nowrap;
+	font-size: 10px;
+	color: #999;
+	padding: 0;
+	margin: 0 0 5px;
+}

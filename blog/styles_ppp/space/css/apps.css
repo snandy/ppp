@@ -1,0 +1,591 @@
+/* 空间其他apps */
+
+/* S space css */
+.mod{margin:0;background:none!important;border:0!important}
+.appTitle h2{font:bold 14px/20px Verdana,Arial,Helvetica,sans-serif;color:#333!important}
+	.appTitle h2 img{width:16px;height:16px;margin:-3px 0 0;padding:1px 10px 0 0;vertical-align:middle}
+	*+html .appTitle h2 img{margin:0}
+.appHead{width:560px;height:25px;float:left;padding:15px 20px}
+.appBody{width:580px;float:left;padding:0 10px;}
+.appHead .appTitle{float:left}
+.appHead .appOption{float:right}
+.appBody .appNav{height:33px}
+.appBody .appNav .tabs{height:23px;clear:both;margin-bottom:10px;background:url(http://js3.pp.sohu.com.cn/ppp/blog/home_v_091230/mini/styles/i/manage-left-bg.gif) repeat-x bottom;padding-left:20px}	
+.appBody .appNav .tabs li{height:21px;line-height:21px;border:1px solid #bad0dd;text-align:center;float:left;margin-right:10px}
+.appBody .appNav .tabs li a{text-decoration:none;display:inline-block;padding:0 20px;color:#666;line-height:21px;height:21px}
+.appBody .appNav .tabs li a:hover{background:#f1f1f9;text-decoration:none}
+.appBody .appNav .tabs li.current{font-weight:bold;background:#fff;border-bottom:0px;height:22px}
+.appBody .appNav .tabs li.current a{cursor:default}
+.appBody .appNav .tabs li.current a:hover{background:none}
+.archiveList .head h3{text-align:right}
+a.btn_pageOption{display:block;overflow:hidden;float:right;height:22px;padding:2px 9px 0 11px;border:1px solid #cfdea7;background:#eafea5 url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/btn_pageOption_bg.jpg) 0 0 repeat-x;color:#fff;font:12px/23px Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+a.btn_pageOption:hover{background-position:0 -32px;text-decoration:none}
+a.btn_pageOption span{display:block;position:relative;top:-24px;left:-1px;color:#4b731b}
+a.red{color:#f00}
+.mod{margin:0 0 10px 0}
+.mod .head{border-bottom:1px solid #ccc;padding:5px 7px !important}
+.mod .head h3 span{font-weight:bold;color:#666}
+.mod .body{padding:10px 10px 0 10px}
+.mod hr{clear:both;height:1px;margin:7px 0;*margin:0;padding:0;border:0 none;border-top:1px dashed #ccc;line-height:1px;border-color:#ccc!important}
+
+.userIcon a img{padding:1px; border:1px solid #ccc; display:block; width:48px; height:48px}
+.userIcon a:hover img{border-color:#f00}
+
+.userItem{padding:5px;width:555px}
+	.userItem .userIcon{float:left;margin:0 5px 0 0}
+	.userItem .userIcon a img{padding:1px; border:1px solid #ccc; display:block; width:48px; height:48px}
+	.userItem .userIcon a:hover img{border-color:#f00}
+	.userItem .userInfo{}
+		.userItem {padding:5px}
+		.userIcon {float:left;margin:0 5px 0 0}
+		.userInfo {}
+		.userInfo .userEdit {float:right}
+		.inviteFriend {background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/invite_friend.gif) no-repeat 20px 10px;padding:10px 0 0 190px;height:150px}
+	
+.userList .userItem{display:inline;float:left;width:52px}
+	.userList .userItem .userIcon{overflow:hidden;float:none;width:100%;height:52px;margin:0}
+	.userList .userItem .userInfo{width:100%;padding:3px 0;font-weight:normal;text-align:center}
+	.userList .userItem .userInfo h5{font-weight:normal !important;text-align:center}
+
+/* Group */
+img.groupIcon64,img.groupIcon48,img.groupIcon20{border:1px solid #ccc;background:#fff}
+a:hover img.groupIcon64,a:hover img.groupIcon48,a:hover img.groupIcon20{border:1px solid #f63}
+img.groupIcon64{width:64px;height:48px;padding:3px}
+img.groupIcon48{width:48px;height:36px;padding:2px}
+img.groupIcon20{width:20px;height:15px;padding:1px}
+
+/* Photo */
+.photoItem{padding:5px}
+	img.photoCoverImg{padding:1px;border:1px solid #ccc;background:#fff}
+	a:hover img.photoCoverImg{border:1px solid #f63}
+.albumItem{padding:5px}
+	.albumCover{display:block;overflow:hidden;width:85px;height:85px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/album_bg.gif) 0 0 no-repeat}
+	.albumCover img{width:75px;height:75px;border:0;padding:0}
+	.albumCover a:hover img,a.albumCover:hover img{border:0px;padding:0}
+.slideItem{padding:5px}
+	.slideCover{display:block;overflow:hidden;width:75px;height:75px;padding:12px 7px 7px 3px;;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/slide_bg.gif) 0 0 no-repeat}
+	.slideCover img{width:75px;height:75px;margin:0 auto;padding:0}
+
+/* Video */
+.videoItem{padding:5px}
+	.videoCover{position:relative;overflow:hidden;width:126px;height:96px}
+		img.videoCoverImg{width:120px;height:90px;padding:1px;border:1px solid #ccc;background:#fff}
+		a:hover img.videoCoverImg{border:1px solid #f63}
+		.videoPlay{position:absolute;top:72px;left:101px;width:16px;height:15px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/v_play.gif) no-repeat;filter:alpha(opacity=60);opacity:0.6;cursor:pointer}
+.plistItem{padding:5px}
+	.plistCover{position:relative;overflow:hidden;width:130px;height:100px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/plist_bg.gif) no-repeat}
+		img.plistCoverImg{width:120px;height:90px;padding:2px;border:1px solid #ccc;background:#fff}
+		a:hover img.plistCoverImg{border:1px solid #f63}
+
+/* pageNav */
+.pageNav{padding:0 0 5px;line-height:20px;text-align:right}
+	.pageNav span,	.pageNav a{padding:0 4px 0 3px}
+	.pageNav span{font-weight:bold}
+	.pageNav a{text-decoration:underline}
+	.pageNav a.prev{float:left}
+	.pageNav a.next{float:right}
+
+/**/
+.quickShare *{vertical-align:middle}
+input.share_submit {border:1px solid #cbd3e2;height:27px;line-height:27px;padding:0 8px;*padding:0 2px;background:#ebf6fd url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/home/miniblog_submit_bg.gif) repeat-x 0;cursor:pointer}
+/*share form*/
+.shareBlock{margin:10px auto;width:480px;border:solid 5px #E6E6E6;background-color:#fff}
+.formHeader{width:100%;height:30px;background:url(images/formHeaderBg.gif) repeat-x center}
+.formTitle{padding:8px 0 0 0px ;font-size:12px;text-align:left}
+	/*share tab */
+	.formTitle .tabs {overflow:hidden;height:22px;margin:0;background:url(images/line_solid_e4.gif) bottom repeat-x}
+		.formTitle .tabs ul {list-style:none;margin:0;padding:0 10px 0 20px}
+		.formTitle .tabs li {display:inline;float:left;margin:0 4px;cursor:pointer}
+			.formTitle .tabs li a,
+			.formTitle .tabs li span {display:block;overflow:hidden;float:left;height:16px;margin:1px 0 0;padding:2px 8px 1px;border:1px solid #ddd;border-width:1px 1px 0;background:#fbfbfb;color:#666;text-decoration:none;line-height:16px}
+			.formTitle .tabs li a:hover {background:#f6f6f6;color:#666;text-decoration:none}
+		.formTitle .tabs li.current {font-weight:bold}
+			.formTitle .tabs li.current a,
+			.formTitle .tabs li.current span {margin:0;padding:4px 14px 1px;background:#fff}
+		.formTitle .tabs li.current a:hover {background:#fff}
+.shareForm{margin:10px 0px;width:100%;height:auto;}
+.shareSucc{width:100%;text-align:center}
+.sharePreTitle{margin:5px;width:300px}
+.shareOkTip{width:200px;margin:20px auto;padding-left:25px;text-align:left;font-size:12px;color:#666666}
+.shareContent{width:305px;float:left;background-color:#F7F7F7;border-top:dashed 1px #D6D6D6 ;border-bottom: dashed 1px #D6D6D6;text-align:left;padding:10px;font-size:12px}
+.shareContent .shareSub{margin-bottom:5px}
+.line_solid {border-color:#EAEAEA;border-style:solid;border-width:1px 0 0 0}
+/* share */
+.share {word-break:break-all}
+.share .delete {float:right;right:0pt;top:0pt}
+.share .sharePreTitle{margin:0 0 5px 5px}
+.share .shareOkTip{width:200px;margin:20px auto;padding-left:25px;text-align:left;font-size:12px;color:#666666}
+.share .shareContent{width:305px;background-color:#F7F7F7;border-top:dashed 1px #D6D6D6;border-bottom: dashed 1px #D6D6D6;text-align:left;padding:10px 10px 10px 10px;font-size:12px}
+.share .shareContent .shareSub{margin-bottom:5px}
+
+.shareNoItem{}
+.shareNoItem p{margin:10px 0}
+.shareNoItem p.img{padding:10px;text-align:center}
+.shareNoItem li{margin:10px 0 0 10px}
+.shareNoItem h5{font-weight:normal !important}
+
+/* other part */
+/*大引号*/
+.quote{overflow:hidden;width:100%;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_start.gif) no-repeat;>text-overflow:ellipsis;-o-text-overflow:ellipsis}
+	.quote .innerQuote:before,.quote .innerQuote:after{content:''}
+	.quote .innerQuote{display:inline;zoom:1;padding:0 18px;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_end.gif) no-repeat right bottom}
+
+/*时间*/
+small {color:#999999;margin:0 0 0 5px;font-size:11px}
+
+/*消息体共用*/
+#soShare ul.shareList{padding-left:0;margin-left:0}
+ul.shareList a {text-decoration:none}
+	ul.shareList li {list-style:none;border-bottom:1px dashed #ccc;margin-bottom:8px;padding-top:2px}
+	ul.shareList .icon {float:left;margin:0 5px 0 0;position:relative;z-index:1}
+	ul.shareList .icon a{}
+	ul.shareList .icon a:hover img{border:1px solid #f63}
+	ul.shareList .icon img {width:16px;height:16px}
+	ul.shareList .option{float:right;position:relative;z-index:1}
+	ul.shareList .option a{text-decoration:underline}
+	ul.shareList .content{float:left;width:100%;margin:0 -50px 0 -22px}
+	ul.shareList .innerContent{margin:0 50px 0 22px}
+	ul.shareList dt, ul.shareList dd {padding:2px 0 !important;margin:0 !important}
+	ul.shareList dd .image {float:left;margin:0 5px 0 0}
+	ul.shareList dd .image img {padding:1px;border:1px solid #ccc}
+	ul.shareList dd .image a:hover img {border:1px solid #f63}
+	ul.shareList dd dt a {font-weight:bold}
+	/* clear & clearfix */
+	ul.shareList li:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+	ul.shareList li{display:inline-table}
+	/* Hides from IE-mac \*/
+	* html ul.shareList li{height:1%}
+	ul.shareList li{display:block}
+	/* End hide from IE-mac */
+	*+html ul.shareList li{min-height:1%}/* IE7 */
+
+
+/*分享动感相册*/
+.shareSlide	.image img{max-width:200px;max-height:200px;margin:0 auto;padding:0;border:0 !important}
+.shareSlide	.image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/slideCover_bg.gif) no-repeat 0 0}
+.shareSlide	.image i i{background-position:right 0}
+.shareSlide	.image i i i{background-position:0 bottom}
+.shareSlide	.image i i i i{padding:16px 6px 6px 2px;background-position:right bottom}
+
+/*分享相册专辑*/
+.shareAlbum .image img{max-width:200px;max-height:200px;margin:0 auto;padding:2px !important}
+.shareAlbum .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0}
+.shareAlbum .image i i{background-position:right 0}
+.shareAlbum .image i i i{background-position:0 bottom}
+.shareAlbum .image i i i i{padding:0 4px 4px 0;background-position:right bottom}
+
+/*分享视频*/
+.shareVideo	.image{overflow:hidden;position:relative}
+.shareVideo	.image img{width:120px;height:90px}
+.shareVideo	.image .v_play {background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px}
+
+/*分享节目单*/
+.sharePlaylist .image{overflow:hidden;position:relative}
+.sharePlaylist .image img{width:120px;height:90px;margin:0 auto;padding:2px !important}
+.sharePlaylist .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0}
+.sharePlaylist .image i i{background-position:right 0}
+.sharePlaylist .image i i i{background-position:0 bottom}
+.sharePlaylist .image i i i i{padding:0 4px 4px 0;background-position:right bottom}
+.sharePlaylist	.image .v_play {background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px}
+
+/*分享圈子*/
+.shareGroup .image img{width:64px;height:48px;padding:3px !important;background:#eee}
+.shareGroup .image a:hover img{background:#fff}
+
+/* coolPokeItem */
+.coolPoke{overflow:hidden;clear:both;position:relative;top:5px;height:64px;width:64px;padding:0 0 10px;font-family:'宋体'}
+	.coolPoke *{position:absolute;top:0;left:0;z-index:1;height:64px;width:64px}
+	.coolPoke a{overflow:hidden;z-index:2;text-indent:-9999px;background:url(images/ico_play.gif) no-repeat 50% 50%;filter:alpha(opacity=80);opacity:0.8}
+	.coolPoke a:hover{filter:alpha(opacity=100);opacity:1}
+	.pokeItem .pokeMsg{color:#666}
+
+/*** Poke Layout ***/
+/* 选择动作 */
+.actions{border:1px solid #ccc}
+	.actTabs{overflow:hidden;height:32px;background:url(images/actTabs.gif) repeat-x}
+		.actTabs ul{margin:0 !important;padding:0 5px !important}
+			.actTabs li{display:inline;float:left;height:20px;margin:5px 3px 0;padding:2px 10px 4px;border:1px solid #ccc;border-bottom:0;background:url(images/actTabs.gif) repeat-x 0 100%;line-height:20px;cursor:pointer}
+			.actTabs li.current{margin:4px 3px 0;padding:3px 10px 4px;background:#fff;cursor:default}
+			.actTabs li *{vertical-align:middle}
+			.actTabs li img{margin:0 !important;margin:-1px 0 0;padding:0 5px 0 0}
+	.actCons{overflow-x:hidden;overflow-y:scroll;height:235px;padding:10px}
+		.actCons ul{margin:0 !important;padding:0 5px !important}
+		/* 基本动作 */
+		.actNormal{}
+			.actNormal li{display:inline;overflow:hidden;float:left;height:20px;width:25%;margin:4px 0;color:#444;line-height:20px}
+			.actNormal li label{cursor:pointer}
+			.actNormal li input{vertical-align:middle;margin-top:0}
+			.actNormal li img{padding:0 3px 0 0;vertical-align:middle}
+			.actNormal li.current{font-weight:700}
+		/* 自定义动作 */
+		.actCustom{margin:8px 0 0;padding:5px 0;border-top:1px dashed #ccc}
+			.actCustom li{display:inline;overflow:hidden;float:left;height:20px;width:50%;margin:4px 0;color:#444;line-height:20px}
+			.actCustom li label{cursor:pointer}
+			.actCustom li input{vertical-align:middle;margin-top:0}
+			.actCustom li img{padding:0 3px 0 0;vertical-align:middle}
+			.actCustom li em{padding:0 1px;color:#369}
+			.actCustom li.current{font-weight:700}
+			.actCustom .alert{display:none;padding:0 7px}
+				.actCustom .alert *{vertical-align:middle}
+				.actCustom .alert img{padding:0 3px 0 0}
+			.actCustom .addAct{padding:3px 7px 0}
+				.actCustom .addAct *{vertical-align:middle}
+				.actCustom .addAct img{padding:0 3px 0 0}
+		/* 禁止自定义动作 */
+		.actCustomUn{}
+			.actCustomUn ul{filter:alpha(opacity=30);opacity:0.3}
+			.actCustomUn .alert{display:block}
+			.actCustomUn .addAct{display:none}
+		/* 高级动作 */
+		.actCool{}
+			.actCool .actTip{display:none;height:20px;margin:-5px -10px 10px;padding:5px 10px;background:#fffdd0}
+			.actCool li{display:inline;overflow:hidden;float:left;height:64px;width:33%;margin:7px 0}
+			.actCool li img{float:left;height:64px;width:64px;margin:0 10px 0 0;cursor:pointer}
+			.actCool li label{display:block;overflow:hidden;height:18px;padding:5px 0 8px;text-indent:-3px;cursor:pointer}
+		/* 禁止高级动作 */
+		.actCoolUn{}
+			.actCoolUn .actTip{display:block}
+			.actCoolUn ul{filter:alpha(opacity=30);opacity:0.3}
+			.actCoolUn li img{cursor:default}
+
+/* 提交Button */
+.postOption{padding:10px}
+	.postOption input{vertical-align:middle}
+	.postOption .toFeed{float:left;color:#888}
+		.postOption .toFeed label{color:#333}
+
+.actPost{}
+.mod .actPost{padding:0 10px}
+	.actPost input{height:30px;padding:0 20px;*padding:0 10px;border:1px solid #bcd1dc;background:#ddf2fd url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/btn_actPost_bg.gif) repeat-x 0 50%;color:#3d5a6c;font-weight:700;line-height:30px;letter-spacing:2px;cursor:pointer}
+	*>.actPost input{outline:1px solid #dedede;border:1px solid #fff !important}/*for modern browser*/
+	* html .actPost input{border:1px solid #bcd1dc}/* for IE 6.0/IE 5.* */
+	*+html .actPost input{border:1px solid #bcd1dc !important}/* for IE 7 */
+
+/* poke列表（历史动作） */
+ul.pokeList{margin:0 !important;padding:0 !important}
+	ul.pokeList li{padding:5px 3px 5px 20px;border-bottom:1px dashed #ccc;background:url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/ico_poke.gif) no-repeat 0 8px}
+	ul.pokeList .reply{clear:both;float:right;padding:0 0 0 10px;font-family:'宋体';white-space:nowrap}
+	ul.pokeList .pokeMsg{}
+	ul.pokeList .pokeMsg img{vertical-align:middle}
+	ul.pokeList .time{padding:0 0 0 10px;color:#999;white-space:nowrap}
+
+/* floatMsg */
+.popMsg{position:absolute;width:240px;border:1px solid #ccc;background:#fff;z-index:100}
+	.popMsg .head{height:20px;padding:3px 7px;*padding:4px 7px 2px;border-bottom:1px solid #ccc;background:#FCFCFC url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/mod_head_bg.gif) top repeat-x}
+		.popMsg .head h3,
+		.popMsg .head h4{float:left;margin:0;font:bold 12px/1.6em Verdana,Arial,Helvetica,sans-serif; color:#666}
+		.popMsg .head .option{float:right;width:26px}
+		.popMsg .head .option a.close{float:right}
+	.popMsg .body{padding:10px 15px}
+		.popMsg .body h3,
+		.popMsg .body h4{margin:5px 0 10px; color:#666}
+	.popMsg .foot{padding:10px 10px 15px;;text-align:center}
+	.popMsg input.submit,.popMsg input.button{margin:0 5px}
+
+.appContent .user-me-head {height:20px;padding:0 10px;font-weight:bold;border-bottom:1px solid #ccc}
+	.appContent .user-me-head a{color:#666;font-weight:normal;text-decoration:none}
+	.appContent .user-me-head a:hover{color:#f60;text-decoration:underline}
+	.appContent .user-me-head span{color:#666;padding:0 5px;font-weight:normal}
+	.appContent .user-me-head span.formTip{color:#999;padding:0 4px}
+	span.formTip{color:#999;padding:0 4px}
+	.appContent .user-me-head a.act{text-decoration:none;font-weight:bold}
+	.appContent .user-me-head a.act:hover{color:#666;cursor:default}
+	
+table.tableList{}
+	table.tableList tr{background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/line_dashed_ccc.gif) bottom repeat-x}
+	table.tableList th,table.tableList td{padding:3px 2px}
+	table.tableList thead tr,table.tableList tbody tr.end,table.tableList tfoot tr{background:none}
+	table.tableList thead th,table.tableList tbody tr.end td,table.tableList thead td{border-bottom:1px solid #ccc}
+	table.tableList tfoot td{text-align:right}
+
+
+	table.tableForm td.formLable,table.tableForm td.formLabel{text-align:right;vertical-align:top}
+	table.tableForm td.formEle{text-align:left;vertical-align:top}
+	table.tableForm td.formEle label{padding-right:5px}
+	table.tableForm td.formEle label input{margin-right:5px;*margin-right:0px}
+	table.tableForm th,table.tableForm td {padding:2px 0;color:#666}
+	table.tableForm td.formLabel{padding:10px 0 0 0;font-size:12px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;line-height:1.6em;text-align:right;vertical-align:top;width:75px}
+	table.tableForm td p{margin:0}
+	table.tableForm td span{color:#999999;font-size:12px;font-weight:normal}
+	table.tableForm .formTip{display:block;height:14px;padding:4px 0 0;color:#999;line-height:14px}
+
+table.popLayer{table-layout:fixed}
+	table.popLayer td{overflow:hidden;padding:0 !important}
+	table.popLayer .lt,
+	table.popLayer .lm,
+	table.popLayer .lb,
+	table.popLayer .rt,
+	table.popLayer .rm,
+	table.popLayer .rb{width:4px !important;font-size:0;line-height:0}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .rt,
+	table.popLayer .lb,
+	table.popLayer .mb,
+	table.popLayer .rb{height:4px !important;font-size:0;line-height:0}
+	table.popLayer .rm,
+	table.popLayer .mb,
+	table.popLayer .rb{background:#333 !important;filter:alpha(opacity=50);opacity:0.5}
+	table.popLayer .rt,
+	table.popLayer .lb{border:2px solid #333 !important;filter:alpha(opacity=50);opacity:0.5}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .lm,
+	table.popLayer .mm{border:2px solid #ccc !important;background:#fff !important}
+	table.popLayer .lt{border-width:2px 0 0 2px !important}
+	table.popLayer .rt{border-width:0 !important;*border-width:0 0 2px 0 !important}
+	table.popLayer .mt{border-width:2px 2px 0 0 !important}
+	table.popLayer .lm{border-width:0 0 2px 2px !important}
+	table.popLayer .mm{border-width:0 2px 2px 0 !important;padding:0 3px 3px 0 !important}
+	table.popLayer .lb{border-width:0 2px 0 0 !important}
+
+form{margin:0;padding:0;border:0 none}
+input,
+textarea,
+select,
+fieldset,
+legend{color:#666;font:normal 12px/1.6em Verdana,Arial,sans-serif,"宋体"}
+fieldset{padding:10px}
+input.submit,
+input.button,
+input.text,
+textarea.text,
+select.select{border:1px solid #ccc;outline:0 none;color:#333}
+input.text{height:16px;padding:2px;line-height:14px}
+input.popup{width:124px;height:18px;padding:2px 0 2px 5px;border:0;background:#eee url(http://js1.pp.sohu.com.cn/ppp/blog/home_v_091230/mini/styles/i/input_popup_bg.gif) no-repeat;cursor:pointer}
+input.file{height:22px}
+textarea.text{padding:2px;line-height:14px}
+select.select{height:20px}
+input.submit,
+input.button,
+input.disabled{cursor:pointer;height:22px;padding:0 12px;*padding:0 4px;color:#666}
+input.submit{background:url(../i/btn_submit_bg.jpg) center repeat-x}
+input.button{background:url(../i/btn_normal_bg.jpg) center repeat-x}
+input.disabled{cursor:default;border:1px solid #ddd;background:#f0f0f0;color:#ccc}
+
+.appSidebar{width:200px;float:right;padding-top:50px;padding-right:10px; height:500px;}
+.appSidebar .mod .head h3{height:25px;line-height:25px;font-weight:bold;color:#666}
+.appSidebar .mod .body{color:#666} 
+.appContent .mod .head{padding:5px 7px;height:20px}
+.appConLeft .mod h3{float:left;font-weight:bold;color:#666}
+.appConLeft .mod .option{float:right}
+ul.shareList li{border-bottom:1px dashed #ccc!important}
+ul.shareList dd .image i{background:none;margin:0}
+.quickShare input.text{border:1px solid #ccc!important;margin-left:5px}
+table.tableList td{color:#666;border-bottom:1px dashed #ccc}
+table.tableList td.mm .iconList{background:#fff}
+table.tableList td h4{font-weight:bold}
+table.tableList th{border-bottom:1px solid #ccc;height:30px;color:#666;font-weight:bold;text-align:center}
+table.tableList th a{font-weight:bold}
+td.formEle label{color:#666}
+td.formEle .text{border:1px solid #ccc!important}
+table.tableForm th, table.tableForm td{padding:2px 0}
+table.tableForm td.formEle label input{margin-right:5px}
+.msg_succeed,.msg_failed{margin:0 0 10px;padding:7px 10px 7px 32px;border:1px solid #ccc;background-color:#ffc;background-position:10px 8px;background-repeat:no-repeat;clear:both;line-height:22px}
+.msg_succeed{background-image:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/ico_succeed.gif)}
+.msg_failed{background-image:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/ico_error.gif)}
+	.msg_succeed h3,.msg_succeed h4,.msg_failed h3,.msg_failed h4{margin:0}
+
+.crumbs{float:left;font:12px/1.6em Verdana,Arial,Helvetica,sans-serif;height:20px;overflow:hidden}
+	.crumbs a{font-weight:normal !important}
+	.crumbs .current{font-weight:bold !important}
+
+	
+/* S 博客空间其他app css */
+#soBlog{float:left;width:812px;padding-bottom:10px}
+#soBlog .appBody .appContent{}
+#soBlog .archiveList table.tableList td.time{color:#666}
+#soBlog .archiveList table.tableList td a img{border:0;padding:0}
+#soBlog .archiveList table.tableList td a:hover img{border:0;padding:0}
+
+/* 评论区域*/
+.appConLeft{width:580px; overflow:hidden}
+.feedcmLay{padding-top:13px;width:450px;_zoom:1;overflow:hidden; padding-bottom:10px;}
+.feedcmLay em{display:block;width:11px;height:8px;overflow:hidden;background:url(../i/commentI.gif) 0 -10px no-repeat;position:relative;right:35px;margin-left:-11px;margin-top:-8px;top:2px;position:relative;top:2px;left:400px}
+
+.fcmInt{_zoom:1;_line-height:0;overflow:hidden;_float:left;_width:450px}
+.fcmbox{}
+/* 评论内容列表 */
+.fcmLay{padding:5px 5px 5px 40px;border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#F6FAFB;border-bottom:none;clear:both;float:left;width:377px;_zoom:1}
+.fcmLay .usravt1{margin-left:-40px;_display:inline;float:left;padding-left:5px;width:36px}
+.fcmLay .usravt1 a img{border:1px solid #ccc;width:24px;height:24px;padding:1px;display:block}
+.fcmLay .usravt1 a:hover img{border:1px solid #f00}
+.fcmLay .fcmCon{}
+.fcmLay .fcmCon .fcmInfo{float:left}
+.fcmLay .fcmCon .fcmOpt{float:right}
+
+/* 单条评论内容 */
+.fcmCon .fcmHead{white-space:normal!important;word-wrap:break-word;word-break:break-all}
+.fcmCon .fcmHead a{white-space:nowrap}
+.fcmCon .fcmFoot{line-height:20px;height:20px}
+/* 评论框 */
+.fcmBox{border:1px solid #ccc;background:#F6FAFB;padding:5px;overflow:hidden;clear:both;width:412px}
+.fcmBox .fcmInputNo{text-align:right;font-family:Georgia}
+.fcmBox .fcmInputNo span{font-family:Georgia}
+.fcmBox .fcmBoxLay{margin:5px 0;border:1px solid #ddd}
+.fcmBox textarea{width:100%;height:3em;overflow:hidden;overflow-y:auto;border:0;_width:99%}
+.fcmBox .fcmBtn{text-align:right}
+.fcmBox .fcmBtn .btn,.fcmBox .fcmBtn .btn b{background-image:url(../i/btn2.png);height:24px;line-height:24px;font-size:12px}
+.fcmBox .fcmBtn a:hover{text-decoration:none}
+/* 评论内容E */
+.editopt{width:54px}
+.editopt a,.editopt b{float:left}
+.editopt a img{vertical-align:middle; padding-top:3px}
+
+#soBlog .appBody .appContent .appConLeft .head{border-bottom:1px solid #ccc;padding-bottom:5px;margin-bottom:10px}
+.appContent .appConLeft .pageNav{padding:0 0 5px;line-height:20px;text-align:right}
+	.pageNav span,.pageNav a{padding:0 4px 0 3px}
+	.pageNav span{font-weight:bold}
+	.pageNav a{text-decoration:underline}
+	.pageNav a.prev{float:left}
+	.pageNav a.next{float:right}
+
+/* Photo */
+#soPP .photoList .photoItem {display:inline;float:left;width:150px}
+#soPP .albumListh .albumInfoInner{color:#666!important}
+	#soPP .photoList .photoIcon {overflow:hidden;width:100%;height:84px;margin:0}
+	#soPP .photoList .photoCover {position:relative;text-align:center}
+		#soPP .photoCover .photoLock {display:block;position:absolute;top:5px;left:30px !important;left:5px;width:20px;height:20px;background:url(images/ico_lock_close.gif) center no-repeat}
+		
+	#soPP .photoList .photoInfo {width:100%;padding:3px 0;font-weight:normal;text-align:center}
+	#soPP .photoList .photoInfo h5 {font-weight:normal;text-align:center}
+	#soPP .photoList .photoInfo p.photoDesc {text-align:center;/*//min-height:14px;>height:14px;*/ }
+	#soPP .photoList .photoEdit {}
+	
+	#soPP .photoList table{width:100%}
+	#soPP .photoList table td{text-align:center;vertical-align:top}
+
+
+#soPP .albumList .albumItem {display:inline;float:left;width:85px}
+	#soPP .albumList .albumIcon {overflow:hidden;width:100%;height:85px;margin:0}
+	#soPP .albumList .albumInfo {width:100%;padding:3px 0;font-weight:normal;text-align:center}
+	#soPP .albumList .albumInfo h5 {font-weight:normal;text-align:center}
+
+/* Photo */
+.photoItem{padding:5px}
+	img.photoCoverImg{padding:1px;border:1px solid #ccc;background:#fff}
+	a:hover img.photoCoverImg{border:1px solid #f63}
+.albumItem{padding:5px}
+	.albumCover{display:block;overflow:hidden;width:78px;height:78px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/album_bg.gif) 0 0 no-repeat;padding:3px 5px 4px 2px}
+	.albumCover a img{width:75px;height:75px;background:#fff;display:block}
+	.albumCover a:hover img,a.albumCover:hover img{}
+.slideItem{padding:5px}
+	.slideCover{display:block;overflow:hidden;width:75px;height:75px;padding:12px 7px 7px 3px;;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/slide_bg.gif) 0 0 no-repeat}
+	.slideCover img{width:75px;height:75px;margin:0 auto;padding:0}
+	#soPP .mod hr{clear:both;height:1px;margin:7px 0;*margin:0;padding:0;border:0 none;border-top:1px dashed #ccc;line-height:1px}
+/* video */
+#soVideo{float:left;width:812px;padding-bottom:10px}
+#soVideo .mod .body .noItem{margin:0 -10px;padding:15px 25px 25px 80px;border-bottom:1px solid #ccc}
+
+/* quanzi  */
+#soGroup .appBody{padding-bottom:10px}
+.groupIcon a img{padding:3px;border:1px solid #ccc;display:block;width:64px;height:48px}
+.groupIcon a:hover img{border-color:#f00}
+.groupItem a:hover{color:#f60}
+#soGroup .group64h .groupManage{display:inline;float:right;margin:0 0 0 10px}
+.groupInfoInner h5 a{font-weight:bold}
+
+
+/* poke */
+#friendSelector .finder{padding:7px;border:1px solid #ccc;background:#f6f6f6}
+		#friendSelector .finderWrap{overflow:hidden;height:20px;padding:4px 5px 4px 18px;border:1px solid #ccc;background:#fff;background:#fff url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 5px -236px}
+			#friendSelector .input{overflow:hidden;float:left;width:380px}
+				#friendSelector .input input{height:16px;width:100%;padding:2px;border:0 none;background:none;line-height:16px}
+			#friendSelector .toggle{float:right;width:100px;text-align:right;line-height:20px}
+				#friendSelector .toggle .all{display:block;overflow:hidden;float:right;width:16px;height:16px;margin:2px 6px 2px 0;padding:0 2px 0 0;border-right:1px solid #ccc;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 0 -210px;text-indent:9999px}
+				#friendSelector .toggle .show{float:right;padding:0 0 0 15px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 0 -180px;text-decoration:none}
+				#friendSelector .toggle .hide{float:right;padding:0 0 0 15px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 0 -150px;text-decoration:none}
+	#friendSelector .selector{padding:6px;border:1px solid #ccc;border-top:0}
+		#friendSelector .options{padding:0 0 5px}
+			#friendSelector .options a.current{color:#666 !important;font-weight:700;text-decoration:none !important}
+			#friendSelector .options .method{float:left;width:250px;padding:0 0 0 10px}
+			#friendSelector .options .filter{float:right;width:200px;padding:0 10px 0 0;text-align:right}
+		#friendSelector .friends{overflow-x:hidden;overflow-y:scroll;clear:both;position:relative;height:340px;padding:7px;border:1px solid #ccc}
+			#friendSelector .friends .selectTip{display:none;height:20px;margin:-5px -10px 10px;padding:5px 10px;background:#fffdd0}
+			#friendSelector .friends ul{width:492px;margin:0 !important;padding:0 !important}
+				#friendSelector .friends li{display:inline;list-style:none;position:relative;z-index:1;float:left;margin:3px}
+					#friendSelector .friends li a{display:block;float:left;width:52px;height:97px;padding:11px 12px 0;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 0 0;color:#104d6c;text-decoration:none;cursor:pointer}
+					#friendSelector .friends li a:hover{background-position:-100px 0;color:#104d6c;text-decoration:none}
+						#friendSelector .friends li a strong,
+						#friendSelector .friends li a:hover strong{padding:0 1px;background:#fff77c;color:#000;font-weight:400}						
+					#friendSelector .friends li .icon{overflow:hidden;float:none;width:52px;height:52px;text-indent:0;overflow:visible;text-align:center;vertical-align:middle;background:none}
+						#friendSelector .friends li .icon img{width:48px;height:48px;padding:2px}
+					#friendSelector .friends li .info{overflow:hidden;width:100%;height:32px;padding:5px 0 0;line-height:16px}
+					#friendSelector .friends li .friend{overflow:hidden;position:absolute;top:0;left:0;z-index:2;width:76px;height:108px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat -400px 0;text-indent:-9999px}
+					#friendSelector .friends li em{display:none;overflow:hidden;position:absolute;top:0;left:0;z-index:3;width:76px;height:108px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat -300px 0;text-indent:-9999px}
+				#friendSelector .friends li.selected{}
+					#friendSelector .friends li.selected a,
+					#friendSelector .friends li.selected a:hover{background-position:-200px 0;color:#fff}
+					#friendSelector .friends li.selected em{display:block}
+		#friendSelector .couplesOnly{}
+			#friendSelector .couplesOnly .selectTip{display:block}
+				#friendSelector .couplesOnly li.single{/*display:none;*/filter:alpha(opacity=40);opacity:0.4}
+					#friendSelector .couplesOnly li.single a,
+					#friendSelector .couplesOnly li.single a:hover{background-position:0 0;color:#aaa;cursor:default}
+					#friendSelector .couplesOnly li.single em{display:block;background-position:-500px 0}
+		#friendSelector .footTip{float:right;overflow:hidden;height:16px;margin:5px 3px 0 0;padding:0 0 0 17px;background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp_v_09122503/images/home/friendSelector.gif) no-repeat 0 -280px;color:#888;line-height:16px;*line-height:20px}
+ul.pokeList li{border-bottom:1px dashed #ccc!important}
+
+/* poke */
+/* 自定义 */
+.customPoke{}
+	/* 动作列表 */
+	.customPoke .tableList{table-layout:fixed;width:100%}
+	.customPoke th{font-weight:400}
+	.customPoke em{color:#ff6329 !important}
+	.customPoke .icon{width:56px;text-align:center;vertical-align:middle;background:#fff;height:25px;text-indent:0;margin:0;font:12px/20px Arial, Helvetica, sans-serif;display:table-cell}
+		.customPoke .icon img{vertical-align:middle}
+	.customPoke .poke{display:table-cell }
+	.customPoke .apply{width:88px;text-align:center}
+	.customPoke .delete{width:20px;text-align:center}
+	.customPoke tr.addPoke{background:none !important}
+		tr.addPoke td.icon,
+		tr.addPoke td.poke,
+		tr.addPoke td.how{padding:12px 2px !important;border-bottom:1px solid #ccc}
+		tr.addPoke td.icon span{display:block;width:36px;height:16px;margin:0 auto;padding:2px;border:1px solid #999;line-height:16px;cursor:pointer}
+		tr.addPoke td.icon img{vertical-align:baseline}
+		tr.addPoke td.icon table.popLayer tr{background:none}
+			tr.addPoke td.icon{width:56px;background:#fff;height:23px;text-align:center;vertical-align:middle;padding:12px 2px;text-indent:0;overflow:visible;font-size:12px;margin:0}
+		tr.addPoke td.poke input{width:64px;height:18px;margin:0 2px;border:1px solid #999;vertical-align:middle}
+		tr.addPoke td.poke input.btn_addPoke{width:auto;height:22px;padding:0 10px;*padding:0 5px;border:1px solid #bcd1dc;background:#ddf2fd url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/btn_actPost_bg.gif) repeat-x 0 50%;line-height:22px;cursor:pointer}
+		tr.addPoke td.poke .example{padding:0 5px;color:#999}
+		tr.addPoke td.how{text-align:right}
+	.customPoke tr.addPokeHelp{background:none !important}
+		tr.addPokeHelp .helpContent{overflow:hidden;width:522px;margin:10px 0;padding:5px;border:1px dashed #ccc}
+		tr.addPokeHelp .innerHelp{background:#ffffe6}
+		tr.addPokeHelp .option{float:right;margin:5px}
+			tr.addPokeHelp .option a{display:block;overflow:hidden;float:right;width:16px;height:16px;border:1px solid #ccc;background:#fff url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/ico_close.gif) no-repeat;text-indent:-9999px}
+		tr.addPokeHelp .helpInfo{overflow:hidden;clear:both;width:460px;height:170px;margin:0 auto;padding:10px 27px 18px 20px;background:url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/helpInfo_bg.gif) no-repeat}
+			tr.addPokeHelp h2{margin:0 !important;font:700 25px/1.6em '黑体' !important;text-align:center}
+			tr.addPokeHelp p{margin:10px 0 !important}
+			tr.addPokeHelp .helpPage{padding:25px 0 0 160px}
+			tr.addPokeHelp .helpPage a{display:block;overflow:hidden;float:left;height:37px;background:url(http://js1.pp.sohu.com.cn/ppp/poke/styles/images/btn_helpPage.jpg) no-repeat;text-indent:-9999px}
+			tr.addPokeHelp a.prevPage{width:26px;margin:0 0 0 -26px;background-position:-10px 0}
+			tr.addPokeHelp a.nextPage{width:130px;background-position:-50px 0}
+			tr.addPokeHelp a.start{width:130px;margin:0 15px 0 0;background-position:-200px 0}
+			tr.addPokeHelp a.review{width:130px;background-position:-350px 0}
+			tr.addPokeHelp .pageNo{padding:0 0 0 40px;font:700 18px/37px Verdana,Arial,Helvetica,sans-serif}
+		tr.addPokeHelp .helpPic{padding:15px;text-align:center}
+	/* 自定义icon层 */
+	#actIconLayer{width:147px}
+		#actIconLayer ul.iconList{width:132px;/*12icons313px*/margin:0 !important;padding:2px 0 !important}
+			ul.iconList li{display:inline;overflow:hidden;float:left;width:22px;height:22px;margin:2px;cursor:pointer}
+			ul.iconList li img{width:16px;height:16px;padding:2px;border:1px solid #ccc; display:block}
+			ul.iconList li a:hover img{border-color:#ff0c0c}
+
+/* 字符截断 */
+.wordBreak{display:block;overflow:hidden;white-space:nowrap;*text-overflow:ellipsis;-o-text-overflow:ellipsis}
+
+#soMobile .mobile_blog_item {float:left;width:100%;padding:10px 0}
+	#soMobile .mobile_blog_item img {float:left;padding:1px;border:1px solid #ccc;margin:0 10px 0 0}
+	#soMobile .mobile_blog_item p {}
+.appSidebar .head h3{font-size:12px}
+
+/* 消息 soRequest*/
+#soRequest .appBody{ width:790px;}
+#soRequest .appBody .appConLeft{width:580px; float:left}
+#soRequest .appBody .appConRight{float:left; width:205px;}
+#soRequest .appBody .appConRight .mod .body{padding-top:0}
+/* E 博客空间其他app css */
+
+/* 空间其他apps */

@@ -1,0 +1,21 @@
+.msc_newsongs-content{
+	overflow:hidden;
+}
+.msc_newsongs-content .newsong_list {
+	overflow:hidden;
+	text-align:center;
+}
+.msc_newsongs-content .newsong_list  td {
+	border-bottom:1px dashed #ccc;
+	height:22px;
+}
+.msc_newsongs-content .newsong_list .title_css {
+	text-align:left;
+	height:15px;
+	overflow-y:hidden;
+}
+.msc_newsongs-content .newsong_list .singer_css {
+	text-align:left;
+	height:15px;
+	overflow-y:hidden;
+}

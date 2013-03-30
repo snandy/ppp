@@ -1,0 +1,215 @@
+/****** General Styles ******/
+*{ line-height:130%}
+html{border:0; overflow-y:scroll;}
+body{margin:0; padding:0;}
+body>table,body>div{margin-left:auto; margin-right:auto; clear:both;}
+form,div,img,td,dl,dt,dd,h1,h2,h3,h4{margin:0 auto; padding:0; border:0;}
+b,strong{font-weight:bold;}
+body,table,a,input,textarea,select{color:#333;font:12px Verdana, Arial, Helvetica, "宋体", sans-serif;}
+body{
+	background: #fff;
+}
+a{
+	text-decoration: underline;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+a:focus{
+	-moz-outline-style: none;
+}
+a.texta{
+	color:#333;
+}
+textarea{
+	padding: 2px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+select{
+	background-color: white;
+	border: 1px solid #ccc;
+}
+input.text{
+	height: 18px;
+	line-height: 16px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+input.button{
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+input.button-submit{
+	height: 20px;
+	line-height: 18px;
+	padding: 0px 5px 0px;
+	background-color: white;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	color: red;
+}
+
+/****** ModContainer Elements Styles ******/
+.modCtnInfo-private{
+	background: #fff6cc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 30px 2px;
+}
+.modCtnInfo-noMod{
+	padding: 5px 30px 2px;
+}
+#modContainer{
+	padding: 10px;
+}
+#modContainerTable{
+	width: 100%;
+}
+.col{
+	vertical-align: top;
+	height: 100px;
+}
+.colDiv{
+	height: 100%;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	background: white;
+	display: block;
+	border: 3px solid #eee;
+	margin: 10px;
+	width:250px;
+}
+.mod .modFrame{
+	border: 1px solid #cfdfff;
+}
+.mod .modTable{
+	width: 100%;
+	table-layout: fixed;
+}
+/***********/
+.mod .mheader{
+	overflow: hidden;
+}
+.mod .lt{
+	width: 0;
+}
+.mod .t{
+	width: 100%;
+	background: #eef6ff url(http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp/def/images/modHeaderBg.jpg) repeat-x top;
+	height: 22px;
+	padding: 0 2px;
+	overflow: hidden;
+}
+.mod .modHeader{
+	height: 16px;
+	overflow: hidden;
+}
+.mod .rt{
+	width: 0;
+}
+
+.mod .mneck{}
+.mod .ec{}
+.mod .modEditCon{
+	margin:0px 1px 1px 1px;
+	background: #EFF5FF;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #B9D0ED;
+	border-top: 1px solid #D3E2F4;
+}
+
+.mod .mbody{}
+.mod .l{width: 0px;}
+.mod .c{
+	vertical-align: top;
+	padding: 7px;
+}
+.mod .modCon{
+	overflow: auto;
+}
+.mod .r{width: 0px;}
+
+.mod .mfooter{}
+.mod .lb{}
+.mod .b{height: 0px;}
+.mod .rb{}
+/***********/
+.mod .modShow, .mod .modHide{
+	cursor: pointer;
+	float: left;
+	padding: 0 2px;
+}
+.mod .modShow, .mod .modHide{
+	width: 16px;
+	height: 16px;
+	background: url(http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp/def/images/ico_showMod.gif) center no-repeat;
+}
+.mod .modHide{
+	background-image: url(http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp/def/images/ico_hideMod.gif);
+}
+.mod .modTitle{
+	float: left;
+	padding: 1px 2px 0;
+	height: 16px;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all;
+}
+.mod .modTitle, .mod .modTitle a{
+	font-weight: bold;
+}
+.mod .modEdit{
+	float: right;
+	padding: 1px 2px 0;
+	cursor: pointer;
+}
+.mod .modEdit a{
+	text-decoration: underline;
+}
+.mod .modCls{
+	float: right;
+	padding: 0 2px;
+	cursor: pointer;
+}
+.mod .modCls{
+	width: 16px;
+	height: 16px;
+	background: url(http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp/def/images/ico_cls.gif) center no-repeat;
+}
+.mod .modRfs{
+	float: right;
+	padding: 0 2px;
+	cursor: pointer;
+}
+.mod .modRfs{
+	width: 16px;
+	height: 16px;
+	background: url(http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp/def/images/ico_rfs.gif) center no-repeat;
+}
+.mod .modIco{
+	float: left;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-align: center;
+}
+.mod .modIco img{}
+/****** Pop Window Styles ******/
+.mod .divBtn{
+	padding: 20px 10px 5px;
+	text-align: center;
+}
+.mod .divBtn input{
+	margin: 0 10px;
+}
+/****** hide object when dragging ******/
+.mod .divFlashSpacer{
+	border: 1px dashed #ccc;
+	margin: 0;
+}

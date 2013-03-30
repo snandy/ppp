@@ -1,0 +1,57 @@
+.q_ugroups-content {
+}
+.q_ugroups-content .q_join {
+	margin:0;
+	padding:0;
+}
+.q_ugroups-content .q_join_s {
+	margin:0;
+	padding:0;
+}
+.q_ugroups-content .q_join_s li {
+	list-style:none;
+	border-bottom:1px solid #edecec;
+	padding:0;
+	margin:5px 0;
+}
+.q_ugroups-content .q_join li {
+	list-style:none;
+	border-bottom:1px solid #edecec;
+	padding:5px 0;
+	margin:0;
+}
+.q_ugroups-content .group_ico {
+	width:20px;
+	height:15px;
+	border:1px solid #ccc;
+	background:#eee;
+	padding:1px;
+	margin-right:5px;
+}
+.q_ugroups-content a:hover .group_ico {
+	border:1px solid red;
+	background:#fff;
+}
+.q_ugroups-content .news_info {
+	margin-left:5px;
+}
+.q_ugroups-content span {
+	width:16px;
+	height:13px;
+}
+.q_ugroups-content .groupCover {
+	float:left;
+	width:64px;
+	margin:0 10px 0 0;
+}
+.q_ugroups-content .groupIco {
+	border:1px solid #ccc;
+	background:#eee;
+	padding:2px;
+}
+.q_ugroups-content .groupCover a:hover .groupIco {
+	border:1px solid red;
+	background:#fff;
+}
+.q_ugroups-content .groupTitle {
+}

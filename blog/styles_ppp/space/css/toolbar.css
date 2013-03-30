@@ -1,0 +1,244 @@
+/* CSS Document */
+i.i{display:inline-block;*display:inline;*zoom:1;overflow:hidden;width:16px;height:16px;margin-bottom:0.25em;line-height:0!important;text-decoration:none!important;vertical-align:middle}
+/* toolbar*/
+.toolBar{background:#f0f0f0;position:fixed;top:0;left:0;width:100%;z-index:100;border-bottom:1px solid #c5c7cb;height:34px;line-height:34px;color:#717880}
+.toolBar a{color:#717880}
+.toolBar a:hover{text-decoration:none}
+#toolBar a{text-decoration:none}
+#toolBar em{font-style:normal}
+/** html .toolBar{position:static}  IE6 */
+/** +html .toolBar{position:absolute}  IE7 */
+#toolbarPadding{height:30px;display:block!important;display:none;overflow:hidden}
+a{text-decoration:none;outline:0}/*exp~*/
+
+.toolBar a img{background:none;border:none;padding:0}
+.toolBar a:hover img{border:none}
+
+#tb_logo{width:126px;height:30px;float:left;padding:4px 0 0 5px}
+#tb_logo a img{display:block;width:126px;height:30px;border:none;padding:0}
+#tb_logo a:hover img{padding:0;border:none}
+
+#tb_user{float:left;padding:0 5px;color:#717880}
+#tb_welcome{padding:0 5px;float:left;line-height:31px}
+#tb_user a{display:block;width:104px;height:22px;margin-top:4px;padding:0 4px;float:left;padding-top:5px;color:#717880;font-weight:bold;overflow:hidden}
+#tb_user a:hover{background:url(../i/tbactbg.png) no-repeat center center}
+#tb_user a img{float:left;padding:0;border:none}
+#tb_user a:hover img{padding:0;border:none}
+#tb_user a i{width:16px;height:16px;float:left}
+#tb_user a span{display:block;width:63px;overflow:hidden;height:22px;line-height:16px;float:left;padding:0 3px}
+
+.usrNav{float:left;border-left:1px solid #C5C7CB;border-right:1px solid #C5C7CB;font-size:14px;padding:0 0 0 10px;height:34px}
+.usrNav a{display:block;float:left;width:78px;text-align:center;color:#717880;height:34px;line-height:34px;font-size:14px}
+.usrNav a i{width:16px;height:14px;margin-left:2px}
+.usrNav a:hover{background:url(../i/tbactbg1.png) no-repeat center center;color:#717880;_text-indent:0;zoom:1}
+.usrNav a.writeblog{_padding-top:8px;_height:26px}
+.usrNav a.notice{background:no-repeat;margin:0;padding:0;height:34px;border-right:0px;border-top:0px;border-bottom:0px;border-left:1px solid #F0F0F0;line-height:34px;position:relative;width:75px;outline:0;}
+.usrNav a.notice em{display:block;width:22px;height:22px;position:absolute;right:2px;top:0px;overflow:hidden;color:#fff;font-size:11px;line-height:20px;}
+.usrNav a.notice:hover{background:#e5e8e9;border-left-color:#c5c7cb;}
+.usrNav a.noticeOn{background:#e5e8e9;border-left-color:#c5c7cb;overflow:hidden;z-index:1501}
+.usrNav a.usrFri{width:49px;border-left:1px solid #F0F0F0;border-right:1px solid #F0F0F0}
+.usrNav a.usrFri:hover{border-left:1px solid #c5c7cb;border-right:1px solid #c5c7cb}
+
+.usrSet{float:right;font-size:12px;height:31px;line-height:31px;color:#858585}
+.usrSet a{color:#858585;padding:0 10px;border-right:1px solid #858585;line-height:34px}
+.toolBar .usrSet a:hover{text-decoration:underline}
+.usrSet a font{color:#f60;font-weight:normal}
+.usrSet a.exit{border:none}
+.usrSet a.usrad{color:#f60;border:none}
+
+.popupBox{position:absolute;width:165px;height:248px}
+.popupBox .popTop{background:url(../i/pupupTop.png) no-repeat 0 0;height:14px;overflow:hidden;line-height:0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/pupupTop.png',sizingMethod='crop')}
+.popupBox .popCen{background:url(../i/popupCen.png) repeat-y 0 0;padding:10px 10px 0 8px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/popupCen.png',sizingMethod='scale');_width:147px;_height:215px}
+.popupBox .popBom{background:url(../i/pupupBom.png) no-repeat 0 0;height:7px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/pupupBom.png',sizingMethod='crop')}
+
+.popupBox .popCen .popLi{border-bottom:1px dotted #a5cae2;height:25px;padding:0 10px;overflow:hidden;padding-top:7px}
+.popupBox .popCen .popLi a{color:#526585;font-weight:bold;height:16px;display:inline-block}
+.popupBox .popCen .popLi a:hover{text-decoration:none;color:#f60}
+.popupBox .popCen .popLi a i{width:16px;height:16px;vertical-align:middle;margin-right:12px}
+.popupBox .popCen .popLi a.panr{font-weight:400;margin-left:35px}
+.popupBox .popCen .popLi a.panr:hover{text-decoration:underline}
+.popupBox .popCen .popli{border-bottom:1px dotted #A5CAE2}
+.popupBox .popCen .popLi2 a{line-height:40px;text-align:center;width:100%}
+.popupBox .popCen .popLi3{height:40px;font-weight:400;border:none;padding:10px}
+.popupBox .popCen .popLi3 a{font-weight:400;line-height:20px}
+.popupBox .popCen .popLi3 span{color:#d4d7d8;padding:0 4px}
+.popCen .popLi,.popCen .popLi3{_position:relative}
+
+.popupBoxS{position:absolute;width:130px;}
+.popupBoxS .popTop{background:url(../i/pupupTop1.png) no-repeat 0 0;height:14px;overflow:hidden;line-height:0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/pupupTop1.png',sizingMethod='crop')}
+.popupBoxS .popCen{background:url(../i/popupCen1.png) repeat-y 0 0;padding:5px 10px 0 8px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/popupCen1.png',sizingMethod='scale');_width:112px;_height:139px}
+.popupBoxS .popBom{background:url(../i/pupupBom1.png) no-repeat 0 0;height:10px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/space/i/pupupBom1.png',sizingMethod='crop')}
+
+.popupBoxS .popCen .popLi{border-bottom:1px dotted #a5cae2;height:25px;padding:0 10px;overflow:hidden;padding-top:7px}
+.popupBoxS .popCen .popLi a{color:#526585;font-weight:bold;float:left;height:16px;display:inline-block}
+.popupBoxS .popCen .popLi a i{width:16px;height:16px;vertical-align:middle;margin-right:7px;background-image:url(../i/feedicon.gif)}
+.popupBoxS .popCen .popLi a:hover{text-decoration:none;color:#f60}
+.popupBoxS .popCen .l2{border-bottom:0px}
+
+i.i-sblog{background-position:-5px -5px}
+i.i-salbum{background-position:-28px -5px}
+i.i-svideo{background-position:-52px -5px}
+i.i-stblog{background-position:-76px -5px}
+i.i-smypanle{background-position:-100px -5px}
+i.i-arrowdown{background-position:-143px -25px}
+em.i-notNum{background-position:-74px -49px;background-image:url(../i/icon.gif);background-repeat:no-repeat}
+.toolBar a i{background-image:url("../i/icon.gif");
+background-repeat:no-repeat;
+}
+i.i-p1blog{background-position:-15px -152px}
+i.i-p1album{background-position:-34px -152px}
+i.i-p1video{background-position:-54px -152px}
+i.i-p1tblog{background-position:-75px -152px}
+
+
+.usrNav a i.i-arrowdown{width:14px;height:14px;vertical-align:middle}
+
+.noticeWar{border:1px solid #c5c7cb;background:#e5e8e9;padding:4px;width:250px;margin-top:-1px}
+.noticeWar a{color:#1A689D}
+.noticeWar a:hover{text-decoration:none}
+.noticeListTableBOx .noticeListTable{padding:4px;line-height:20px;color:#888}
+.noticeListTableBOx .noticeListTable a{color:#1a689d}
+.noticeListTableBOx .noticeListTable span.pokeMsg{color:#888}
+
+ul.noticeList{background:#fff;_zoom:1}
+ul.noticeList li{border-bottom:1px solid #cccccc;padding:4px 10px 4px 28px;background:url(../i/notice1.gif) no-repeat 4px 9px;word-wrap:break-word;word-break:break-all;color:#888;line-height:20px}
+ul.noticeList li.notiT1{background:url(../i/notice1.gif) no-repeat 4px 9px}
+ul.noticeList li.notiT2{background:url(../i/notice2.gif) no-repeat 4px 9px}
+
+.noticeWar .noticAll{height:30px;text-align:right;clear:both;font-weight:bold;padding-right:5px}
+.noticeWar .noticAll a{line-height:30px}
+
+
+/****** quick tool menu ******/
+.toolBar .menuSub-div-qTool{width:120px;background-color:#393931;border:1px solid #666}
+.menuSub-div-qTool .menuSub-out{background:none;margin:1px 4px;padding:4px;border:none;border-top:1px solid #585858;border-bottom:1px solid #202020;cursor:pointer}
+.menuSub-div-qTool .menuSub-over{background:#242424}
+.menuSub-div-qTool span{padding-left:20px}
+
+/******* login form *******/
+.menuSub-div-login{width:280px;padding:0}
+/****** login form style ******/
+.menuSub-div-login .passport{border:1px solid white;height:1%;width:auto}
+
+/*** SOHU card_10.css ***/
+/* 全局CSS定义 */
+.passportc ul,.passportc ol,.passportc li,.passportc span,.passportc p,.passportc form{margin:0;padding:0;border:0}
+.passportc img,.passportc a img{border:0;margin:0;padding:0}
+.passportc ul,.passportc ol,.passportc li{list-style:none}
+
+/* 链接颜色 */
+.passportc a{color:#313031;text-decoration:none}
+.passportc a:link,.passportc a:visited{color:#FF6000}
+.passportc a:hover{text-decoration:underline}
+
+/* 登录前 */
+.passportc{height:158px;width:278px;_height /**/:160px;_width /**/:280px;font-size:12px;text-align:left}
+.passportc b{color:#FF0000}
+.pptitle,.pptitle2{margin:0px 10px -3px 10px!important;margin:0px 10px;line-height:25px}/*标题*/
+.pptitle{background:url(http://www.sohu.com/passport/images/pic002.gif) no-repeat right 7px;font-weight:bold}
+.pptitle2 span{font-weight:bold}
+.pptitle2{position:relative;margin-right:0}
+.pptitle2 .exit{position:absolute;right:10px;top:1px;*top:-3px}/*退出*/
+.ppthree{display:inline;color:#999;margin:auto 39px;font-family:Verdana, Arial, Helvetica, sans-serif}
+
+.ppcontent{height:126px;_height /**/:133px;padding:7px 0px 0px 10px;background:url(http://www.sohu.com/passport/images/pic001.gif) no-repeat center;position:relative}
+
+.passportc .error{color:#FF6000;height:15px}
+.passportc .card{font-weight:normal;padding:0px 0px 0px 25px;color:#313031}
+.passportc .card li{margin:2px 0px 7px 0px!important;margin:2px 0px 5px 0px}
+.passportc .card li a:link,.passportc .card li a:visited{margin-right:27px}
+
+.card dt{margin-top:7px}
+.passportc .card dl{padding-top:10px}
+
+.passportc .card .sign{background:url(http://www.sohu.com/passport/images/pic004.gif) no-repeat;width:70px;height:21px;border:0;font-size:12px;padding-top:1px;_padding-top /**/:4px;color:#333}
+.passportc .card .ppinput{border:1px #FFA200 solid;background:#fff;font-size:12px;height:17px;width:164px;_height /**/:19px;_width /**/:166px;margin:0;padding:0}
+
+.card dl a:link,.card dl a:visited{margin-right:27px}
+.card dt span{margin:5px 30px 0px 38px;color:#313031}
+
+/* select下拉 */
+.ppselecter, .ppselecter *{font-size:12px;font-family:"宋体", Verdana, Arial, Helvetica, sans-serif;line-height:normal}
+.ppselecter{border:1px solid #FFA700;width:166px;margin-left:1px;overflow:hidden}
+.ppselecter .ppseltit{background-color:#FFF6DF;height:15px;padding-top:4px;text-indent:6px;color:#FF6000}
+.ppselecter table td table td{padding:3px}
+.ppselecter .active{background:#FDD463;color:#333;font-weight:normal}
+
+/* 登录中 */
+.ppWaitMsg{background:url(http://images.sohu.com/passport/v3/cardstyle/images/load.gif) no-repeat center 30px;color:#FF6000;padding-top:90px;padding-left:50px;font-size:12px;width:250px;font-weight:normal}
+
+/* 登录后 */
+.passportc .listContA{width:258px;height:71px;_width /**/:260px;_height /**/:73px ;border:1px #FFD391 solid;background:#fff;margin:0px 3px 0px -1px;color:#FF6000}
+.passportc .listContA ul{margin-top:7px!important;margin-top:9px;margin-left:8px}
+.passportc .listContA li{margin-bottom:7px}
+.passportc .listContA li p{color:#313031}
+
+.passportc .middle{color:#FF6000;margin-left:-1px}
+.passportc .middle li{float:left;margin-top:6px;margin-left:5px}
+.passportc .middle li img{background:url(http://www.sohu.com/passport/images/pic005.gif) no-repeat;width:34px;height:13px}
+.passportc .middle .current{padding:6px 7px 2px 7px;margin:-1px 0px 0px 0px;background:#fff;border:1px #FFD391 solid;border-top:0px;color:#000}
+
+.passportc .bottom{color:#FF6000;width:258px;clear:both}
+.passportc .bottom ul{margin-left:0px!important;margin-left:-10px}
+.passportc .bottom li{float:left;margin-top:6px;margin-left:5px}
+.passportc .bottom .dabenying{float:right;margin-top:1px}
+.passportc .bottom .dabenying img{width:54px;height:21px;bordr:0}
+
+.passportc .candle{position:absolute;left:220px;top:12px}
+
+/*** blog.sohu.com redefine ***/
+	/* a */
+.passportc a{color:#333}
+.passportc a:link,.passportc a:visited{color:#333}
+.passportc a:hover{color:#fc7821}
+.passportc .middle a:link,
+.passportc .middle a:visited,
+.passportc .bottom a:link,
+.passportc .bottom a:visited{color:#666}
+
+	/* border-color */
+.passportc{border-color:#c3cecd}
+.passportc .card .ppinput{border-color:#ccc}
+.ppselecter{border-color:#C3CECD}
+.passportc .listContA{border-color:#C3CECD}
+.passportc .middle .current{border-color:#c3cecd}
+
+	/* background & color */
+.passportc *{color:#493a01}
+.pptitle{background-image:url(images/pic002.gif)}
+.ppcontent{background-image:url(images/pic001.gif)}
+.passportc .card .sign{background-image:url(../i/log002.gif);width:57px;height:26px;text-align:center;line-height:26px;padding:0;border:none;color:#fff}
+.passportc .middle li img{background-image:url(images/pic005.gif)}
+.ppselecter, .ppselecter *{color:#493a01}
+.ppselecter .ppseltit{background:#C3CECD!important;color:#333!important}
+.ppselecter .active{background:#FC7821!important;color:#fff!important}
+.ppWaitMsg{background-image:url(images/load.gif);color:#666}
+.passportc .listContA{color:#333}
+.passportc .middle,.passportc .bottom{color:#666}
+.passportc .middle .current{color:#333}
+
+	/* position */
+.pptitle,.pptitle2{margin:0 10px -3px 10px}
+.pptitle *,.pptitle2 *{line-height:25px}
+.ppcontent{width:268px;height:128px;padding:7px 0px 0px 8px}
+.ppWaitMsg{width:auto;margin:0 8px 0 0;padding:90px 0 0 0;text-align:center}
+.passportc .listContA{width:260px;height:71px;margin:0 3px 0px -1px}
+.passportc .middle{float:none!important;width:auto!important;height:auto!important;margin:0 0 0 -1px;padding:0!important}
+.passportc .bottom li{margin-left:4px}
+.passportc .bottom .dabenying{margin:1px 2px 0 0}
+
+/*** blog.sohu.com ***/
+#login_ico{display:inline;border:1px solid #CCCCCC;float:left;height:48px;margin:10px 0px 7px 7px;overflow:hidden;padding:1px;width:48px}
+#login_ico img{border:medium none;height:48px;width:48px}
+#login_name{margin:15px 0pt 6px;font-family:Verdana,Arial,Helvetica,sans-serif;font-weight:bold;overflow:hidden;padding-left:8px;width:185px}
+#login_opr{border-top:1px solid #CCCCCC;margin:7px 5px 0pt 65px;padding:5px 0pt 0pt}
+#login_opr a{margin:0pt 5px;text-decoration:underline}
+
+/* log Fix */
+.toolBar .menuSub-div{border:none!important;width:282px!important;height:162px!important;background:none!important}
+.toolBar .menuSub-div .subMenu-content{padding-top:12px!important}
+.passportc{background:url(../i/log001.gif) no-repeat 0 0!important;margin-top:-18px!important;padding-top:12px!important;width:282px!important}
+
+.toolBar .txt {line-height:31px;float:left}
+#tb_user .txt a{width:78px;text-align:center}
+#tb_user .txt a:hover{background:url(../i/tbactbg1.png) no-repeat center center;}

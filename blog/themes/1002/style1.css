@@ -1,0 +1,29 @@
+/*
+=== Sohu Blog StyleSheet File ================================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-10-31
+==============================================================
+*/
+
+
+/****** Main Layout Styles ******/
+#navBar {
+	background-image: url(images/bw7_03-1.gif);
+	background-repeat: no-repeat;
+}
+#mainWrapper {
+	background-image: url(images/bw7_05-1.gif);
+	background-repeat: repeat-y;
+}
+#footer {
+	background-image: url(images/bw7_15-1.gif);
+	background-repeat: no-repeat;
+}
+.content-top {
+	display:none;
+}
+.content-bottom {
+	display:none;
+}

@@ -1,0 +1,98 @@
+.camp_pp-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_pp-content .banner_small{
+	height: 30px;
+}
+.camp_pp-content .profile{
+	padding: 0 0 5px;
+}
+.camp_pp-content .ico{
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	padding: 1px;
+	float: left;
+	margin-right: 5px;
+}
+.camp_pp-content .ico img{
+	width: 50px;
+	height: 50px;
+}
+.camp_pp-content .pptitle{
+	padding: 5px 0;
+}
+.camp_pp-content .pptitle a{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.camp_pp-content .ppstatus{
+	padding: 5px 0;
+}
+.camp_pp-content .action{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_pp-content .message{
+	padding: 5px;
+	/*border-bottom: 1px solid #ccc;*/
+}
+.camp_pp-content .message h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_pp-content .message ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: none;
+}
+.camp_pp-content .message ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.camp_pp-content .visitor{
+	padding: 5px;
+	clear: both;
+}
+.camp_pp-content .visitor h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_pp-content .visitor .v{
+	float: left;
+	margin: 5px;
+}
+.camp_pp-content .visitor .vico{
+	width: 32px;
+	height: 32px;
+	padding: 1px;
+	border: 1px solid #ccc;
+	margin: 0;
+}
+.camp_pp-content .visitor .vico img{
+	width: 32px;
+	height: 32px;
+}
+.camp_pp-content .visitor .v .name{
+	display: block;
+	text-align: center;
+	width: 40px;
+	overflow: hidden;
+	margin-top: 5px;
+	white-space:nowrap;
+}

@@ -1,0 +1,80 @@
+.camp_passport-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_passport-content .banner_small{
+	height: 30px;
+}
+.camp_passport-content .profile{
+	padding: 0 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_passport-content .welcome{
+}
+.camp_passport-content .uname{
+	font-size: 14px;
+	font-weight: bold;
+}
+.camp_passport-content .desc{
+	padding: 5px 0;
+	word-break: break-all;
+	line-height: 200%;
+}
+.camp_passport-content .nav{
+	/*border-bottom: 1px solid #ccc;*/
+	padding: 5px;
+	clear: both;
+}
+
+.camp_passport-content .unread{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_passport-content .unread h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_passport-content .unread table{
+	margin: 0;
+	padding: 0 0 0 5px;
+	table-layout: fixed;
+}
+.camp_passport-content .unread td{
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 14px;
+}
+.camp_passport-content .unread .ico{
+	width: 16px;
+}
+.camp_passport-content .unread .auth{
+	width: 50px;
+}
+
+.camp_passport-content .act{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.camp_passport-content .act h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.camp_passport-content .act ul{
+	margin: 0;
+	padding: 0 0 0 5px;
+	list-style: square inside;
+}
+.camp_passport-content .act ul li{
+	margin: 5px 0;
+	padding: 0;
+	clear: both;
+}

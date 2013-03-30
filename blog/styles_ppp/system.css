@@ -1,0 +1,215 @@
+@charset "gbk";
+/*
+=== Sohu Blog Home StyleSheet File ===========================
+	Style Name: system
+	Version: 1.1
+	Author: Leeking001 (www.leeking001.com)
+	First Created: 2008-03-25
+	Last Update: 2008-03-25
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/*** General HTML ***/
+body {margin:0;padding:0;background:#fff;color:#666;font:normal 12px/1.6em Verdana,Arial,sans-serif,"宋体";}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+dl,
+dt,
+dd {margin:0;padding:0;}
+ol {padding:0 0 0 1.6em;>padding:0 0 0 2em;}
+h1,
+h2 {font-size:14px;font-weight:bold;}
+h3,
+h4 {font-size:12px;font-weight:bold;}
+h5,
+h6 {font-size:12px;font-weight:bold;}
+img {border:0 none;}
+em {font-style:normal;color:#f06;}
+small {color:#999;font:11px/1.6em Tahoma,Verdana,Arial,PMingLiU,MingLiU !important;>font-family:'宋体' !important;/*IE7*/ font:12px/1.4em Tahoma,Verdana,Arial,'宋体';/*IE6*/}
+hr {clear:both;height:1px;margin:7px 0;>margin:0;padding:0;border:0 none;border-top:1px solid #ccc;line-height:1px;}
+hr.line_solid {border:0 none;border-top:1px solid #ccc;}
+
+/* Link */
+a {color: #104d6c;text-decoration: underline;}
+em a {color:#f06;}
+a:hover,
+em a:hover {color: #f63;text-decoration: underline;}
+a:focus {-moz-outline-style: none;}
+
+/* Form */
+form {margin:0;padding:0;border:0 none;}
+input,
+textarea,
+select,
+fieldset,
+legend {color:#666;font:normal 12px/1.6em Verdana,Arial,sans-serif,"宋体";}
+fieldset {padding:10px;}
+input.submit,
+input.button,
+input.text,
+textarea.text,
+select.select {border:1px solid #ccc;outline:0 none;color:#333;}
+input.text {height:16px;padding:2px;line-height:14px;}
+input.file {height:22px;}
+textarea.text {color:#666;padding:2px;line-height:14px;}
+select.select {height:20px;}
+input.submit,
+input.button {cursor:pointer;height:22px;padding:0 12px;>padding:0 4px;color:#666;}
+input.submit {background:url(images/btn_submit_bg.jpg) center repeat-x;}
+input.button {background:url(images/btn_normal_bg.jpg) center repeat-x;}
+input.popup {width:124px;height:18px;padding:2px 0 2px 5px;border:0;background:#eee url(images/home/input_popup_bg.gif) no-repeat;cursor:pointer;}
+input.reg_submit {float:left;border:1px solid #cbd3e2;height:27px;line-height:27px;padding:0 8px;margin:10px 10px 0 0;background:#ebf6fd url(http://js5.pp.sohu.com.cn/ppp/blog/styles_ppp/images/home/miniblog_submit_bg.gif) repeat-x 0;cursor:pointer;}
+table.tableForm {}
+	table.tableForm th,
+	table.tableForm td {padding:2px 0;}
+	table.tableForm td.formLable {text-align:right;vertical-align:top;font-weight:bold;}
+	table.tableForm td.formEle {text-align:left;vertical-align:top;}
+	table.tableForm .formTip {height:14px;padding:4px 0 0;color:#aaa;line-height:14px;}
+table.popLayer {}
+	table.popLayer td {overflow:hidden;}
+	table.popLayer .lt,
+	table.popLayer .lm,
+	table.popLayer .lb,
+	table.popLayer .rt,
+	table.popLayer .rm,
+	table.popLayer .rb {width:4px;font-size:0;line-height:0;}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .rt,
+	table.popLayer .lb,
+	table.popLayer .mb,
+	table.popLayer .rb {height:4px;font-size:0;line-height:0;}
+	table.popLayer .rm,
+	table.popLayer .mb,
+	table.popLayer .rb {background:#333;filter:alpha(opacity=50);-moz-opacity: 0.5;}
+	table.popLayer .rt,
+	table.popLayer .lb {border:2px solid #333;filter:alpha(opacity=50);-moz-opacity: 0.5;}
+	table.popLayer .lt,
+	table.popLayer .mt,
+	table.popLayer .lm,
+	table.popLayer .mm {border:2px solid #ccc;background:#fff;}
+	table.popLayer .lt {border-width:2px 0 0 2px;}
+	table.popLayer .rt {border-width:0;>border-width:0 0 2px 0;}
+	table.popLayer .mt {border-width:2px 2px 0 0;}
+	table.popLayer .lm {border-width:0 0 2px 2px;}
+	table.popLayer .mm {border-width:0 2px 2px 0;padding:0 3px 3px 0;}
+	table.popLayer .lb {border-width:0 2px 0 0;}
+
+/*** Class ***/
+.current,
+.current a,
+a.current {cursor:default !important;}
+.green,
+.green a,
+a.green,
+.correct,
+.correct a,
+a.correct {color:#008000 !important;}
+.red,
+.red a,
+a.red,
+.error,
+.error a,
+a.error {color:#f00 !important;}
+.hot,
+.hot a,
+a.hot {color:#f06 !important;}
+.hot a:hover,
+a:hover.hot {color:#f63 !important;}
+span.space {font-weight:normal !important;}
+
+/* clear & clearfix */
+.clear {clear:both;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+/* End hide from IE-mac */
+*+html .clearfix {min-height:1%;}/* IE7 */
+
+/* word break */
+.wordBreak {overflow:hidden;white-space:nowrap;>text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+
+/*** Layout ***/
+#wrapper {position:relative;width:980px;margin:0 auto;text-align:left;z-index:1;}
+	#innerWrapper {padding:10px;}
+#header {overflow:hidden;height:89px;padding:0 1px;border:1px solid #cbdce3;background:#e8faff url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/sys_header_bg.gif) 0 90px repeat-x;}
+	#innerHeader {height:68px;padding:10px;background:#d4e5ec url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/sys_header_bg.gif) 0 0 repeat-x;}
+	#header .logo {padding:5px 0 0 20px;}
+#content {margin:0 0 10px;}
+	#innerContent {}
+#footer {clear:both;}
+	#innerFooter {text-align:center;}
+		#powered {padding:15px 0 10px;}
+
+/*** Register ***/
+.regBody {padding:20px 0 0 100px;}
+.noticeError{color:red;}
+.selecter {width:600px;}
+.selecter .mod{margin:0 0 10px;}
+	 .selecter  .mod .head {padding:3px 7px;>padding:4px 7px 2px;border-bottom:1px solid #ccc;}
+		 .selecter  .mod .head h3,
+		 .selecter  .mod .head h4 {float:left;margin:0;font:bold 12px/1.6em Verdana,Arial,Helvetica,sans-serif;}
+		 .selecter  .mod .head .option {float:right;}
+	 .selecter  .mod .body {padding:10px 10px 0;}
+	 .selecter  .mod .foot {}
+
+/*** Invite ***/
+.inviteBody {padding:40px 0 40px 70px;}
+	.inviteBody .invite_content {float:left;width:580px;}
+	.inviteBody .invite_sidebar {float:right;width:260px;}
+		.inviteBody .invite_content .invite_box {background:#f3f1f2;border:1px solid #ccc;padding:10px;}
+			.inviteBody .invite_content .invite_box h3 {font-size:14px;}
+			.inviteBody .invite_content .invite_box .btn_joinme {display:block;padding-left:20px;width:153px;height:31px;line-height:31px;color:#fff;text-decoration: none;background:#4f8fd4 url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/home/btn_joinme_bg.gif) no-repeat left top;}
+			.inviteBody .invite_content .invite_box .btn_joinme:hover {background-position:left bottom;}
+		.inviteBody .invite_content .invite_desc {margin-top:20px;}
+			.inviteBody .invite_content .invite_desc h2 {font-size:12px;}
+			.inviteBody .invite_content .invite_desc img {margin:20px 0 0 30px;}
+		.inviteBody .invite_sidebar h2 {font-size:12px;margin-bottom:10px;}
+		.inviteBody .invite_sidebar .friends_list .friendItem {float:left;margin:0 20px 20px 0;}
+			.inviteBody .invite_sidebar .friends_list .friendIco {margin-bottom:5px;}
+				.inviteBody .invite_sidebar .friends_list .friendIco a {width:52px;height:52px;}
+				.inviteBody .invite_sidebar .friends_list .friendIco img {width:48px;height:48px;padding:1px;border:1px solid #ccc;}
+				.inviteBody .invite_sidebar .friends_list .friendIco a:hover img {border:1px solid #f63;}
+			.inviteBody .invite_sidebar .friends_list .friendItem span a {display:block;height:18px;line-height:18px;overflow:hidden;width:50px;}
+
+/*** Subscribe ***/
+.subscribe {}
+	.subscribe h3 {font-size:12px;padding:20px 20px 15px;}
+	.subscribe .sub_model {background:#f6fbfd;border:1px solid #d4e5ed;padding:20px 30px;}
+		.subscribe .sub_model h2 {font-size:14px;padding:0 0 10px;}
+		.subscribe .sub_model .sub_model_button, .subscribe .sub_model .sub_model_img {text-align:center;padding:10px 0 0;}
+		.subscribe .sub_model .sub_model_button a {display:block;padding-left:20px;width:153px;height:31px;font-size:14px;line-height:31px;color:#fff;text-decoration: none;background:#4f8fd4 url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/home/btn_joinme_bg.gif) no-repeat left top;margin:0 auto;}
+		.subscribe .sub_model .sub_model_img img {border:1px solid #d4e5ed;}
+		.subscribe .sub_model .sub_model_img a:hover img {border:1px solid #f63;}
+	.subscribe .sub_model_1 {float:left;width:435px;}
+	.subscribe .sub_model_2 {float:right;width:435px;}
+	.sub_preview {padding:30px 0 0;}
+		.sub_preview .sub_preview_title {padding:5px 0;margin:0 0 10px;border-bottom:1px solid #666;}
+			.sub_preview .sub_preview_title h2 a {font-size:20px;text-decoration:none;}
+			.sub_preview .sub_preview_title span {font-size:12px;font-weight:normal;margin-left:10px;}
+		.sub_preview .sub_preview_content {}
+			.sub_preview .sub_preview_content .entry {background:#f6fbfd;border:1px solid #d4e5ed;padding:10px;margin:0 0 5px;}
+				.sub_preview .sub_preview_content .entry_title {background:#fff;border:1px solid #D7E7FB;padding:10px;margin:0 0 10px;}
+					.sub_preview .sub_preview_content .entry_title h4 a {font-size:14px;text-decoration:none;}
+					.sub_preview .sub_preview_content .entry_content {padding:5px;font-size:14px;color:#333;}
+					.sub_preview .sub_preview_content .entry_content a {font-size:14px;color:#104d6c;}
+
+/* pageNav */
+.pageNav {padding:0 0 5px;line-height:20px;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;text-align:right;}
+	.pageNav span,
+	.pageNav a {padding:0 4px 0 3px;}
+	.pageNav span {font-weight:bold;}
+	.pageNav a {text-decoration:underline;}
+	.pageNav a.prev {float:left;}
+	.pageNav a.next {float:right;}

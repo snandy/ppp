@@ -1,0 +1,44 @@
+.tag_subscribe-content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.tag_subscribe-content .container {
+	overflow: hidden;
+	width: 100%;
+}
+
+.tag_subscribe-content .logList {
+	margin: 0;
+	padding-left: 0px;
+}
+
+.tag_subscribe-content li {
+	list-style-type: none;
+	margin-bottom: 4px;
+	height: 17px;
+	white-space: nowrap;
+}
+
+.tag_subscribe-content li img{
+	margin-right:3px;
+}
+
+.tag_subscribe-content li a{
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.tag_subscribe-content .title {
+}
+
+.tag_subscribe-content .time {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	margin-top: 2px;
+}
+
+.tag_subscribe-content .more {
+	margin-top: 3px;
+	float: right;
+}

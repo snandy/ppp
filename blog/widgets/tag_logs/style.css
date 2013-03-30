@@ -1,0 +1,40 @@
+.tag_logs-content {
+	overflow:hidden;
+}
+
+.tag_logs-content .logList {
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.tag_logs-content li {
+	list-style-type: none;
+	margin-bottom: 4px;
+	height: 17px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.tag_logs-content li a{
+	font-size: 12px;
+}
+
+.tag_logs-content .title {
+	margin-left: 2px;
+}
+
+.tag_logs-content .time {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	margin-top: 2px;
+}
+
+.tag_logs-content .log {
+	white-space: nowrap;
+	margin-bottom: 2px;
+}
+
+.tag_logs-content .more {
+	float: right;
+	margin-top: 3px;
+}

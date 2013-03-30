@@ -1,0 +1,36 @@
+.pp_recommends-content .collect {
+	margin: 5px;
+	float: left;
+	overflow: hidden;
+	width: 81px;
+	text-align: center;
+}
+.pp_recommends-content .collect .collectIco {
+	width: 77px;
+	height: 77px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px;
+	display: block;
+}
+.pp_recommends-content .collect img {
+	height: 75px;
+	max-height: 75px;
+	max-width: 75px;
+}
+.pp_recommends-content .collect span {
+	margin-top: 2px;
+	width: 77px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.pp_recommends-content .more{
+	text-align: right;
+	clear:both;
+}

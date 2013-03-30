@@ -1,0 +1,495 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+*{
+	/*
+	color: #333;
+	*/
+}
+body{
+	background-color: #BCB658;
+	background-image: url(images/tp_03a.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+	
+
+}
+div,table,ul,span,p{color: #000;}
+a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+#tooltip{
+	border: 3px solid #eee;
+	position: absolute;
+	z-index: 2000;
+	background: white;
+}
+#tooltip .mod{
+background:none;
+}
+#tooltip .modFrame{
+background:none;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+#tooltip .modFrame, #tooltip .modFrame div{
+background:none;
+	color: #333;
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background-image: url(images/tp_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#innerWrapper{
+
+}
+#header{
+background:none;
+height:294px;
+padding-top: 30px;
+}
+#innerHeader{
+	background:none;
+	margin-left: 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 45px;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #000;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	
+}
+#blogUrl a:link{
+	color: #000;
+}
+#blogDesc{
+	margin:0px;
+	color: #000;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/****** NavBar Elements Styles ******/
+#navBar a:link{
+			/*color: #333;*/
+}
+#navBar{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background-image: url(images/tp_02a.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+}
+#innerNavBar{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background-image: url(images/tp_02b.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 47px;
+	padding-left:30px;padding-right:36px;
+}
+
+#navBar a{
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+#optionNav li{
+ 	background:#C87F00;
+	border:1px solid #210000;
+	height:20px;
+	margin: 10px 2px 0px 4px;
+	padding: 2px 2px 1px;
+}
+#mainNav ul{
+	display: block;
+	float: left;
+}
+#mainNav #newPageBtn{
+	margin: 15px 0px 0px 4px;
+	padding: 0px 8px;
+}
+#mainNav li{
+ 	background:#D8CD5A;
+	border:1px solid #210000;
+	cursor: pointer;
+	margin: 10px 2px 0px 0px;
+	padding: 0px 8px 3px;
+}
+
+#mainNav li.active{
+	background: #C37801;
+	border-top: 2px solid #c00;
+	border-bottom:none;
+	margin: 7px 2px 0px 0px;
+	padding: 0px 8px 6px;
+	cursor: auto;
+}
+#mainNav li.active span{
+	color: #000;
+}
+#mainNav li.private{
+	background: #FFFDD9;
+	border-bottom:none;
+}
+#mainNav li.private span{
+	color: #000;
+}
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav li .pageTitle{
+color: #000;
+}
+#mainNav li .pageTitleHover{
+	background-color: #FFD9AC;
+}
+#optionNav a{
+	color:#000;
+}
+#optionNav li{
+	white-space:nowrap;
+}
+.modCtnInfo-private{
+	background: #FFFDD9;
+	border-bottom: 1px solid #ccc;
+	margin-top:-12px;
+	padding: 5px 30px 2px;
+}
+*html .modCtnInfo-private{
+	margin-top:-13px;
+	position:relative;
+}
+/* navBar End*/
+
+#mainWrapper{
+	background:none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 11px;
+	padding-bottom: 0px;
+	padding-left: 11px;
+	border:none;
+	border-right:solid 1px #7E7D36;
+	border-left:solid 1px #7E7D36;
+	min-height:300px;
+
+}
+#innerMainWrapper{
+	background:none;
+	margin-top: 0px;
+	margin-right: 14px;
+	margin-bottom: 0px;
+	margin-left: 14px;
+	padding-bottom: 0px;
+	background-image: none;
+	min-height:300px;
+	
+}
+*html #mainWrapper{
+	background:none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 11px;
+	padding-bottom: 0px;
+	padding-left: 11px;
+	border:none;
+	border-right:solid 1px #7E7D36;
+	border-left:solid 1px #7E7D36;
+		height:300px;
+	overflow:visible;
+
+}
+*html #innerMainWrapper{
+	background:none;
+	margin-top: 0px;
+	margin-right: 14px;
+	margin-bottom: 0px;
+	margin-left: 14px;
+	padding-bottom: 0px;
+	background-image: none;
+	height:300px;
+	overflow:visible;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border:none;
+
+}
+.mod .modFrame{
+	border: none;
+		background:none;
+
+}
+.mod .modTable{
+
+}
+.mod tbody{
+
+}
+.Feeds-content ul{ margin:0px;padding-left:18px!important;}
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	width: 4px;
+	border: none;
+	background-image: url(images/tp_15.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 50px;
+}
+.mod .t{
+	border: none;
+	background-image: url(images/tp_05.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.mod .modHeader{
+	padding-top: 16px;
+}
+.mod .rt{
+	width: 4px;
+	background-image: url(images/tp_16.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height: 50px;
+}
+.mod .mneck{	}
+.mod .ec{}
+.mod .modEditCon{
+	background:none;
+	border:none;
+	background-color:#FFEFB3;
+	padding:0px;
+	margin:0px;
+	text-align:left;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+.mod .mbody{
+	
+}
+.mod .l{
+	background-image: url(images/tp_21.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;	width: 5px;
+}
+.mod .c{
+	background-image: url(images/tp_22.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-left:4px;
+	padding-right:4px;
+}
+.fresh_blogs-content {	padding:0px;}
+.mod .modCon{	
+ overflow:hidden;
+}
+.mod .r{
+	background-image: url(images/tp_20.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;	/*width: 0px;*/
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width:30px;
+	background-image: url(images/tp_17.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 31px;
+}
+.mod .b{
+height:36px;
+background-image: url(images/tp_18.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.mod .rb{
+	width: 0px;
+	background-image: url(images/tp_19.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	/*color: #333;*/
+}
+.mod .modEdit a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E98227;
+}
+.item-title h3{
+	color: #E98227;
+}
+.item-title h3, .item-title h3 a{color: #E98227;}
+.item-label{}
+.item-label a{
+	/*color: #000000;*/
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E98227;
+
+
+}
+.item-content a{
+	text-decoration: none;
+
+}
+.item-info, .item-info a{
+	color: #000000;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #6d0d0d;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #6d0d0d;
+}
+#footer{
+	clear: both;
+	background-image: url(images/tp_14a.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+		border-right:solid 1px #7E7D36;
+	border-left:solid 1px #7E7D36;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding-top: 45px;
+	padding-right: 40px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+}
+#contact {
+	color: #123a32;
+}
+
+#contact a{
+	color: #123a32;
+}
+
+#copyright {
+	color: #123a32;
+}

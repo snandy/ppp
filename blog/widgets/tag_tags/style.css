@@ -1,0 +1,42 @@
+.tag_tags-content{
+	overflow:hidden;
+} 
+
+.tag_tags-content ul {
+	margin: 0;
+	padding-left: 0px;
+}
+.tag_tags-content ul a {
+	white-space: nowrap;
+	line-height: 150%;
+	text-decoration: none;
+}
+
+.tag_tags-content td a {
+	white-space: nowrap;
+	line-height: 150%;
+	text-decoration: none;
+}
+
+.tag_tags-content .cloud {
+	display: inline;
+	list-style-type: none;
+	margin: 0px 12px 6px 0px;
+}
+
+.tag_tags-content li.tag_popular_1 a {
+	font-size: 12px;
+	font-weight: normal;
+}
+.tag_tags-content li.tag_popular_2 a {
+	font-size: 14px;
+	font-weight: normal;
+}
+.tag_tags-content li.tag_popular_3 a {
+	font-size: 16px;
+	font-weight: normal;
+}
+.tag_tags-content li.tag_popular_4 a {
+	font-size: 16px;
+	font-weight: bold;
+}

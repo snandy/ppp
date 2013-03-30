@@ -1,0 +1,46 @@
+#adiOlympic{
+width:202px;
+height:375px;
+margin:0;
+background:url(http://i0.itc.cn/20080806/637_16319039_6bc1_4b1d_b0d4_6028bc127d55_0.jpg) 0 0 no-repeat;
+}
+#adiOlympic .adiSwf{
+overflow:hidden;
+width:185px;
+height:238px;
+margin:0 9px 12px;
+padding:41px 0 0;
+}
+#adiOlympic .mkAavatar{
+padding:0 38px 11px 34px;
+}
+	#adiOlympic .mkAavatar a{
+	display:block;
+	overflow:hidden;
+	width:100%;
+	height:30px;
+	text-indent:-9999px;
+	}
+#adiOlympic .adiLinks{
+padding:0 11px 0 10px;
+}
+	#adiOlympic .adiLinks a{
+	display:block;
+	overflow:hidden;
+	width:82px;
+	height:20px;
+	text-indent:-9999px;
+	}
+	#adiOlympic .adiLinks a.left{
+	float:left;
+	}
+	#adiOlympic .adiLinks a.right{
+	float:right;
+	}
+#adiOlympic .adiGroup{
+clear:both;
+text-align:center;
+}
+#adiOlympic .adiGroup a{
+color:#FFFFFF;
+}

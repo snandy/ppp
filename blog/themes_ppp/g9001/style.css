@@ -1,0 +1,416 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+   Title		:	奥运家庭博客
+	First Created: 2007-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+
+body{
+	background-color: #230800;
+}
+div,table,ul,span,p{ color:#000;}
+a{
+	
+	color: #000;
+	text-decoration: underline;
+	
+}
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background: url(images/top.jpg) no-repeat center top !important;
+	clear: both;
+}
+#innerWrapper{
+   background: none;
+	width:950px;	
+}
+#header{
+background: none;
+	height:260px;
+	margin:0px;
+	padding:0px;
+	
+}
+#innerHeader{
+	margin:0px;
+	padding:0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:60px;
+	padding-left:30px;
+}
+#blogTitle a, #blogTitle input{
+	color: #FFFFFF;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:80px;
+}
+#blogUrl {
+	color: #fdfc00;
+	padding-top:63px;
+
+}
+#blogUrl a{
+	color: #fdfc00;
+}
+
+#blogUrl a:hover{
+	color: #fdfc00;
+	text-decoration: underline;
+}
+
+#blogDesc{
+	color: #fdfc00;
+	font-size: 14px;
+	padding: 0px;
+	padding-top:8px;
+	margin-top:5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+/****** NavBar Elements Styles ******/
+#navBar a {
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar{
+	border:none;
+	margin:0px;
+	padding:0px;
+	height: 61px;
+	background: url(images/navbg.jpg) no-repeat center bottom !important;
+	clear: both;
+	
+}
+#innerNavBar{
+	border: none;
+	height: 28px;
+	margin: 0px;
+	background: url(images/navbg1.jpg) no-repeat center top !important;
+	clear: both;
+	padding: 0px 45px;
+}
+
+/**修改mainNav*/
+#mainNav li{
+	background: url(images/nav1.gif) repeat-x left top;
+	border-top:1px solid #b84d00;
+		border-left-color:#b84d00;
+	   border-right-color:#b84d00;
+	cursor: pointer;
+	margin: 6px 2px 0px 0px;
+	padding: 3px 8px 3px;
+}
+
+#optionNav li{
+	margin-top: 10px;
+	color:#fff;
+}
+#optionNav li a{
+	color:#fff;
+}
+#mainNav li.active{
+	background: url(images/nav2.gif) repeat-x left top;
+	border-top: 1px solid #b84d00;
+	border-left-color: 1px solid #b84d00;
+	border-right-color: 1px solid #b84d00;
+	margin: 4px 2px 0px 0px;
+	padding: 3px 8px 5px;
+	cursor: auto;
+}
+#mainNav li.private{
+	background: url(images/nav3.gif) repeat-x left center;
+	border-top:1px solid #e3aa72;
+		border-left-color:#e3aa72;
+	border-right-color:#e3aa72;
+}
+#mainNav li.hover{
+	border-color: red;
+}
+
+#mainNav li .pageTitle{
+	white-space: nowrap;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+}
+#mainNav li .pageTitleHover{
+	background-color: none;
+}
+#modContainerInfo {
+	margin: auto 19px;
+}
+/** **/
+
+#mainWrapper{
+	border: 0px;
+	background-color: #230800;
+	padding: 0px 2px 7px 0px;
+	margin: 0px;
+}
+#innerMainWrapper{
+	padding: 0px 6px 0px 6px;
+	margin: 0px;
+	background-color: #f4ddbf;
+	background-image: url(images/bg_tbody.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	border: none;
+}
+#modContainer {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border:0px;
+	background-color: transparent;
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .modFrame{
+background:none;border:0px;
+}
+.mod .modTable{
+
+}
+.mod tbody{
+
+}
+/***********/
+.mod .mheader{
+	border: none;
+	background: none;
+	}
+.mod .lt{
+}
+.mod .t{
+	background-image: url(images/bg_title.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	border-top:1px solid #f4d687;
+		border-left-color:#f4d687;
+	   border-right-color:#f4d687;
+	height:25px;
+	padding-left:5px;
+	padding-right:6px;
+}
+.mod .modHeader{
+	padding-top: 4px;
+}
+.mod .rt{
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	margin: 0px;
+	padding: 0px;
+}
+.mod .modEditCon{
+	background: none;
+	border: none;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+.mod .mbody{
+	border: 1px solid #e9cead;
+	background-color: #fcf1e5;
+	background-image: url(images/bg_content.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.mod .l{
+}
+.mod .c{
+overflow:hidden;
+}
+.mod .modCon{
+}
+.mod .r{
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width: 12px;
+}
+.mod .b{
+
+}
+.mod .rb{
+
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	/*color: #333;*/
+}
+.mod .modEdit a{
+	/*
+	color: #333;
+	text-decoration: underline;
+	*/
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{/**/}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #847A60;
+}
+.item-title h3{
+	color: #000;
+}
+.item-title h3, .item-title h3 a{color: #000;}
+.item-label{}
+.item-label a{
+	/*color: #006699;*/
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #847A60;
+		color:#000;
+}
+.item-content a{
+	
+		color:#000;
+}
+.item-info, .item-info a{
+	color: #e64608;
+}
+.item-info a:hover{
+	color: #e64608;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #97472C;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #97472C;
+}
+.item-more a:hover{
+	font-weight: bold;
+	color: #97472C;
+}
+#footer{
+	clear: both;
+	height: 174px;
+	background-color: #230800;
+	background-image: url(images/tbodyfooter.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#innerFooter{
+	padding: 43px;
+}
+#contact {
+	color: #FFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #FFF;
+}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #FFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}

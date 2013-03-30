@@ -1,0 +1,27 @@
+/*
+=== Sohu Blog StyleSheet File ================================
+	Style Name: default
+	Version: 1.0
+	Author: Todd Lee
+	Last Update: 2005-10-31
+==============================================================
+*/
+
+
+/****** Main Layout Styles ******/
+#mainWrapper {
+	width: 993px;
+}#articleContent {}
+#footer {
+	clear: both;
+	height: 117px;
+	width: 993px;
+	background-position: left top;
+}#articleInnerContent {
+	width: 778px;
+	margin-left: 100px;
+	margin-top: 30px;
+}.content-bottom {
+	background-image: url();
+	
+}

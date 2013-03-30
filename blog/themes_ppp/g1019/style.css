@@ -1,0 +1,424 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+
+body{
+	background:#EF81AD url(images/index_bd.jpg) repeat-y center;
+}
+div,table,ul,p{color: #000;}
+a{
+	color: #666666;
+	text-decoration: underline;
+}
+
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+a .texta{
+	color:#333;
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+background:none;
+		width:960px;
+		border:none;
+}
+#innerWrapper{
+	background-image: url(images/index_02.jpg);
+	background-repeat:no-repeat;
+	background-position: center top;
+	border:none;
+	width:960px;
+}
+#header{
+	background:none;
+	height:269px;
+	padding-top: 30px;
+}
+#innerHeader{
+	background:none;
+	margin-left: 90px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #fff;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+#blogTitle, #blogTitle a:hover, #blogTitle input{
+	color: #FF0000;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #FFF;
+}
+#blogUrl a:hover {
+	color: #FF0000 !important;
+}
+#blogDesc{
+	margin:0px;
+	color: #000000;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/****** NavBar Elements Styles ******/
+#navBar a:link{
+	/*color: #333;*/
+}
+#navBar{
+	background:none;
+	background:url(images/index_04.jpg) no-repeat center top;
+	border:none;
+	padding: 20px 15px 0px 16px;
+	margin:0;
+}
+#innerNavBar{
+    border:none;
+	margin:0px 0px 0px 0px;
+	padding:0;
+}
+#optionNav li{
+    margin-top:8px;
+	white-space:nowrap;
+}
+#optionNav li a{
+	color:#333333;
+}
+/**ÐÞ¸ÄmainNav*/
+#mainNav { margin:0; padding:0}
+#mainNav li{
+	background: #eee;
+	border-bottom:none;
+	margin: 0px 2px 3px 2px ;
+	padding: 2px 8px 4px 8px;
+	cursor: auto;
+}
+#mainNav li.active{
+	background: #F1C2D6;
+	border-top:1px solid #CC3366;
+	border-bottom:none;
+	margin: 0px 2px;
+	padding-bottom:5px!important;
+	padding: 3px 8px 6px 5px;
+	cursor: auto;
+}
+#mainNav li.hover{
+	border-color: #FF0000;
+}
+#mainNav li .pageTitle{
+	white-space: nowrap;
+	font-weight: bold;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+	color:#000000;
+}
+#mainNav li .pageTitleHover{
+	background-color: #FF00FF;
+}
+#modContainerInfo {
+	margin: 1px 19px 0 19px;
+	background: #BB6704;
+}
+*html #modContainerInfo {
+	margin: 0px 19px 0 19px;
+	background: #BB6704;
+}
+#modContainer {margin-top:0;padding-top:0; }
+#modContainerTable {margin-top:0; padding-top:0;}
+
+/** **/
+#neckWrapper{
+background:none;
+}
+#innerNeckWrapper{
+    background:none;
+}
+#mainWrapper{
+	border:none;
+	background:none;
+	padding:0px;
+	background-image: url(images/index_pp.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+	width: 938px;
+}
+#innerMainWrapper{
+		border:none;
+	background:none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-bottom: 0px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border:none;
+	background: none;
+	border:2px solid #EF82AC;
+	border-top:none;
+
+
+}
+.mod .modFrame{
+	border: none;
+	background:url(images/index_05.jpg) no-repeat;
+
+}
+.mod .modCon{
+overflow:hidden;
+
+}
+.mod tbody{
+border: none;
+	background: none;
+}
+.Feeds-content ul{ margin:0px;padding-left:18px!important;
+}
+#tooltip{
+	border: 3px solid #eee;
+	position: absolute;
+	z-index: 2000;
+	background: white;
+}
+#tooltip .mod{
+    background:none;
+}
+#tooltip .modFrame{
+    background:none;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+#tooltip .modFrame, #tooltip .modFrame div{
+    background:none;
+	color: #333;
+}
+/***********/
+.mod .mheader{
+	border: none;
+	background: none;
+	}
+.mod .lt{
+    width: 5px;
+	background: none;
+	border: none;
+}
+.mod .t{
+    border: none;
+	height:32px;
+}
+.mod .modHeader{
+	padding: 6px 6px 0px 2px;
+}
+.mod .rt{
+	width: 5px;
+}
+.mod .mneck{   
+    background: none;
+	background-repeat: repeat-y;
+	background-position: right top;	
+}
+.mod .modEditCon{
+	background: none;
+	border: none;
+}
+.mod{
+     background:url(images/index_19.jpg) repeat-y left;
+}
+.mod .l{
+
+}
+.mod .r{
+
+}
+.mod .lb{
+	height:0!important;
+ 	background: none;
+	border: none;
+}
+.mod .b{
+     	background: none;
+	border: none;
+}
+.mod .rb{
+		background: none;
+	border: none;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #000000;
+}
+.mod .modEdit a{
+
+	color: #000;
+	text-decoration: underline;
+
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+}
+.item-title h3, .item-title h3 a{color: #000;}
+.item-label{}
+.item-label a{color: #333;}
+.item-label a:hover{color: #F60;}
+
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eee;
+	color: #333;
+}
+ .item-content a{
+color: #f60;
+}
+.item-info, .item-info a{
+	color: #F60;
+}
+#innerContentLabelBox a{ color:#FF0033}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #ccc;
+}
+.item-more a{
+	font-weight: bold;
+	color: #CCCCCC;
+}
+#footer{
+	clear: both;
+
+	background-image: url(images/index_15.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 191px;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding-top:80px;
+}
+#contact {
+	color: #FFFFFF;
+}
+#contact a{
+		color: #FFFFFF}
+#copyright {
+	color: #FFFFFF;
+}
+
+/*Ìí¼ÓÐÞ¸Ä*/
+#blogUrl a:hover{
+    color: #FF0000;
+}
+
+#navBar a:hover{
+	color: #F60;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.mod .modTitle a:hover{
+    color: #F60;
+}
+
+.mod .modEdit a:hover{
+    color: #F60;
+}
+
+.item-content a:hover{
+    color: #F60;
+}

@@ -1,0 +1,303 @@
+/*============	Sohu Blog PPP StyleSheet File ======================
+	Title		:	声色版主题（based on p25 by Fei2Team）
+	Type		:	搜狐默认系列
+	ThemeNo		:	p26
+	Author		:	Todd Lee (www.todd-lee.com)
+	Created		:	2007年7月
+	Update		:	2007-7-12 8:57:01
+	CopyRt		:	Sohu.com (www.sohu.com)
+===================================================================*/
+
+body{padding:0;margin:0;}
+#topPadding{height:0px;line-height:1px;font-size:1px;margin-top:-1px;}
+
+.clear{border-width:0px;}
+input.text{font-size:12px;}
+
+
+.mod{border-width:0;margin:0px 5px 11px 5px;}
+.mod .modFrame{border-width:1px;}
+.mod .mheader {border-bottom:1px solid;}
+.mod .lt,
+.mod .rt {width:1px;font-size:1px;}
+.mod .t{height:27px;padding:0 2px;border-width:0 0 1px 0;border-style:solid;}
+.item-title h3,
+.item-title h3 a {font-size:13px;}
+.item-content {padding:5px 0 5px 0;}
+
+.modCon .profileMng {padding-bottom:5px;}
+.mod .modEditCon{margin:0px 1px 1px 1px;padding:10px 0 10px 10px;border-width:0 0 1px 0;}
+
+.categories-content li,
+.latest_comments-content li {height:22px;
+line-height:22px;}
+.categories-content a,
+.latest_comments-content a {text-decoration:none;
+height:22px;
+line-height:22px;}
+
+.refer-content a {text-decoration:none;
+line-height:18px;}
+.links-content .editFrame,
+.Custom_Links-content .editFrame{border-width:0px;}
+
+
+#wrapper {width:100%;background-position:100% 100%;background-repeat:no-repeat;}
+#modContainer{padding:15px 6px 5px 6px;}
+
+
+#header{border-width:0;padding:0;margin:0;background-repeat:no-repeat;overflow:hidden;}
+#blogTitle a {font-size:20px;}
+
+
+
+#navBar {border-width:0px;height:33px;overflow:hidden;}
+
+#mainNav li{border-width:1px 1px 0 1px;border-style:solid;margin:4px 3px 0px 0px;padding:2px 8px 5px 8px !important;padding:3px 8px 4px 8px;}
+#mainNav li .pageTitle {font-weight:normal;}
+#mainNav li.active{border-width:1px 1px 0 1px;border-style:solid;padding:4px 8px 7px 8px !important;padding:4px 8px 6px 8px;margin-right:3px;}
+#mainNav li .pageTitle,
+#mainNav a span {font-weight:normal;}
+
+.modCtnInfo-private {height:30px;line-height:32px;border-style:solid;border-width:0 1px 1px 1px;padding:0 35px;overflow:hidden;background-repeat:no-repeat;background-position:15px 50%;}
+.modCtnInfo-noMod {padding:15px 0;}
+#innerNavBar {padding:0 12px 0 17px;}
+#optionNav li {margin-left:15px;}
+
+
+#innerFooter{text-align:center;padding:0 40px 13px 40px;}
+#powered {margin:13px 0;}
+#contact, #copyright{margin:0;line-height:20px;}
+
+
+#innerContentLabelBox {padding:15px 0 0 0;}
+
+div,table,ul,span,p{color:#BBB;}
+a {color:#90A08C;}
+a:hover {color:#ff0;}
+
+body {
+	background:#0B0B0B url(images/body_bg.jpg) repeat-x 50% 30px;
+}
+
+#mainWrapper{
+	border-color:#555755;
+	background:#050505 url(images/navbar_bg.jpg) no-repeat 0 0;
+}
+
+#header {
+	height:430px;
+	background:none;
+}
+#blogTitle {
+padding-top:0px;
+padding-left:400px;
+}
+#blogUrl {
+padding-top:2px;
+}
+#blogTitle a,
+#blogTitle a:visited {
+	color:#E1E1E1;
+}
+#blogUrl a,
+#blogUrl a:visited {
+	color:#E1E1E1;
+}
+#blogDesc {
+	color:#E1E1E1;
+	line-height:20px;
+	padding:5px 0 0 400px;
+}
+#playerBox{
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+}
+#innerPlayerBox{
+	position: absolute;
+	left: 437px;
+	top: 122px;
+	margin: 0;
+	width: 287px;
+	height: 225px;
+	z-index:1;
+}
+
+
+#footer {
+	background:none;
+}
+#contact,
+#contact a,
+#contact a:visited{
+	color:#bbb;
+}
+#contact a:hover {
+	color:#ff0;
+}
+#copyright {
+	color:#AB9AD6;
+}
+
+
+.mod {
+background:#18201D
+}
+.mod .t{
+	background:#18221A url(images/mod_t_bg.jpg) repeat-x 0 50%;
+}
+.mod .lt,
+.mod .rt {
+	width:0;
+}
+.mod .modTitle {
+color:#90A08C;
+}
+.mod .modEditCon{
+	background:none;
+}
+
+.modCon .entriesAdd a,
+.modCon .entriesAdd a:visited{
+	color: #73C513;
+}
+.item-title h3,
+.item-title h3 a,
+.item-title h3 a:visited {
+	color:#90A08C;
+}
+.modEdit a,
+.modEdit a:visited,
+.profileMng a,
+.profileMng a:visited {
+	color:#AB9AD6;
+}
+
+.item-info,
+.item-info a,
+.item-info a:visited {
+	color:#AB9AD6;
+}
+.item-title h3 a:hover,
+.item-content a:hover,
+.modEdit a:hover,
+.profileMng a:hover,
+.item-info a:hover,
+.modCon .entriesAdd a:hover {
+color:#ff0;
+}
+
+
+#innerContentLabelBox {
+color:#B99984;
+}
+#innerContentLabelBox a,
+#innerContentLabelBox a:visited {
+color:#90A08C;
+}
+
+
+input.text,
+textarea.text,
+input.button,
+input.button-submit {
+	border-color:#444644;
+}
+.mod .mheader {
+border-color:#444644;
+}
+.mod .modFrame{
+	border-color:#444644;
+}
+.mod .modEditCon {
+	border-color:#444644;
+}
+.item-title,
+.item hr,
+.item-content {
+	border-color:#444644;
+}
+.info-content blockquote {
+	border-color:#444644;
+}
+.fresh_blogs-content hr,
+.fresh_blogs-content .collect .collectIco {
+	border-color:#444644;
+}
+.links-content .link,
+.Custom_Links-content .link,
+.links-content .linksAdd,
+.Custom_Links-content .linksAdd {
+	border-color:#444644;
+}
+.links-content .linkEdit,
+.Custom_Links-content .linkEdit{
+	border-width:0px;
+}
+.pp-content .ppMng {
+	border-color:#444644;
+}
+.profile-content hr,
+.profile-content .profileMng {
+	border-color:#444644;
+}
+.refer .referIco {
+	border-color:#444644;
+}
+.music-content .musicMng{
+	border-color:#444644;
+}
+.messages-content .messagesMng,
+.messages-content .msg,
+.messages-content .reply,
+.messages-content .rplFormBox{
+	border-color:#444644;
+}
+
+
+#navBar{
+	background:url(images/navbar_bg_x.gif) repeat-x 0 32px;
+}
+#mainNav li{
+	background:#0E1210 url(images/tab_bg_normal.jpg) repeat-x 0 0;
+	border-color: #555755;
+	border-bottom: none;
+}
+#mainNav li * {
+	color:#DBEED6;
+}
+#mainNav li.active{
+	background:#1C251E url(images/tab_bg_active.jpg) repeat-x 0 0;
+	border-color:#555755;
+	color:#DBEED6;
+}
+#mainNav li.private {
+	background:#FFD682 url(images/tab_bg_private.jpg) repeat-x 0 0;
+	border-color:#EAEAEA;
+}
+#mainNav li.private * {
+	color:#f00;
+}
+#mainNav li.hover{
+	border-color:#ff0;
+}
+#mainNav li.hover *{
+	color:#ff0;
+}
+#optionNav a,
+#optionNav a:visited {
+color:#90A08C;
+}
+#optionNav a:hover {
+color:#ff0;
+}
+
+.modCtnInfo-private {
+background-image:url(images/ico_light.gif);
+	border-color:#555755;
+	background-color:#FFD380;
+	color:#F00;
+}
+/* by cnlei@fei2.net at 2007-1-4 8:57:01 */

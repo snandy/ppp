@@ -1,0 +1,150 @@
+.attGame-content {
+	width:203px;
+	margin:0 auto;
+	color:#666;
+}
+	.attGame-content span, .attGame-content div, .attGame-content ul, .attGame-content p, .attGame-content table {
+		color:#666;
+	}
+	.attGame-content a {
+		color:#333;
+	}
+	.attGame-content a:hover {
+		color:#f63;
+	}
+	.attGame-content .adBanner {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_olc2008_banner.gif) no-repeat;
+		width:203px;
+		height:46px;
+		text-indent:-9999px;
+	}
+	.attGame-content .attGame_tp_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_tp_bg.gif) no-repeat;
+		width:199px;
+		height:6px;
+		font-size:1px;
+		margin:2px auto 0;
+	}
+	.attGame-content .attGame_bm_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_bg.gif) no-repeat;
+		width:199px;
+		height:28px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.attGame-content .attGame_bm_s_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_s_bg.gif) no-repeat;
+		width:199px;
+		height:10px;
+		margin:0 auto;
+	}
+		.attGame-content .attGame_bm_bg a {
+			background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/btn_addmyblog_bg.gif) no-repeat;
+			display:block;
+			width:123px;
+			height:28px;
+			margin:0 auto;
+			text-indent:-9999px;
+		}
+	.attGame-content h2 {
+		font-size:16px;
+		padding:0 0 5px;
+		margin:0;
+	}
+		.attGame-content h2 a {
+			text-decoration:none;
+		}
+	.attGame-content h3 {
+		font-size:12px;
+		padding:0 0 5px;
+		margin:0;
+		text-align:center;
+		border-bottom:1px solid #ccc;
+	}
+	.attGame-content h4 {
+		font-size:12px;
+		padding:5px 0;
+		margin:0;
+	}
+	.attGame-content span.red {
+		color:red;
+	}
+	.attGame-content span.grey {
+		color:#aaa;
+	}
+	.attGame-content .rank {
+		background:#f6ffc8 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bg.gif) repeat-x;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		padding:5px 5px 0;
+		width:187px;
+		margin:0 auto;
+	}
+		.attGame-content .rank .gameContent {
+			margin:10px 0 0 0;
+		}
+			.attGame-content .gameIcon {
+				float:left;
+				margin:0 5px 0;
+			}
+				.attGame-content .gameIcon img {
+					width:45px;
+					height:45px;
+					padding:1px;
+					border:1px solid #ccc;
+				}
+				.attGame-content .gameIcon a:hover img {
+					border:1px solid #f63;
+				}
+			.attGame-content .gameInfo {
+				padding:5px 0 0 0;
+			}
+				.attGame-content .gameInfo div {
+					height:25px;
+					line-height:25px;
+				}
+			.attGame-content .rank td {
+				color:#666;
+			}
+			.attGame-content .rank tbody td {
+				height:22px;
+				width:14%;
+			}
+			.attGame-content .rank td a.active {
+				display:block;
+				background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/attGame_active_bg.gif) repeat-x;
+				border:1px solid #e8c976;
+				width:20px;
+				height:20px;
+				line-height:20px;
+				text-decoration:none;
+			}
+			.attGame-content .artList {
+				padding:5px 0 0;
+				margin:5px 0 0 0;
+				border-top:1px dotted #ccc;
+			}
+				.attGame-content .artList ul {
+					margin:0;
+					padding:0;
+				}
+				.attGame-content .artList li {
+					list-style:none;
+					background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/arrowList.gif) no-repeat 0 2px;
+					margin:2px 0;
+					padding:0 0 0 15px;
+					width:170px;
+					overflow:hidden;
+					white-space:nowrap;
+					>text-overflow:ellipsis;
+					-o-text-overflow:ellipsis;
+					height:20px;
+					line-height:20px;
+				}
+					.attGame-content .artList li a {
+						text-decoration:none;
+					}
+				.attGame-content .artList p {
+					padding:5px 0;
+					margin:0;
+				}

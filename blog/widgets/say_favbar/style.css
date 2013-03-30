@@ -1,0 +1,11 @@
+.say_favbar-content ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.say_favbar-content li {
+	display: block;
+	white-space: nowrap;
+	float: left;
+	margin: 3px 5px;
+}

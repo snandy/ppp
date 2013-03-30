@@ -1,0 +1,131 @@
+.campaign-content .campJoined {
+	width:100%;
+}
+.campaign-content .campJoined .col1 {
+	width:40px;
+	font-weight:bold;
+}
+.campaign-content .campJoined td {
+	padding:10px 0;
+	border-bottom:1px dashed #ccc;
+}
+.campaign-content .campTitle a {
+	font-weight:bold;
+	font-size:14px;
+}
+.campaign-content ul {
+	margin:0;
+	padding:0;
+}
+.campaign-content li {
+	margin:0 0 10px 0;
+	padding:0;
+	list-style:none;
+}
+.campaign-content li a {
+	font-weight:bold;
+	text-decoration:none;
+}
+.campaign-content li a:hover {
+	text-decoration:underline;
+}
+.campaign-content li .ico {
+	width:16px;
+	height:16px;
+}
+.campaign-content .albums .pic a {
+	display:block;
+	background:url(http://js2.pp.sohu.com.cn/ppp/blog/widgets/pp_favs/ppsetIco_bg.gif) center top;
+	width:85px;
+}
+.campaign-content .albums .pic img {
+	width:75px;
+	height:75px;
+	padding:1px;
+	border:1px solid #ccc;
+}
+.campaign-content .video .cover {
+	padding:1px;
+	border:1px solid #ccc;
+	display:block;
+	position:relative;
+	width:120px;
+}
+.campaign-content .video .cover img {
+	width:120px;
+	height:90px;
+	border:0;
+}
+.campaign-content .video .cover:hover {
+	border:1px solid red;
+}
+.campaign-content .video .v_play {
+	position:absolute;
+	background:url(http://img3.pp.sohu.com/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll;
+	width:16px;
+	height:15px;
+	left:101px;
+	top:72px;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	cursor:pointer;
+}
+.campaign-content .video .slideCover {
+	background:transparent url(http://js3.pp.sohu.com.cn/ppp/pp3.1/styles/images/slide75Cover_bg.gif) no-repeat scroll 0pt;
+	height:75px;
+	overflow:hidden;
+	margin:0;
+	padding:12px 7px 7px 3px;
+	width:75px;
+}
+.campaign-content .video .slideCover a.cover,
+.campaign-content .video .slideCover a.cover:hover {
+	width:73px;
+	height:73px;
+	padding:0;
+	border:0 none;
+}
+.campaign-content .video .slideCover .cover img {
+	width:75px;
+	height:75px;
+	border:0;
+}
+.campaign-content .rank {
+	font-size:16px;
+	font-weight:bold;
+}
+.campaign-content .number {
+	font-size:16px;
+	color:red;
+	font-weight:bold;
+}
+.campaign-content input {
+	background:url(btn_vote.gif) no-repeat;
+	width:105px;
+	height:30px;
+	cursor:pointer;
+	border:0;
+}
+.campaign-content a.modify {
+	font-size:12px;
+	font-weight:normal;
+	color:red;
+}
+.campaign-content .ad img {
+	margin:0 0 20px 0;
+}
+.campaign-content .noJoined{
+	padding: 5px 0 0;
+	margin: 5px 0 0;
+	border-bottom: 1px solid #ccc;
+}
+.campaign-content .noJoined .campTitle{
+	margin: 0 0 10px;
+	overflow: hidden;
+	font-weight: bold;
+	line-height: 200%;
+}
+.campaign-content .noJoined .campTitle a {
+	font-weight: bold;
+	font-size: 14px;
+}

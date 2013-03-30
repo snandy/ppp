@@ -1,0 +1,147 @@
+.medalRank-content {
+	width:203px;
+	margin:0 auto;
+	color:#666;
+}
+	.medalRank-content span, .medalRank-content div, .medalRank-content ul, .medalRank-content p, .medalRank-content table {
+		color:#666;
+	}
+	.medalRank-content a {
+		color:#666;
+	}
+	.medalRank-content a:hover {
+		color:#f63;
+	}
+	.medalRank-content .adBanner {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_olc2008_banner.gif) no-repeat;
+		width:203px;
+		height:46px;
+		text-indent:-9999px;
+	}
+	.medalRank-content .medalRank_tp_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_tp_bg.gif) no-repeat;
+		width:199px;
+		height:6px;
+		font-size:1px;
+		margin:2px auto 0;
+	}
+	.medalRank-content .medalRank_cn_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_cn_bg.gif) no-repeat;
+		width:199px;
+		height:43px;
+		margin:0 auto;
+	}
+	.medalRank-content .medalRank_bm_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_bg.gif) no-repeat;
+		width:199px;
+		height:28px;
+		margin:0 auto;
+		text-align:center;
+	}
+	.medalRank-content .medalRank_bm_s_bg {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bm_s_bg.gif) no-repeat;
+		width:199px;
+		height:10px;
+		margin:0 auto;
+	}
+		.medalRank-content .medalRank_bm_bg a {
+			background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/btn_addmyblog_bg.gif) no-repeat;
+			display:block;
+			width:123px;
+			height:28px;
+			margin:0 auto;
+			text-indent:-9999px;
+		}
+	.medalRank-content h3 {
+		font-size:12px;
+		padding:0 0 5px;
+		margin:0;
+		text-align:center;
+		border-bottom:1px solid #ccc;
+	}
+	.medalRank-content h4 {
+		font-size:12px;
+		padding:5px 0;
+		margin:0;
+	}
+	.medalRank-content span.red {
+		color:red;
+	}
+	.medalRank-content .rank {
+		background:#f6ffc8 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bg.gif) repeat-x;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		padding:5px 5px 0;
+		width:187px;
+		margin:0 auto;
+	}
+		.medalRank-content .rank .date {
+			text-align:center;
+			font-size:11px;
+			padding:3px 0;
+		}
+		.medalRank-content .rank td {
+			padding:5px 0;
+			border-bottom:1px dotted #ccc;
+			color:#666;
+		}
+		.medalRank-content .rank tfoot td {
+			border-bottom:0;
+		}
+	.medalRank-content .guess {
+		background:#f6ffc8 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_medal_bg.gif) repeat-x;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		padding:0 5px;
+		width:187px;
+		margin:0 auto;
+	}
+		.medalRank-content .guess_content {
+			padding:10px 5px;
+		}
+			.medalRank-content .guessIcon {
+				float:left;
+				margin:0 5px 0;
+			}
+				.medalRank-content .guessIcon img {
+					width:48px;
+					height:48px;
+					padding:1px;
+					border:1px solid #ccc;
+				}
+				.medalRank-content .guessIcon a:hover img {
+					border:1px solid #f63;
+				}
+			.medalRank-content .guess_content .nowtop {
+				padding:5px 0 5px 5px;
+				line-height:22px;
+				border-bottom:1px dotted #ccc;
+			}
+			.medalRank-content .guess_content a.btn_joinguess {
+				display:block;
+				background:#f6ffc8 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/btn_widget_guess_bg.gif) repeat-x 0 0;
+				border:1px solid #ffc869;
+				height:26px;
+				width:120px;
+				line-height:26px;
+				text-align:center;
+				color:#fea600;
+				font-weight:bold;
+				text-decoration:none;
+				overflow:hidden;
+				margin:0 auto 10px;
+			}
+			.medalRank-content .guess_content a.btn_joinguess:hover {
+				background-position:0 -26px
+			}
+			.medalRank-content .guess_content .btn_joinguess span {
+				color:#fff;
+				display:block;
+				right:-1px;
+				position:relative;
+				top:-20px;
+			}
+			.medalRank-content .guess_content .joinguess {
+				text-align:center;
+				padding:10px 0 0 0;
+			}

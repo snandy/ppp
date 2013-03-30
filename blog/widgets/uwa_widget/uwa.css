@@ -1,0 +1,25 @@
+.table_list {width:100%;border:0}
+	.table_list thead td {font-weight:bold;border-bottom:1px solid #ccc}
+	.table_list td {padding:3px;border-bottom:1px dotted #ccc}
+.text_list {margin:0 0 0 20px;padding:0}
+	.text_list li {margin:0;padding:0;line-height:180%}
+.rich_list {}
+	.rich_list .item {padding:3px 0;border-bottom:1px solid #ccc;clear:both}
+	.rich_list h3 a {font-size:12px;font-weight:bold}
+	.rich_list .description {margin:2px 0}
+.thumb_list {margin:0;padding:0}
+	.thumb_list li {list-style:none;padding:0;margin:5px;float:left}
+	.thumb_list li a p {text-align:center;margin:0}
+	.thumb_list li a img {padding:1px;border:1px solid #ccc}
+	.thumb_list li a:hover img {border:1px solid red}
+.thumbnailed_list {}
+	.thumbnailed_list .item {margin:3px;float:left}
+	.thumbnailed_list .item img {padding:1px;border:1px solid #ccc}
+	.thumbnailed_list .item h3 {font-size:12px;font-weight:bold;margin-bottom:2px}
+	.thumbnailed_list .item .description {margin:2px 0}
+	.thumbnailed_list .item a:hover img {border:1px solid red}
+.pager {margin:10px 3px 0 3px}
+	.pager .prev {display:block;float:left}
+	.pager .next {display:block;float:right}
+.manage {text-align:right}
+.more {text-align:right;clear:both}

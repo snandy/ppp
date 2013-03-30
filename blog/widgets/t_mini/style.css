@@ -1,0 +1,38 @@
+.t_mini-content{font-size:12px;}
+.t_mini-content a img{background:#fff; padding:1px; border:1px solid #cecece;}
+.t_mini-content a:hover img{border-color:#f00;}
+.t_mini-content .miniBlogC{width:100%}
+.t_mini-content .miniBlogC ul{margin:0; padding:0;}
+.t_mini-content .miniBlogC .miniUsername{font-size:14px;padding-left:3px; border-bottom:1px solid; padding-bottom:5px;}
+.t_mini-content .miniBlogC .miniUsername a {font-size:14px;}
+.t_mini-content .miniBlogC .miniUsername a img{vertical-align:bottom;*vertical-align:middle;!important;width:16px;height:16px;}
+
+.t_mini-content .miniBlogC .noteBox{clear:both;position:relative;height:105px;}
+.t_mini-content .miniBlogC .noteBox .noteTit{height:25px; line-height:25px; font-size:14px; font-weight:bold;}
+.t_mini-content .miniBlogC .noteBox textarea{width:97%; height:4em; margin-bottom:10px;overflow:auto;}
+.t_mini-content .miniBlogC .noteBox .noteLeft{width:145px; height:20px; float:left; line-height:20px; text-align:left;}
+
+.t_mini-content .miniBlogC .noteBox .noteLeft span.i-img-s{display:inline-block; width:16px; height:16px; background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/ico_picture.gif) no-repeat bottom center; float:left; padding-right:5px;}
+.t_mini-content .miniBlogC .noteBox .noteLeft a.i-cancel{display:inline-block; width:16px; height:16px; background:url(http://zt.blog.sohu.com/upload/gmtmini/images/icon_cls.gif) no-repeat center center; padding-right:5px; text-indent:-99em;}
+
+.t_mini-content .miniBlogC .noteBox .noteLeft a{text-decoration:none;}
+.t_mini-content .miniBlogC .noteBox .noteLeft a:hover{text-decoration:underline;}
+.t_mini-content .miniBlogC .noteBox .arrowLayer{position:absolute;}
+.t_mini-content .miniBlogC .noteBox .arrowLayer img{ border:1px solid #666; padding:1px; background:#fff;}
+.PostSuccess {background:url(http://s2.t.sohu.com.cn/r/c/css_v1265638629/styles/i/postsuccess.jpg) no-repeat center;height:56px;}
+.t_mini-content .miniBlogC .noteBox .noteBtn{text-align:right;padding-right:5px; float:right; width:45px;}
+	
+.t_mini-content .feedList{width:100%;}
+	.t_mini-content .feedList ul{margin:0; padding:0;}
+	.t_mini-content .feedList ul li{list-style-type:none; float:left; padding:10px 0;border-bottom:1px solid; width:100%;}
+		.t_mini-content .feedList ul .in{padding-left:20px; background:url(http://zt.blog.sohu.com/upload/gmtmini/images/icon_talk.gif) no-repeat top left;}
+		.t_mini-content .feedList ul li .feedContent{width:100%; line-height:18px;word-wrap:break-word;}
+			.t_mini-content .feedContent .feedHead{padding-bottom:5px;font-size:14px;}
+			.t_mini-content .feedContent .feedHead a{font-size:14px;}
+			.t_mini-content .feedContent .feedBody{padding:0 0 8px 0px;}
+				.t_mini-content .feedContent .feedBody a img{width:139px;}
+				.t_mini-content .feedContent .feedBody .quoteBox{border:1px solid #dedede;line-height:20px; padding:5px;}
+					.t_mini-content .feedContent .feedBody .quoteBox .quoteBod{padding:5px 0;}
+					.t_mini-content .feedList ul li.more{margin-bottom:10px;text-align:right;}
+				.t_mini-content .feedList ul li.more a{padding-right:10px;}
+				.t_mini-content .noMiniblog{background-color:#FFFDDF; border:1px solid #d0d0d0; margin-top:10px; color:#666; padding:15px 10px;}

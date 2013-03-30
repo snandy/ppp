@@ -1,0 +1,49 @@
+.hello-content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.hello-content p{
+	padding: 0;
+	margin: 0;
+}
+.hello-content a{
+	color: black;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.hello-content a:visited{
+	color: #777;
+}
+.hello-content a:hover{
+	color: red;
+}
+.hello-content .noteContainer{
+	overflow: hidden;
+}
+.hello-content .noteContainer div{
+	width: 100%;
+}
+.hello-content textarea{
+	background: #f6f6f6;
+	background: transparent;
+}
+
+.hello-edit .input-text{
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	width: 120px;
+}
+.hello-edit .colorSelection div{
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	border: 1px solid #444;
+	cursor: pointer;
+	float: left;
+}
+.hello-edit .input-button{
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+}

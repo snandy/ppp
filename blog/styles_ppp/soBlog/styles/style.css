@@ -1,0 +1,44 @@
+@charset "gbk";
+/*
+=== Sohu Blog Home StyleSheet File ===========================
+	Style Name: Blog
+	Version: 1.0
+	Author: Matt Wang (www.uiland.com)
+	First Created: 2008-03-04
+	Last Update: 2008-03-04
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/* tableList */
+#soBlog table.tableList {}
+	#soBlog table.tableList td {padding:5px 2px;}
+		#soBlog table.tableList th.edit,
+		#soBlog table.tableList td.edit {width:10%;text-align:center;}
+		#soBlog .archiveList table.tableList td.time {width:20%;}
+		#soBlog .commentList table.tableList td.formEle {width:6%;padding-top:8px;}
+		#soBlog .commentList table.tableList td.edit {padding-top:8px;vertical-align:top;}
+		#soBlog .cateList table.tableList td.cate {width:auto;}
+		#soBlog .cateList table.tableList td.state {width:20%;}
+		#soBlog .cateList table.tableList td.time {width:30%;}
+
+		#soBlog .setting table.tableForm td.formLable {padding:5px 0 0;}
+
+
+#soBlog .commentList .body {padding:0;}
+#soBlog input.submit {margin-right:5px;}
+
+/* Add or Edit */
+#soBlog_addoredit {}
+#soBlog_addoredit #appPage {border-width:1px;background-color:#fff;float:none;margin:0 auto;width:950px;}
+#soBlog_addoredit #innerAppPage {background:none;float:none;}
+#soBlog_addoredit .appHead {float:none;}
+#soBlog_addoredit .appBody {float:none;}
+#soBlog_addoredit form {width:100%;}
+
+/* Comment */
+#soBlog .commentItem {}
+#soBlog .commentItem .userIcon {float:left;}
+#soBlog .commentItem .commentInfo {float:right;margin-left:-60px;width:100%;}
+#soBlog .commentItem .innerCommentInfo {margin-left:60px;}
+#soBlog .commentItem .commentContent {margin:10px 0;}

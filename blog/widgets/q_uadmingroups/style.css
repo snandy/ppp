@@ -1,0 +1,56 @@
+.q_uadmingroups-content {
+}
+.q_uadmingroups-content .q_manage {
+	margin:0;
+	padding:0;
+}
+.q_uadmingroups-content .groupCover {
+	float:left;
+	width:64px;
+	margin:0 10px 0 0;
+}
+.q_uadmingroups-content .groupIco {
+	border:1px solid #ccc;
+	background:#eee;
+	padding:2px;
+}
+.q_uadmingroups-content .groupCover a:hover .groupIco {
+	border:1px solid red;
+	background:#fff;
+}
+.q_uadmingroups-content .groupTitle {
+	float:left;
+}
+.q_uadmingroups-content ul {
+	margin:0;
+	padding:0;
+}
+.q_uadmingroups-content li {
+	list-style:none;
+	padding:5px 0;
+	border-bottom:1px solid #edecec;
+}
+.q_uadmingroups-content li a {
+	text-decoration:none;
+}
+.q_uadmingroups-content li a:hover {
+	text-decoration:underline;
+}
+.q_uadmingroups-content li img {
+	margin-right:5px;
+}
+.q_uadmingroups-content .reply,.q_uadmingroups-content .reply a {
+	color:#aaa;
+	font-size:11px;
+}
+.q_uadmingroups-content .reply a {
+	text-decoration:underline;
+}
+.q_uadmingroups-content .reply a:hover {
+	color:red;
+}
+.q_uadmingroups-content .more {
+	clear:both;
+	text-align:right;
+	margin-bottom:10px;
+}

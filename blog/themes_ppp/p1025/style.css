@@ -1,0 +1,460 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: pink
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-05-24
+	Last Update: 2006-05-24
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+/****** General Styles ******/
+*{
+	/*
+	color: #FFF;
+	*/
+}
+body{
+	background-color: #FF0000;
+	background-image: url(images/tp_21.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+div,table,ul,span,p{ color:#FFAC51;}
+a{
+	
+	color: #FFFFFF;
+	text-decoration: underline;
+	
+}
+a:hover{
+	/*
+	color: red;
+	text-decoration: underline;
+	*/
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+background-image: url(images/tp_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+}
+#innerWrapper{
+ background: none;	
+}
+#header{
+	background: none;
+	margin:0px;
+	padding:0px;
+	height: 297px;
+}
+#innerHeader{
+	margin:0px;
+	padding:0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:90px;
+	padding-left:30px;
+}
+#blogTitle a, #blogTitle input{
+	color: #FFF;	
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:80px;
+}
+#blogUrl {
+	padding-top:92px;
+
+}
+#blogUrl a:link{
+	color: #FFF;
+
+}
+#blogDesc{
+	color: #FFF;
+	font-size: 14px;
+	padding: 0px;
+	padding-top:8px;
+	margin-top:5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+/****** NavBar Elements Styles ******/
+#optionNav li{
+	white-space:nowrap;
+}
+#navBar{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background-image: url();
+	 background: none;
+}
+#innerNavBar{
+	border:none;
+	background-image: url();
+	background: none;
+	padding-left:20px;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+}
+
+
+/**ÐÞ¸ÄmainNav*/
+#mainNav li{
+	background: none;
+	border: 1px solid #C30000;
+	cursor: pointer;
+	margin: 3px 2px 0px 0px;
+	padding: 2px 8px 2px;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#mainNav li.active{
+	background: #550101;
+	border-top:2px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:none;
+	margin: 1px 2px 0px 0px;
+	padding: 2px 8px 5px;
+	cursor: auto;
+}
+
+#mainNav li.private{
+	background: #EE8615;
+}
+#mainNav li.private span{
+	color: #000;
+}
+#mainNav li.hover{
+	border-color: red;
+}
+#mainNav #newPageBtn{
+	background: url(images/ico_addPage.gif) no-repeat center;
+	float: left;
+	margin: 11px 0px 0px 4px;
+	padding: 0px 8px;
+}
+
+#mainNav li .pageTitle{
+	white-space: nowrap;
+	font-weight: bold;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+.modCtnInfo-private {
+background:#EE8615;
+	margin: -18px 19px 0 19px;
+	color:#000
+}
+*html .modCtnInfo-private {
+	margin: -19px 19px 0 19px;
+	position:relative;
+}
+#mainNav li.hover{
+	border-color: #fff;
+}
+/** **/
+
+#neckWrapper{
+background:none;
+margin:0px;
+}
+#innerNeckWrapper{
+background:none;
+margin:0px;
+}
+#mainWrapper{
+	border:none;
+	background: none;
+	padding:0px;
+	margin:0px;
+}
+#innerMainWrapper{
+	border:none;
+	background: none;
+	margin-left: 11px;
+	margin-top: 15px;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border:none;
+
+}
+.mod .modCon{
+overflow:hidden;
+}
+.mod .modFrame{
+	border: none;
+
+}
+.mod .modTable{
+
+
+	margin:0px;
+	padding:0px;
+}
+.mod tbody{
+
+}
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	width: 5px;
+	background-image: url(images/tp_04.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 30px;
+}
+.mod .t{
+	border: none;
+	background-image: url(images/tp_05.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 30px;
+	padding-top:2px;
+	padding-left:5px;
+	padding-right:6px;
+}
+.mod .modHeader{
+	padding-top: 4px;
+}
+.mod .rt{
+	width: 5px;
+	height: 30px;
+	background-image: url(images/tp_06.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background-color: #B20000;
+}
+.mod .modEditCon{
+	border: none;
+	text-align:left;
+	padding-left:0px;
+	margin-left:0px;
+	background-color: #B20000;
+	background-image: none;
+}
+
+.mod .mbody{
+	background: none;
+	border: none;
+	
+}
+.mod .l{
+	width: 5px;
+	background-image: url(images/tp_13.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.mod .c{
+    background-image: url(images/tp_15.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+	}
+.mod .modCon{
+}
+.mod .r{
+	background-image: url(images/tp_13.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;	
+	width: 5px;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	width: 5px;
+	background-image: url(images/tp_17.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 52px;
+}
+.mod .b{
+    height:5px;
+	background-image: url(images/tp_18.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.mod .rb{
+	background-image: url(images/tp_19.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 5px;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	/*color: #FFF;*/
+}
+.mod .modEdit a{
+	/*
+	color: #FFF;
+	text-decoration: underline;
+	*/
+}
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.item-title h3{
+	color: #FFF;
+}
+.item-title h3, .item-title h3 a{color: #FFF;}
+.item-label{}
+.item-label a{
+	/*color: #006699;*/
+}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+		color:#FFAC51;
+}
+.item-content a{
+	
+		color:#FFF;
+}
+.item-info, .item-info a{
+	color: #FFF;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+
+.item-more{
+	font-weight: bold;
+   text-align: right;
+	color: #FFFFFF;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#footer{
+	clear: both;
+	background-image: url(images/tp_23.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 160px;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding-top: 68px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 22px;
+}
+#contact {
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #FFFFFF;
+}
+#powered {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #FFFFFF;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin:0px;
+}

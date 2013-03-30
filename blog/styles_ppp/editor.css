@@ -1,0 +1,386 @@
+/*
+=== Sohu Blog StyleSheet File ===========================
+	Style Name: editor
+	Version: 1.0
+	Author: Leeking001 (www.leeking001.com)
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+body
+{
+	margin:0;
+}
+
+.editor
+{
+	background:#F7F7F7;
+	border:1px solid #e8e6e6;
+	width:859px;
+}
+
+.editor_bg
+{
+	width:820px;
+	margin:15px 15px 15px 20px;
+	background:url(images/editor_bg_m.gif) repeat-y left top;
+	text-align:center;
+}
+
+.editor_bg_on
+{
+	width:820px;
+	height:11px;
+	background:url(images/editor_bg_on.gif) no-repeat center top;
+	text-align:center;
+}
+
+.editor_bg_down
+{
+	width:820px;
+	height:11px;
+	background:url(images/editor_bg_down.gif) no-repeat center bottom;
+	text-align:center;
+}
+
+.editor_margin_on {
+	margin-top:10px;
+	width:816px;
+	height:37px;
+	background:url(images/marginline_on.gif) no-repeat center top;
+	text-align:center;
+}
+
+.editor_margin_below {
+	margin-bottom:10px;
+	width:816px;
+	height:37px;
+	background:url(images/marginline_below.gif) no-repeat center top;
+	text-align:center;
+}
+
+.editor iframe
+{
+	width:725px;
+	border:0;
+	margin:0;
+	padding-left:2px;
+}
+
+* html .editor iframe{height:100%;}
+*+html .editor iframe{height:0;}
+
+.editor_coder
+{
+	border-color:#e8e6e6;
+	border-style:solid;
+	border-width:0 1px;
+	font-size:1px;
+	height:1%;
+}
+
+.editor_coder textarea
+{
+	width:100%;
+	border:0;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+
+.editor_cache
+{
+	height:1px;
+	width:1px;
+	overflow:hidden;
+}
+
+.editor_footer
+{
+	width:861px;
+	height:29px;
+	padding:4px 0;
+	background:url(images/foot_bg.gif) no-repeat left top;
+	color:#000;
+}
+
+.menu_container 
+{
+	width:861px;
+	height:61px;
+	background:url(images/edit_bg.gif) no-repeat left top;
+	overflow:visible;
+}
+
+.editor_container 
+{
+	overflow:visible;	
+}
+
+.all_container
+{
+	width:861px;
+	margin:0 auto;
+
+}
+.tool_row
+{
+
+}
+.tool_part
+{
+	float:left;
+	padding:3px 0 0 6px;
+}
+.tool_tool
+{
+	float:left;
+	margin-top:3px
+}
+.tool_over
+{
+	background:url(images/on_bg.gif) top no-repeat;
+	float:left;
+	margin-top:3px
+}
+.tool_down
+{
+	background:url(images/down_bg.gif) top no-repeat;
+	float:left;
+	margin-top:3px
+}
+
+.tool_disable
+{
+	float:left;
+	margin-top:3px;
+	opacity:0.3;
+	-moz-opacity:0.3;
+	FILTER:alpha(opacity=30);
+}
+.b_tool_tool
+{
+}
+.b_tool_over
+{
+	background:url(images/b_on_bg.gif) top no-repeat;
+	float:left;
+}
+.b_tool_down
+{
+	background:url(images/b_down_bg.gif) top no-repeat;
+	float:left;
+}
+
+.lister
+{
+	position:absolute;
+	border:1px solid #999;
+	padding:1px;
+	background:#FFF;
+	z-index:1000;
+}
+
+.listerItem
+{
+	border:1px solid #FFFFFF;
+	float:left;
+	cursor:pointer;
+	margin:1px;
+	color:#000000;
+	line-height:normal;
+}
+
+.listerItem_over
+{
+	border:1px solid #0a246a;
+	background-color:#98aadc;
+	float:left;
+	cursor:pointer;
+	margin:1px;
+	color:#000000;
+	line-height:normal;
+}
+
+.colorItem
+{
+    overflow:hidden;
+	float:left;
+	margin-left:1px;
+	cursor:pointer;
+}
+
+.colorItem_over
+{
+    overflow:hidden;
+	float:left;
+	margin-left:1px;
+	background-color:#98aadc;
+	cursor:pointer;
+}
+.newLine
+{
+	clear:both;
+}
+
+.fontSizee1
+{
+	font-size:10px;
+}
+.fontSizee2
+{
+	font-size:13px;
+}
+.fontSizee3
+{
+	font-size:16px;
+}
+.fontSizee4
+{
+	font-size:18px;
+}	
+.fontSizee5
+{
+	font-size:24px;
+}
+.fontSizee6
+{
+	font-size:32px;
+}
+.fontSizee7
+{
+	font-size:48px;
+}
+
+.fontname
+{
+	width:105px;
+	height:21px;
+	overflow:hidden;
+	background-image:url(images/fontname.gif);
+	cursor:pointer;
+}
+.fontsize
+{
+	width:64px;
+	height:21px;
+	overflow:hidden;
+	background-image:url(images/fontsize.gif);
+	cursor:pointer;
+}
+.fontnameSelect
+{
+	width:93px;
+	height:20px;
+	font-size:12px;
+	border:0;
+	margin-left:4px;
+	margin-top:1px;
+	color:#000000;
+	cursor:pointer;
+}
+.fontsizeSelect
+{
+	width:36px;
+	font-size:12px;
+	border:0;
+	margin-left:4px;
+	margin-top:1px;
+	color:#000000;
+	cursor:pointer;
+}
+.emotionBox {
+	float:left;
+	width:318px;
+}
+.emotionBox .emotionBody {
+}
+.emotionBox .emotionBody a {
+	float:left;
+	padding:4px;
+}
+.emotionBox .emotionBody a:hover {
+	padding:3px;	
+	border:1px solid #f63;
+}
+.emotionBox .basicEm {
+	border-top:1px solid #ccc;
+	padding:5px;
+}
+.emotionBox .emotionBar {
+}
+.emotionBox .emotionBar span {
+	float:left;
+	margin:0 3px 0 0;
+	padding:3px 5px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	border-top:1px solid #eee;
+	border-left:1px solid #eee;
+	border-right:1px solid #ccc;
+	cursor:pointer;
+	color:#666;
+	background:#fff;
+}
+.emotionBox .emotionBar span.active {
+	font-weight:bold;
+	background:#FFD682 url(images/emotion_tab_bg.gif) repeat-x scroll 0;
+	cursor:auto;
+}
+.emotionBox .emotionNav {
+	text-align:right;
+	padding:5px 5px 0 0;
+}
+
+
+.mod .modTable {
+table-layout:fixed;
+width:100%;
+}
+.mod .t {
+border-style:solid;
+border-width:0 0 1px;
+height:27px;
+padding:0 5px;
+}
+.mod .c {
+padding:10px;
+vertical-align:top;
+}
+.mod .t {
+background:url("http://js2.pp.sohu.com.cn/ppp/blog/themes_ppp_v_100421/p0801/images/mod_t_bg.jpg") repeat-x scroll center top #EEF6FF;
+height:22px;
+overflow:hidden;
+padding:0 2px;
+width:100%;
+}
+.mod .modIco {
+float:left;
+height:16px;
+overflow:hidden;
+text-align:center;
+width:16px;
+}
+.mod .modTitle {
+float:left;
+height:16px;
+overflow:hidden;
+padding:1px 2px 0;
+white-space:normal;
+}
+.mod .divBtn {
+padding:20px 10px 5px;
+text-align:center;
+}
+.mod input.button-submit {
+background-color:white;
+border:1px solid #CCCCCC;
+color:red;
+cursor:pointer;
+height:20px;
+line-height:18px;
+padding:0 5px;
+}
+.mod .modCon {
+overflow:hidden;
+}

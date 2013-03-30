@@ -1,0 +1,59 @@
+.my_links-content .link{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+}
+.my_links-content .tit{
+	overflow: inherit !important;
+	height: auto !important;
+	overflow: hidden;
+	height: 16px;
+	margin-bottom: 2px;
+}
+.my_links-content .tit a{
+	font-weight: bold;
+}
+.my_links-content .desc{
+	overflow: inherit !important;
+	height: auto !important;
+	overflow: hidden;
+	height: 16px;
+}
+.my_links-content .linksAdd{
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+.my_links-content .opr{
+	float: right;
+	right: 0px;
+	top: 0px;
+}
+.my_links-content .opr img{
+	margin-left: 2px;
+	cursor: pointer;
+}
+.my_links-content .linkEdit{
+	border: 2px solid #eee;
+	margin-bottom: 2px;
+}
+.my_links-content .editFrame{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.my_links-content .linkEdit .clsLinkEdit{
+	float: right;
+	padding: 0 2px;
+	cursor: pointer;
+}
+.my_links-content .linkEdit .linkEditHeader{
+	font-weight: bold;
+}
+.my_links-content .editContent{
+	clear: both;
+}
+.my_links-content .editContent input{
+	line-height: 14px;
+}

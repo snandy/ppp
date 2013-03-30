@@ -1,0 +1,66 @@
+.pp_sets-content .ppset {
+	margin: 0 15px 15px 0;
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	height: 90px;
+}
+.pp_sets-content .ppsetIco {
+	float: left;
+	width: 85px;
+	height: 85px;
+	overflow: hidden;
+	display: block;
+	background: url(ppsetIco_bg.gif);
+}
+.pp_sets-content .ppsetIco img {
+	max-height: 75px;
+	max-width: 75px;
+	margin: 3px 0 0 3px;
+}
+.pp_sets-content .ppsetText {
+	float: left;
+	width: 110px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.pp_sets-content .ppsetText h5 {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #e7e7e7;
+	line-height: 14px;
+	font-size: 12px;
+}
+.pp_sets-content .ppsetText h5 a {
+	/*color: #033fa2;*/
+	font-weight: bold;
+	text-decoration: none;
+}
+.pp_sets-content .ppsetText h5 a:hover {
+	/*color: red;*/
+}
+.pp_sets-content .ppsetText p {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	overflow: hidden;
+	margin-top: 3px;
+	width: 100%;
+}
+.pp_sets-content .ppsetText .ppsetCount {
+	height: 14px;
+	margin-top: 3px;
+	text-align: right;
+}
+.pp_sets-content hr{
+	margin: 5px 0px !important;
+	margin: -5px 0px;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #cecece;
+	clear:both;
+}
+.pp_sets-content .more{
+	text-align: right;
+	clear:both;
+}

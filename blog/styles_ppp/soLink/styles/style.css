@@ -1,0 +1,7 @@
+/* userIcon */
+#soLink .userItem {padding:5px;}
+	#soLink .userIcon {float:left;margin:0 5px 0 0;}
+	#soLink .userInfo {}
+	#soLink .userInfo .userEdit {float:right}
+	
+.inviteFriend {background:url(http://js3.pp.sohu.com.cn/ppp/blog/styles_ppp/images/invite_friend.gif) no-repeat 20px 10px;padding:10px 0 0 190px;height:150px;}

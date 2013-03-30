@@ -1,0 +1,31 @@
+.rss-content {
+	overflow:hidden;
+}
+.rss-content ul.logList {
+	margin:0;
+	padding:0;
+}
+.rss-content ul.logList li {
+	background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/arrowList.gif) no-repeat 0 2px;
+	margin:0 0 5px;
+	padding:0 0 0 15px;
+	list-style-position:outside;
+	list-style:none;
+}
+.rss-content ul.logList li .time {
+	font-size:11px;
+	color:#999;
+}
+.rss-content .list_view {}
+.rss-content .expanded_view a {
+	font-size:14px;
+	font-weight:bold;
+}
+.rss-content .more {
+	text-align:right;
+	padding:5px 0;
+}
+.rss-content .more a {
+	font-size:12px;
+	font-weight:normal;
+}

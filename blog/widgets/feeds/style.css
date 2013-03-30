@@ -1,0 +1,71 @@
+.Feeds-content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Feeds-content a{
+	color: black;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.Feeds-content a:visited{
+	color: #999;
+}
+.Feeds-content a:hover{
+	color: red;
+}
+.Feeds-content .itemsContainer{
+	overflow: hidden;
+	width: 100%;
+}
+.Feeds-content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.Feeds-content li{
+	white-space: nowrap;
+	color: #999;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.Feeds-content li img{
+	margin-right:3px;
+}
+.Feeds-content li .pubTime{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+}
+.Feeds-content .info{
+	background-color: #FFFFCC;
+	padding: 2px 0 0 5px;
+	margin-bottom: 5px;
+}
+.Feeds-content .error{
+	background-color: #FFFF00;
+	padding: 2px 0 0 5px;
+	margin-bottom: 5px;
+}
+.Feeds-edit .input-text{
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	width: 100px;
+}
+.Feeds-edit select{
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+}
+.Feeds-edit .input-button{
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+}
+.Feeds-edit ul{
+	list-style: none;
+	margin: 0 0 10px 10px;
+	padding: 0;
+}

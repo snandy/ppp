@@ -1,0 +1,107 @@
+.myOlc-content {
+	width:203px;
+	margin:0 auto;
+	color:#666;
+}
+	 .myOlc-content span, .myOlc-content div, .myOlc-content ul, .myOlc-content p, .myOlc-content table {
+		color:#666;
+	}
+	.myOlc-content a {
+		color:#666;
+	}
+	.myOlc-content a:hover {
+		color:#f63;
+	}
+	.myOlc-content .myOlc_top {
+		background:url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_myolc_hd_bg.gif) no-repeat;
+		width:138px;
+		height:51px;
+		padding:10px 0 0 65px;
+		overflow:hidden;
+	}
+		.myOlc-content h2 {
+			font-size:14px;
+			color:#fff;
+			line-height:25px;	
+		}
+			.myOlc-content h2 img {
+				width:16px;
+				height:16px;
+				padding:1px;
+				border:1px solid #ccc;
+				float:left;
+				margin:0 5px 0 0;
+			}
+			.myOlc-content h2 span {
+				float:left;
+				height:20px;
+				width:110px;
+				line-height:20px;
+				display:block;
+				overflow:hidden;
+				word-break:break-all;
+				color:#fff;
+			}
+			.myOlc-content h2 div {
+				color:#fff;
+			}
+		.myOlc-content h4 {
+			font-size:12px;	
+			padding:0;
+			margin:0;
+		}
+	.myOlc-content .rank {
+		background:#fff url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/widget_myolc_bg.gif) repeat-x bottom;
+		padding:5px 5px 0;
+		width:193px;
+		margin:0 auto;
+	}
+		.myOlc-content .rank .artList {
+			padding:5px 0;
+		}
+			.myOlc-content .artList ul {
+						margin:10px 0;
+						padding:0;
+						height:80px;
+						overflow:hidden;
+					}
+					.myOlc-content .artList li {
+						list-style:none;
+						background:url(http://js1.pp.sohu.com.cn/ppp/blog/styles_ppp/images/arrowList.gif) no-repeat 0 2px;
+						margin:0 0 5px;
+						padding:0 0 0 15px;
+						width:170px;
+						overflow:hidden;
+						white-space:nowrap;
+						>text-overflow:ellipsis;
+						-o-text-overflow:ellipsis;
+						height:20px;
+						line-height:20px;
+					}
+						.myOlc-content .artList li a {
+							text-decoration:none;
+						}
+			.myOlc-content a.btn_joinguess {
+				display:block;
+				background:#f6ffc8 url(http://js4.pp.sohu.com.cn/ppp/blog/styles_ppp/images/olympic/btn_widget_guess_bg.gif) repeat-x 0 0;
+				border:1px solid #ffc869;
+				height:26px;
+				width:90px;
+				line-height:26px;
+				text-align:center;
+				color:#fea600;
+				font-weight:bold;
+				text-decoration:none;
+				overflow:hidden;
+				margin:0 auto 10px;
+			}
+			.myOlc-content a.btn_joinguess:hover {
+				background-position:0 -26px
+			}
+			.myOlc-content .btn_joinguess span {
+				color:#fff;
+				display:block;
+				right:-1px;
+				position:relative;
+				top:-21px;
+			}

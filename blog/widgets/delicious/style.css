@@ -1,0 +1,21 @@
+.delicious-content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.delicious-content li{
+	white-space: nowrap;
+	color: #999;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.delicious-content li img{
+	margin-right:3px;
+}
+.delicious-edit .input-text{
+	width: 100px;
+}
+.delicious-content .more{
+	text-align: right;
+}

@@ -1,0 +1,226 @@
+.miniblog-content {
+	margin:0; 
+	padding:0; 
+}
+		.miniblog-content .clearBoth {clear:both}
+			.miniblog-content .navTab {
+				border-bottom:1px solid #ddd;
+				height:27px;
+				padding:0 0 0 10px;
+			}
+				.miniblog-content .navTab ul {
+					margin:0;
+					padding:0;
+				}
+				.miniblog-content .navTab li {
+					list-style:none;
+					float:left;
+					margin:0 3px -1px 0;
+					padding:3px 5px;
+					height:20px;
+					line-height:20px;
+					cursor:pointer;
+					background:#f0f0f0;
+					color:#666;
+					border-top:1px solid #ddd;
+					border-left:1px solid #ddd;
+					border-right:1px solid #ddd;
+				}
+				.miniblog-content .navTab .active {
+					font-weight:bold;
+					background:#fff;
+					color:#666;
+					height:21px;
+					line-height:21px;
+				}
+			.miniblog-content .news_body, .miniblog-content .mini_body, .miniblog-content #friendsManage {
+				padding:5px 0 0 0;
+			}
+			.miniblog-content .manage {
+				text-align:right;
+			}
+			.miniblog-content .more {
+				text-align:right;
+			}
+			.miniblog-content .power, .newsfeed a.power {
+				font-weight:bold;
+			}
+			.miniblog-content h2 {
+				font-size:12px;
+				padding:0;
+				margin:5px 0;
+			}
+			.miniblog-content .v32img {
+				width:16px;
+				height:16px;
+			}			
+			.miniblog-content .item {
+				margin-bottom:3px;
+				padding-top:2px;
+				height:100%;
+				border-bottom:1px dashed #ccc;
+			}
+			.miniblog-content .notice {
+				padding:5px 0 0 0;
+			}
+			.miniblog-content .blogIco {
+				height:20px;
+				width:20px;
+				margin:0;
+			}
+			.miniblog-content .smallIco {
+				height:18px;
+				width:18px;
+				margin:0;
+			}
+			.miniblog-content .blogIco a img {
+				padding:1px;
+				border:1px solid #ccc;
+			}
+			.miniblog-content .blogIco a:hover img {
+				padding:1px;
+				border:1px solid red;
+			}
+			.miniblog-content .news_body .content {
+				margin:-18px 0 0 25px;
+			}
+			.miniblog-content .mini_body .content {
+			}
+				.miniblog-content .content dl {
+					margin:0;
+					padding:0;
+				}
+				.miniblog-content .content dt, .miniblog-content .content dt a {
+					margin:0 0 5px 0;
+				}
+				.miniblog-content .content dd {
+					margin:5px 0;
+				}				
+			.miniblog-content .post {
+				width:100%;
+				margin:0; 
+				padding:0; 
+				border:0;
+			}
+				.miniblog-content .post textarea {
+					width:97%;
+					height:40px;
+					border:1px solid; 
+					border-color:#7c7c7c #c3c3c3 #ddd;
+					font-size:12px;
+					padding:3px;
+				}			
+		.miniblog-content .grey {
+			color:#999;
+		}
+
+/***** New Feed Style *****/
+/*大引号*/
+.miniblog-content .quote{overflow:hidden;width:100%;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_start.gif) no-repeat;>text-overflow:ellipsis;-o-text-overflow:ellipsis;}
+	.miniblog-content .quote .innerQuote:before,.quote .innerQuote:after{content:'';}
+	.miniblog-content .quote .innerQuote{display:inline;zoom:1;padding:0 18px;background:url(http://js1.pp.sohu.com.cn/ppp/images/icons/ico_quote_end.gif) no-repeat right bottom;}
+
+/*时间*/
+.miniblog-content small {color:#999999;margin:0 0 0 5px;font-size:11px;}
+
+/*消息体共用*/
+.miniblog-content ul.newsfeedList{padding:0;margin:0;}
+.miniblog-content ul.newsfeedList a {text-decoration:none;}
+	.miniblog-content ul.newsfeedList li {list-style:none;border-bottom:1px dashed #ccc;margin-bottom:8px;padding-top:2px;}
+	.miniblog-content ul.newsfeedList .icon {float:left;margin:0 5px 0 0;position:relative;z-index:1;}
+	.miniblog-content ul.newsfeedList .icon a{display:block;border:1px solid #ccc;padding:1px;width:16px;height:16px;}
+	.miniblog-content ul.newsfeedList .icon a:hover{border:1px solid #f63;}
+	.miniblog-content ul.newsfeedList .icon img {width:16px;height:16px;}
+	.miniblog-content ul.newsfeedList .option{float:right;position:relative;z-index:1;}
+	.miniblog-content ul.newsfeedList .content{float:left;width:100%;margin:0 -22px 0 -22px;}
+	.miniblog-content ul.newsfeedList .innerContent{margin:0 22px 0 22px;}
+	.miniblog-content ul.newsfeedList dt, .miniblog-content ul.newsfeedList dd {padding:2px 0 !important;margin:0 !important;}
+	.miniblog-content ul.newsfeedList dd .image {float:left;margin:0 5px 0 0;}
+	.miniblog-content ul.newsfeedList dd .image img {padding:1px;border:1px solid #ccc;}
+	.miniblog-content ul.newsfeedList dd .image a:hover img {border:1px solid #f63;}
+	.miniblog-content ul.newsfeedList dd dt a {font-weight:bold;}
+	/* clear & clearfix */
+	.miniblog-content ul.newsfeedList li:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	.miniblog-content ul.newsfeedList li{display:inline-table;}
+	/* Hides from IE-mac \*/
+	* html .miniblog-content ul.newsfeedList li{height:1%;}
+	.miniblog-content ul.newsfeedList li{display:block;}
+	/* End hide from IE-mac */
+	*+html .miniblog-content ul.newsfeedList li{min-height:1%;}/* IE7 */
+
+
+/*动感相册*/
+.miniblog-content .shareSlide	.image img,
+.miniblog-content .creatSlide	.image img{max-width:200px;max-height:200px;margin:0 auto;padding:0;border:0 !important;}
+.miniblog-content .shareSlide	.image i,
+.miniblog-content .creatSlide	.image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/slideCover_bg.gif) no-repeat 0 0;}
+.miniblog-content .shareSlide	.image i i,
+.miniblog-content .creatSlide	.image i i{background-position:right 0;}
+.miniblog-content .shareSlide	.image i i i,
+.miniblog-content .creatSlide	.image i i i{background-position:0 bottom;}
+.miniblog-content .shareSlide	.image i i i i,
+.miniblog-content .creatSlide	.image i i i i{padding:16px 6px 6px 2px;background-position:right bottom;}
+
+/*相册专辑*/
+.miniblog-content .shareAlbum .image img{max-width:200px;max-height:200px;margin:0 auto;padding:2px !important;}
+.miniblog-content .shareAlbum .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0;}
+.miniblog-content .shareAlbum .image i i{background-position:right 0;}
+.miniblog-content .shareAlbum .image i i i{background-position:0 bottom;}
+.miniblog-content .shareAlbum .image i i i i{padding:0 4px 4px 0;background-position:right bottom;}
+
+/*视频*/
+.miniblog-content .shareVideo .image,
+.miniblog-content .addVideo .image{overflow:hidden;position:relative;}
+.miniblog-content .shareVideo .image img,
+.miniblog-content .addVideo .image img{width:120px;height:90px;}
+.miniblog-content .shareVideo .image .v_play,
+.miniblog-content .addVideo .image .v_play{background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px;}
+
+/*节目单*/
+.miniblog-content .sharePlaylist .image,
+.miniblog-content .addPlaylist .image{overflow:hidden;position:relative;}
+.miniblog-content .sharePlaylist .image img,
+.miniblog-content .addPlaylist .image img{width:120px;height:90px;margin:0 auto;padding:2px !important;}
+.miniblog-content .sharePlaylist .image i,
+.miniblog-content .addPlaylist .image i{float:left;margin:0 auto;font-style:normal;text-align:center;background:url(http://share.blog.sohu.com/PPP/styles/images/albumCover_bg.gif) no-repeat 0 0;}
+.miniblog-content .sharePlaylist .image i i,
+.miniblog-content .addPlaylist .image i i{background-position:right 0;}
+.miniblog-content .sharePlaylist .image i i i,
+.miniblog-content .addPlaylist .image i i i{background-position:0 bottom;}
+.miniblog-content .sharePlaylist .image i i i i,
+.miniblog-content .addPlaylist .image i i i i{padding:0 4px 4px 0;background-position:right bottom;}
+.miniblog-content .sharePlaylist	.image .v_play,
+.miniblog-content .addPlaylist .image .v_play{background:url(http://js2.pp.sohu.com.cn/ppp/blog/styles_ppp/images/v_play.gif) no-repeat scroll 0%;cursor:pointer;height:15px;left:99px;opacity:0.6;position:absolute;top:72px;width:16px;}
+
+/*圈子*/
+.miniblog-content .shareGroup .image img,
+.miniblog-content .joinGroup .image img,
+.miniblog-content .creatGroup .image img{width:64px;height:48px;padding:3px !important;background:#eee;}
+.miniblog-content .shareGroup .image a:hover img,
+.miniblog-content .joinGroup .image a:hover img,
+.miniblog-content .creatGroup .image a:hover img{background:#fff;}
+
+/*上传照片*/
+.miniblog-content .addPhoto dd ul{margin:0;padding:0;}
+.miniblog-content .addPhoto dd li{border:0;float:left;}
+.miniblog-content .addPhoto dd li .image{float:none;}
+
+/*添加好友*/
+.miniblog-content .addFriend dd ul{margin:0;padding:0;}
+.miniblog-content .addFriend dd li{border:0;float:left;margin-right:8px;}
+.miniblog-content .addFriend dd li .image{float:none;}
+.miniblog-content .addFriend dd li .image img{width:48px;height:48px;}
+.miniblog-content .addFriend dd li dt a{display:block;font-weight:normal;width:52px;height:18px;overflow:hidden;word-break:break-all;}
+
+/*添加模块*/
+.miniblog-content .addWidget dd ul{margin:0;padding:0;}
+.miniblog-content .addWidget dd li{border:0;float:left;margin-right:8px;}
+.miniblog-content .addWidget dd li .image{float:none;}
+.miniblog-content .addWidget dd li .image img{width:130px;height:98px;}
+.miniblog-content .addWidget dd li dt a{display:block;width:134px;height:18px;overflow:hidden;word-break:break-all;text-align:center;padding-top:5px;}
+
+/*CoolPoke*/
+.miniblog-content .coolPoke{overflow:hidden;clear:both;position:relative;top:5px;height:64px;padding:0 0 10px;font-family:'宋体';}
+.miniblog-content .coolPoke *{position:absolute;top:0;left:0;z-index:1;height:64px;width:64px;}
+.miniblog-content .coolPoke a{overflow:hidden;z-index:2;text-indent:-9999px;background:url(http://js4.pp.sohu.com.cn/ppp/poke/styles/images/ico_play.gif) no-repeat 50% 50%;filter:alpha(opacity=80);opacity:0.8;}
+.miniblog-content .coolPoke a:hover{filter:alpha(opacity=100);opacity:1;}

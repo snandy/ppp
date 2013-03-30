@@ -1,0 +1,204 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: 21
+	Version: 1.0
+	Author: Todd Lee (www.todd-lee.com)
+	First Created: 2006-07-08
+	Last Update: 2006-07-08
+	Copyright: Sohu.com (www.sohu.com)
+==============================================================
+*/
+
+/****** General Styles ******/
+body{
+	background: #ffedf5 url(images/bg.jpg) repeat-x;
+	background-position: 0 30px;
+}
+div,table,ul,span,p{color: #ff4a97;}
+a{
+	color: #ff4a97;
+}
+a:hover{
+	color: red;
+}
+textarea{
+	border: 1px solid #ffd2e3;
+	background-color: #fff7f9;
+	color: #ff4a97;
+}
+select{
+	border: 1px solid #ffd2e3;
+	background-color: #fff7f9;
+	color: #ff4a97;
+}
+input.text{
+	border: 1px solid #ffd2e3;
+	background-color: #fff7f9;
+	color: #ff4a97;
+}
+input.button{
+	border: 1px solid #ffd2e3;
+	height: 18px;
+	line-height: 16px;
+	color: #ff4a97;
+}
+input.button-submit{
+	border: 1px solid #ffd2e3;
+	height: 18px;
+	line-height: 16px;
+	color: #73c513;
+}
+/****** Main Layout Styles ******/
+#wrapper{
+	width: 950px;
+}
+#topPadding{
+	height: 14px;
+}
+#header{
+	background: none;
+	background: url(images/headerBg.jpg) no-repeat top left;
+	height: 100px;
+}
+#innerHeader{
+	background: url(images/headerBg.jpg) no-repeat top right;
+	padding: 20px 0px 0px;
+	margin-left: 50px;
+}
+#navBar{
+	background: #ff9ebc url(images/navBarBg.jpg) repeat-x top;
+	border: none;
+	border-top: 1px solid #ffd2e3;
+	border-bottom: none;
+}
+#indiBar{
+	background: white url(images/indiBarBg.jpg) repeat-x top;
+	height: 37px;
+	border: none;
+	border-top: 1px solid #d8eff7;
+	border-bottom: 1px solid #f5faf4;
+}
+#mainWrapper{
+	border: none;
+	background: #fffbfd;
+}
+/****** Header Elements Styles ******/
+#blogTitle, #blogTitle a, #blogTitle input{
+	color: #f60057;
+}
+#blogUrl a{
+	color: #ff61a4;
+}
+#blogDesc{
+	color: #ff61a4;
+	padding-top: 10px;
+}
+/****** NavBar Elements Styles ******/
+#navBar a{
+	color: white;
+}
+#navBar li.indiOptActive{
+	background: url(images/navBarIndiActiveBg.jpg) repeat-x left bottom;
+	border: 1px solid #d8eff7;
+	border-bottom: none;
+}
+#navBar li.indiOptActive a{
+	color: #004464;
+}
+/****** Mod Elements Styles ******/
+.mod{
+	border: 1px solid #f6f6f6;
+}
+.mod .modFrame{
+	border: 1px solid #ffd2e3;
+}
+/***********/
+.mod .t{
+	background: #ffbed8 url(images/modHeaderBg.jpg) no-repeat left top;
+	border-bottom: 1px solid #ffd2e3;
+	height: 25px;
+	padding: 0;
+}
+.mod .modHeader{
+	background: #ffbed8 url(images/modHeaderBg.jpg) no-repeat right top;
+	padding: 4px 10px 0 0;
+	margin-left: 10px;
+	height: 21px;
+}
+.mod .modEditCon{
+	background: #fff3f6;
+	border-top: none;
+	border-bottom: 1px solid #ffd2e3;
+}
+/***********/
+.mod .modTitle, .mod .modTitle a{
+	color: #f60057;
+}
+.mod .modTitle a:hover{
+	color: red;
+}
+
+/****** item box ******/
+.item-title{
+	padding: 10px 5px 5px !important;
+	padding: 10px 5px 8px;
+	border-top: 1px solid #ffd2e3;
+	border-bottom: 1px solid #ffd2e3;
+}
+.item-title h3, .item-title h3 a{
+	color: #f60057;
+}
+.item-body{
+	padding-bottom: 20px;
+}
+.item-content{
+	border-bottom: none;
+}
+
+
+/****** entries widget ******/
+.entries-content .entriesAdd{
+	margin-bottom: 10px;
+}
+.entries-content .entriesAdd a{
+	color: #73c513;
+}
+/****** categories widget ******/
+.categories-content li {
+	line-height: 180%;
+}
+/****** latest_comments widget ******/
+.latest_comments-content li {
+	line-height: 180%;
+}
+/****** fresh_blogs widget ******/
+.fresh_blogs-content .collect .collectIco {
+	border: 1px solid #ffd2e3;
+}
+/****** links widget and custom links ******/
+.links-content .link, .Custom_Links-content .link{
+	border-bottom: 1px solid #ffd2e3;
+}
+.links-content .linksAdd, .Custom_Links-content .linksAdd{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ffd2e3;
+}
+/****** pp widget ******/
+.pp-content .ppMng{
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ffd2e3;
+}
+/****** profile widget ******/
+.profile-content hr{
+	border-top: 1px solid #ffd2e3;
+}
+.profile-content .profileMng{
+	margin-bottom: 5px;
+}
+/****** stats widget ******/
+.stats-content li {
+	line-height: 180%;
+}
+.stats-content li span {
+	color: #7e4f59;
+}

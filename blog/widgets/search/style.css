@@ -1,0 +1,38 @@
+.search-content .searchBox .searchBoxL{
+	background: url(bgL.gif) right bottom no-repeat;
+	width: 10px;
+	height: 80px;
+}
+.search-content .searchBox .searchBoxC{
+	background: url(bgC.gif) bottom repeat-x;
+}
+.search-content .searchBox .searchBoxR{
+	background: url(bgR.gif) left bottom no-repeat;
+	width: 10px;
+}
+.search-content #searchTags {
+	background: url(bgS.gif) top left repeat-x;
+	height: 34px;
+	width: 180px;
+}
+.search-content #searchTags div {
+        cursor:pointer;
+        padding:5px 15px 8px;
+        font-size:13px;
+        line-height:24px;
+        color:#333;
+        float:left;
+}
+.search-content .btn1 {
+}
+.search-content .btn2 {
+	background:url(btn2.gif) no-repeat 0 2px;
+}
+.search-content .event {
+	text-decoration:underline;
+}
+.search-content #query {
+	font-size: 13px;
+	border: 1px solid #ccc;
+	background: white;
+}

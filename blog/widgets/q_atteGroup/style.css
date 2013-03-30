@@ -1,0 +1,47 @@
+.q_atteGroup-content {
+	font-size:12px;
+}
+.q_atteGroup-content .q_manage {
+	margin:0;
+	padding:0;
+}
+.q_atteGroup-content .groupCover {
+	float:left;
+	width:64px;
+	margin:0 10px 0 0;
+}
+.q_atteGroup-content .groupIco {
+	border:1px solid #ccc;
+	background:#eee;
+	padding:2px;
+}
+.q_atteGroup-content .groupCover a:hover .groupIco {
+	border:1px solid red;
+	background:#fff;
+}
+.q_atteGroup-content .groupTitle {
+	float:left;
+}
+.q_atteGroup-content ul {
+	margin:0;
+	padding:0;
+}
+.q_atteGroup-content li {
+	list-style:none;
+	padding:5px 0;
+	border-bottom:1px solid #edecec;
+}
+.q_atteGroup-content li a {
+	text-decoration:none;
+}
+.q_atteGroup-content li a:hover {
+	text-decoration:underline;
+}
+.q_atteGroup-content li img {
+	margin-right:5px;
+}
+.q_atteGroup-content .join {
+	clear:both;
+	text-align: center;
+	margin-top: 10px;
+}

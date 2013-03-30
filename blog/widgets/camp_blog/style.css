@@ -1,0 +1,48 @@
+.camp_blog-content .banner {
+	border: 1px solid #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 280px;
+	height:60px;
+}
+.camp_blog-content .banner_small{
+	height: 30px;
+}
+.camp_blog-content .profile{
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 5px;
+}
+.camp_blog-content .ico{
+	border: 1px solid #ccc;
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+	padding: 1px;
+	float: left;
+	margin-right: 5px;
+}
+.camp_blog-content .ico img{
+	width: 48px;
+	height: 48px;
+}
+.camp_blog-content .blogtitle{
+	padding: 5px 0;
+}
+.camp_blog-content .blogtitle a{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.camp_blog-content .bloglink{
+	padding: 5px 0;
+	word-break: break-all;
+}
+.camp_blog-content .blogdesc{
+	clear: both;
+	padding: 5px 0;
+}
+.camp_blog-content .action{
+	padding: 5px;
+}

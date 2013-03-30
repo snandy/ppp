@@ -1,0 +1,468 @@
+/*
+=== Sohu Blog PPP StyleSheet File ================================
+	Style Name: default
+	Version: 2.0
+	Author: blogworld (www.blogworld.com.cn)
+	Copyright: www.blogworld.com.cn
+==============================================================
+*/
+
+/****** General Styles ******/
+html{	border-right:1px solid #ccc;}
+body{
+    background:#000;
+}
+div,table,ul,p{color:#5E5E5E;}
+a{
+    color: #333;
+	text-decoration: underline;	
+}
+a:hover{
+    color: #F60;
+	text-decoration: underline;
+}
+textarea{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+select{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.text{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+input.button{
+	/*
+	background-color: white;
+	border: 1px solid #ccc;
+	*/
+}
+/****** Main Layout Styles ******/
+#topPadding{
+ display:none;}
+#wrapper{
+	background:none;
+}
+#innerWrapper{
+	width: 960px;
+	margin:0 auto;
+	background:none;
+	padding:0;
+}
+#header{
+	height:169px;
+	margin:0px;
+	padding:0px;
+	background:url(images/top.jpg) no-repeat center top;
+}
+#innerHeader{
+	margin:0px;
+	padding:10px 0px 0px;
+}
+/****** Header Elements Styles ******/
+#blogTitle{
+	padding-top:10px;
+	padding-left:60px;
+}
+#blogTitle a, #blogTitle input{
+	color: #FFF;	
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:10px;
+	font-family: "华文行楷"，Arial, Verdana;
+}
+#blogTitle a:hover, #blogTitle input a:hover{
+	color: #ccc;	
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-decoration: none;
+	padding-top:10px;
+	font-family: "华文行楷"，Arial, Verdana;
+}
+#blogUrl {
+	padding-top:17px;
+
+}
+#blogUrl a:link,#blogUrl a:visited{
+	color: #FFF;
+}
+#blogUrl a:hover{color: #ccc;}
+#blogDesc{
+	color: #FFF;
+	font-size: 14px;
+	padding: 0px;
+	padding-top:5px;
+	margin-top:5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+}
+/****** NavBar Elements Styles ******/
+#navBar{
+	border:none;
+	margin: 0px;
+	padding-left: 40px;
+	padding-right: 15px;
+	background:url(images/navbar.jpg) no-repeat left top;
+	padding-top:0px;
+	height:46px;
+}
+.navSysOpt:visited{color: #000;}
+#navBar a{
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+}
+#navBar a:hover{
+	color: #330000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#innerNavBar{
+	border:none;
+	margin-left:2px;
+	padding-left:0px;
+}
+#optionNav li{
+	white-space:nowrap;
+}
+#optionNav li a{
+	color:#000;
+}
+#optionNav li a:hover{
+	color:#F60;
+}
+/**修改mainNav*/
+#mainNav li{
+	margin: 3px 2px;
+	padding: 2px 8px 2px 6px;
+	cursor: auto;
+	background:none;
+	border:1px solid #000000;
+}
+
+#mainNav li.active{
+	background:#000;
+	margin: 1px 2px 5px;
+	padding: 4px 3px 3px 5px;
+	cursor: auto;
+	border:none;
+}
+#mainNav li.private{
+	background:#FFF6CC;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+#mainNav li.hover{
+	color:#f60;
+}
+#mainNav li.active span{
+ color:#fff;
+}
+
+#mainNav li .pageTitle{
+	color:#000;
+}
+#mainNav li .pageTitleHover{
+	background-color: #ddd;
+}
+#mainNav #newPageBtn{
+	float: left;
+	margin: 9px 0px 0px 4px;
+	padding: 0px 8px;
+	background: url(images/navbar_qq.gif) no-repeat;
+}
+#modContainerInfo {
+	margin: -8px 19px 5px;
+	position:relative;
+}
+#mainNav .private .pageTitle{
+	color:#000
+}
+/** **/
+
+
+#neckWrapper{
+	background:none;
+	margin:0px;
+}
+#innerNeckWrapper{
+	background:none;
+	margin:0px;
+}
+#mainWrapper{
+	padding:0px;
+	padding-top:6px;
+	background:#fff;
+	border:none;
+}
+#innerMainWrapper{
+	border:none;
+	padding:0px;
+	margin:0px;
+	
+}
+#modContainer {padding-top:0px;margin-top:0px;	border:none;
+	padding:0px;
+	margin:0px;}
+/****** Mod Elements Styles ******/
+.mod{
+	background:url(images/left.jpg) no-repeat left top;
+	border:none;
+}
+.mod .modFrame{
+	background:url(images/right.jpg) no-repeat right top;
+    border:none;
+}
+.mod .modTable{
+	border:none;
+	margin:0px;
+	padding:0px;
+	background:none;
+}
+
+/***********/
+.mod .mheader{
+	border: none;
+
+	}
+.mod .lt{
+	width: 1px;
+	height:34px;
+	border: none;
+	background:none;
+}
+.mod .t{
+	border: none;
+	background:none;
+	padding: 0px 0px 0px 0px;
+
+}
+.mod .modHeader{
+	padding-top: 0px;
+	margin-bottom: 8px;
+	padding-left: 5px;
+}
+.mod .rt{
+	width: 1px;
+	background:none;
+}
+.mod .mneck{		
+    background: none;
+	border: none;
+	padding-left:25px;
+	padding-right:16px;
+			}
+.mod .ec{
+	background:#EFEFEF;
+	margin: 0px;
+	padding: 0px;
+}
+.mod .modEditCon{
+	background: none;border: none;
+}
+.mod .mbody{
+	background: none;
+}
+.mod .l{
+	background:#6D6D6D;
+}
+.mod .c{
+	padding: 4px;
+	background:#EFEFEF;
+}
+.mod .modCon{
+overflow:hidden;
+	border:none;
+}
+.mod .r{
+	background:#6D6D6D;
+}
+
+.mod .mfooter{
+	
+}
+.mod .lb{
+	height:1px;	
+	background:#6D6D6D;
+}
+.mod .b{
+	height:1px;
+	background:#6D6D6D;
+}
+.mod .rb{
+	height:1px;
+	background:#6D6D6D;
+}
+/***********/
+.mod .modShow img, .mod .modHide img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_showMod.gif);
+	*/
+}
+.mod .modHide img{
+	/*background-image: url(images/ico_hideMod.gif);*/
+}
+.mod .modTitle, .mod .modTitle a{
+	color: #fff;
+	padding-left: 3px;
+}
+.mod .modEdit a{
+	color: #fff;
+	text-decoration: underline;
+}
+.mod .modTitle a:hover{
+    color: #ccc;
+}
+
+.mod .modEdit a:hover{
+    color: #ccc;
+}
+.modCtnInfo-noMod div{
+    height:238px;}
+
+.mod .modCls img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_cls.gif);
+	*/
+}
+.mod .modRfs img{
+	/*
+	width: 16px;
+	height: 16px;
+	background-image: url(images/ico_rfs.gif);
+	*/
+}
+#modContainerTable{
+	width: 98%;
+	margin-left: 9px;
+}
+/****** item box ******/
+.item{}
+.item-top{}
+.item-bottom{}
+.item hr{
+	/*border-top: 1px solid #ccc;*/
+}
+.item-title{
+	border-bottom: 1px dashed #ccc;
+}
+.item-title h3{
+	color: #000000;
+}
+.item-title h3, .item-title h3 a{color: #000;}
+.item-title h3 a:hover{color:#F60;
+}
+.item-label{}
+.item-label a{
+	color: #00283E;
+}
+.item-label a:hover{color: #F60;}
+.item-body{}
+.item-body-hidden{}
+.item-content{
+	/*border-bottom: 1px solid #ccc;*/
+}
+.item-content {
+	color:#5E5E5E;
+	border-bottom: 1px dashed #ccc;
+}
+.item-content a{
+	color:#3C3C3C;
+}
+.item-content a:hover{
+	color:#F60;
+}
+.item-info, .item-info a{
+	color:#00283E;
+}
+.item-info a:hover{
+     color:#F60;
+}
+/*#header{
+	background-image: url(images/headerBg2.png);
+	height: 120px;
+}*/
+
+#tooltip{ border: 3px solid #eee; position: absolute; z-index: 2000; background: white; } 
+#tooltip .modFrame{ padding: 5px; overflow: hidden; border: 1px solid #ccc; background: none;} 
+#tooltip .modFrame, #tooltip .modFrame div{ color: #333; background: none; }
+.item-more{
+	font-weight: bold;
+   	text-align: right;
+	color: #000000;
+}
+
+.item-more a{
+	font-weight: bold;
+	color: #000000;
+}
+.entries-content .entriesAdd a{
+	font-weight: bold;
+	color: #FF0909;
+}
+.entries-content .entriesAdd a:hover{
+	font-weight: bold;
+	color: #F60;
+}
+#footer{
+	clear: both;
+	height: 135px;
+	background:url(images/foot.jpg) no-repeat center top;
+}
+#innerFooter{
+	text-align: center;
+	border: none;
+	padding: 50px 15px 0px 22px;
+}
+#contact{
+	color: #FFF;
+	padding-top: 2px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#contact a{
+	color: #FFF;
+}
+#contact a:hover{
+   color: #F60;
+}
+#powered {
+	padding-top: 0px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+
+#copyright {
+	color: #fff;
+	padding-top: 2px;
+	padding-bottom: 6px;
+	margin:0px;
+}
+.texta:link {
+	color:#5E5E5E;
+	text-decoration: none;
+}
+.texta:hover{color:#F60;text-decoration: none;}
+.referItem a{color:#5E5E5E;text-decoration: none;}
+.referItem a:hover{color:#F60;text-decoration: none;}
+.modCtnInfo-private{ margin:-23px 15px 0px 13px;}

@@ -1,0 +1,45 @@
+.Demo_Text-content{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.Demo_Text-content a{
+	color: black;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.Demo_Text-content a:visited{
+	color: #777;
+}
+.Demo_Text-content a:hover{
+	color: red;
+}
+.Demo_Text-content .noteContainer{
+	overflow: hidden;
+}
+.Demo_Text-content .noteContainer div{
+	width: 100%;
+}
+.Demo_Text-content textarea{
+	background: #f6f6f6;
+	background: transparent;
+}
+
+.Demo_Text-edit .input-text{
+	height: 14px;
+	line-height: 14px;
+	font-size: 11px;
+	width: 120px;
+}
+.Demo_Text-edit .colorSelection div{
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+	border: 1px solid #444;
+	cursor: pointer;
+	float: left;
+}
+.Demo_Text-edit .input-button{
+	line-height: 14px;
+	font-size: 12px;
+	font-family: Simsun, Verdana, Arial, Helvetica, sans-serif;
+}
