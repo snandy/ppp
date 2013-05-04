@@ -64,21 +64,12 @@ function renameFile(from, to) {
  * 1: 基本压缩 去注释，换行，回车
  * 2: 变量替换
  */
-function compress(origCode, type) {
-	var finalCode, type;
-	
-	type = type || 1;
-	
-	// 基本压缩 去注释，换行，回车
-	if (type==1) {
-		var ast = jsp.parse(origCode);
-	}
-	
-	// 变量,函数名替换
-	if (type==2) {
-		ast = pro.ast_mangle(ast);
-		ast = pro.ast_squeeze(ast);
-	}
+function compress(origCode) {
+	var finalCode;
+
+	var ast = jsp.parse(origCode);
+	ast = pro.ast_mangle(ast);
+	ast = pro.ast_squeeze(ast);
 		
 	// ast = pro.ast_lift_variables(ast);
 	var finalCode = pro.gen_code(ast);
@@ -116,6 +107,14 @@ function merge(path) {
 	}).join('');
 }
 
+// 合并多个文件
+function mergeFile(/*file1, file2, file3, ..*/) {
+	var arr = [];
+	for (var file, i=0; i<arguments.length; i++) {
+		arr[i] = readFile(arguments[i]);
+	}
+	return arr.join('');
+}
 
 var intro = function() {
 	var date = new Date,
@@ -141,35 +140,41 @@ var intro = function() {
 }();
 
 // writeFile('merge.js', compress(merge('ajax')))
-// var source = 'E:/work/ppp/blog/js_ppp/dialog_src.js';
-// var target = 'E:/work/ppp/blog/js_ppp/dialog.js';
+// var source = 'blog/js_ppp/dialog_src.js';
+// var target = 'blog/js_ppp/dialog.js';
 
-var source = 'E:/work/ppp/blog/js_ppp/common_src.js';
-var target = 'E:/work/ppp/blog/js_ppp/common.js';
+var source = 'blog/js_ppp/common_src.js';
+var target = 'blog/js_ppp/common.js';
 
-// var source = 'E:/work/ppp/js/common/common_src.js';
-// var target = 'E:/work/ppp/js/common/commonaaa.js';
+//var source = 'blog/js/pp18030_all_source.js';
+//var target = 'blog/js/pp18030_all.js';
 
-// var source = 'E:/work/ppp/blog/js_ppp/app_src.js';
-// var target = 'E:/work/ppp/blog/js_ppp/app.js';
+// var source = 'ppp/js/common/common_src.js';
+// var target = 'ppp/js/common/commonaaa.js';
 
-// var source = 'E:/work/ppp/blog/js_ppp/appOpt_src.js';
-// var target = 'E:/work/ppp/blog/js_ppp/appOpt.js';
+// var source = 'blog/js_ppp/app_src.js';
+// var target = 'blog/js_ppp/app.js';
 
-// var source = 'E:/work/ppp/blog/js_ppp/lang_zh_src.js';
-// var target = 'E:/work/ppp/blog/js_ppp/lang_zh.js';
+// var source = 'blog/js_ppp/appOpt_src.js';
+// var target = 'blog/js_ppp/appOpt.js';
 
-// var source = 'E:/work/zchain/$/zchain-0.1.js';
-// var target = 'E:/work/zchain/$/zchain1.js';
+// var source = 'ppp/blog/js_ppp/lang_zh_src.js';
+// var target = 'ppp/blog/js_ppp/lang_zh.js';
 
-// var source = 'E:/work/base/jstest/jquery-1.7.2rc1.js';
-// var target = 'E:/work/base/jstest/jquery-1.7.2-2.js';
+// var source = 'ppp/blog/js_ppp/sohublog_src.js';
+// var target = 'ppp/blog/js_ppp/sohublog.js';
 
-// var source = 'E:/work/ppp/blog/js_ppp/sohublog_src.js';
-// var target = 'E:/work/ppp/blog/js_ppp/sohublog.js';
+//var source = 'blog/js/editor_common_src.js';
+//var target = 'blog/js/editor_common.js';
 
-// var source = 'E:/work/base/dojo/dojo.js';
-// var target = 'E:/work/base/dojo/dojo.min.js';
+//var source = 'blog/js/editor_config_src.js';
+//var target = 'blog/js/editor_config.js';
+
+// var source = mergeFile('blog/js/editor_common.js', 'blog/js/editor_config.js');
+// var target = 'blog/js/editor.js';
+// writeFile(target, intro + source);
+
+// writeFile(target, intro + compress(source));
 
 var str = readFile(source);
 writeFile(target, intro + compress(str));

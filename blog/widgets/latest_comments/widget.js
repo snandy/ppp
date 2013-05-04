@@ -39,7 +39,7 @@ var latest_comments = function(m_data, m_content, m_edit){
 				me.loaded();
 				if(json.status === 0 && json.data && json.data.length) {
 					var str = jQuery(json.data).map(function(){
-						var content = this.content;
+						var content = parseTitle(this.content);
 						var url = this.oriurl;
 						return '<li><a target="_blank" title="' + content + '" href="' + url + '#comment">' + content + '</a></li>';
 					}).get().join('');

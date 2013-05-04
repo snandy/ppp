@@ -1292,6 +1292,61 @@ setTimeout(function(){
 
 
 var commentListEl;
+function parseTitle(title) {
+	if (!title) return;
+	var str = '', 
+		reg = /@{[^{]*}/g;
+	str = title.replace(reg, function(val) {
+		var str = val.replace('@', '');
+		try {
+			var obj = jQuery.parseJSON(str);
+		} catch(e) {
+			return val
+		}
+		
+		return '@' + obj.snick;
+	});
+	return str
+}
+// function parseTitle(title) {
+// 	if (!title) return;
+// 	var str = '', 
+// 		reg = /@{"snick":"[^",:{}@]*","sname":"[^",:{}@]*"}/g,
+// 		arr = title.match(reg);
+
+// 	if (!arr) return title;
+
+// 	var regArr = [];
+// 	for (var i=0; i<arr.length; i++) {
+// 		var ss = arr[i],
+// 			rreg = RegExp(ss),
+// 			dest = parse(ss);
+// 		regArr.push({r: rreg, s: dest});
+// 	}
+
+// 	var i=0, len = regArr.length;
+// 	var res = function gets(title) {
+// 		var obj = regArr[i++], ds = '';
+// 		if (obj) {
+// 			var ds = title.replace(obj.r, obj.s)
+// 			return gets(ds)
+// 		} else {
+// 			return title;
+// 		}
+// 	}(title);
+
+// 	// console.log(res)
+// 	function parse(str) {
+// 		var str = str.replace('@', '');
+// 		try {
+// 			var obj = jQuery.parseJSON(str);
+// 		} catch(e) {
+// 			return str;
+// 		}
+// 		return '@' + obj.snick;
+// 	}
+// 	return res;
+// }
 var Comments = {
 	CMT_PREFIX: 'cmtId_',
 	CMTICO_PREFIX: 'icoId_',
@@ -1361,6 +1416,7 @@ var Comments = {
 		if(typeof content !== 'string') return;
 
 		var emoteStr = this.parseEmote(content);
+		emoteStr = parseTitle(emoteStr);
 
 		var idx1 = emoteStr.indexOf('@'),
 			idx2 = emoteStr.indexOf('：');
@@ -2329,11 +2385,11 @@ LinkFile.prototype = {
 		if (this.options.noCache) {
 			_url += (_url.match(/\?/) ? '&' : '?') + 'c=' + timeStamp();
 		}
-		this._link.src = _url;
 		this._link.type = 'text/javascript';
 		if (this.options.charset) {
 			this._link.charset = this.options.charset;
 		}
+		this._link.src = _url;
 		if (this.options.callBack) {
 			this.loadTimer = setInterval(function(){this.doCallback();}.bind(this), this.options.callBack.timerStep);
 		}

@@ -414,7 +414,7 @@ var PassportSC = {
     firstDomain: "uniqname",             /* 产品定制的下拉域名显示的第一个域名 */
     
 
-    defaultInput: '昵称/邮箱/手机号',
+    defaultInput: '用户名/邮箱/手机号',
     defaultApp: "",
     domainPool: ["chinaren.com", "sogou.com"],
     //自动提示的所有域名的列表
