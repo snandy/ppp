@@ -1,0 +1,2 @@
+/*! SohuBlog @snandy 2013-06-03 14:51:26 */
+function lsl(e,t){if(e)for(var i=t||"",o=document.getElementsByTagName("script"),n=0;e.length>n;n++){for(var s=e[n],a=!1,r=0;o.length>r;r++){var l=o[r].getAttribute("src");if(l&&l==s){a=!0;break}}a||document.write('<script type="text/javascript" charset="'+i+'" src="'+s+'"></script>')}}

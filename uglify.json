@@ -1,0 +1,18 @@
+{
+	"app": {
+		"files": {
+			"built/app/app.js": ["src/appOpt.js", "src/app.js"]
+		}
+	},
+	"module": {
+		"files": {
+			"js/module/feed.js": ["js/module/feed.src.js"]
+		}
+	},
+	"jsppp": {
+		"files": {
+			"built/common.js": "src/common.js",
+			"built/sohublog.js": "src/sohublog.js"
+		}
+	}
+}

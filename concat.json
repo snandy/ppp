@@ -1,0 +1,13 @@
+{
+	"editor": {
+		"files": {
+			"dest/editor/editor.src.js" : ["src/editor/editor_common.js", "src/editor/editor_config.js"],
+			"dest/editor/insertimg.src.js": ["src/swfupload/swfupload.js", "src/editor/fileprogress.js", "src/io/sjax.js", "src/editor/insertimg.js"]
+		}
+	},
+	"app": {
+		"files": {
+			"dest/app/app.src.js": ["src/appOpt.js", "src/app.js"]
+		}
+	}
+}

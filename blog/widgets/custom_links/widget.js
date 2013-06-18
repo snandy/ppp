@@ -49,8 +49,8 @@ var Custom_Links = function(m_data, m_content, m_edit){
 
 	this.initialize = function() {
 		this.setIcon();
-		this.build();
-		this.showContent();
+		 this.build();
+		 this.showContent();
 	};
 	this.destroy = function() {
 		Element.remove(elmOutputE);
